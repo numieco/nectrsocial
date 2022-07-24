@@ -9,10 +9,10 @@ input.text .input-checkbox,
 html.has-scroll-smooth {
   overflow: hidden;
 }
-.scroller {
+/* .scroller {
   width: 100%;
   position: fixed;
-}
+} */
 .c-menu {
   pointer-events: none;
 }

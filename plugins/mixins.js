@@ -1,5 +1,4 @@
 import Vue from 'vue'
-
 // Internal imports
 import metaUtils from '@/commons/meta-utils'
 const textVersion = require('textversionjs')
@@ -9,7 +8,7 @@ Vue.mixin({
   computed: {
     mxDescription() {
       return '' // Enter description of site
-    },
+    }
   },
   methods: {
     mxMetaUtils(meta) {
@@ -21,6 +20,6 @@ Vue.mixin({
       meta.description = textVersion(meta.description).substring(0, 157) + '...'
 
       return metaUtils(meta)
-    },
-  },
+    }
+  }
 })

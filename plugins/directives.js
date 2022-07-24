@@ -4,31 +4,8 @@ import 'splitting/dist/splitting-cells.css'
 import Splitting from 'splitting'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
-import locomotiveScroll from './smoothscroll'
 
 gsap.registerPlugin(ScrollTrigger)
-
-const locoScroll = locomotiveScroll()
-const pageContainer = document.querySelector('.scroller')
-
-ScrollTrigger.scrollerProxy(pageContainer, {
-  scrollTop(value) {
-    return arguments.length
-      ? locoScroll.scrollTo(value, 0, 0)
-      : locoScroll.scroll.instance.scroll.y
-  },
-  getBoundingClientRect() {
-    return {
-      left: 0,
-      top: 0,
-      width: window.innerWidth,
-      height: window.innerHeight
-    }
-  },
-  pinType: pageContainer.style.transform ? 'transform' : 'fixed'
-})
-
-locoScroll.on('scroll', ScrollTrigger.update)
 
 Vue.directive('textReveal', {
   bind(el) {
@@ -42,7 +19,6 @@ Vue.directive('textReveal', {
         line.forEach((word, wordIndex) => {
           gsap.from(word, {
             scrollTrigger: {
-              scroller: locoScroll.el,
               trigger: result.el
             },
             autoAlpha: 0,
