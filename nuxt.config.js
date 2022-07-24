@@ -32,11 +32,16 @@ export default {
     ]
   },
 
-  plugins: ['@/plugins/mixins', { src: '@/plugins/splide', ssr: false }],
+  plugins: [
+    '@/plugins/mixins',
+    { src: '@/plugins/splide', ssr: false },
+    { src: '@/plugins/smoothscroll', ssr: false },
+    { src: '@/plugins/directives', ssr: false }
+  ],
 
   components: true,
 
-  buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxtjs/eslint-module'],
 
   modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
 

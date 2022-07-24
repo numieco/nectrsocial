@@ -1,0 +1,72 @@
+textarea,
+input.text .input-checkbox,
+.w-input,
+.w-select {
+  border-radius: 0px;
+  -webkit-appearance: none;
+  resize: none;
+}
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+.scroller {
+  width: 100%;
+  position: fixed;
+}
+.c-menu {
+  pointer-events: none;
+}
+.c-menu.is-open {
+  pointer-events: auto;
+}
+.c-menu__link {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.c-menu__link:hover {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.25px;
+  -webkit-text-stroke-color: white;
+}
+.c-menu__sub-link:hover > .menu-line {
+  transform: translateX(0%);
+}
+.outline-text {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.25px;
+  -webkit-text-stroke-color: black;
+}
+.outline-text.white {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.25px;
+  -webkit-text-stroke-color: white;
+}
+.c-slider-control__btn.is-disabled > .btn-dot {
+  background: #fff1d1;
+}
+.c-service__btn.is-active > .plus {
+  opacity: 0;
+}
+.c-faq__btn.is-active > .plus {
+  opacity: 0;
+}
+.cta-btn:hover > .cta-btn__block {
+  top: 0;
+  left: 0;
+}
+.cta-btn.white-btn > .cta-btn__block {
+  background-color: #ffffff;
+  color: #13293d;
+}
+.cta-btn.white-btn > .cta-btn__double {
+  background-color: #ffce5c;
+  color: #13293d;
+}
+@media screen and (min-width: 1025px) {
+  .c-team > .slide-details__wrapper {
+    opacity: 0;
+  }
+  .c-team:hover > .slide-details__wrapper {
+    opacity: 1;
+  }
+}

@@ -21,10 +21,19 @@ module.exports = {
     'sort-keys': [0, 'asc', { caseSensitive: true, natural: true, minKeys: 2 }],
     'vue/attributes-order': [2, { alphabetical: true }],
     'vue/no-vue-html': 0,
+    'vue/multi-word-component-names': 0,
     'vue/html-closing-bracket-newline': [
       'error',
       { singleline: 'never', multiline: 'never' }
     ]
+    // 'vue/singleline-html-element-content-newline': [
+    //   'error',
+    //   {
+    //     ignoreWhenNoAttributes: false,
+    //     ignoreWhenEmpty: false,
+    //     ignores: ['pre', 'textarea']
+    //   }
+    // ]
   },
   overrides: [
     {

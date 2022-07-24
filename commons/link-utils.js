@@ -20,7 +20,7 @@ export default (meta) => {
     },
     {
       rel: 'stylesheet',
-      href: '/assets/css/components.css'
+      href: '/assets/css/webflow.css'
     },
     {
       rel: 'stylesheet',
@@ -32,7 +32,7 @@ export default (meta) => {
     },
     {
       rel: 'stylesheet',
-      href: '/assets/css/_main.css'
+      href: '/assets/css/main.css'
     },
     {
       hid: 'canonical',
