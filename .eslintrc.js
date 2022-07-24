@@ -2,11 +2,11 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true,
+    node: true
   },
   parserOptions: {
     parser: '@babel/eslint-parser',
-    requireConfigFile: false,
+    requireConfigFile: false
   },
   extends: ['@nuxtjs', 'plugin:nuxt/recommended', 'prettier'],
   plugins: [],
@@ -23,15 +23,15 @@ module.exports = {
     'vue/no-vue-html': 0,
     'vue/html-closing-bracket-newline': [
       'error',
-      { singleline: 'never', multiline: 'never' },
-    ],
+      { singleline: 'never', multiline: 'never' }
+    ]
   },
   overrides: [
     {
       files: [''], // *filename
       rules: {
-        'eslint-disable-file': 'off',
-      },
-    },
-  ],
+        'eslint-disable-file': 'off'
+      }
+    }
+  ]
 }
