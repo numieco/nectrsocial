@@ -28,6 +28,11 @@ export default {
         src: '/js/override-alert.js',
         type: 'text/javascript',
         body: true
+      },
+      {
+        src: '/js/webflow.js',
+        type: 'text/javascript',
+        body: true
       }
     ]
   },
@@ -38,7 +43,14 @@ export default {
     { src: '@/plugins/directives', ssr: false }
   ],
 
-  components: true,
+  components: [
+    '@/components/global',
+    '@/components/includes/home',
+    '@/components/includes/about',
+    '@/components/includes/portfolio',
+    '@/components/includes/capabilities',
+    '@/components/includes/careers'
+  ],
 
   buildModules: ['@nuxtjs/eslint-module'],
 

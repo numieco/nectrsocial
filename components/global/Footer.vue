@@ -38,7 +38,7 @@
           <nuxt-link class="c-footer-link w-inline-block" to="/about">
             <div>About Nectr</div>
           </nuxt-link>
-          <nuxt-link class="c-footer-link w-inline-block" to="/work">
+          <nuxt-link class="c-footer-link w-inline-block" to="/portfolio">
             <div>Our Portfolio</div>
           </nuxt-link>
           <nuxt-link class="c-footer-link w-inline-block" to="/capabilities">

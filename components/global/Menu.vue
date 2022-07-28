@@ -2,29 +2,29 @@
   <div class="c-menu" :class="menuOpen ? 'is-open' : ''">
     <div class="c-menu__inner">
       <div class="c-menu__link-wrapper">
-        <a
+        <nuxt-link
           aria-current="page"
           class="c-menu__link w-inline-block w--current"
-          href="index.html">
+          to="/">
           <div>Home</div>
-        </a>
-        <a class="c-menu__link w-inline-block" href="about.html">
+        </nuxt-link>
+        <nuxt-link class="c-menu__link w-inline-block" to="/about">
           <div>About</div>
-        </a>
-        <a class="c-menu__link w-inline-block" href="work.html">
+        </nuxt-link>
+        <nuxt-link class="c-menu__link w-inline-block" to="/portfolio">
           <div>Portfolio</div>
-        </a>
-        <a class="c-menu__link w-inline-block" href="capabilities.html">
+        </nuxt-link>
+        <nuxt-link class="c-menu__link w-inline-block" to="/capabilities">
           <div>Capabilities</div>
-        </a>
-        <a class="c-menu__link w-inline-block" href="careers.html">
+        </nuxt-link>
+        <nuxt-link class="c-menu__link w-inline-block" to="/careers">
           <div>Careers</div>
-        </a>
+        </nuxt-link>
       </div>
-      <a class="c-menu__sub-link w-inline-block" href="network.html">
+      <nuxt-link class="c-menu__sub-link w-inline-block" to="/network">
         <div>Nectr Network</div>
         <div class="menu-line"></div>
-      </a>
+      </nuxt-link>
     </div>
     <div>
       <a class="c-menu__social-link w-inline-block" href="#">
@@ -68,3 +68,24 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.c-menu {
+  pointer-events: none;
+}
+.c-menu.is-open {
+  pointer-events: auto;
+}
+.c-menu__link {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.c-menu__link:hover {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.25px;
+  -webkit-text-stroke-color: white;
+}
+.c-menu__sub-link:hover > .menu-line {
+  transform: translateX(0%);
+}
+</style>

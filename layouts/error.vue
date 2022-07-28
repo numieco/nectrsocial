@@ -3,7 +3,7 @@
     <Header />
     <div class="c-error-wrapper">
       <div class="error-icon">
-        <img alt="" loading="lazy" src="/assets/images/error.svg" />
+        <img loading="lazy" src="/assets/images/error.svg" />
       </div>
       <h1>Did you get lost?</h1>
       <div class="c-error-block">
@@ -15,24 +15,24 @@
     </div>
     <div class="c-error-links__wrapper">
       <div class="c-footer-link__block middle">
-        <a class="c-footer-link w-inline-block" href="#">
+        <nuxt-link class="c-footer-link w-inline-block" to="/about">
           <div>About Nectr</div>
-        </a>
-        <a class="c-footer-link w-inline-block" href="#">
+        </nuxt-link>
+        <nuxt-link class="c-footer-link w-inline-block" to="/portfolio">
           <div>Our Portfolio</div>
-        </a>
-        <a class="c-footer-link w-inline-block" href="#">
+        </nuxt-link>
+        <nuxt-link class="c-footer-link w-inline-block" to="/capabilities">
           <div>Our Capabilities</div>
-        </a>
-        <a class="c-footer-link w-inline-block" href="#">
+        </nuxt-link>
+        <nuxt-link class="c-footer-link w-inline-block" to="/careers">
           <div>Careers</div>
-        </a>
+        </nuxt-link>
       </div>
     </div>
     <div>
-      <a class="c-menu__social-link w-inline-block" href="#"><img alt="" loading="lazy" src="/assets/images/facebook-icon.svg"/></a>
-      <a class="c-menu__social-link w-inline-block" href="#"><img alt="" loading="lazy" src="/assets/images/linkedin-icon.svg"/></a>
-      <a class="c-menu__social-link w-inline-block" href="#"><img alt="" loading="lazy" src="/assets/images/instagram-icon.svg"/></a>
+      <a class="c-menu__social-link w-inline-block" href="#"><img loading="lazy" src="/assets/images/facebook-icon.svg"/></a>
+      <a class="c-menu__social-link w-inline-block" href="#"><img loading="lazy" src="/assets/images/linkedin-icon.svg"/></a>
+      <a class="c-menu__social-link w-inline-block" href="#"><img loading="lazy" src="/assets/images/instagram-icon.svg"/></a>
     </div>
   </div>
 </template>

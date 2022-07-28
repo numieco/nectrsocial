@@ -1,23 +1,27 @@
 <template>
-  <div class="c-nav" :class="isInverted ? 'inverted' : ''">
+  <div class="c-nav">
     <nuxt-link aria-current="page" class="c-nav__link" to="/">
       <img
-        v-if="isInverted"
+        v-if="mutableInvert && !blueBg"
         class="c-nav__logo"
         src="/assets/images/Logo---New---Black.svg"/>
       <img v-else class="c-nav__logo" src="/assets/images/Logo---New.svg" />
     </nuxt-link>
     <div
       class="c-nav__btn"
-      :class="isInverted ? 'inverted' : ''"
+      :class="mutableInvert && !blueBg ? 'inverted' : ''"
       @click="toggleMenu()">
       <h6>Menu</h6>
       <div class="c-nav__hamburger">
-        <div class="hamburger-line" :class="isInverted ? 'inverted' : ''"></div>
+        <div
+          class="hamburger-line"
+          :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
         <div
           class="hamburger-line mid-line"
-          :class="isInverted ? 'inverted' : ''"></div>
-        <div class="hamburger-line" :class="isInverted ? 'inverted' : ''"></div>
+          :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
+        <div
+          class="hamburger-line"
+          :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
       </div>
     </div>
   </div>
@@ -26,11 +30,19 @@
 <script>
 export default {
   props: {
-    isInverted: Boolean
+    isInverted: Boolean,
+    blueBg: Boolean
+  },
+
+  data() {
+    return {
+      mutableInvert: this.isInverted
+    }
   },
 
   methods: {
     toggleMenu() {
+      this.mutableInvert = !this.mutableInvert
       this.$store.commit('toggleMenu', (this.menuOpen = !this.menuOpen))
     }
   }
