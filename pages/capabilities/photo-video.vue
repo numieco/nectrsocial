@@ -1,7 +1,178 @@
 <template>
-  <div></div>
+  <div>
+    <Header blue-bg />
+
+    <service-header pv>
+      <template #title>Photos & Video - For Your Social Feed </template>
+      <template #description>
+        Put our team to work creating photos and videos for your social feeds.
+        <br />
+        You send us your product, we shoot it, then send you awesome content.
+        <br />
+        Delivered once, or delivered monthly.
+      </template>
+    </service-header>
+
+    <div class="l-section">
+      <div class="c-capabilities__wrapper">
+        <div class="logo-icon yellow large"></div>
+
+        <div class="c-package">
+          <h1 class="alt-h1">Photo Packages</h1>
+
+          <div class="capability-list__wrapper fullwidth">
+            <package-block icon="/assets/images/photo.svg" link="/">
+              <template #package-name> Level 1 Photo Package </template>
+              <template #package-feature-1>
+                10 finished photo assets per month
+              </template>
+              <template #package-feature-2>
+                Sized for social media placements
+              </template>
+              <template #package-feature-3> High res files delivered </template>
+              <template #package-feature-4> Unlimited usage rights </template>
+              <template #package-price>$1,200</template>
+            </package-block>
+
+            <package-block icon="/assets/images/camera.svg" link="/">
+              <template #package-name> Level 2 Photo Package </template>
+              <template #package-feature-1>
+                15 finished photo assets per month
+              </template>
+              <template #package-feature-2>
+                Sized for social media placements
+              </template>
+              <template #package-feature-3> High res files delivered </template>
+              <template #package-feature-4> Unlimited usage rights </template>
+              <template #package-price>$1,600</template>
+            </package-block>
+
+            <package-block icon="/assets/images/3rd-package.svg" link="/">
+              <template #package-name> Level 3 Photo Package </template>
+              <template #package-feature-1>
+                20 finished photo assets per month
+              </template>
+              <template #package-feature-2>
+                Sized for social media placements
+              </template>
+              <template #package-feature-3> High res files delivered </template>
+              <template #package-feature-4> Unlimited usage rights </template>
+              <template #package-price>$2,000</template>
+            </package-block>
+          </div>
+        </div>
+
+        <div class="c-package video">
+          <h1 class="alt-h1">Video Packages</h1>
+
+          <h4 class="neutral-text">
+            All videos are shot vertically, reel-style, and are ~15-30s in
+            length.
+          </h4>
+
+          <div class="capability-list__wrapper fullwidth">
+            <package-block icon="/assets/images/video.svg" link="/">
+              <template #package-name> Level 1 Video Package </template>
+              <template #package-feature-1>
+                3 finished photo assets per month
+              </template>
+              <template #package-feature-2> Royalty-free music </template>
+              <template #package-feature-3>
+                Sized vertically, ready for TikTok, Reels, or Stories
+              </template>
+              <template #package-feature-4> Unlimited usage rights </template>
+              <template #package-price>$850</template>
+            </package-block>
+
+            <package-block icon="/assets/images/video-2.svg" link="/">
+              <template #package-name> Level 2 Photo Package </template>
+              <template #package-feature-1>
+                6 finished photo assets per month
+              </template>
+              <template #package-feature-2> Royalty-free music </template>
+              <template #package-feature-3>
+                Sized vertically, ready for TikTok, Reels, or Stories
+              </template>
+              <template #package-feature-4> Unlimited usage rights </template>
+              <template #package-price>$1,500</template>
+            </package-block>
+          </div>
+        </div>
+
+        <div class="c-package__prompt">
+          <div>
+            Don’t see a package that works?<br />Contact us for something more
+            custom!
+          </div>
+        </div>
+      </div>
+
+      <c-button btn-text="Book a Discovery call!" centered link="/" />
+    </div>
+
+    <div class="l-section">
+      <div class="l-container">
+        <div class="c-faq">
+          <div class="c-faq__header">
+            <h2>Frequently Asked Questions</h2>
+          </div>
+          <div class="c-faq__list">
+            <faq-accordion>
+              <template #title>
+                I know the content your team creates is intended for social
+                media but can I use it somewhere else?
+              </template>
+              <template #content>
+                We’ll send you the high res files, feel free to use it for
+                purposes outside of social media.
+              </template>
+            </faq-accordion>
+
+            <faq-accordion>
+              <template #title> What about licensing? </template>
+              <template #content> Lorep Ipsum </template>
+            </faq-accordion>
+
+            <faq-accordion>
+              <template #title> What if I don’t have a product? </template>
+              <template #content> Lorep Ipsum </template>
+            </faq-accordion>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <Footer />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      htmlAttrs: {
+        lang: 'en'
+      },
+      title: this.title,
+      meta: [...this.meta]
+    }
+  },
+
+  computed: {
+    meta() {
+      return this.mxMetaUtils({
+        title: this.title,
+        description: this.description
+      })
+    },
+
+    description() {
+      return ''
+    },
+
+    title() {
+      return 'Photo & Video | NectrSocial'
+    }
+  }
+}
 </script>

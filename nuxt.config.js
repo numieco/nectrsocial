@@ -62,5 +62,7 @@ export default {
 
   pwa: { manifest: pwaUtils.getManifest() },
 
+  pageTransition: 'transition-page',
+
   build: {}
 }

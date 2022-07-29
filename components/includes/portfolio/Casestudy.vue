@@ -7,8 +7,18 @@
       <div class="c-block__double"></div>
       <div class="slide-details__block">
         <div class="slide-details__inner" :class="featured ? 'featured' : ''">
-          <slot name="casestudy-name" />
-          <slot name="casestudy-details" />
+          <h4 class="alt-h4"><slot name="casestudy-name" /></h4>
+          <div v-if="featured">
+            <h6 class="neutral-text mobile-hide">
+              <slot name="featured-summary" />
+            </h6>
+            <h6 class="neutral-text desktop-hide">
+              <slot name="casestudy-details" />
+            </h6>
+          </div>
+          <h6 v-else class="neutral-text">
+            <slot name="casestudy-details" />
+          </h6>
         </div>
         <div class="right-arrow"></div>
       </div>

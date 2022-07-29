@@ -19,88 +19,56 @@
       <div class="c-careers">
         <div class="l-container">
           <div class="c-careers__wrapper">
-            <career-block link="/">
-              <template #role>
-                <h3 class="c-career__role">Field Social Media Manager</h3>
-              </template>
+            <career-block link="/careers/field-social">
+              <template #role> Field Social Media Manager </template>
               <template #role-details>
-                <h5>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels.
-                </h5>
+                We’re looking to add a new member to the Nectr Social team
+                interested in building a career in the organic social media
+                space. This role will be client-facing and require independent
+                travel to and from local businesses to capture content for use
+                on client social channels.
               </template>
-              <template #role-type>
-                <p class="neutral-text no-margin">Full Time</p>
-              </template>
-              <template #role-location>
-                <p class="neutral-text no-margin">Seattle, WA / Portland, OR</p>
-              </template>
+              <template #role-type> Full Time </template>
+              <template #role-location> Seattle, WA / Portland, OR </template>
             </career-block>
 
-            <career-block link="/">
-              <template #role>
-                <h3 class="c-career__role">Account Coordinator</h3>
-              </template>
+            <career-block link="/careers/account-cordinator">
+              <template #role> Account Coordinator </template>
               <template #role-details>
-                <h5>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels.
-                </h5>
+                We’re looking to add a new member to the Nectr Social team
+                interested in building a career in the organic social media
+                space. This role will be client-facing and require independent
+                travel to and from local businesses to capture content for use
+                on client social channels.
               </template>
-              <template #role-type>
-                <p class="neutral-text no-margin">Part Time</p>
-              </template>
-              <template #role-location>
-                <p class="neutral-text no-margin">Seattle, WA</p>
-              </template>
+              <template #role-type> Part Time </template>
+              <template #role-location> Seattle, WA </template>
             </career-block>
 
-            <career-block link="/">
-              <template #role>
-                <h3 class="c-career__role">Google Ads Specialist</h3>
-              </template>
+            <career-block link="/careers/google-ads-specialist">
+              <template #role> Google Ads Specialist </template>
               <template #role-details>
-                <h5>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels.
-                </h5>
+                We’re looking to add a new member to the Nectr Social team
+                interested in building a career in the organic social media
+                space. This role will be client-facing and require independent
+                travel to and from local businesses to capture content for use
+                on client social channels.
               </template>
-              <template #role-type>
-                <p class="neutral-text no-margin">Full Time</p>
-              </template>
-              <template #role-location>
-                <p class="neutral-text no-margin">Portland, OR</p>
-              </template>
+              <template #role-type> Full Time </template>
+              <template #role-location> Portland, OR</template>
             </career-block>
 
-            <career-block link="/">
-              <template #role>
-                <h3 class="c-career__role">Paid Advertising Specialist</h3>
-              </template>
+            <career-block link="/careers/paid-advertising-specialist">
+              <template #role> Paid Advertising Specialist </template>
               <template #role-details>
-                <h5>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels.
-                </h5>
+                We’re looking to add a new member to the Nectr Social team
+                interested in building a career in the organic social media
+                space. This role will be client-facing and require independent
+                travel to and from local businesses to capture content for use
+                on client social channels.
               </template>
-              <template #role-type>
-                <p class="neutral-text no-margin">Part Time</p>
-              </template>
-              <template #role-location>
-                <p class="neutral-text no-margin">Seattle, WA</p>
-              </template>
+              <template #role-type> Part Time </template>
+              <template #role-location> Seattle, WA </template>
             </career-block>
           </div>
         </div>

@@ -37,12 +37,7 @@
 
               <div class="hero-block__cta">
                 <div class="down-arrow mobile-hide"></div>
-                <a class="cta-btn large w-inline-block" href="#">
-                  <div class="cta-btn__block large">
-                    <div>Book a kick-off call!</div>
-                  </div>
-                  <div class="cta-btn__double"></div>
-                </a>
+                <c-button btn-text="Book a Kick-Off Call!" large link="/" />
               </div>
             </div>
           </div>
@@ -313,12 +308,7 @@
           </splide-slide>
         </splide>
       </div>
-      <nuxt-link class="cta-btn centralized w-inline-block" to="/portfolio">
-        <div class="cta-btn__block">
-          <div>View all case studies</div>
-        </div>
-        <div class="cta-btn__double"></div>
-      </nuxt-link>
+      <c-button btn-text="View all case studies" centered link="/portfolio" />
     </div>
 
     <!-- Done -->
@@ -333,94 +323,63 @@
           </div>
           <div class="c-services__list">
             <service-accordion link="/capabilities/photo-video">
-              <template #title>
-                <h4 class="alt-h4">Photo &amp; Video</h4>
-              </template>
+              <template #title> Photo &amp; Video </template>
               <template #content>
-                <h5>
-                  Just the creative, nothing else. We’ll send you photos,
-                  videos, or both featuring your product, brand, or service in
-                  its finest moments.
-                </h5>
+                Just the creative, nothing else. We’ll send you photos, videos,
+                or both featuring your product, brand, or service in its finest
+                moments.
               </template>
             </service-accordion>
 
-            <service-accordion link="/capabilities/social-media-management">
-              <template #title>
-                <h4 class="alt-h4">Social Media Management (Organic)</h4>
-              </template>
+            <service-accordion link="/capabilities/social-media-mgt">
+              <template #title> Social Media Management (Organic) </template>
               <template #content>
-                <h5>
-                  Hand us the keys to your social channels. Complete,
-                  done-for-you social media management solutions with growth
-                  strategies baked in.
-                </h5>
+                Hand us the keys to your social channels. Complete, done-for-you
+                social media management solutions with growth strategies baked
+                in.
               </template>
             </service-accordion>
 
-            <service-accordion link="/capabilities/tiktok-account-management">
-              <template #title>
-                <h4 class="alt-h4">TikTok Account Management</h4>
-              </template>
+            <service-accordion link="/capabilities/tiktok-mgt">
+              <template #title> TikTok Account Management </template>
               <template #content>
-                <h5>
-                  A first-of-its-kind channel management package created
-                  exclusively for TikTok. We do everything, you watch your
-                  business account grow.
-                </h5>
+                A first-of-its-kind channel management package created
+                exclusively for TikTok. We do everything, you watch your
+                business account grow.
               </template>
             </service-accordion>
 
             <service-accordion link="/capabilities/facebook-instagram-ads">
-              <template #title>
-                <h4 class="alt-h4">Facebook &amp; Instagram Ads</h4>
-              </template>
+              <template #title> Facebook &amp; Instagram Ads </template>
               <template #content>
-                <h5>
-                  Ad creation/distribution, copywriting, creative testing, and
-                  insightful reporting.
-                </h5>
+                Ad creation/distribution, copywriting, creative testing, and
+                insightful reporting.
               </template>
             </service-accordion>
 
             <service-accordion link="/capabilities/google-ads">
-              <template #title>
-                <h4 class="alt-h4">Google Ads</h4>
-              </template>
+              <template #title> Google Ads </template>
               <template #content>
-                <h5>Show up where people are searching.</h5>
+                Show up where people are searching.
               </template>
             </service-accordion>
 
             <service-accordion link="/capabilities/tiktok-ads">
-              <template #title>
-                <h4 class="alt-h4">Tik Tok Ads</h4>
-              </template>
+              <template #title> Tik Tok Ads </template>
               <template #content>
-                <h5>The greenest ad space on the block.</h5>
+                The greenest ad space on the block.
               </template>
             </service-accordion>
 
             <service-accordion link="/capabilities/consulting">
-              <template #title>
-                <h4 class="alt-h4">Consulting</h4>
-              </template>
+              <template #title> Consulting </template>
               <template #content>
-                <h5>
-                  You do it, we help. Stay the course with channel audits, video
-                  call check-ins, and ongoing consulting services.
-                </h5>
+                You do it, we help. Stay the course with channel audits, video
+                call check-ins, and ongoing consulting services.
               </template>
             </service-accordion>
           </div>
-          <nuxt-link
-            class="cta-btn white-btn centralized w-inline-block"
-            to="/">
-            <div class="cta-btn__block">
-              <div>Book a Discovery call!</div>
-            </div>
-            <div class="cta-btn__double"></div>
-          </nuxt-link>
+          <c-button btn-text="Book a Discovery call!" centered link="/" white />
         </div>
       </div>
     </div>
@@ -589,14 +548,11 @@
           </div>
         </div>
       </div>
-      <nuxt-link
-        class="cta-btn centralized mobile-hide w-inline-block"
-        to="/careers">
-        <div class="cta-btn__block">
-          <div>Join the team!</div>
-        </div>
-        <div class="cta-btn__double"></div>
-      </nuxt-link>
+      <c-button
+        btn-text="Join the team!"
+        centered
+        hide-on-mobile
+        link="/careers"/>
     </div>
 
     <!-- Done -->
@@ -612,12 +568,7 @@
               with cool opportunities, made possible by our clients.
             </h5>
           </div>
-          <nuxt-link class="cta-btn white-btn w-inline-block" to="/network">
-            <div class="cta-btn__block">
-              <div>Learn More</div>
-            </div>
-            <div class="cta-btn__double"></div>
-          </nuxt-link>
+          <c-button btn-text="Learn More" link="/network" white />
         </div>
       </div>
     </div>

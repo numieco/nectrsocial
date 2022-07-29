@@ -6,7 +6,7 @@
       <div class="team-details__block">
         <div class="slide-details__inner">
           <slot name="name" />
-          <slot name="role" />
+          <p class="alt-paragraph neutral-text"><slot name="role" /></p>
         </div>
       </div>
     </div>
@@ -24,3 +24,15 @@ export default {
   }
 }
 </script>
+
+<style>
+@media screen and (min-width: 1025px) {
+  .c-team > .slide-details__wrapper {
+    opacity: 0;
+  }
+
+  .c-team:hover > .slide-details__wrapper {
+    opacity: 1;
+  }
+}
+</style>

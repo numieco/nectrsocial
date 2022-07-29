@@ -10,12 +10,7 @@
       <h2 class="banner-text outline-text white large">Reach Out</h2>
     </div>
 
-    <nuxt-link class="cta-btn white-btn centralized w-inline-block" to="/">
-      <div class="cta-btn__block">
-        <div>Book a Discovery call!</div>
-      </div>
-      <div class="cta-btn__double"></div>
-    </nuxt-link>
+    <c-button btn-text="Book a Discovery call" centered link="/" white />
 
     <div class="c-footer-links">
       <div class="c-footer-link__wrapper">

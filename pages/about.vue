@@ -66,83 +66,43 @@
       <div class="l-container">
         <div class="c-team__wrapper">
           <team-member img-src="/assets/images/team-img-1.jpg">
-            <template #name>
-              <div>Zak Kosher</div>
-            </template>
-            <template #role>
-              <p class="alt-paragraph neutral-text">Founder</p>
-            </template>
+            <template #name> Zak Kosher </template>
+            <template #role> Founder </template>
           </team-member>
 
           <team-member img-src="/assets/images/team-img-2.jpg">
-            <template #name>
-              <div>Dylan Rabinowitz</div>
-            </template>
-            <template #role>
-              <p class="alt-paragraph neutral-text">
-                Director Of Client Services
-              </p>
-            </template>
+            <template #name> Dylan Rabinowitz </template>
+            <template #role> Director Of Client Services </template>
           </team-member>
 
           <team-member img-src="/assets/images/team-img-3.jpg">
-            <template #name>
-              <div>Kortney Gloska</div>
-            </template>
-            <template #role>
-              <p class="alt-paragraph neutral-text">Creative Lead</p>
-            </template>
+            <template #name> Kortney Gloska </template>
+            <template #role> Creative Lead </template>
           </team-member>
 
           <team-member img-src="/assets/images/team-img-4.jpg">
-            <template #name>
-              <div>Jonathan Ochoa</div>
-            </template>
-            <template #role>
-              <p class="alt-paragraph neutral-text">Social Media Manager</p>
-            </template>
+            <template #name> Jonathan Ochoa </template>
+            <template #role> Social Media Manager </template>
           </team-member>
 
           <team-member img-src="/assets/images/team-img-5.jpg">
-            <template #name>
-              <div>Gianna Chen</div>
-            </template>
-            <template #role>
-              <p class="alt-paragraph neutral-text">
-                Field Social Media Manager
-              </p>
-            </template>
+            <template #name> Gianna Chen </template>
+            <template #role> Field Social Media Manager </template>
           </team-member>
 
           <team-member img-src="/assets/images/team-img-6.jpg">
-            <template #name>
-              <div>Tiare Bowman</div>
-            </template>
-            <template #role>
-              <p class="alt-paragraph neutral-text">
-                Social Media Marketing Manager
-              </p>
-            </template>
+            <template #name> Tiare Bowman </template>
+            <template #role> Social Media Marketing Manager </template>
           </team-member>
 
           <team-member img-src="/assets/images/team-img-7.jpg">
-            <template #name>
-              <div>Ashley Forst</div>
-            </template>
-            <template #role>
-              <p class="alt-paragraph neutral-text">
-                Organic Social Media Manager
-              </p>
-            </template>
+            <template #name> Ashley Forst </template>
+            <template #role> Organic Social Media Manager </template>
           </team-member>
 
           <team-member img-src="/assets/images/team-img-8.jpg">
-            <template #name>
-              <div>Apa</div>
-            </template>
-            <template #role>
-              <p class="alt-paragraph neutral-text">Dylan’s Dog</p>
-            </template>
+            <template #name> Apa </template>
+            <template #role> Dylan's Dog </template>
           </team-member>
         </div>
       </div>

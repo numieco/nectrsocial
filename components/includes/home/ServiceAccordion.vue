@@ -1,14 +1,16 @@
 <template>
   <div class="c-service__item">
     <div class="c-service__inner" @click="toggleAccordion()">
-      <slot name="title" />
+      <h4 class="alt-h4"><slot name="title" /></h4>
       <div class="c-service__btn" :class="isOpen ? 'is-active' : ''">
         <div class="btn-line plus"></div>
         <div class="btn-line minus"></div>
       </div>
     </div>
     <div class="c-service__details" :class="isOpen ? 'is-open' : ''">
-      <slot name="content" />
+      <h5>
+        <slot name="content" />
+      </h5>
       <nuxt-link class="c-service-item__link w-inline-block" :to="link">
         <div>Learn more</div>
       </nuxt-link>

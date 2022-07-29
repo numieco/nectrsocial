@@ -22,88 +22,62 @@
             <service-block
               icon="/assets/images/pv.svg"
               link="/capabilities/photo-video">
-              <template #service>
-                <h4 class="c-service__header">Photo &amp; Video</h4>
-              </template>
+              <template #service> Photo &amp; Video </template>
               <template #service-details>
-                <h6 class="c-service__text">
-                  Just the creative, nothing else. We’ll send you photos,
-                  videos, or both featuring your product, brand, or service in
-                  its finest moments.
-                </h6>
+                Just the creative, nothing else. We'll send you photos, videos,
+                or both featuring your product, brand, or service in its finest
+                moments.
               </template>
             </service-block>
 
             <service-block
               icon="/assets/images/goggle-ads.svg"
               link="/capabilities/goggle-ads">
-              <template #service>
-                <h4 class="c-service__header">Google Ads</h4>
-              </template>
+              <template #service> Google Ads </template>
               <template #service-details>
-                <h6 class="c-service__text">
-                  Show up where people are searching.
-                </h6>
+                Show up where people are searching.
               </template>
             </service-block>
 
             <service-block
               icon="/assets/images/tiktok.svg"
-              link="/capabilities/tiktok-account-management">
-              <template #service>
-                <h4 class="c-service__header">TikTok Account Management</h4>
-              </template>
+              link="/capabilities/tiktok-mgt">
+              <template #service> TikTok Account Management </template>
               <template #service-details>
-                <h6 class="c-service__text">
-                  A first-of-its-kind channel management package created
-                  exclusively for TikTok. We do everything, you watch your
-                  business account grow.
-                </h6>
+                A first-of-its-kind channel management package created
+                exclusively for TikTok. We do everything, you watch your
+                business account grow.
               </template>
             </service-block>
 
             <service-block
               icon="/assets/images/fb-ad.svg"
               link="/capabilities/facebook-instagram-ads">
-              <template #service>
-                <h4 class="c-service__header">Facebook &amp; Instagram Ads</h4>
-              </template>
+              <template #service> Facebook &amp; Instagram Ads </template>
               <template #service-details>
-                <h6 class="c-service__text">
-                  Ad creation/distribution, copywriting, creative testing, and
-                  insightful reporting.
-                </h6>
+                Ad creation/distribution, copywriting, creative testing, and
+                insightful reporting.
               </template>
             </service-block>
 
             <service-block
               icon="/assets/images/social-media.svg"
               link="/capabilities/social-media-management">
-              <template #service>
-                <h4 class="c-service__header">
-                  Social Media Management (Organic)
-                </h4>
-              </template>
+              <template #service> Social Media Management (Organic) </template>
               <template #service-details>
-                <h6 class="c-service__text">
-                  Hand us the keys to your social channels. Complete,
-                  done-for-you social media management solutions with growth
-                  strategies baked in.
-                </h6>
+                Hand us the keys to your social channels. Complete, done-for-you
+                social media management solutions with growth strategies baked
+                in.
               </template>
             </service-block>
 
             <service-block
               icon="/assets/images/consulting.svg"
               link="/capabilities/consulting">
-              <template #service>
-                <h4 class="c-service__header">Consulting</h4>
-              </template>
+              <template #service> Consulting </template>
               <template #service-details>
-                <h6 class="c-service__text">
-                  You do it, we help. Stay the course with channel audits, video
-                  call check-ins, and ongoing consulting services.
-                </h6>
+                You do it, we help. Stay the course with channel audits, video
+                call check-ins, and ongoing consulting services.
               </template>
             </service-block>
           </div>

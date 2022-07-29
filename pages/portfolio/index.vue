@@ -21,62 +21,44 @@
             <casestudy
               featured
               img-src="/assets/images/casestudy-img-5.jpg"
-              link="/casestudy/ably">
-              <template #casestudy-name>
-                <h4 class="alt-h4">Keep Your City Smiling</h4>
+              link="/portfolio/keep-your-city-smiling">
+              <template #casestudy-name> Keep Your City Smiling </template>
+              <template #featured-summary>
+                Read all about how lorem ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry&#x27;s standard dummy text ever since the 1500s,
               </template>
-              <template #casestudy-details>
-                <h6 class="neutral-text mobile-hide">
-                  Read all about how lorem ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry&#x27;s standard dummy text ever since the 1500s,
-                </h6>
-                <h6 class="neutral-text desktop-hide">The Big Pivot</h6>
-              </template>
+              <template #casestudy-details> The Big Pivot </template>
             </casestudy>
 
             <casestudy
               img-src="/assets/images/casestudy-img-3.jpg"
-              link="/casestudy/ably">
-              <template #casestudy-name>
-                <h4 class="alt-h4">Ombraz Sunglasses</h4>
-              </template>
-              <template #casestudy-details>
-                <h6 class="neutral-text">3.5x Return on Ad Spend</h6>
-              </template>
+              link="/portfolio/ombraz-sunglasses">
+              <template #casestudy-name> Ombraz Sunglasses </template>
+              <template #casestudy-details> 3.5x Return on Ad Spend </template>
             </casestudy>
 
             <casestudy
               img-src="/assets/images/casestudy-img-6.jpg"
-              link="/casestudy/ably">
-              <template #casestudy-name>
-                <h4 class="alt-h4">Ably</h4>
-              </template>
+              link="/portfolio/ably">
+              <template #casestudy-name> Ably </template>
               <template #casestudy-details>
-                <h6 class="neutral-text">From 0 to 40k Instagram Followers</h6>
+                From 0 to 40k Instagram Followers
               </template>
             </casestudy>
 
             <casestudy
               img-src="/assets/images/casestudy-img-1.jpg"
-              link="/casestudy/ably">
-              <template #casestudy-name>
-                <h4 class="alt-h4">QNightClub</h4>
-              </template>
-              <template #casestudy-details>
-                <h6 class="neutral-text">Sold Out Shows</h6>
-              </template>
+              link="/portfolio/qnightclub">
+              <template #casestudy-name> QNightClub </template>
+              <template #casestudy-details> Sold Out Shows </template>
             </casestudy>
 
             <casestudy
               img-src="/assets/images/casestudy-img-4.jpg"
-              link="/casestudy/ably">
-              <template #casestudy-name>
-                <h4 class="alt-h4">Frost</h4>
-              </template>
-              <template #casestudy-details>
-                <h6 class="neutral-text">Driving Foot Traffic</h6>
-              </template>
+              link="/portfolio/frost">
+              <template #casestudy-name> Frost </template>
+              <template #casestudy-details> Driving Foot Traffic </template>
             </casestudy>
           </div>
         </div>

@@ -7,8 +7,8 @@
           <div class="icon-bg"></div>
           <img alt="" class="c-service__icon" loading="lazy" :src="icon" />
         </div>
-        <slot name="service" />
-        <slot name="service-details" />
+        <h4 class="c-service__header"><slot name="service" /></h4>
+        <h6 class="c-service__text"><slot name="service-details" /></h6>
       </div>
       <nuxt-link class="c-service__link w-inline-block" :to="link">
         <h6 class="medium-text">See what you get</h6>
