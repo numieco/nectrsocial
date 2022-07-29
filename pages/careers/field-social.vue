@@ -382,7 +382,6 @@ export default {
   transition-duration: 350ms;
   transition-timing-function: ease;
 }
-
 .field-wrapper {
   margin-bottom: 32px;
   flex-grow: 1;

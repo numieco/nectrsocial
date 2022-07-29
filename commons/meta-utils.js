@@ -26,79 +26,79 @@ export default (meta) => {
   }
   return [
     {
-      charset: 'utf-8',
+      charset: 'utf-8'
     },
     {
       name: 'viewport',
-      content: 'width=device-width, initial-scale=1',
+      content: 'width=device-width, initial-scale=1'
     },
     {
       name: 'theme-color',
       property: 'theme-color',
-      content: '#010ea7', // Project theme color
+      content: '#0a151f' // Project theme color
     },
     {
       hid: 'description',
       name: 'description',
-      content: (meta && meta.description) || description,
+      content: (meta && meta.description) || description
     },
     {
       hid: 'og:type',
       property: 'og:type',
-      content: (meta && meta.type) || type,
+      content: (meta && meta.type) || type
     },
     {
       hid: 'og:url',
       property: 'og:url',
-      content: url,
+      content: url
     },
     {
       name: 'og:site_name',
       property: 'og:site_name',
-      content: (meta && meta.site_name) || siteName,
+      content: (meta && meta.site_name) || siteName
     },
     {
       hid: 'og:title',
       property: 'og:title',
-      content: (meta && meta.title) || title,
+      content: (meta && meta.title) || title
     },
     {
       hid: 'og:description',
       property: 'og:description',
-      content: (meta && meta.description) || description,
+      content: (meta && meta.description) || description
     },
     {
       hid: 'og:image',
       property: 'og:image',
-      content: mainImage,
+      content: mainImage
     },
     {
       name: 'twitter:card',
-      content: (meta && meta.twitterCard) || twitterCard,
+      content: (meta && meta.twitterCard) || twitterCard
     },
     {
       name: 'twitter:site',
-      content: (meta && meta.twitterSite) || twitterHandle,
+      content: (meta && meta.twitterSite) || twitterHandle
     },
     {
       hid: 'twitter:url',
       name: 'twitter:url',
-      content: url,
+      content: url
     },
     {
       hid: 'twitter:title',
       name: 'twitter:title',
-      content: (meta && meta.title) || title,
+      content: (meta && meta.title) || title
     },
     {
       hid: 'twitter:description',
       name: 'twitter:description',
-      content: (meta && meta.description) || description,
+      content: (meta && meta.description) || description
     },
     {
       hid: 'twitter:image',
       name: 'twitter:image',
-      content: mainImage,
-    },
+      content: mainImage
+    }
   ]
 }

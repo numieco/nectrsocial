@@ -11,16 +11,16 @@
       class="c-nav__btn"
       :class="mutableInvert && !blueBg ? 'inverted' : ''"
       @click="toggleMenu()">
-      <h6>Menu</h6>
-      <div class="c-nav__hamburger">
+      <h6>{{ menuOpen ? 'Close' : 'Menu' }}</h6>
+      <div class="c-nav__hamburger" :class="menuOpen ? 'open' : ''">
         <div
-          class="hamburger-line"
+          class="hamburger-line top-line"
           :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
         <div
           class="hamburger-line mid-line"
           :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
         <div
-          class="hamburger-line"
+          class="hamburger-line bottom-line"
           :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
       </div>
     </div>
@@ -40,6 +40,12 @@ export default {
     }
   },
 
+  computed: {
+    menuOpen() {
+      return this.$store.getters.menuState
+    }
+  },
+
   methods: {
     toggleMenu() {
       this.mutableInvert = !this.mutableInvert
@@ -48,3 +54,29 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.c-nav__hamburger {
+  transition-property: margin-left;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+.c-nav__hamburger.open {
+  margin-left: 15px;
+}
+.c-nav__hamburger.open > .hamburger-line.top-line {
+  transform: translate(0px, 9px) rotate(45deg);
+}
+.c-nav__hamburger.open > .hamburger-line.bottom-line {
+  transform: translate(0px, -9px) rotate(-45deg);
+}
+.c-nav__hamburger.open > .hamburger-line.mid-line {
+  opacity: 0;
+  transform: translate(-100%, 0px);
+}
+.hamburger-line {
+  transition-property: transform, opacity;
+  transition-duration: 350ms, 350ms;
+  transition-timing-function: ease, ease;
+}
+</style>
