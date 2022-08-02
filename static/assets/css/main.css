@@ -107,11 +107,13 @@ a {
   width: 100% !important;
 }
 
-.scroller {
-  width: 100%;
-  position: fixed;
-}
+@media screen and (min-width: 991px) {
+  .scroller {
+    width: 100%;
+    position: fixed;
+  }
 
-.c-scrollbar {
-  display: none;
+  .c-scrollbar {
+    display: none;
+  }
 }
