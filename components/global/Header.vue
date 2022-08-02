@@ -49,7 +49,7 @@ export default {
   methods: {
     toggleMenu() {
       this.mutableInvert = !this.mutableInvert
-      this.$store.commit('toggleMenu', (this.menuOpen = !this.menuOpen))
+      this.$store.commit('toggleMenu', !this.menuOpen)
     }
   }
 }

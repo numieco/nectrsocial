@@ -17,6 +17,8 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@splidejs/vue-splide": "0.3.5",
     "core-js": "^3.19.3",
+    "auto-bind": "^5.0.1",
+    "prefix": "^1.0.0",
     "gsap": "^3.10.4",
     "jquery": "^3.6.0",
     "locomotive-scroll": "^4.1.4",

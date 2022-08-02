@@ -1,7 +1,7 @@
 import { withHttp } from './utils'
 
 // This util makes it faster to implement meta:Open Graph, Twitter
-// All these variable are overbidden if passed with meta param
+// All these variable can be overidden if passed with meta param
 const type = 'Website'
 let url = process.env.SITE_URL // From env
 const title = 'NectrSocial' // Title of the project

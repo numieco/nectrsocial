@@ -1,13 +1,14 @@
 <template>
   <div class="c-error-container">
-    <Header />
+    <Header blue-bg />
+
     <div class="c-error-wrapper">
       <div class="error-icon">
         <img loading="lazy" src="/assets/images/error.svg" />
       </div>
-      <h1>Did you get lost?</h1>
+      <h1 data-paragraph>Did you get lost?</h1>
       <div class="c-error-block">
-        <h5>
+        <h5 data-paragraph>
           You can go back to the home page (click our logo) or check out any of
           these other pages.
         </h5>

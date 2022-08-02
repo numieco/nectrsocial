@@ -1,11 +1,8 @@
 <template>
-  <div class="c-menu" :class="menuOpen ? 'is-open' : ''">
+  <div class="c-menu">
     <div class="c-menu__inner">
       <div class="c-menu__link-wrapper">
-        <nuxt-link
-          aria-current="page"
-          class="c-menu__link w-inline-block w--current"
-          to="/">
+        <nuxt-link class="c-menu__link w-inline-block" to="/">
           <div>Home</div>
         </nuxt-link>
         <nuxt-link class="c-menu__link w-inline-block" to="/about">
@@ -70,16 +67,23 @@ export default {
 </script>
 
 <style scoped>
-.c-menu {
+/* .c-menu {
   pointer-events: none;
+} */
+
+.c-menu__link,
+.c-menu__sub-link {
+  transform: translateY(70px);
+  opacity: 0;
 }
-.c-menu.is-open {
-  pointer-events: auto;
+.c-menu__social-link {
+  opacity: 0;
 }
-.c-menu__link {
+
+/* .c-menu__link {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-}
+} */
 .c-menu__link:hover {
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1.25px;

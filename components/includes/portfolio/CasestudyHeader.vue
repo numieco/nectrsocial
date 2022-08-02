@@ -19,10 +19,12 @@
       <div class="c-work__summary">
         <img alt="" class="c-work__logo" loading="lazy" :src="logo" />
         <div class="c-summary__header">
-          <h1 class="alt-h1 no-margin"><slot name="catchphrase" /></h1>
+          <h1 class="alt-h1 no-margin" data-paragraph>
+            <slot name="catchphrase" />
+          </h1>
         </div>
         <div>
-          <h5 class="neutral-text no-margin">
+          <h5 class="neutral-text no-margin" data-paragraph>
             <slot name="description" />
           </h5>
         </div>

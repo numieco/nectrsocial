@@ -1,7 +1,7 @@
 <template>
   <div class="c-faq__item">
     <div class="c-faq__inner" @click="toggleAccordion()">
-      <h4 class="alt-h4">
+      <h4 class="alt-h4" data-paragraph>
         <slot name="title" />
       </h4>
       <div class="c-faq__btn" :class="isOpen ? 'is-active' : ''">

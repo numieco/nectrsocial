@@ -1,7 +1,7 @@
 <template>
   <div class="c-service__item">
     <div class="c-service__inner" @click="toggleAccordion()">
-      <h4 class="alt-h4"><slot name="title" /></h4>
+      <h4 class="alt-h4" data-paragraph><slot name="title" /></h4>
       <div class="c-service__btn" :class="isOpen ? 'is-active' : ''">
         <div class="btn-line plus"></div>
         <div class="btn-line minus"></div>

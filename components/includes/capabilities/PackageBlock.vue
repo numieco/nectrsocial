@@ -7,39 +7,39 @@
           <div class="icon-bg"></div>
           <img alt="" class="c-service__icon" loading="lazy" :src="icon" />
         </div>
-        <h4 class="c-service__header">
+        <h4 class="c-service__header" data-paragraph>
           <slot name="package-name" />
         </h4>
         <div class="capability-list blocked">
           <div class="capabilty-list__item blocked">
             <div class="list-point"></div>
-            <h6 class="no-margin">
+            <h6 class="no-margin" data-paragraph>
               <slot name="package-feature-1" />
             </h6>
           </div>
           <div class="capabilty-list__item blocked">
             <div class="list-point"></div>
-            <h6 class="no-margin">
+            <h6 class="no-margin" data-paragraph>
               <slot name="package-feature-2" />
             </h6>
           </div>
           <div class="capabilty-list__item blocked">
             <div class="list-point"></div>
-            <h6 class="no-margin">
+            <h6 class="no-margin" data-paragraph>
               <slot name="package-feature-3" />
             </h6>
           </div>
           <div class="capabilty-list__item blocked">
             <div class="list-point"></div>
-            <h6 class="no-margin">
+            <h6 class="no-margin" data-paragraph>
               <slot name="package-feature-4" />
             </h6>
           </div>
         </div>
       </div>
       <div class="c-service__price">
-        <div class="price">Price</div>
-        <h3 class="alt-h3 no-margin">
+        <div class="price" data-paragraph>Price</div>
+        <h3 class="alt-h3 no-margin" data-paragraph>
           <slot name="package-price" />
           <span class="per-month">/month</span>
         </h3>

@@ -39,8 +39,8 @@ export default {
 
   plugins: [
     '@/plugins/mixins',
-    { src: '@/plugins/splide', ssr: false },
-    { src: '@/plugins/directives', ssr: false }
+    { src: '@/plugins/animation', ssr: false },
+    { src: '@/plugins/splide', ssr: false }
   ],
 
   components: [

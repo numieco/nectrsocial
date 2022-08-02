@@ -5,10 +5,13 @@
         <div class="hero-block__double"></div>
         <div class="hero-block small">
           <div class="hero-text__wrapper" :class="pv ? 'wide' : 'small'">
-            <h2 class="capability-hero__text">
+            <h2 class="capability-hero__text" data-paragraph>
               <slot name="title" />
             </h2>
-            <h4 class="capability-hero__subtext" :class="pv ? 'small' : ''">
+            <h4
+              class="capability-hero__subtext"
+              :class="pv ? 'small' : ''"
+              data-paragraph>
               <slot name="description" />
             </h4>
           </div>

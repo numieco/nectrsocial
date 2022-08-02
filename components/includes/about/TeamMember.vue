@@ -1,7 +1,7 @@
 <template>
-  <div class="c-team" :class="teamSlide ? 'splide__slide' : ''">
+  <div class="c-team" :class="small ? 'small' : ''">
     <img class="cover-image" loading="lazy" :src="imgSrc" />
-    <div class="team-details__wrapper">
+    <div :class="small ? 'slide-details__wrapper' : 'team-details__wrapper'">
       <div class="c-block__double"></div>
       <div class="team-details__block">
         <div class="slide-details__inner">
@@ -16,7 +16,7 @@
 <script>
 export default {
   props: {
-    teamSlide: Boolean,
+    small: Boolean,
     imgSrc: {
       type: String,
       required: true
