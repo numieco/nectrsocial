@@ -27,7 +27,6 @@ export default class extends Animation {
         gsap.from(word, {
           autoAlpha: 0,
           y: 15,
-          // rotate: 6,
           delay: lineIndex * 0.2 + wordIndex * 0.02 + 0.5
         })
       })

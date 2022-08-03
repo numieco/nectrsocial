@@ -1,13 +1,48 @@
 <template>
   <div class="c-footer">
-    <div class="c-scrolling-tape__item footer-tape">
-      <h2 class="banner-text large">Let’s Socialize</h2>
-      <div class="logo-icon"></div>
-      <h2 class="banner-text outline-text white large">Reach Out</h2>
-      <div class="logo-icon"></div>
-      <h2 class="banner-text large">Let’s Socialize</h2>
-      <div class="logo-icon"></div>
-      <h2 class="banner-text outline-text white large">Reach Out</h2>
+    <div class="tape">
+      <div class="c-scrolling-tape__item footer-tape">
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+      </div>
+      <div class="c-scrolling-tape__item footer-tape">
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text large">Let’s Socialize</h2>
+        <div class="logo-icon"></div>
+        <h2 class="banner-text outline-text white large">Reach Out</h2>
+      </div>
     </div>
 
     <c-button btn-text="Book a Discovery call" centered link="/" white />
@@ -65,3 +100,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.tape {
+  display: flex;
+  align-items: center;
+}
+.footer-tape {
+  min-width: 0px;
+  width: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+</style>

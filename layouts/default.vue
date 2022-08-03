@@ -92,7 +92,9 @@ export default {
 
     closeMenu() {
       this.$store.commit('toggleMenu', false)
-    }
+    },
+
+    restartSmoothScroll() {}
   }
 }
 </script>

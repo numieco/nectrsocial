@@ -17,8 +17,9 @@ export default class extends Component {
     })
 
     this.initScroll()
-    this.createGoto()
     this.createAnimations()
+    this.banner()
+    this.footer()
     this.height = this.element.offsetHeight
   }
 
@@ -36,39 +37,31 @@ export default class extends Component {
       }
     })
 
-    // this.locoScroll.on('scroll', ScrollTrigger.update)
-    // ScrollTrigger.scrollerProxy(this.element, {
-    //   scrollTop(value) {
-    //     return arguments.length
-    //       ? this.locoScroll.scrollTo(value, 0, 0)
-    //       : this.locoScroll.scroll.instance.scroll.y
-    //   },
-    //   getBoundingClientRect() {
-    //     return {
-    //       top: 0,
-    //       left: 0,
-    //       width: window.innerWidth,
-    //       height: window.innerHeight
-    //     }
-    //   }
-    // })
-    this.locoScroll.on('scroll', ({ scroll, direction }) => {
-      const height = this.element.offsetHeight
+    const that = this
 
-      if (this.height !== height) {
-        this.height = height
-        this.updateScroll()
+    ScrollTrigger.scrollerProxy(this.element, {
+      scrollTop(value) {
+        return arguments.length
+          ? this.locoScroll.scrollTo(value, 0, 0)
+          : that.locoScroll.scroll.instance.scroll.y
+      },
+      getBoundingClientRect() {
+        return {
+          top: 0,
+          left: 0,
+          width: window.innerWidth,
+          height: window.innerHeight
+        }
       }
     })
-  }
 
-  createGoto() {
-    // console.log(this.elements.scrollTo)
-    this.locoScroll.scrollTo(this.elements.scrollTo)
-  }
+    this.locoScroll.on('scroll', function () {
+      ScrollTrigger.update()
+    })
 
-  updateScroll() {
-    // this.locoScroll.update()
+    // ScrollTrigger.addEventListener('refresh', () => this.locoScroll.update())
+
+    ScrollTrigger.refresh()
   }
 
   createAnimations() {
@@ -76,5 +69,42 @@ export default class extends Component {
       this.elements.paragraphs.forEach((element) => {
         return new Paragraph({ element })
       })
+  }
+
+  banner() {
+    const tl = gsap.timeline()
+    tl.to('.c-scrolling-tape__inner.one', {
+      scrollTrigger: {
+        scroller: this.element,
+        start: 'top 90%',
+        trigger: '.banner-section',
+        scrub: 4
+        // markers: true
+      },
+      xPercent: -80,
+      ease: 'none'
+    })
+    tl.from('.c-scrolling-tape__inner.two', {
+      scrollTrigger: {
+        scroller: this.element,
+        start: 'top 90%',
+        trigger: '.banner-section',
+        scrub: 4
+      },
+      xPercent: -80,
+      ease: 'none'
+    })
+  }
+
+  footer() {
+    const tape = document.querySelector('.footer-tape')
+    const tapeWidth = tape.scrollWidth
+    const tl = gsap.timeline()
+    tl.to('.footer-tape', {
+      x: -tapeWidth,
+      duration: 30,
+      repeat: -1,
+      ease: 'none'
+    })
   }
 }

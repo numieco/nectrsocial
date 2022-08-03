@@ -49,7 +49,7 @@
       <div class="l-section banner-section">
         <div class="c-scrolling-tape">
           <div class="c-scrolling-tape__item">
-            <div class="c-scrolling-tape__inner">
+            <div class="c-scrolling-tape__inner one">
               <div class="logo-icon"></div>
               <div class="banner-text">Hit the sweet spot</div>
               <div class="logo-icon"></div>
@@ -69,7 +69,7 @@
             </div>
           </div>
           <div class="c-scrolling-tape__item orange-banner">
-            <div class="c-scrolling-tape__inner">
+            <div class="c-scrolling-tape__inner two">
               <div class="logo-icon black"></div>
               <div class="banner-text">Nectr</div>
               <div class="logo-icon black"></div>
@@ -569,7 +569,7 @@ export default {
   mounted() {
     // eslint-disable-next-line no-new
     new this.$pageAnimation('.scroller')
-    this.$scrollingBanner('.scroller')
+    // this.$scrollingBanner()
   }
 }
 </script>
