@@ -24,9 +24,12 @@ export default class extends Animation {
   textIn() {
     this.results[0].lines.forEach((line, lineIndex) => {
       line.forEach((word, wordIndex) => {
+        gsap.set(this.element, {
+          opacity: 1
+        })
         gsap.from(word, {
           autoAlpha: 0,
-          y: 50,
+          y: 0,
           delay: lineIndex * 0.2 + wordIndex * 0.02 + 0.5
         })
       })

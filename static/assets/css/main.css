@@ -26,9 +26,9 @@ a {
   opacity: 0;
 }
 
-/* .lines {
-  overflow: hidden !important;
-} */
+[data-paragraph] {
+  opacity: 0;
+}
 
 .outline-text {
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
@@ -44,62 +44,6 @@ a {
 
 .c-slider-control__btn.is-disabled > .btn-dot {
   background: #fff1d1;
-}
-
-/*Global Slider Styles*/
-.splide__container {
-  position: relative;
-  box-sizing: border-box;
-}
-
-.splide__list {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: -webkit-max-content;
-  width: max-content;
-  will-change: transform;
-}
-
-.splide__pagination li {
-  list-style-type: none;
-  display: none;
-  line-height: 1;
-  margin: 0;
-}
-
-.splide,
-.splide__slide {
-  position: relative;
-  outline: none;
-}
-
-.splide__slide {
-  box-sizing: border-box;
-  list-style-type: none !important;
-  margin: 0;
-  flex-shrink: 0;
-}
-
-.splide__slider {
-  position: relative;
-}
-
-.splide__track {
-  position: relative;
-  z-index: 0;
-}
-
-.splide--draggable > .splide__track > .splide__list > .splide__slide {
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-/* .splide__arrows {
-  display: none;
-} */
-
-.splide.c-testimonials__slider {
-  padding-right: 80px;
 }
 
 .has-scroll-smooth body {

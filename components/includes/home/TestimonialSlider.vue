@@ -76,6 +76,8 @@
         <template #role> Founder </template>
         <template #company> Marika Beroukas </template>
       </testimonial>
+
+      <div class="dummy-block"></div>
     </div>
 
     <div class="c-slider-controls desktop-hide">
@@ -158,5 +160,9 @@ export default {
 }
 .c-slider-control__btn.is-disabled {
   pointer-events: none;
+}
+.dummy-block {
+  flex: 0 0 auto;
+  width: 1px;
 }
 </style>
