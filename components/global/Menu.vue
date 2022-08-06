@@ -67,10 +67,6 @@ export default {
 </script>
 
 <style scoped>
-/* .c-menu {
-  pointer-events: none;
-} */
-
 .c-menu__link,
 .c-menu__sub-link {
   transform: translateY(70px);
@@ -79,11 +75,6 @@ export default {
 .c-menu__social-link {
   opacity: 0;
 }
-
-/* .c-menu__link {
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-} */
 .c-menu__link:hover {
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1.25px;

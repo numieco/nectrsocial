@@ -78,8 +78,7 @@ export default class extends Component {
         scroller: this.element,
         start: 'top 90%',
         trigger: '.banner-section',
-        scrub: 4
-        // markers: true
+        scrub: 2.5
       },
       xPercent: -80,
       ease: 'none'
@@ -89,7 +88,7 @@ export default class extends Component {
         scroller: this.element,
         start: 'top 90%',
         trigger: '.banner-section',
-        scrub: 4
+        scrub: 2.5
       },
       xPercent: -80,
       ease: 'none'

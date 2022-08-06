@@ -26,7 +26,7 @@ export default class extends Animation {
       line.forEach((word, wordIndex) => {
         gsap.from(word, {
           autoAlpha: 0,
-          y: 15,
+          y: 50,
           delay: lineIndex * 0.2 + wordIndex * 0.02 + 0.5
         })
       })

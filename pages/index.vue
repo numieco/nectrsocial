@@ -3,6 +3,7 @@
     <Header blue-bg />
 
     <div class="scroller">
+      <!-- Done -->
       <div class="l-section hero-section">
         <div class="l-container">
           <div class="hero-block__wrapper">
@@ -46,6 +47,7 @@
         </div>
       </div>
 
+      <!-- Done -->
       <div class="l-section banner-section">
         <div class="c-scrolling-tape">
           <div class="c-scrolling-tape__item">
@@ -91,185 +93,11 @@
         </div>
       </div>
 
-      <div class="l-section">
-        <div class="l-container flex-container">
-          <div>
-            <h2 data-paragraph>Client Showcase</h2>
-            <h4 class="neutral-text" data-paragraph>
-              50+ businesses have trusted us, US!
-            </h4>
-          </div>
-          <div class="c-showcase-grid">
-            <div class="c-showcase-grid__item">
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/ably-logo.png"/>
-              </div>
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/ssrta.png"/>
-              </div>
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/skin-perfect.png"/>
-              </div>
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/birch-road.png"/>
-              </div>
-            </div>
-            <div class="c-showcase-grid__item invert">
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/frost.png"/>
-              </div>
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/sdc.png"/>
-              </div>
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/bricksneed.png"/>
-              </div>
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-              </div>
-              <div class="c-showcase__block mobile-hide">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-              </div>
-              <div class="c-showcase__block mobile-hide">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-              </div>
-              <div class="c-showcase__block mobile-hide">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-              </div>
-              <div class="c-showcase__block mobile-hide">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-              </div>
-            </div>
-            <div class="c-showcase-grid__item">
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/salish.png"/>
-              </div>
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/ombraz.png"/>
-              </div>
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/lens.png"/>
-              </div>
-              <div class="c-showcase__block">
-                <img
-                  class="c-showcase-logo"
-                  loading="lazy"
-                  src="/assets/images/shroomy.png"/>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- Done -->
+      <ClientShowcase />
 
-      <div class="l-section no-padding">
-        <div class="l-section__header">
-          <div class="l-container">
-            <div class="c-section-header">
-              <div>
-                <h2 data-paragraph>Our Portfolio</h2>
-                <h4 class="neutral-text" data-paragraph>
-                  Here are some selected case studies from our favorite
-                  projects.
-                </h4>
-              </div>
-              <div class="c-slider-controls mobile-hide">
-                <div class="c-slider-control__btn slider-prev is-disabled">
-                  <div class="btn-dot"></div>
-                  <div>Previous</div>
-                </div>
-                <div class="c-slider-control__btn slider-next">
-                  <div>Next</div>
-                  <div class="btn-dot next"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="c-slider portfolio-slider">
-          <casestudy
-            img-src="/assets/images/casestudy-img-1.jpg"
-            link="/portfolio/qnightclub">
-            <template #casestudy-name> QNightClub </template>
-            <template #casestudy-details> Sold Out Shows </template>
-          </casestudy>
-
-          <casestudy
-            img-src="/assets/images/casestudy-img-2.jpg"
-            link="/portfolio/keep-your-city-smiling">
-            <template #casestudy-name> Keep Your City Smiling </template>
-            <template #casestudy-details> The Big Pivot </template>
-          </casestudy>
-
-          <casestudy
-            img-src="/assets/images/casestudy-img-3.jpg"
-            link="/portfolio/ombraz-sunglasses">
-            <template #casestudy-name> Ombraz Sunglasses </template>
-            <template #casestudy-details> 3.5x Return on Ad Spend </template>
-          </casestudy>
-
-          <casestudy
-            img-src="/assets/images/casestudy-img-4.jpg"
-            link="/portfolio/frost">
-            <template #casestudy-name> Frost </template>
-            <template #casestudy-details> Driving Foot Traffic </template>
-          </casestudy>
-
-          <casestudy
-            img-src="/assets/images/casestudy-img-6.jpg"
-            link="/portfolio/ably">
-            <template #casestudy-name> Ably </template>
-            <template #casestudy-details>
-              From 0 to 40k Instagram Followers
-            </template>
-          </casestudy>
-        </div>
-        <c-button btn-text="View all case studies" centered link="/portfolio" />
-      </div>
+      <!-- Done -->
+      <PortfolioSlider />
 
       <!-- Done -->
       <div class="l-section no-padding">
@@ -348,77 +176,8 @@
         </div>
       </div>
 
-      <div class="l-section no-padding">
-        <div class="l-section__header">
-          <div class="l-container">
-            <div class="c-section-header">
-              <div>
-                <h2 data-paragraph>Meet the Charm</h2>
-                <h4 class="neutral-text" data-paragraph>
-                  3-5 teeing up the team, different perspectives, diverse group
-                  of personals .
-                </h4>
-              </div>
-              <div class="c-slider-controls mobile-hide">
-                <div class="c-slider-control__btn slider-prev is-disabled">
-                  <div class="btn-dot"></div>
-                  <div>Previous</div>
-                </div>
-                <div class="c-slider-control__btn slider-next">
-                  <div>Next</div>
-                  <div class="btn-dot next"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="c-slider team-slider">
-          <team-member img-src="/assets/images/team-img-1.jpg" small>
-            <template #name> Zak Kosher </template>
-            <template #role> Founder </template>
-          </team-member>
-
-          <team-member img-src="/assets/images/team-img-2.jpg" small>
-            <template #name> Dylan Rabinowitz </template>
-            <template #role> Director Of Client Services </template>
-          </team-member>
-
-          <team-member img-src="/assets/images/team-img-3.jpg" small>
-            <template #name> Kortney Gloska </template>
-            <template #role> Creative Lead </template>
-          </team-member>
-
-          <team-member img-src="/assets/images/team-img-4.jpg" small>
-            <template #name> Jonathan Ochoa </template>
-            <template #role> Social Media Manager </template>
-          </team-member>
-
-          <team-member img-src="/assets/images/team-img-5.jpg" small>
-            <template #name> Gianna Chen </template>
-            <template #role> Field Social Media Manager </template>
-          </team-member>
-
-          <team-member img-src="/assets/images/team-img-6.jpg" small>
-            <template #name> Tiare Bowman </template>
-            <template #role> Social Media Marketing Manager </template>
-          </team-member>
-
-          <team-member img-src="/assets/images/team-img-7.jpg" small>
-            <template #name> Ashley Forst </template>
-            <template #role> Organic Social Media Manager </template>
-          </team-member>
-
-          <team-member img-src="/assets/images/team-img-8.jpg" small>
-            <template #name> Apa </template>
-            <template #role> Dylan's Dog </template>
-          </team-member>
-        </div>
-        <c-button
-          btn-text="Join the team!"
-          centered
-          hide-on-mobile
-          link="/careers"/>
-      </div>
+      <!-- Done -->
+      <TeamSlider />
 
       <!-- Done -->
       <div class="l-section no-padding">
@@ -438,95 +197,7 @@
         </div>
       </div>
 
-      <div class="l-section no-padding">
-        <div class="l-section__header">
-          <div class="l-container">
-            <div class="c-section-header">
-              <div>
-                <h2 data-paragraph>Words of Validation</h2>
-                <h4 class="neutral-text" data-paragraph>
-                  Here’s what some of the amazing clients we’ve worked with have
-                  to say!
-                </h4>
-              </div>
-              <div class="c-slider-controls mobile-hide">
-                <div class="c-slider-control__btn slider-prev is-disabled">
-                  <div class="btn-dot"></div>
-                  <div>Previous</div>
-                </div>
-                <div class="c-slider-control__btn slider-next">
-                  <div>Next</div>
-                  <div class="btn-dot next"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="c-slider testimonial-slider">
-          <testimonial logo="/assets/images/testimonial-img-1.png">
-            <template #content>
-              In 3 months, our overall return on ad spend has doubled. Since
-              then we&#x27;ve continued to scale our ad spend at profit.
-              Communication is always great and the results speak for
-              themselves.
-            </template>
-            <template #name> Jensen Brehm </template>
-            <template #role> Co-founder </template>
-            <template #company> Ombraz Sunglasses </template>
-          </testimonial>
-
-          <testimonial black logo="/assets/images/testimonial-img-2.png">
-            <template #content>
-              Working with Nectr Social meant less stress for our team! They
-              were responsive and reliable, and flexed to fit our ever-changing
-              needs.
-            </template>
-            <template #name> Liza Sankar-Gorton </template>
-            <template #role> Social Media Strategist </template>
-            <template #company> Green Rubino </template>
-          </testimonial>
-
-          <testimonial logo="/assets/images/ably-logo.png">
-            <template #content>
-              We&#x27;ve been working with Nectr Social and its principals for 3
-              years now, and we could not be more pleased. Nectr is clearly the
-              #1 social agency in Seattle, and quite possibly well beyond.
-            </template>
-            <template #name> Bobby Frank </template>
-            <template #role> COO </template>
-            <template #company> Ably Apparel </template>
-          </testimonial>
-
-          <testimonial black logo="/assets/images/placeholder.svg">
-            <template #content>
-              The team at Nectr has been an incredible partner in strategy and
-              campaign management for myself and my clients. They are thoughtful
-              and results-driven, and I would highly recommend their services!
-            </template>
-            <template #name> Marika Beroukas </template>
-            <template #role> Founder </template>
-            <template #company> Marika Beroukas </template>
-          </testimonial>
-        </div>
-
-        <div class="c-slider-controls desktop-hide">
-          <div class="c-slider-control__btn slider-prev is-disabled">
-            <div class="btn-dot"></div>
-            <div>Previous</div>
-          </div>
-          <div class="c-slider-control__btn slider-next">
-            <div>Next</div>
-            <div class="btn-dot next"></div>
-          </div>
-        </div>
-
-        <div class="c-slider-progress">
-          <div class="c-slider-progress_bar">
-            <div class="c-slider-progress__inner"></div>
-          </div>
-        </div>
-      </div>
+      <TestimonialSlider />
 
       <Footer />
     </div>
@@ -538,7 +209,6 @@ export default {
   data() {
     return {}
   },
-
   head() {
     return {
       htmlAttrs: {
@@ -548,7 +218,6 @@ export default {
       meta: [...this.meta]
     }
   },
-
   computed: {
     meta() {
       return this.mxMetaUtils({
@@ -556,16 +225,13 @@ export default {
         description: this.description
       })
     },
-
     description() {
       return ''
     },
-
     title() {
       return 'NectrSocial'
     }
   },
-
   mounted() {
     // eslint-disable-next-line no-new
     new this.$pageAnimation('.scroller')
