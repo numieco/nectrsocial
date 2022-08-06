@@ -29,7 +29,7 @@ export default class extends Animation {
         })
         gsap.from(word, {
           autoAlpha: 0,
-          y: 0,
+          y: 20,
           delay: lineIndex * 0.2 + wordIndex * 0.02 + 0.5
         })
       })

@@ -18,7 +18,6 @@ export default class extends Component {
 
     this.initScroll()
     this.createAnimations()
-    this.banner()
     this.footer()
     this.height = this.element.offsetHeight
   }
@@ -58,9 +57,7 @@ export default class extends Component {
     this.locoScroll.on('scroll', function () {
       ScrollTrigger.update()
     })
-
-    // ScrollTrigger.addEventListener('refresh', () => this.locoScroll.update())
-
+    window.addEventListener('resize', ScrollTrigger.update())
     ScrollTrigger.refresh()
   }
 
@@ -69,30 +66,6 @@ export default class extends Component {
       this.elements.paragraphs.forEach((element) => {
         return new Paragraph({ element })
       })
-  }
-
-  banner() {
-    const tl = gsap.timeline()
-    tl.to('.c-scrolling-tape__inner.one', {
-      scrollTrigger: {
-        scroller: this.element,
-        start: 'top 90%',
-        trigger: '.banner-section',
-        scrub: 2.5
-      },
-      xPercent: -80,
-      ease: 'none'
-    })
-    tl.from('.c-scrolling-tape__inner.two', {
-      scrollTrigger: {
-        scroller: this.element,
-        start: 'top 90%',
-        trigger: '.banner-section',
-        scrub: 2.5
-      },
-      xPercent: -80,
-      ease: 'none'
-    })
   }
 
   footer() {

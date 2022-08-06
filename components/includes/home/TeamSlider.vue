@@ -30,42 +30,66 @@
       </div>
     </div>
     <div ref="teamSlider" class="c-slider team-slider" @scroll="checkScroll">
-      <team-member img-src="/assets/images/team-img-1.jpg" small>
+      <team-member
+        img-src-one="/assets/images/team-img-1.jpg"
+        img-src-two="/assets/images/team-img-2.jpg"
+        small>
         <template #name> Zak Kosher </template>
         <template #role> Founder </template>
       </team-member>
 
-      <team-member img-src="/assets/images/team-img-2.jpg" small>
+      <team-member
+        img-src-one="/assets/images/team-img-2.jpg"
+        img-src-two="/assets/images/team-img-4.jpg"
+        small>
         <template #name> Dylan Rabinowitz </template>
         <template #role> Director Of Client Services </template>
       </team-member>
 
-      <team-member img-src="/assets/images/team-img-3.jpg" small>
+      <team-member
+        img-src-one="/assets/images/team-img-3.jpg"
+        img-src-two="/assets/images/team-img-6.jpg"
+        small>
         <template #name> Kortney Gloska </template>
         <template #role> Creative Lead </template>
       </team-member>
 
-      <team-member img-src="/assets/images/team-img-4.jpg" small>
+      <team-member
+        img-src-one="/assets/images/team-img-4.jpg"
+        img-src-two="/assets/images/team-img-8.jpg"
+        small>
         <template #name> Jonathan Ochoa </template>
         <template #role> Social Media Manager </template>
       </team-member>
 
-      <team-member img-src="/assets/images/team-img-5.jpg" small>
+      <team-member
+        img-src-one="/assets/images/team-img-5.jpg"
+        img-src-two="/assets/images/team-img-1.jpg"
+        small>
         <template #name> Gianna Chen </template>
         <template #role> Field Social Media Manager </template>
       </team-member>
 
-      <team-member img-src="/assets/images/team-img-6.jpg" small>
+      <team-member
+        img-src-one="/assets/images/team-img-6.jpg"
+        img-src-two="/assets/images/team-img-3.jpg"
+        small>
         <template #name> Tiare Bowman </template>
         <template #role> Social Media Marketing Manager </template>
       </team-member>
 
-      <team-member img-src="/assets/images/team-img-7.jpg" small>
+      <team-member
+        img-src-one="/assets/images/team-img-7.jpg"
+        img-src-two="/assets/images/team-img-5.jpg"
+        small>
         <template #name> Ashley Forst </template>
         <template #role> Organic Social Media Manager </template>
       </team-member>
 
-      <team-member img-src="/assets/images/team-img-8.jpg" small>
+      <team-member
+        img-src-one="/assets/images/team-img-8.jpg"
+        img-src-two="/assets/images/team-img-7.jpg"
+        small>
         <template #name> Apa </template>
         <template #role> Dylan's Dog </template>
       </team-member>
@@ -85,6 +109,10 @@ export default {
       hasScrolled: false,
       doneScrolling: false
     }
+  },
+
+  mounted() {
+    this.$autoScroll(this.$refs.teamSlider)
   },
 
   methods: {

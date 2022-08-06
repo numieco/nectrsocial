@@ -99,7 +99,7 @@
 
     <div class="c-slider-progress">
       <div class="c-slider-progress_bar">
-        <div class="c-slider-progress__inner"></div>
+        <div ref="progress" class="c-slider-progress__inner"></div>
       </div>
     </div>
   </div>
@@ -114,11 +114,16 @@ export default {
     }
   },
 
+  mounted() {
+    this.progressBar()
+  },
+
   methods: {
     checkScroll() {
       if (this.$refs.tesSlider.scrollLeft > 0) {
         this.hasScrolled = true
       } else this.hasScrolled = false
+      this.progressBar()
 
       if (
         this.$refs.tesSlider.offsetWidth + this.$refs.tesSlider.scrollLeft >=
@@ -126,6 +131,7 @@ export default {
       ) {
         this.doneScrolling = true
       } else this.doneScrolling = false
+      this.progressBar()
     },
 
     scrollRight() {
@@ -138,6 +144,17 @@ export default {
       const testimonial = document.querySelector('.c-testimonial')
       const testimonialWidth = testimonial.clientWidth + 44
       this.$slideLeft(this.$refs.tesSlider, testimonialWidth)
+    },
+
+    progressBar() {
+      // eslint-disable-next-line prefer-const
+      let percent =
+        ((this.$refs.tesSlider.offsetWidth + this.$refs.tesSlider.scrollLeft) /
+          this.$refs.tesSlider.scrollWidth) *
+          100 +
+        '%'
+
+      this.$refs.progress.style.width = percent
     }
   }
 }

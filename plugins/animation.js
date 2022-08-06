@@ -8,6 +8,108 @@ gsap.registerPlugin(ScrollToPlugin)
 Vue.prototype.$pageAnimation = Animations
 Vue.prototype.$gsap = gsap
 
+Vue.prototype.$banner = (_scroller) => {
+  const mql = window.matchMedia('(max-width: 767px)')
+  function mqlBanner(e) {
+    if (e.matches) {
+      const tl = gsap.timeline()
+      tl.to('.c-scrolling-tape__inner.one', {
+        scrollTrigger: {
+          scroller: _scroller,
+          start: 'top 90%',
+          trigger: '.banner-section',
+          scrub: 2.5
+        },
+        xPercent: -35,
+        ease: 'none'
+      })
+      tl.from('.c-scrolling-tape__inner.two', {
+        scrollTrigger: {
+          scroller: _scroller,
+          start: 'top 90%',
+          trigger: '.banner-section',
+          scrub: 2.5
+        },
+        xPercent: -35,
+        ease: 'none'
+      })
+    } else {
+      const tl = gsap.timeline()
+      tl.to('.c-scrolling-tape__inner.one', {
+        scrollTrigger: {
+          scroller: _scroller,
+          start: 'top 90%',
+          trigger: '.banner-section',
+          scrub: 2.5
+        },
+        xPercent: -80,
+        ease: 'none'
+      })
+      tl.from('.c-scrolling-tape__inner.two', {
+        scrollTrigger: {
+          scroller: _scroller,
+          start: 'top 90%',
+          trigger: '.banner-section',
+          scrub: 2.5
+        },
+        xPercent: -80,
+        ease: 'none'
+      })
+    }
+  }
+  mql.addListener(mqlBanner)
+  mqlBanner(mql)
+}
+
+Vue.prototype.$scrollingLogos = () => {
+  const mql = window.matchMedia('(max-width: 767px)')
+  function mqlLogos(e) {
+    if (e.matches) {
+      const wrapper = document.querySelector('.c-showcase-grid__item')
+      const wrapperHeight = wrapper.scrollHeight
+      const tl = gsap.timeline()
+      tl.to('.c-showcase-grid__item.normal', {
+        y: -wrapperHeight - 24,
+        duration: 15,
+        repeat: -1,
+        ease: 'none'
+      })
+      tl.from(
+        '.c-showcase-grid__item.invert',
+        {
+          y: -wrapperHeight + 20,
+          duration: 15,
+          repeat: -1,
+          ease: 'none'
+        },
+        '<'
+      )
+    } else {
+      const wrapper = document.querySelector('.c-showcase-grid__item')
+      const wrapperHeight = wrapper.scrollHeight
+      const tl = gsap.timeline()
+      tl.to('.c-showcase-grid__item.normal', {
+        y: -wrapperHeight - 44,
+        duration: 15,
+        repeat: -1,
+        ease: 'none'
+      })
+      tl.from(
+        '.c-showcase-grid__item.invert',
+        {
+          y: -wrapperHeight,
+          duration: 15,
+          repeat: -1,
+          ease: 'none'
+        },
+        '<'
+      )
+    }
+  }
+  mql.addListener(mqlLogos)
+  mqlLogos(mql)
+}
+
 Vue.prototype.$slideRight = (el, width) => {
   gsap.to(el, {
     duration: 0.75,
@@ -26,4 +128,38 @@ Vue.prototype.$slideLeft = (el, width) => {
     },
     ease: 'power2.inOut'
   })
+}
+
+Vue.prototype.$autoScroll = (el) => {
+  const mql = window.matchMedia('(max-width: 767px)')
+  const tl = gsap.timeline()
+  function mqlScroll(e) {
+    if (e.matches) {
+      tl.to(el, {
+        duration: 20,
+        scrollTo: {
+          x: 'max'
+        },
+        ease: 'none'
+      })
+      tl.to(
+        el,
+        {
+          duration: 20,
+          scrollTo: {
+            x: 0
+          },
+          ease: 'none'
+        },
+        '>'
+      )
+      tl.play()
+      tl.repeat(-1)
+    } else {
+      tl.seek(0)
+      tl.pause()
+    }
+  }
+  mql.addListener(mqlScroll)
+  mqlScroll(mql)
 }

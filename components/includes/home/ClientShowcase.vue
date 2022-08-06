@@ -178,31 +178,7 @@
 <script>
 export default {
   mounted() {
-    this.scrollingLogos()
-  },
-
-  methods: {
-    scrollingLogos() {
-      const wrapper = document.querySelector('.c-showcase-grid__item')
-      const wrapperHeight = wrapper.scrollHeight
-      const tl = this.$gsap.timeline()
-      tl.to('.c-showcase-grid__item.normal', {
-        y: -wrapperHeight - 48,
-        duration: 15,
-        repeat: -1,
-        ease: 'none'
-      })
-      tl.from(
-        '.c-showcase-grid__item.invert',
-        {
-          y: -wrapperHeight,
-          duration: 15,
-          repeat: -1,
-          ease: 'none'
-        },
-        '<'
-      )
-    }
+    this.$scrollingLogos()
   }
 }
 </script>
