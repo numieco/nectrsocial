@@ -39,61 +39,121 @@
           </div>
 
           <div class="c-network__slider">
-            <div class="c-network__slide">
-              <img
-                alt=""
-                class="cover-image"
-                loading="lazy"
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+            <div class="c-network__slide-wrapper">
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
             </div>
-            <div class="c-network__slide">
-              <img
-                alt=""
-                class="cover-image"
-                loading="lazy"
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-            </div>
-            <div class="c-network__slide">
-              <img
-                alt=""
-                class="cover-image"
-                loading="lazy"
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-            </div>
-            <div class="c-network__slide">
-              <img
-                alt=""
-                class="cover-image"
-                loading="lazy"
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-            </div>
-            <div class="c-network__slide">
-              <img
-                alt=""
-                class="cover-image"
-                loading="lazy"
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-            </div>
-            <div class="c-network__slide">
-              <img
-                alt=""
-                class="cover-image"
-                loading="lazy"
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-            </div>
-            <div class="c-network__slide">
-              <img
-                alt=""
-                class="cover-image"
-                loading="lazy"
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-            </div>
-            <div class="c-network__slide">
-              <img
-                alt=""
-                class="cover-image"
-                loading="lazy"
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+            <div class="c-network__slide-wrapper">
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
+              <div class="c-network__slide">
+                <img
+                  alt=""
+                  class="cover-image"
+                  loading="lazy"
+                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+              </div>
             </div>
           </div>
 
@@ -156,6 +216,34 @@ export default {
   mounted() {
     // eslint-disable-next-line no-new
     new this.$pageAnimation('.scroller')
+    this.networkSlider()
+  },
+
+  methods: {
+    networkSlider() {
+      const wrapper = document.querySelector('.c-network__slide-wrapper')
+      const wrapperWidth = wrapper.scrollWidth
+      console.log(wrapperWidth)
+      const tl = this.$gsap.timeline()
+      tl.to('.c-network__slide-wrapper', {
+        x: -wrapperWidth,
+        duration: 30,
+        repeat: -1,
+        ease: 'none'
+      })
+    }
   }
 }
 </script>
+
+<style scoped>
+.c-network__slider {
+  overflow: hidden;
+}
+.c-network__slide-wrapper {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+</style>
