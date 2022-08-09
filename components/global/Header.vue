@@ -2,10 +2,16 @@
   <div class="c-nav">
     <nuxt-link aria-current="page" class="c-nav__link" to="/">
       <img
-        v-if="mutableInvert && !blueBg"
-        class="c-nav__logo"
+        class="c-nav__logo absolute"
         src="/assets/images/Logo---New---Black.svg"/>
-      <img v-else class="c-nav__logo" src="/assets/images/Logo---New.svg" />
+      <img
+        v-if="mutableInvert && !blueBg"
+        class="c-nav__logo normal"
+        src="/assets/images/Logo---New---Black.svg"/>
+      <img
+        v-else
+        class="c-nav__logo normal"
+        src="/assets/images/Logo---New.svg"/>
     </nuxt-link>
     <div
       class="c-nav__btn"
@@ -56,6 +62,20 @@ export default {
 </script>
 
 <style scoped>
+.c-nav {
+  background-color: #ffffff;
+}
+.c-nav__link {
+  position: relative;
+}
+.c-nav__logo.absolute {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 .c-nav__hamburger {
   transition-property: margin-left;
   transition-duration: 250ms;

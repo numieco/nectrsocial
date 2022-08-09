@@ -70,15 +70,11 @@ export default {
     },
 
     leave(el, done) {
-      gsap.to(
-        '.c-menu__link',
-        {
-          y: 15,
-          autoAlpha: 0,
-          stagger: 0.1
-        },
-        '<+0.1'
-      )
+      gsap.to('.c-menu__link', {
+        y: 15,
+        autoAlpha: 0,
+        stagger: 0.1
+      })
 
       gsap.to(
         el,
@@ -92,9 +88,7 @@ export default {
 
     closeMenu() {
       this.$store.commit('toggleMenu', false)
-    },
-
-    restartSmoothScroll() {}
+    }
   }
 }
 </script>

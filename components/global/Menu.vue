@@ -94,7 +94,8 @@
 export default {
   computed: {
     menuOpen() {
-      return this.$store.state.menuOpen
+      // return this.$store.state.menuOpen
+      return this.$store.getters.menuState
     }
   },
 

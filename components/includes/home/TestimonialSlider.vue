@@ -165,6 +165,9 @@ export default {
   pointer-events: none;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  max-width: 1550px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .c-testimonial {
   pointer-events: auto;

@@ -3,7 +3,6 @@
     <Header blue-bg />
 
     <div class="scroller">
-      <!-- Done -->
       <div class="l-section hero-section">
         <div class="l-container">
           <div class="hero-block__wrapper">
@@ -47,7 +46,6 @@
         </div>
       </div>
 
-      <!-- Done -->
       <div class="l-section banner-section">
         <div class="c-scrolling-tape">
           <div class="c-scrolling-tape__item">
@@ -93,13 +91,10 @@
         </div>
       </div>
 
-      <!-- Done -->
       <ClientShowcase />
 
-      <!-- Done -->
       <PortfolioSlider />
 
-      <!-- Done -->
       <div class="l-section no-padding">
         <div class="c-services">
           <div class="l-container sm-container">
@@ -176,10 +171,8 @@
         </div>
       </div>
 
-      <!-- Done -->
       <TeamSlider />
 
-      <!-- Done -->
       <div class="l-section no-padding">
         <div class="c-cta">
           <div class="l-container flex-container centralized">
@@ -197,7 +190,6 @@
         </div>
       </div>
 
-      <!-- Done -->
       <TestimonialSlider />
 
       <Footer />
@@ -236,6 +228,8 @@ export default {
   mounted() {
     // eslint-disable-next-line no-new
     new this.$pageAnimation('.scroller')
+    // this.$invertNav('.scroller', '.l-section.hero-section')
+    // this.$revertNav('.scroller', '.c-services')
     this.$banner('.scroller')
   }
 }

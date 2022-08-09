@@ -1,7 +1,6 @@
 <template>
   <div>
     <Header blue-bg />
-
     <div class="scroller">
       <div class="l-section hero-section small">
         <div class="l-container">
@@ -223,7 +222,6 @@ export default {
     networkSlider() {
       const wrapper = document.querySelector('.c-network__slide-wrapper')
       const wrapperWidth = wrapper.scrollWidth
-      console.log(wrapperWidth)
       const tl = this.$gsap.timeline()
       tl.to('.c-network__slide-wrapper', {
         x: -wrapperWidth,
