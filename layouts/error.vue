@@ -6,9 +6,9 @@
       <div class="error-icon">
         <img loading="lazy" src="/assets/images/error.svg" />
       </div>
-      <h1 data-paragraph>Did you get lost?</h1>
+      <h1>Did you get lost?</h1>
       <div class="c-error-block">
-        <h5 data-paragraph>
+        <h5>
           You can go back to the home page (click our logo) or check out any of
           these other pages.
         </h5>

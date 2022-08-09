@@ -62,9 +62,6 @@ export default {
 </script>
 
 <style scoped>
-.c-nav {
-  background-color: #ffffff;
-}
 .c-nav__link {
   position: relative;
 }
