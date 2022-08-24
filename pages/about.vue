@@ -69,57 +69,57 @@
         <div class="l-container">
           <div class="c-team__wrapper">
             <team-member
-              img-src-one="/assets/images/team-img-1.jpg"
-              img-src-two="/assets/images/team-img-2.jpg">
+              img-src-one="/assets/images/Zak-img.jpg"
+              img-src-two="/assets/images/Zak-hover.jpg">
               <template #name> Zak Kosher </template>
               <template #role> Founder </template>
             </team-member>
 
             <team-member
-              img-src-one="/assets/images/team-img-2.jpg"
+              img-src-one="/assets/images/Dylan.jpg"
               img-src-two="/assets/images/team-img-4.jpg">
               <template #name> Dylan Rabinowitz </template>
               <template #role> Director Of Client Services </template>
             </team-member>
 
             <team-member
-              img-src-one="/assets/images/team-img-3.jpg"
-              img-src-two="/assets/images/team-img-6.jpg">
+              img-src-one="/assets/images/Kortney1.jpg"
+              img-src-two="/assets/images/Kortney2-hover.jpg">
               <template #name> Kortney Gloska </template>
               <template #role> Creative Lead </template>
             </team-member>
 
             <team-member
-              img-src-one="/assets/images/team-img-4.jpg"
-              img-src-two="/assets/images/team-img-8.jpg">
+              img-src-one="/assets/images/Jon-01.jpg"
+              img-src-two="/assets/images/Jon-hover.jpg">
               <template #name> Jonathan Ochoa </template>
               <template #role> Social Media Manager </template>
             </team-member>
 
             <team-member
-              img-src-one="/assets/images/team-img-5.jpg"
-              img-src-two="/assets/images/team-img-1.jpg">
+              img-src-one="/assets/images/Gianna 01.jpg"
+              img-src-two="/assets/images/Gianna-hover.jpg">
               <template #name> Gianna Chen </template>
               <template #role> Field Social Media Manager </template>
             </team-member>
 
             <team-member
-              img-src-one="/assets/images/team-img-6.jpg"
-              img-src-two="/assets/images/team-img-3.jpg">
+              img-src-one="/assets/images/Tiare1.jpg"
+              img-src-two="/assets/images/Tiare-hover.jpg">
               <template #name> Tiare Bowman </template>
               <template #role> Social Media Marketing Manager </template>
             </team-member>
 
             <team-member
-              img-src-one="/assets/images/team-img-7.jpg"
-              img-src-two="/assets/images/team-img-5.jpg">
+              img-src-one="/assets/images/Ashley 01.jpg"
+              img-src-two="/assets/images/Ashley-hover.jpg">
               <template #name> Ashley Forst </template>
               <template #role> Organic Social Media Manager </template>
             </team-member>
 
             <team-member
-              img-src-one="/assets/images/team-img-8.jpg"
-              img-src-two="/assets/images/team-img-7.jpg">
+              img-src-one="/assets/images/Appa 02.jpg"
+              img-src-two="/assets/images/Appa-hover.jpg">
               <template #name> Apa </template>
               <template #role> Dylan's Dog </template>
             </team-member>

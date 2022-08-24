@@ -127,61 +127,69 @@
       </div>
 
       <div class="l-section">
-        <div class="l-section__header no-padding">
-          <div class="l-container">
-            <div
-              class="c-section-header"
-              :class="caseStudyLength <= 2 ? 'even' : ''">
-              <div>
-                <h2 data-paragraph>Related Case Studies</h2>
-                <h4 class="neutral-text" data-paragraph>
-                  Check out some of the case studies related to this capability.
-                </h4>
-              </div>
-              <div
-                v-if="caseStudyLength > 3"
-                class="c-slider-controls mobile-hide">
-                <div class="c-slider-control__btn slider-prev is-disabled">
-                  <div class="btn-dot"></div>
-                  <div>Previous</div>
-                </div>
-                <div class="c-slider-control__btn slider-next">
-                  <div>Next</div>
-                  <div class="btn-dot next"></div>
-                </div>
-              </div>
+        <div class="l-container">
+          <div class="c-faq">
+            <div class="c-faq__header">
+              <h2 data-paragraph>Frequently Asked Questions</h2>
+            </div>
+            <div class="c-faq__list">
+              <faq-accordion>
+                <template #title>
+                  Will I have access to this content to use elsewhere?
+                </template>
+                <template #content>
+                  Yes, we’ll send you the files, feel free to use them for other
+                  purposes.
+                </template>
+              </faq-accordion>
+
+              <faq-accordion>
+                <template #title> Who will be creating these videos? </template>
+                <template #content>
+                  Our team of micro-influencers will be handling the creation of
+                  these videos, ensuring authenticity in our UGC-style content.
+                </template>
+              </faq-accordion>
+
+              <faq-accordion>
+                <template #title>
+                  What if I don’t have a TikTok, does this package still work?
+                </template>
+                <template #content>Yes! We’ll walk you through how to create your account and
+                  get rolling.
+                </template>
+              </faq-accordion>
             </div>
           </div>
         </div>
-        <div class="l-container">
-          <div
-            class="c-casestudy__wrapper related"
-            :class="caseStudyLength <= 2 ? 'even' : ''">
-            <casestudy
-              img-src="/assets/images/hero-img-4.jpg"
-              link="/portfolio/keep-your-city-smiling">
-              <template #casestudy-name> Keep Your City Smiling </template>
-              <template #casestudy-details> The Big Pivot </template>
-            </casestudy>
-
-            <casestudy
-              img-src="/assets/images/casestudy-img-6.jpg"
-              link="/portfolio/ably">
-              <template #casestudy-name> Ably </template>
-              <template #casestudy-details>
-                From 0 to 40k Instagram Followers
-              </template>
-            </casestudy>
-
-            <casestudy
-              img-src="/assets/images/casestudy-img-1.jpg"
-              link="/portfolio/qnightclub">
-              <template #casestudy-name> QNightClub </template>
-              <template #casestudy-details> Sold Out Shows </template>
-            </casestudy>
-          </div>
-        </div>
       </div>
+
+      <RelatedSlider>
+        <template #casestudies>
+          <casestudy
+            img-src="/assets/images/hero-img-4.jpg"
+            link="/portfolio/keep-your-city-smiling">
+            <template #casestudy-name> Keep Your City Smiling </template>
+            <template #casestudy-details> The Big Pivot </template>
+          </casestudy>
+
+          <casestudy
+            img-src="/assets/images/casestudy-img-6.jpg"
+            link="/portfolio/ably">
+            <template #casestudy-name> Ably </template>
+            <template #casestudy-details>
+              From 0 to 40k Instagram Followers
+            </template>
+          </casestudy>
+
+          <casestudy
+            img-src="/assets/images/casestudy-img-1.jpg"
+            link="/portfolio/qnightclub">
+            <template #casestudy-name> QNightClub </template>
+            <template #casestudy-details> Sold Out Shows </template>
+          </casestudy>
+        </template>
+      </RelatedSlider>
 
       <Footer />
     </div>
@@ -190,12 +198,6 @@
 
 <script>
 export default {
-  data() {
-    return {
-      caseStudyLength: 0
-    }
-  },
-
   head() {
     return {
       htmlAttrs: {
@@ -205,7 +207,6 @@ export default {
       meta: [...this.meta]
     }
   },
-
   computed: {
     meta() {
       return this.mxMetaUtils({
@@ -213,26 +214,16 @@ export default {
         description: this.description
       })
     },
-
     description() {
       return ''
     },
-
     title() {
       return 'TikTok Account Management | NectrSocial'
     }
   },
-
   mounted() {
     // eslint-disable-next-line no-new
     new this.$pageAnimation('.scroller')
-    this.getCasestudyLength()
-  },
-
-  methods: {
-    getCasestudyLength() {
-      this.caseStudyLength = document.querySelectorAll('.c-casestudy').length
-    }
   }
 }
 </script>
@@ -240,13 +231,5 @@ export default {
 <style scoped>
 .l-section {
   overflow: hidden;
-}
-.c-casestudy__wrapper.related {
-  flex-wrap: nowrap;
-}
-.c-casestudy {
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: auto;
 }
 </style>

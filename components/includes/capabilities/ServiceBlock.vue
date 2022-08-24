@@ -36,3 +36,23 @@ export default {
   }
 }
 </script>
+
+<style>
+.c-service__link {
+  width: 100%;
+}
+
+.c-service__link > h6 {
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+}
+
+.right-arrow.service-arrow {
+  transition: margin 0.4s ease;
+}
+
+.c-service__link:hover > .right-arrow.service-arrow {
+  margin-left: 50px;
+}
+</style>

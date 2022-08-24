@@ -35,7 +35,7 @@
 
               <service-block
                 icon="/assets/images/goggle-ads.svg"
-                link="/capabilities/google-ads">
+                link="/capabilities/ads">
                 <template #service> Google Ads </template>
                 <template #service-details>
                   Show up where people are searching.
@@ -55,7 +55,7 @@
 
               <service-block
                 icon="/assets/images/fb-ad.svg"
-                link="/capabilities/facebook-instagram-ads">
+                link="/capabilities/ads">
                 <template #service> Facebook &amp; Instagram Ads </template>
                 <template #service-details>
                   Ad creation/distribution, copywriting, creative testing, and

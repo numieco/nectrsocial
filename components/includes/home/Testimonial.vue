@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="c-testimonial__details">
-        <div class="c-testimonial__logo">
+        <div v-if="logo" class="c-testimonial__logo">
           <img loading="lazy" :src="logo" />
         </div>
         <h4 class="alt-h4" data-paragraph>
@@ -36,8 +36,7 @@ export default {
   props: {
     black: Boolean,
     logo: {
-      type: String,
-      required: true
+      type: String
     }
   }
 }

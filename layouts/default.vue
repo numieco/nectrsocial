@@ -1,10 +1,6 @@
 <template>
   <div>
-    <transition
-      :css="false"
-      @before-enter="beforeEnter"
-      @enter="enter"
-      @leave="leave">
+    <transition :css="false" @before-enter="beforeEnter" @enter="enter">
       <Menu v-if="menuOpen" />
     </transition>
     <Nuxt />
@@ -69,22 +65,22 @@ export default {
       )
     },
 
-    leave(el, done) {
-      gsap.to('.c-menu__link', {
-        y: 15,
-        autoAlpha: 0,
-        stagger: 0.1
-      })
+    // leave(el, done) {
+    //   gsap.to('.c-menu__link', {
+    //     y: 15,
+    //     autoAlpha: 0,
+    //     stagger: 0.1
+    //   })
 
-      gsap.to(
-        el,
-        {
-          autoAlpha: 0,
-          onComplete: done
-        },
-        '<+0.45'
-      )
-    },
+    //   gsap.to(
+    //     el,
+    //     {
+    //       autoAlpha: 0,
+    //       onComplete: done
+    //     },
+    //     '<+0.45'
+    //   )
+    // },
 
     closeMenu() {
       this.$store.commit('toggleMenu', false)

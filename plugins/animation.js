@@ -8,77 +8,6 @@ gsap.registerPlugin(ScrollToPlugin)
 Vue.prototype.$pageAnimation = Animations
 Vue.prototype.$gsap = gsap
 
-// Vue.prototype.$invertNav = (_scroller, _trigger) => {
-//   const tl = gsap.timeline()
-//   tl.to('.c-nav', {
-//     scrollTrigger: {
-//       scroller: _scroller,
-//       start: 'bottom 0%',
-//       end: '+=10',
-//       trigger: _trigger,
-//       scrub: true
-//     },
-//     // background: '#0a151f',
-//     ease: 'none'
-//   })
-//   // tl.to('.c-nav__logo.absolute', {
-//   //   scrollTrigger: {
-//   //     scroller: _scroller,
-//   //     start: 'bottom 0%',
-//   //     end: '+=10',
-//   //     trigger: _trigger,
-//   //     scrub: true
-//   //   },
-//   //   opacity: 1,
-//   //   ease: 'none'
-//   // })
-//   // tl.to(
-//   //   '.c-nav__logo.normal',
-//   //   {
-//   //     scrollTrigger: {
-//   //       scroller: _scroller,
-//   //       start: 'bottom 0%',
-//   //       end: '+=10',
-//   //       trigger: _trigger,
-//   //       scrub: true
-//   //     },
-//   //     opacity: 0,
-//   //     ease: 'none'
-//   //   },
-//   //   '<'
-//   // )
-//   // tl.to(
-//   //   '.c-nav__btn',
-//   //   {
-//   //     scrollTrigger: {
-//   //       scroller: _scroller,
-//   //       start: 'bottom 0%',
-//   //       end: '+=10',
-//   //       trigger: _trigger,
-//   //       scrub: true
-//   //     },
-//   //     color: '#13293d',
-//   //     ease: 'none'
-//   //   },
-//   //   '<'
-//   // )
-//   // tl.to(
-//   //   '.hamburger-line',
-//   //   {
-//   //     scrollTrigger: {
-//   //       scroller: _scroller,
-//   //       start: 'bottom 0%',
-//   //       end: '+=10',
-//   //       trigger: _trigger,
-//   //       scrub: true
-//   //     },
-//   //     backgroundColor: '#13293d',
-//   //     ease: 'none'
-//   //   },
-//   //   '<'
-//   // )
-// }
-
 Vue.prototype.$banner = (_scroller) => {
   const mql = window.matchMedia('(max-width: 767px)')
   function mqlBanner(e) {
@@ -89,20 +18,20 @@ Vue.prototype.$banner = (_scroller) => {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5
+          scrub: 2.5,
         },
         xPercent: -35,
-        ease: 'none'
+        ease: 'none',
       })
       tl.from('.c-scrolling-tape__inner.two', {
         scrollTrigger: {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5
+          scrub: 2.5,
         },
         xPercent: -35,
-        ease: 'none'
+        ease: 'none',
       })
     } else {
       const tl = gsap.timeline()
@@ -111,20 +40,20 @@ Vue.prototype.$banner = (_scroller) => {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5
+          scrub: 2.5,
         },
-        xPercent: -80,
-        ease: 'none'
+        xPercent: -50,
+        ease: 'none',
       })
       tl.from('.c-scrolling-tape__inner.two', {
         scrollTrigger: {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5
+          scrub: 2.5,
         },
-        xPercent: -80,
-        ease: 'none'
+        xPercent: -50,
+        ease: 'none',
       })
     }
   }
@@ -141,17 +70,17 @@ Vue.prototype.$scrollingLogos = () => {
       const tl = gsap.timeline()
       tl.to('.c-showcase-grid__item.normal', {
         y: -wrapperHeight - 24,
-        duration: 15,
+        duration: 45,
         repeat: -1,
-        ease: 'none'
+        ease: 'none',
       })
       tl.from(
         '.c-showcase-grid__item.invert',
         {
           y: -wrapperHeight + 20,
-          duration: 15,
+          duration: 45,
           repeat: -1,
-          ease: 'none'
+          ease: 'none',
         },
         '<'
       )
@@ -161,17 +90,17 @@ Vue.prototype.$scrollingLogos = () => {
       const tl = gsap.timeline()
       tl.to('.c-showcase-grid__item.normal', {
         y: -wrapperHeight - 44,
-        duration: 15,
+        duration: 45,
         repeat: -1,
-        ease: 'none'
+        ease: 'none',
       })
       tl.from(
         '.c-showcase-grid__item.invert',
         {
-          y: -wrapperHeight,
-          duration: 15,
+          y: -wrapperHeight - 130,
+          duration: 45,
           repeat: -1,
-          ease: 'none'
+          ease: 'none',
         },
         '<'
       )
@@ -185,9 +114,9 @@ Vue.prototype.$slideRight = (el, width) => {
   gsap.to(el, {
     duration: 0.75,
     scrollTo: {
-      x: el.scrollLeft + width
+      x: el.scrollLeft + width,
     },
-    ease: 'power2.inOut'
+    ease: 'power2.inOut',
   })
 }
 
@@ -195,9 +124,9 @@ Vue.prototype.$slideLeft = (el, width) => {
   gsap.to(el, {
     duration: 0.75,
     scrollTo: {
-      x: el.scrollLeft - width
+      x: el.scrollLeft - width,
     },
-    ease: 'power2.inOut'
+    ease: 'power2.inOut',
   })
 }
 
@@ -209,18 +138,18 @@ Vue.prototype.$autoScroll = (el) => {
       tl.to(el, {
         duration: 20,
         scrollTo: {
-          x: 'max'
+          x: 'max',
         },
-        ease: 'none'
+        ease: 'none',
       })
       tl.to(
         el,
         {
           duration: 20,
           scrollTo: {
-            x: 0
+            x: 0,
           },
-          ease: 'none'
+          ease: 'none',
         },
         '>'
       )

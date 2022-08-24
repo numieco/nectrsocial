@@ -46,50 +46,7 @@
         </div>
       </div>
 
-      <div class="l-section banner-section">
-        <div class="c-scrolling-tape">
-          <div class="c-scrolling-tape__item">
-            <div class="c-scrolling-tape__inner one">
-              <div class="logo-icon"></div>
-              <div class="banner-text">Hit the sweet spot</div>
-              <div class="logo-icon"></div>
-              <div class="banner-text outline-text white">Nectr</div>
-              <div class="logo-icon"></div>
-              <div class="banner-text">Hit the sweet spot</div>
-              <div class="logo-icon"></div>
-              <div class="banner-text outline-text white">Nectr</div>
-              <div class="logo-icon"></div>
-              <div class="banner-text">Hit the sweet spot</div>
-              <div class="logo-icon"></div>
-              <div class="banner-text outline-text white">Nectr</div>
-              <div class="logo-icon"></div>
-              <div class="banner-text">Hit the sweet spot</div>
-              <div class="logo-icon"></div>
-              <div class="banner-text outline-text white">Nectr</div>
-            </div>
-          </div>
-          <div class="c-scrolling-tape__item orange-banner">
-            <div class="c-scrolling-tape__inner two">
-              <div class="logo-icon black"></div>
-              <div class="banner-text">Nectr</div>
-              <div class="logo-icon black"></div>
-              <div class="banner-text outline-text">Hit the sweet spot</div>
-              <div class="logo-icon black"></div>
-              <div class="banner-text">Nectr</div>
-              <div class="logo-icon black"></div>
-              <div class="banner-text outline-text">Hit the sweet spot</div>
-              <div class="logo-icon black"></div>
-              <div class="banner-text">Nectr</div>
-              <div class="logo-icon black"></div>
-              <div class="banner-text outline-text">Hit the sweet spot</div>
-              <div class="logo-icon black"></div>
-              <div class="banner-text">Nectr</div>
-              <div class="logo-icon black"></div>
-              <div class="banner-text outline-text">Hit the sweet spot</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <BannerSection />
 
       <ClientShowcase />
 
@@ -228,14 +185,12 @@ export default {
   mounted() {
     // eslint-disable-next-line no-new
     new this.$pageAnimation('.scroller')
-    // this.$invertNav('.scroller', '.l-section.hero-section')
-    // this.$revertNav('.scroller', '.c-services')
     this.$banner('.scroller')
   }
 }
 </script>
 
-<style scoped>
+<style>
 .c-slider {
   /* pointer-events: none; */
   -ms-overflow-style: none;
@@ -246,11 +201,5 @@ export default {
 }
 .c-slider > * {
   pointer-events: auto;
-}
-
-.c-scrolling-tape__inner {
-  display: flex;
-  align-items: center;
-  gap: 20px;
 }
 </style>

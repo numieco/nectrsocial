@@ -3,7 +3,7 @@
     <Header blue-bg />
 
     <div class="scroller">
-      <service-header pv>
+      <service-header photovideo>
         <template #title>Photos & Video - For Your Social Feed </template>
         <template #description>
           Put our team to work creating photos and videos for your social feeds.
@@ -24,46 +24,70 @@
             <div class="capability-list__wrapper fullwidth">
               <package-block icon="/assets/images/photo.svg" link="/">
                 <template #package-name> Level 1 Photo Package </template>
-                <template #package-feature-1>
-                  10 finished photo assets per month
+                <template #list-block>
+                  <package-list-item>
+                    <template #list-text>
+                      10 finished photo assets per month
+                    </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text>
+                      Sized for social media placements
+                    </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> High res files delivered </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Unlimited usage rights </template>
+                  </package-list-item>
                 </template>
-                <template #package-feature-2>
-                  Sized for social media placements
-                </template>
-                <template #package-feature-3>
-                  High res files delivered
-                </template>
-                <template #package-feature-4> Unlimited usage rights </template>
                 <template #package-price>$1,200</template>
               </package-block>
 
               <package-block icon="/assets/images/camera.svg" link="/">
                 <template #package-name> Level 2 Photo Package </template>
-                <template #package-feature-1>
-                  15 finished photo assets per month
+                <template #list-block>
+                  <package-list-item>
+                    <template #list-text>
+                      15 finished photo assets per month
+                    </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text>
+                      Sized for social media placements
+                    </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> High res files delivered </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Unlimited usage rights </template>
+                  </package-list-item>
                 </template>
-                <template #package-feature-2>
-                  Sized for social media placements
-                </template>
-                <template #package-feature-3>
-                  High res files delivered
-                </template>
-                <template #package-feature-4> Unlimited usage rights </template>
                 <template #package-price>$1,600</template>
               </package-block>
 
               <package-block icon="/assets/images/3rd-package.svg" link="/">
                 <template #package-name> Level 3 Photo Package </template>
-                <template #package-feature-1>
-                  20 finished photo assets per month
+                <template #list-block>
+                  <package-list-item>
+                    <template #list-text>
+                      20 finished photo assets per month
+                    </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text>
+                      Sized for social media placements
+                    </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> High res files delivered </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Unlimited usage rights </template>
+                  </package-list-item>
                 </template>
-                <template #package-feature-2>
-                  Sized for social media placements
-                </template>
-                <template #package-feature-3>
-                  High res files delivered
-                </template>
-                <template #package-feature-4> Unlimited usage rights </template>
                 <template #package-price>$2,000</template>
               </package-block>
             </div>
@@ -80,27 +104,47 @@
             <div class="capability-list__wrapper fullwidth">
               <package-block icon="/assets/images/video.svg" link="/">
                 <template #package-name> Level 1 Video Package </template>
-                <template #package-feature-1>
-                  3 finished photo assets per month
+                <template #list-block>
+                  <package-list-item>
+                    <template #list-text>
+                      3 finished photo assets per month
+                    </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Royalty-free music </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text>
+                      Sized vertically, ready for TikTok, Reels, or
+                      Stories</template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text>Unlimited usage rights </template>
+                  </package-list-item>
                 </template>
-                <template #package-feature-2> Royalty-free music </template>
-                <template #package-feature-3>
-                  Sized vertically, ready for TikTok, Reels, or Stories
-                </template>
-                <template #package-feature-4> Unlimited usage rights </template>
                 <template #package-price>$850</template>
               </package-block>
 
               <package-block icon="/assets/images/video-2.svg" link="/">
-                <template #package-name> Level 2 Photo Package </template>
-                <template #package-feature-1>
-                  6 finished photo assets per month
+                <template #package-name> Level 2 Video Package </template>
+                <template #list-block>
+                  <package-list-item>
+                    <template #list-text>
+                      6 finished photo assets per month
+                    </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Royalty-free music </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text>
+                      Sized vertically, ready for TikTok, Reels, or
+                      Stories</template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text>Unlimited usage rights </template>
+                  </package-list-item>
                 </template>
-                <template #package-feature-2> Royalty-free music </template>
-                <template #package-feature-3>
-                  Sized vertically, ready for TikTok, Reels, or Stories
-                </template>
-                <template #package-feature-4> Unlimited usage rights </template>
                 <template #package-price>$1,500</template>
               </package-block>
             </div>
@@ -137,12 +181,18 @@
 
               <faq-accordion>
                 <template #title> What about licensing? </template>
-                <template #content> Lorep Ipsum </template>
+                <template #content>
+                  The content we create is fully licensed to you, forever, it’s
+                  yours.
+                </template>
               </faq-accordion>
 
               <faq-accordion>
                 <template #title> What if I don’t have a product? </template>
-                <template #content> Lorep Ipsum </template>
+                <template #content>
+                  While this service works best for businesses that sell a
+                  product, our team
+                </template>
               </faq-accordion>
             </div>
           </div>

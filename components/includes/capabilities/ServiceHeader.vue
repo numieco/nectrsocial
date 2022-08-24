@@ -4,13 +4,15 @@
       <div class="hero-block__wrapper">
         <div class="hero-block__double"></div>
         <div class="hero-block small">
-          <div class="hero-text__wrapper" :class="pv ? 'wide' : 'small'">
+          <div
+            class="hero-text__wrapper"
+            :class="photovideo ? 'wide' : 'small'">
             <h2 class="capability-hero__text" data-paragraph>
               <slot name="title" />
             </h2>
             <h4
               class="capability-hero__subtext"
-              :class="pv ? 'small' : ''"
+              :class="photovideo ? 'small' : ''"
               data-paragraph>
               <slot name="description" />
             </h4>
@@ -24,7 +26,7 @@
 <script>
 export default {
   props: {
-    pv: Boolean
+    photovideo: Boolean
   }
 }
 </script>

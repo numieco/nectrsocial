@@ -1,5 +1,11 @@
 <template>
   <div class="c-nav">
+    <div
+      class="c-nav__bg"
+      :class="[
+        mutableInvert && !blueBg ? 'inverted' : '',
+        menuOpen ? 'hide' : ''
+      ]"></div>
     <nuxt-link aria-current="page" class="c-nav__link" to="/">
       <img
         class="c-nav__logo absolute"
@@ -62,6 +68,43 @@ export default {
 </script>
 
 <style scoped>
+.c-nav {
+  z-index: 100;
+}
+.c-nav__bg {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  width: 100%;
+  height: 80px;
+  background-color: #0a151f;
+  transition: opacity 0.3s linear;
+}
+.c-nav__bg.hide {
+  opacity: 0;
+}
+.c-nav__bg.inverted {
+  background-color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .c-nav__bg {
+    height: 102px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-nav__bg {
+    height: 88px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .c-nav__bg {
+    height: 78px;
+  }
+}
+
 .c-nav__link {
   position: relative;
 }

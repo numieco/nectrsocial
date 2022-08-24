@@ -31,6 +31,15 @@ export default {
 </script>
 
 <style>
+.team-details__block {
+  transition: top 0.4s ease, right 0.4s ease;
+}
+
+.c-team:hover > .team-details__wrapper > .team-details__block {
+  top: 0px;
+  right: 0px;
+}
+
 .cover-image.top {
   z-index: 2;
   transition: opacity 300ms ease-in-out;

@@ -31,15 +31,15 @@
     </div>
     <div ref="teamSlider" class="c-slider team-slider" @scroll="checkScroll">
       <team-member
-        img-src-one="/assets/images/team-img-1.jpg"
-        img-src-two="/assets/images/team-img-2.jpg"
+        img-src-one="/assets/images/Zak-img.jpg"
+        img-src-two="/assets/images/Zak-hover.jpg"
         small>
         <template #name> Zak Kosher </template>
         <template #role> Founder </template>
       </team-member>
 
       <team-member
-        img-src-one="/assets/images/team-img-2.jpg"
+        img-src-one="/assets/images/Dylan.jpg"
         img-src-two="/assets/images/team-img-4.jpg"
         small>
         <template #name> Dylan Rabinowitz </template>
@@ -47,48 +47,47 @@
       </team-member>
 
       <team-member
-        img-src-one="/assets/images/team-img-3.jpg"
-        img-src-two="/assets/images/team-img-6.jpg"
+        img-src-one="/assets/images/Kortney1.jpg"
+        img-src-two="/assets/images/Kortney2-hover.jpg"
         small>
         <template #name> Kortney Gloska </template>
         <template #role> Creative Lead </template>
       </team-member>
 
       <team-member
-        img-src-one="/assets/images/team-img-4.jpg"
-        img-src-two="/assets/images/team-img-8.jpg"
+        img-src-one="/assets/images/Jon-01.jpg"
+        img-src-two="/assets/images/Jon-hover.jpg"
         small>
         <template #name> Jonathan Ochoa </template>
         <template #role> Social Media Manager </template>
       </team-member>
 
       <team-member
-        img-src-one="/assets/images/team-img-5.jpg"
-        img-src-two="/assets/images/team-img-1.jpg"
+        img-src-one="/assets/images/Gianna 01.jpg"
+        img-src-two="/assets/images/Gianna-hover.jpg"
         small>
         <template #name> Gianna Chen </template>
         <template #role> Field Social Media Manager </template>
       </team-member>
 
       <team-member
-        img-src-one="/assets/images/team-img-6.jpg"
-        img-src-two="/assets/images/team-img-3.jpg"
-        small>
+        img-src-one="/assets/images/Tiare1.jpg"
+        img-src-two="/assets/images/Tiare-hover.jpg">
         <template #name> Tiare Bowman </template>
         <template #role> Social Media Marketing Manager </template>
       </team-member>
 
       <team-member
-        img-src-one="/assets/images/team-img-7.jpg"
-        img-src-two="/assets/images/team-img-5.jpg"
+        img-src-one="/assets/images/Ashley 01.jpg"
+        img-src-two="/assets/images/Ashley-hover.jpg"
         small>
         <template #name> Ashley Forst </template>
         <template #role> Organic Social Media Manager </template>
       </team-member>
 
       <team-member
-        img-src-one="/assets/images/team-img-8.jpg"
-        img-src-two="/assets/images/team-img-7.jpg"
+        img-src-one="/assets/images/Appa 02.jpg"
+        img-src-two="/assets/images/Appa-hover.jpg"
         small>
         <template #name> Apa </template>
         <template #role> Dylan's Dog </template>

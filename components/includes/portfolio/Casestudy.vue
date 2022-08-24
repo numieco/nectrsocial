@@ -41,3 +41,14 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.slide-details__block {
+  transition: top 0.4s ease, right 0.4s ease;
+}
+
+.c-casestudy:hover > .slide-details__wrapper > .slide-details__block {
+  top: 0px;
+  right: 0px;
+}
+</style>
