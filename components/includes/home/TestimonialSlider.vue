@@ -34,7 +34,7 @@
       ref="tesSlider"
       class="c-slider testimonial-slider"
       @scroll="checkScroll">
-      <testimonial logo="/assets/images/testimonial-img-1.png">
+      <testimonial>
         <template #content>
           In 3 months, our overall return on ad spend has doubled. Since then
           we&#x27;ve continued to scale our ad spend at profit. Communication is
@@ -45,7 +45,7 @@
         <template #company>Ombraz Sunglasses</template>
       </testimonial>
 
-      <testimonial black logo="/assets/images/testimonial-img-2.png">
+      <testimonial black>
         <template #content>
           Working with Nectr Social meant less stress for our team! They were
           responsive and reliable, and flexed to fit our ever-changing needs.
@@ -55,7 +55,7 @@
         <template #company>Green Rubino</template>
       </testimonial>
 
-      <testimonial logo="/assets/images/ably-logo.png">
+      <testimonial>
         <template #content>
           We&#x27;ve been working with Nectr Social and its principals for 3
           years now, and we could not be more pleased. Nectr is clearly the #1
@@ -66,7 +66,7 @@
         <template #company>Ably Apparel</template>
       </testimonial>
 
-      <testimonial black logo="/assets/images/placeholder.svg">
+      <testimonial black>
         <template #content>
           The team at Nectr has been an incredible partner in strategy and
           campaign management for myself and my clients. They are thoughtful and
