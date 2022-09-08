@@ -29,7 +29,10 @@
         </div>
       </div>
     </div>
-    <div ref="teamSlider" class="c-slider team-slider" @scroll="checkScroll">
+    <div
+      ref="teamSlider"
+      class="c-slider team-slider dragscroll"
+      @scroll="checkScroll">
       <team-member
         img-src-one="/assets/images/Zak-img.jpg"
         img-src-two="/assets/images/Zak-hover.jpg"
@@ -72,7 +75,8 @@
 
       <team-member
         img-src-one="/assets/images/Tiare1.jpg"
-        img-src-two="/assets/images/Tiare-hover.jpg">
+        img-src-two="/assets/images/Tiare-hover.jpg"
+        small>
         <template #name> Tiare Bowman </template>
         <template #role> Social Media Marketing Manager </template>
       </team-member>

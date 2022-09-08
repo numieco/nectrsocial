@@ -32,7 +32,7 @@
 
     <div
       ref="tesSlider"
-      class="c-slider testimonial-slider"
+      class="c-slider testimonial-slider dragscroll"
       @scroll="checkScroll">
       <testimonial>
         <template #content>

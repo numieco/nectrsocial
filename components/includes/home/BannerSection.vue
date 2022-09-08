@@ -101,8 +101,8 @@
 }
 @media screen and (min-width: 1600px) {
   .c-scrolling-tape__item {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .l-section.banner-section {
     padding-top: 150px;

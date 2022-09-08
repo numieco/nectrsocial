@@ -51,4 +51,12 @@ export default {
   top: 0px;
   right: 0px;
 }
+
+.c-casestudy:hover {
+  padding-left: 24px;
+}
+
+.c-casestudy {
+  transition: padding 0.4s ease;
+}
 </style>

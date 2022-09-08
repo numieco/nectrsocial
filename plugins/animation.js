@@ -1,12 +1,14 @@
 import Vue from 'vue'
 import { gsap } from 'gsap'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
+import dragscroll from 'dragscroll'
 import Animations from '../js'
 
 gsap.registerPlugin(ScrollToPlugin)
 
 Vue.prototype.$pageAnimation = Animations
 Vue.prototype.$gsap = gsap
+Vue.prototype.$dragscroll = dragscroll
 
 Vue.prototype.$banner = (_scroller) => {
   const mql = window.matchMedia('(max-width: 767px)')
@@ -18,20 +20,20 @@ Vue.prototype.$banner = (_scroller) => {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5,
+          scrub: 2.5
         },
         xPercent: -35,
-        ease: 'none',
+        ease: 'none'
       })
       tl.from('.c-scrolling-tape__inner.two', {
         scrollTrigger: {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5,
+          scrub: 2.5
         },
         xPercent: -35,
-        ease: 'none',
+        ease: 'none'
       })
     } else {
       const tl = gsap.timeline()
@@ -40,20 +42,20 @@ Vue.prototype.$banner = (_scroller) => {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5,
+          scrub: 2.5
         },
         xPercent: -50,
-        ease: 'none',
+        ease: 'none'
       })
       tl.from('.c-scrolling-tape__inner.two', {
         scrollTrigger: {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5,
+          scrub: 2.5
         },
         xPercent: -50,
-        ease: 'none',
+        ease: 'none'
       })
     }
   }
@@ -72,7 +74,7 @@ Vue.prototype.$scrollingLogos = () => {
         y: -wrapperHeight - 24,
         duration: 45,
         repeat: -1,
-        ease: 'none',
+        ease: 'none'
       })
       tl.from(
         '.c-showcase-grid__item.invert',
@@ -80,7 +82,7 @@ Vue.prototype.$scrollingLogos = () => {
           y: -wrapperHeight + 20,
           duration: 45,
           repeat: -1,
-          ease: 'none',
+          ease: 'none'
         },
         '<'
       )
@@ -92,7 +94,7 @@ Vue.prototype.$scrollingLogos = () => {
         y: -wrapperHeight - 44,
         duration: 45,
         repeat: -1,
-        ease: 'none',
+        ease: 'none'
       })
       tl.from(
         '.c-showcase-grid__item.invert',
@@ -100,7 +102,7 @@ Vue.prototype.$scrollingLogos = () => {
           y: -wrapperHeight - 130,
           duration: 45,
           repeat: -1,
-          ease: 'none',
+          ease: 'none'
         },
         '<'
       )
@@ -114,9 +116,9 @@ Vue.prototype.$slideRight = (el, width) => {
   gsap.to(el, {
     duration: 0.75,
     scrollTo: {
-      x: el.scrollLeft + width,
+      x: el.scrollLeft + width
     },
-    ease: 'power2.inOut',
+    ease: 'power2.inOut'
   })
 }
 
@@ -124,9 +126,9 @@ Vue.prototype.$slideLeft = (el, width) => {
   gsap.to(el, {
     duration: 0.75,
     scrollTo: {
-      x: el.scrollLeft - width,
+      x: el.scrollLeft - width
     },
-    ease: 'power2.inOut',
+    ease: 'power2.inOut'
   })
 }
 
@@ -138,18 +140,18 @@ Vue.prototype.$autoScroll = (el) => {
       tl.to(el, {
         duration: 20,
         scrollTo: {
-          x: 'max',
+          x: 'max'
         },
-        ease: 'none',
+        ease: 'none'
       })
       tl.to(
         el,
         {
           duration: 20,
           scrollTo: {
-            x: 0,
+            x: 0
           },
-          ease: 'none',
+          ease: 'none'
         },
         '>'
       )

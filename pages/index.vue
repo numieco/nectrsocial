@@ -202,4 +202,8 @@ export default {
 .c-slider > * {
   pointer-events: auto;
 }
+.c-cta {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
 </style>
