@@ -86,13 +86,13 @@
 
             <div class="capability-list__wrapper fullwidth">
               <package-block link="/">
-                <template #package-name> Lite Package </template>
+                <template #package-name> Heavy Package </template>
                 <template #list-block>
                   <package-list-item>
-                    <template #list-text> 1 content shoot per month </template>
+                    <template #list-text> 2 content shoot per month </template>
                   </package-list-item>
                   <package-list-item>
-                    <template #list-text> Min 3 posts per week </template>
+                    <template #list-text> Min 7 posts per week </template>
                   </package-list-item>
                   <package-list-item>
                     <template #list-text> Routine story content</template>
@@ -110,7 +110,7 @@
                     <template #list-text> LIVE reporting </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$2,200</template>
+                <template #package-price>$3,000</template>
               </package-block>
 
               <package-block link="/">
@@ -142,13 +142,13 @@
               </package-block>
 
               <package-block link="/">
-                <template #package-name> Heavy Package </template>
+                <template #package-name> Lite Package </template>
                 <template #list-block>
                   <package-list-item>
-                    <template #list-text> 2 content shoot per month </template>
+                    <template #list-text> 1 content shoot per month </template>
                   </package-list-item>
                   <package-list-item>
-                    <template #list-text> Min 7 posts per week </template>
+                    <template #list-text> Min 3 posts per week </template>
                   </package-list-item>
                   <package-list-item>
                     <template #list-text> Routine story content</template>
@@ -166,7 +166,7 @@
                     <template #list-text> LIVE reporting </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$3,000</template>
+                <template #package-price>$2,200</template>
               </package-block>
             </div>
           </div>

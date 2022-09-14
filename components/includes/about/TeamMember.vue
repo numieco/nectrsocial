@@ -40,6 +40,14 @@ export default {
   right: 0px;
 }
 
+.c-team:hover {
+  padding-left: 24px;
+}
+
+.c-team {
+  transition: padding 0.4s ease;
+}
+
 .cover-image.top {
   z-index: 2;
   transition: opacity 300ms ease-in-out;

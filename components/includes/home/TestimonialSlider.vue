@@ -34,47 +34,36 @@
       ref="tesSlider"
       class="c-slider testimonial-slider dragscroll"
       @scroll="checkScroll">
-      <testimonial>
-        <template #content>
-          In 3 months, our overall return on ad spend has doubled. Since then
-          we&#x27;ve continued to scale our ad spend at profit. Communication is
-          always great and the results speak for themselves.
-        </template>
-        <template #name>Jensen Brehm</template>
-        <template #role>Co-founder</template>
-        <template #company>Ombraz Sunglasses</template>
-      </testimonial>
-
       <testimonial black>
         <template #content>
-          Working with Nectr Social meant less stress for our team! They were
-          responsive and reliable, and flexed to fit our ever-changing needs.
+          If you are looking to drive results for your business or brand and
+          work with an incredible team, Nectr is the move!
         </template>
-        <template #name>Liza Sankar-Gorton</template>
-        <template #role>Social Media Strategist</template>
-        <template #company>Green Rubino</template>
+        <template #name>Jarid Adams</template>
+        <template #role>CBO</template>
+        <template #company>Ventrk</template>
       </testimonial>
 
       <testimonial>
         <template #content>
-          We&#x27;ve been working with Nectr Social and its principals for 3
-          years now, and we could not be more pleased. Nectr is clearly the #1
-          social agency in Seattle, and quite possibly well beyond.
+          Nectr social has helped me launch two businesses successfully. They
+          are professional and informed about getting the desired results you
+          want. They shine when it comes to communication and end results. I’d
+          highly recommend!
         </template>
-        <template #name>Bobby Frank</template>
-        <template #role>COO</template>
-        <template #company>Ably Apparel</template>
+        <template #name>Cindy Benezra</template>
+        <template #role>Owner</template>
+        <template #company>Elite Events & CindyTalks</template>
       </testimonial>
 
       <testimonial black>
         <template #content>
-          The team at Nectr has been an incredible partner in strategy and
-          campaign management for myself and my clients. They are thoughtful and
-          results-driven, and I would highly recommend their services!
+          Nectr fixed my google ads account it was performing horrible until he
+          worked his magic. Thanks for your help . Recommend 10/10
         </template>
-        <template #name>Marika Beroukas</template>
-        <template #role>Founder</template>
-        <template #company>Marika Beroukas</template>
+        <template #name>Rose Meza</template>
+        <template #role>Owner</template>
+        <template #company>Sugar Blossom Lashes</template>
       </testimonial>
 
       <testimonial>
@@ -84,9 +73,9 @@
           us to achieve our vision with brilliant creative content. Easy to work
           with, and highly recommended.
         </template>
-        <template #name>Marques Warren</template>
-        <template #role>CEO</template>
-        <template #company>Downtown Spirits</template>
+        <template #name>Linda Reidman</template>
+        <template #role>Client Representative</template>
+        <template #company>Don Poncho</template>
       </testimonial>
 
       <testimonial black>
@@ -109,41 +98,52 @@
           us to achieve our vision with brilliant creative content. Easy to work
           with, and highly recommended.
         </template>
-        <template #name>Linda Reidman</template>
-        <template #role>Client Representative</template>
-        <template #company>Don Poncho</template>
+        <template #name>Marques Warren</template>
+        <template #role>CEO</template>
+        <template #company>Downtown Spirits</template>
       </testimonial>
 
       <testimonial black>
         <template #content>
-          Nectr fixed my google ads account it was performing horrible until he
-          worked his magic. Thanks for your help . Recommend 10/10
+          The team at Nectr has been an incredible partner in strategy and
+          campaign management for myself and my clients. They are thoughtful and
+          results-driven, and I would highly recommend their services!
         </template>
-        <template #name>Rose Meza</template>
-        <template #role>Owner</template>
-        <template #company>Sugar Blossom Lashes</template>
+        <template #name>Marika Beroukas</template>
+        <template #role>Founder</template>
+        <template #company>Marika Beroukas</template>
       </testimonial>
 
       <testimonial>
         <template #content>
-          Nectr social has helped me launch two businesses successfully. They
-          are professional and informed about getting the desired results you
-          want. They shine when it comes to communication and end results. I’d
-          highly recommend!
+          We&#x27;ve been working with Nectr Social and its principals for 3
+          years now, and we could not be more pleased. Nectr is clearly the #1
+          social agency in Seattle, and quite possibly well beyond.
         </template>
-        <template #name>Cindy Benezra</template>
-        <template #role>Owner</template>
-        <template #company>Elite Events & CindyTalks</template>
+        <template #name>Bobby Frank</template>
+        <template #role>COO</template>
+        <template #company>Ably Apparel</template>
       </testimonial>
 
       <testimonial black>
         <template #content>
-          If you are looking to drive results for your business or brand and
-          work with an incredible team, Nectr is the move!
+          Working with Nectr Social meant less stress for our team! They were
+          responsive and reliable, and flexed to fit our ever-changing needs.
         </template>
-        <template #name>Jarid Adams</template>
-        <template #role>CBO</template>
-        <template #company>Ventrk</template>
+        <template #name>Liza Sankar-Gorton</template>
+        <template #role>Social Media Strategist</template>
+        <template #company>Green Rubino</template>
+      </testimonial>
+
+      <testimonial>
+        <template #content>
+          In 3 months, our overall return on ad spend has doubled. Since then
+          we&#x27;ve continued to scale our ad spend at profit. Communication is
+          always great and the results speak for themselves.
+        </template>
+        <template #name>Jensen Brehm</template>
+        <template #role>Co-founder</template>
+        <template #company>Ombraz Sunglasses</template>
       </testimonial>
 
       <div class="dummy-block"></div>

@@ -32,6 +32,20 @@ export default class extends Animation {
           y: 20,
           delay: lineIndex * 0.2 + wordIndex * 0.02 + 0.5
         })
+        gsap.utils.toArray('.list-point').forEach((bullet) => {
+          gsap.to(
+            bullet,
+            {
+              scrollTrigger: {
+                scroller: '.scroller',
+                trigger: bullet,
+                start: 'top 80%'
+              },
+              opacity: 1
+            },
+            '<'
+          )
+        })
       })
     })
   }

@@ -53,7 +53,9 @@ export default {
 }
 
 .c-casestudy:hover {
-  padding-left: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
 }
 
 .c-casestudy {

@@ -23,6 +23,19 @@
           <div class="l-container">
             <div class="c-services__wrapper fullwidth">
               <service-block
+                icon="/assets/images/social-media.svg"
+                link="/capabilities/social-media-management">
+                <template #service>
+                  Social Media Management (Organic)
+                </template>
+                <template #service-details>
+                  Hand us the keys to your social channels. Complete,
+                  done-for-you social media management solutions with growth
+                  strategies baked in.
+                </template>
+              </service-block>
+
+              <service-block
                 icon="/assets/images/pv.svg"
                 link="/capabilities/photo-video">
                 <template #service> Photo &amp; Video </template>
@@ -60,19 +73,6 @@
                 <template #service-details>
                   Ad creation/distribution, copywriting, creative testing, and
                   insightful reporting.
-                </template>
-              </service-block>
-
-              <service-block
-                icon="/assets/images/social-media.svg"
-                link="/capabilities/social-media-management">
-                <template #service>
-                  Social Media Management (Organic)
-                </template>
-                <template #service-details>
-                  Hand us the keys to your social channels. Complete,
-                  done-for-you social media management solutions with growth
-                  strategies baked in.
                 </template>
               </service-block>
 

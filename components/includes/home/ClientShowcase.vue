@@ -4,7 +4,7 @@
       <div>
         <h2 data-paragraph>Client Showcase</h2>
         <h4 class="neutral-text" data-paragraph>
-          50+ businesses have trusted us, US!
+          Trusted by over 50 businesses and counting.
         </h4>
       </div>
       <div class="c-showcase-grid">
@@ -201,8 +201,7 @@
             <div class="c-showcase__block">
               <img
                 class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/duécucina.png"/>
+                src="/assets/images/duecucina-logo.png"/>
             </div>
             <div class="c-showcase__block">
               <img
@@ -289,7 +288,7 @@
               <img
                 class="c-showcase-logo"
                 loading="lazy"
-                src="/assets/images/duécucina.png"/>
+                src="/assets/images/duecucina-logo.png"/>
             </div>
             <div class="c-showcase__block">
               <img

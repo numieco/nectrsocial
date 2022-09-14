@@ -22,12 +22,12 @@
             <h1 class="alt-h1" data-paragraph>Photo Packages</h1>
 
             <div class="capability-list__wrapper fullwidth">
-              <package-block icon="/assets/images/photo.svg" link="/">
-                <template #package-name> Level 1 Photo Package </template>
+              <package-block icon="/assets/images/3rd-package.svg" link="/">
+                <template #package-name> Level 3 Photo Package </template>
                 <template #list-block>
                   <package-list-item>
                     <template #list-text>
-                      10 finished photo assets per month
+                      20 finished photo assets per month
                     </template>
                   </package-list-item>
                   <package-list-item>
@@ -42,7 +42,7 @@
                     <template #list-text> Unlimited usage rights </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$1,200</template>
+                <template #package-price>$2,000</template>
               </package-block>
 
               <package-block icon="/assets/images/camera.svg" link="/">
@@ -68,12 +68,12 @@
                 <template #package-price>$1,600</template>
               </package-block>
 
-              <package-block icon="/assets/images/3rd-package.svg" link="/">
-                <template #package-name> Level 3 Photo Package </template>
+              <package-block icon="/assets/images/photo.svg" link="/">
+                <template #package-name> Level 1 Photo Package </template>
                 <template #list-block>
                   <package-list-item>
                     <template #list-text>
-                      20 finished photo assets per month
+                      10 finished photo assets per month
                     </template>
                   </package-list-item>
                   <package-list-item>
@@ -88,7 +88,7 @@
                     <template #list-text> Unlimited usage rights </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$2,000</template>
+                <template #package-price>$1,200</template>
               </package-block>
             </div>
           </div>
@@ -102,29 +102,6 @@
             </h4>
 
             <div class="capability-list__wrapper fullwidth">
-              <package-block icon="/assets/images/video.svg" link="/">
-                <template #package-name> Level 1 Video Package </template>
-                <template #list-block>
-                  <package-list-item>
-                    <template #list-text>
-                      3 finished photo assets per month
-                    </template>
-                  </package-list-item>
-                  <package-list-item>
-                    <template #list-text> Royalty-free music </template>
-                  </package-list-item>
-                  <package-list-item>
-                    <template #list-text>
-                      Sized vertically, ready for TikTok, Reels, or
-                      Stories</template>
-                  </package-list-item>
-                  <package-list-item>
-                    <template #list-text>Unlimited usage rights </template>
-                  </package-list-item>
-                </template>
-                <template #package-price>$850</template>
-              </package-block>
-
               <package-block icon="/assets/images/video-2.svg" link="/">
                 <template #package-name> Level 2 Video Package </template>
                 <template #list-block>
@@ -146,6 +123,29 @@
                   </package-list-item>
                 </template>
                 <template #package-price>$1,500</template>
+              </package-block>
+
+              <package-block icon="/assets/images/video.svg" link="/">
+                <template #package-name> Level 1 Video Package </template>
+                <template #list-block>
+                  <package-list-item>
+                    <template #list-text>
+                      3 finished photo assets per month
+                    </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Royalty-free music </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text>
+                      Sized vertically, ready for TikTok, Reels, or
+                      Stories</template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text>Unlimited usage rights </template>
+                  </package-list-item>
+                </template>
+                <template #package-price>$850</template>
               </package-block>
             </div>
           </div>

@@ -3,11 +3,12 @@
     <div class="l-section__header">
       <div class="l-container">
         <div class="c-section-header">
-          <div>
+          <div class="header-text">
             <h2 data-paragraph>Meet the Charm</h2>
             <h4 class="neutral-text" data-paragraph>
-              3-5 teeing up the team, different perspectives, diverse group of
-              personals .
+              When hummingbirds move together, they are dubbed a charm. They fly
+              together when they need to get things done, like pollinate a field
+              of wildflowers, or crush social media.
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
@@ -43,7 +44,7 @@
 
       <team-member
         img-src-one="/assets/images/Dylan.jpg"
-        img-src-two="/assets/images/team-img-4.jpg"
+        img-src-two="/assets/images/dylan-hover.jpg"
         small>
         <template #name> Dylan Rabinowitz </template>
         <template #role> Director Of Client Services </template>
@@ -54,7 +55,7 @@
         img-src-two="/assets/images/Kortney2-hover.jpg"
         small>
         <template #name> Kortney Gloska </template>
-        <template #role> Creative Lead </template>
+        <template #role> Creative Director </template>
       </team-member>
 
       <team-member
@@ -70,7 +71,7 @@
         img-src-two="/assets/images/Gianna-hover.jpg"
         small>
         <template #name> Gianna Chen </template>
-        <template #role> Field Social Media Manager </template>
+        <template #role> Social Media Manager </template>
       </team-member>
 
       <team-member
@@ -86,7 +87,7 @@
         img-src-two="/assets/images/Ashley-hover.jpg"
         small>
         <template #name> Ashley Forst </template>
-        <template #role> Organic Social Media Manager </template>
+        <template #role> Social Media Manager </template>
       </team-member>
 
       <team-member
@@ -97,11 +98,7 @@
         <template #role> Dylan's Dog </template>
       </team-member>
     </div>
-    <c-button
-      btn-text="Join the team!"
-      centered
-      hide-on-mobile
-      link="/careers"/>
+    <c-button btn-text="Learn More" centered hide-on-mobile link="/about" />
   </div>
 </template>
 
@@ -148,6 +145,9 @@ export default {
 </script>
 
 <style scoped>
+.header-text {
+  max-width: 900px;
+}
 .team-slider {
   pointer-events: none;
   -ms-overflow-style: none;

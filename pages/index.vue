@@ -10,19 +10,23 @@
             <div class="hero-block">
               <div class="hero-img__wrapper">
                 <div class="hero-img__block">
+                  <video controls loop src=""></video>
+                  <!-- <img
+                    class="hero-img"
+                    loading="lazy"
+                    src="/assets/images/hero-img-1.jpg"/>
                   <img
                     class="hero-img"
                     loading="lazy"
-                    src="/assets/images/hero-img-1.jpg"/><img
+                    src="/assets/images/hero-img-2.jpg"/>
+                  <img
                     class="hero-img"
                     loading="lazy"
-                    src="/assets/images/hero-img-2.jpg"/><img
+                    src="/assets/images/hero-img-3.jpg"/>
+                  <img
                     class="hero-img"
                     loading="lazy"
-                    src="/assets/images/hero-img-3.jpg"/><img
-                    class="hero-img"
-                    loading="lazy"
-                    src="/assets/images/hero-img-4.jpg"/>
+                    src="/assets/images/hero-img-4.jpg"/> -->
                 </div>
                 <div class="down-arrow desktop-hide"></div>
               </div>
@@ -38,7 +42,7 @@
 
                 <div class="hero-block__cta">
                   <div class="down-arrow mobile-hide"></div>
-                  <c-button btn-text="Book a Kick-Off Call!" large link="/" />
+                  <c-button btn-text="Book a Discovery call!" large link="/" />
                 </div>
               </div>
             </div>
@@ -186,11 +190,39 @@ export default {
     // eslint-disable-next-line no-new
     new this.$pageAnimation('.scroller')
     this.$banner('.scroller')
+    this.floatingArrow()
+  },
+
+  methods: {
+    floatingArrow() {
+      const bounce = this.$gsap.timeline({ repeat: -1 })
+      bounce
+        .to('.down-arrow', 1, { y: '-=15', ease: 'Sine.easeInOut' })
+        .to('.down-arrow', 1, { y: '+=15', ease: 'Sine.easeInOut' })
+    }
   }
 }
 </script>
 
 <style>
+.down-arrow {
+  transform: scale(0.7);
+}
+.hero-img__block > video {
+  width: 100%;
+}
+.hero-img__block {
+  height: 100%;
+}
+@media screen and (max-width: 767px) {
+  .hero-img__wrapper {
+    width: 100%;
+  }
+  .hero-img__block {
+    width: 100%;
+    height: 50vw;
+  }
+}
 .c-slider {
   /* pointer-events: none; */
   -ms-overflow-style: none;

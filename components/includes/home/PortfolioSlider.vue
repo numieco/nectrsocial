@@ -51,7 +51,7 @@
       </casestudy>
 
       <casestudy
-        img-src="/assets/images/casestudy-img-4.jpg"
+        img-src="/assets/images/frost-thumb.jpg"
         link="/portfolio/frost">
         <template #casestudy-name> Frost </template>
         <template #casestudy-details> Driving Foot Traffic </template>
@@ -64,6 +64,18 @@
         <template #casestudy-details>
           From 0 to 40k Instagram Followers
         </template>
+      </casestudy>
+
+      <casestudy img-src="/assets/images/Due.jpg" link="/portfolio/duecucina">
+        <template #casestudy-name> Duécucina </template>
+        <template #casestudy-details> Authentically Italian </template>
+      </casestudy>
+
+      <casestudy
+        img-src="/assets/images/Salish-Bath.jpg"
+        link="/portfolio/salish-lodge">
+        <template #casestudy-name> Salish Lodge </template>
+        <template #casestudy-details> Rebuilding Post-Pandemic </template>
       </casestudy>
     </div>
     <c-button btn-text="View all case studies" centered link="/portfolio" />

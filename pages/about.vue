@@ -3,7 +3,6 @@
     <Header is-inverted />
 
     <div class="scroller">
-      <!-- DummyText Here -->
       <div class="l-section hero-section about-page">
         <div class="l-container">
           <div class="about-text__wrapper">
@@ -11,16 +10,13 @@
               We get it done with purpose, and without the high price tag.
             </h1>
             <h3 class="neutral-text" data-paragraph>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&#x27;s standard dummy
-              text ever since the 1500s.
+              Living and breathing social since 2018.
             </h3>
             <div class="logo-icon yellow large"></div>
           </div>
         </div>
       </div>
 
-      <!-- Add Team Image -->
       <div class="l-section">
         <div class="l-container">
           <div class="c-team__flex">
@@ -38,12 +34,20 @@
                 What makes us <span class="orange-text">different?</span>
               </h2>
               <h5 class="neutral-text" data-paragraph>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&#x27;s standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                Nectr is a powerhouse team of young professionals that speak
+                fluent social media. Combined, we have nearly three decades of
+                social media experience and 15 years of agency experience.
+                <br />
+                <br />
+                Our agency approach is boutique and high touch. When you engage
+                us, you receive a one-of-a-kind experience. A group of
+                professionals fully dedicated to your success on a daily basis.
+                We don’t use a rinse and repeat process, we listen, we observe,
+                and we design a unique path to your success.
+                <br />
+                <br />
+                The key to success on social begins and ends with the A word…
+                ‘Authenticity’
               </h5>
             </div>
           </div>
@@ -77,7 +81,7 @@
 
             <team-member
               img-src-one="/assets/images/Dylan.jpg"
-              img-src-two="/assets/images/team-img-4.jpg">
+              img-src-two="/assets/images/dylan-hover.jpg">
               <template #name> Dylan Rabinowitz </template>
               <template #role> Director Of Client Services </template>
             </team-member>
@@ -86,7 +90,7 @@
               img-src-one="/assets/images/Kortney1.jpg"
               img-src-two="/assets/images/Kortney2-hover.jpg">
               <template #name> Kortney Gloska </template>
-              <template #role> Creative Lead </template>
+              <template #role> Creative Director </template>
             </team-member>
 
             <team-member
@@ -100,7 +104,7 @@
               img-src-one="/assets/images/Gianna 01.jpg"
               img-src-two="/assets/images/Gianna-hover.jpg">
               <template #name> Gianna Chen </template>
-              <template #role> Field Social Media Manager </template>
+              <template #role> Social Media Manager </template>
             </team-member>
 
             <team-member
@@ -114,7 +118,7 @@
               img-src-one="/assets/images/Ashley 01.jpg"
               img-src-two="/assets/images/Ashley-hover.jpg">
               <template #name> Ashley Forst </template>
-              <template #role> Organic Social Media Manager </template>
+              <template #role> Social Media Manager </template>
             </team-member>
 
             <team-member

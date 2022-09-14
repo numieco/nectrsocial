@@ -6,3 +6,9 @@
     </h5>
   </div>
 </template>
+
+<style>
+.list-point {
+  opacity: 0;
+}
+</style>
