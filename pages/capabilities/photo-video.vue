@@ -191,7 +191,8 @@
                 <template #title> What if I don’t have a product? </template>
                 <template #content>
                   While this service works best for businesses that sell a
-                  product, our team
+                  product, our team can help you showcase your service or
+                  physical business location, let’s chat.
                 </template>
               </faq-accordion>
             </div>

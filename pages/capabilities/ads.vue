@@ -6,13 +6,7 @@
       <service-header>
         <template #title> Ad Management </template>
         <template #description>
-          We’ve gained plenty of insight through the years, managing an
-          advertising portfolio of over $5M on behalf of our clients. The
-          biggest takeaway: the digital advertising landscape is in constant
-          flux. The algorithms seem to favor something new every day.
-          <br />
-          <br />
-          Ensures that your Facebook & Instagram advertising campaigns are built
+          Ensure that your Facebook & Instagram advertising campaigns are built
           for juicy returns in 2022.
         </template>
       </service-header>
@@ -20,6 +14,13 @@
       <div class="l-section">
         <div class="c-capabilities__wrapper">
           <div class="logo-icon yellow large"></div>
+
+          <h4 class="capability-hero__subtext" data-paragraph>
+            We’ve gained plenty of insight through the years, managing an
+            advertising portfolio of over $5M on behalf of our clients. The
+            biggest takeaway: the digital advertising landscape is in constant
+            flux. The algorithms seem to favor something new every day.
+          </h4>
 
           <service-list>
             <template #list-header>Setup </template>
@@ -94,6 +95,7 @@
             </template>
           </service-list>
 
+          <h5 class="pricing" data-paragraph>Pricing: Hourly Charge</h5>
           <div class="c-package__prompt">
             <div data-paragraph>
               Tell us about the campaign you’re looking to run!
@@ -203,5 +205,21 @@ export default {
 <style scoped>
 .l-section {
   overflow: hidden;
+}
+.logo-icon + .capability-hero__subtext {
+  max-width: 840px;
+  margin-top: 64px;
+}
+.c-capabilities__wrapper {
+  margin-bottom: 70px;
+}
+.pricing {
+  color: #344c63;
+  margin-top: 80px;
+}
+
+.pricing + .c-package__prompt {
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 </style>

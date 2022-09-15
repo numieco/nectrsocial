@@ -79,7 +79,7 @@
         img-src-two="/assets/images/Tiare-hover.jpg"
         small>
         <template #name> Tiare Bowman </template>
-        <template #role> Social Media Marketing Manager </template>
+        <template #role> Social Media Manager </template>
       </team-member>
 
       <team-member

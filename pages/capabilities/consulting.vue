@@ -59,6 +59,8 @@
               </service-list-item>
             </template>
           </service-list>
+
+          <h5 class="pricing" data-paragraph>Pricing: Hourly Charge</h5>
         </div>
 
         <c-button btn-text="Book a Discovery call" centered link="/" />
@@ -104,5 +106,9 @@ export default {
 <style scoped>
 .l-section {
   overflow: hidden;
+}
+.pricing {
+  color: #344c63;
+  margin-top: 80px;
 }
 </style>

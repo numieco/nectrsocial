@@ -30,7 +30,7 @@
     </div>
     <div ref="csSlider" class="c-slider portfolio-slider" @scroll="checkScroll">
       <casestudy
-        img-src="/assets/images/casestudy-img-1.jpg"
+        img-src="/assets/images/qnight-thumb.jpg"
         link="/portfolio/qnightclub">
         <template #casestudy-name> QNightClub </template>
         <template #casestudy-details> Sold Out Shows </template>

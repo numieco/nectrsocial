@@ -73,11 +73,11 @@
       <img
         class="c-menu__img two"
         loading="lazy"
-        src="/assets/images/menu-img-2.jpg"/>
+        src="/assets/images/team-img.jpg"/>
       <img
         class="c-menu__img three"
         loading="lazy"
-        src="/assets/images/menu-img-3.jpg"/>
+        src="/assets/images/portfolio-hover.jpg"/>
       <img
         class="c-menu__img four"
         loading="lazy"

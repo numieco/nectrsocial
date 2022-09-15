@@ -44,56 +44,49 @@
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-1.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-2.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-3.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-4.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-5.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-6.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-              </div>
-              <div class="c-network__slide">
-                <img
-                  alt=""
-                  class="cover-image"
-                  loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-7.jpg"/>
               </div>
             </div>
             <div class="c-network__slide-wrapper">
@@ -102,56 +95,49 @@
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-1.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-2.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-3.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-4.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-5.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-6.jpg"/>
               </div>
               <div class="c-network__slide">
                 <img
                   alt=""
                   class="cover-image"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
-              </div>
-              <div class="c-network__slide">
-                <img
-                  alt=""
-                  class="cover-image"
-                  loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/network-7.jpg"/>
               </div>
             </div>
           </div>
@@ -235,6 +221,9 @@ export default {
 </script>
 
 <style scoped>
+.c-network__slide {
+  border: none;
+}
 .c-network__slider {
   overflow: hidden;
 }

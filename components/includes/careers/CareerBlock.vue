@@ -28,7 +28,7 @@
         </div>
       </div>
 
-      <c-button btn-text="Apply for this role" centered :link="link" small />
+      <c-button btn-text="Reach out for more" centered :link="link" small />
     </div>
   </div>
 </template>

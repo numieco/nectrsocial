@@ -26,7 +26,7 @@
                 <img
                   class="team-img"
                   loading="lazy"
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"/>
+                  src="/assets/images/nectr-team.png"/>
               </div>
             </div>
             <div class="team-bio__wrapper">
@@ -111,7 +111,7 @@
               img-src-one="/assets/images/Tiare1.jpg"
               img-src-two="/assets/images/Tiare-hover.jpg">
               <template #name> Tiare Bowman </template>
-              <template #role> Social Media Marketing Manager </template>
+              <template #role> Social Media Manager </template>
             </team-member>
 
             <team-member
@@ -172,3 +172,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.team-img__block > img {
+  object-fit: cover;
+  object-position: top;
+}
+</style>
