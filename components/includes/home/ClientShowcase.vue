@@ -257,6 +257,12 @@
                 loading="lazy"
                 src="/assets/images/publicschool.png"/>
             </div>
+            <div class="c-showcase__block">
+              <img
+                class="c-showcase-logo invert"
+                loading="lazy"
+                src="/assets/images/samara.png"/>
+            </div>
           </div>
 
           <div class="c-showcase-grid__item invert">
@@ -343,6 +349,12 @@
                 class="c-showcase-logo"
                 loading="lazy"
                 src="/assets/images/pasado-safe.png"/>
+            </div>
+            <div class="c-showcase__block">
+              <img
+                class="c-showcase-logo invert"
+                loading="lazy"
+                src="/assets/images/samara.png"/>
             </div>
           </div>
         </div>
@@ -520,57 +532,6 @@
 export default {
   mounted() {
     this.$scrollingLogos()
-  },
-
-  methods: {
-    scrollingLogo() {
-      const mql = window.matchMedia('(max-width: 767px)')
-      function mqlLogos(e) {
-        if (e.matches) {
-          const wrapper = document.querySelector('.c-showcase-grid__item')
-          const wrapperHeight = wrapper.scrollHeight
-          const tl = this.$gsap.timeline()
-          tl.to('.c-showcase-grid__item.normal', {
-            y: -wrapperHeight - 24,
-            duration: 45,
-            repeat: -1,
-            ease: 'none'
-          })
-          tl.from(
-            '.c-showcase-grid__item.invert',
-            {
-              y: -wrapperHeight + 20,
-              duration: 45,
-              repeat: -1,
-              ease: 'none'
-            },
-            '<'
-          )
-        } else {
-          const wrapper = document.querySelector('.c-showcase-grid__item')
-          const wrapperHeight = wrapper.scrollHeight
-          const tl = this.$gsap.timeline()
-          tl.to('.c-showcase-grid__item.normal', {
-            y: -wrapperHeight - 44,
-            duration: 45,
-            repeat: -1,
-            ease: 'none'
-          })
-          tl.from(
-            '.c-showcase-grid__item.invert',
-            {
-              y: -wrapperHeight - 130,
-              duration: 45,
-              repeat: -1,
-              ease: 'none'
-            },
-            '<'
-          )
-        }
-      }
-      mql.addListener(mqlLogos)
-      mqlLogos(mql)
-    }
   }
 }
 </script>
@@ -587,6 +548,7 @@ export default {
 }
 
 .gradient-overlay {
+  pointer-events: none;
   position: absolute;
   left: 0%;
   top: 0%;

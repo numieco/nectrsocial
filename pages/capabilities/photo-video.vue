@@ -22,7 +22,9 @@
             <h1 class="alt-h1" data-paragraph>Photo Packages</h1>
 
             <div class="capability-list__wrapper fullwidth">
-              <package-block icon="/assets/images/3rd-package.svg" link="/">
+              <package-block
+                id="WdLBaunr"
+                icon="/assets/images/3rd-package.svg">
                 <template #package-name> Level 3 Photo Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -45,7 +47,7 @@
                 <template #package-price>$2,000</template>
               </package-block>
 
-              <package-block icon="/assets/images/camera.svg" link="/">
+              <package-block id="KQFbPnyk" icon="/assets/images/camera.svg">
                 <template #package-name> Level 2 Photo Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -68,7 +70,7 @@
                 <template #package-price>$1,600</template>
               </package-block>
 
-              <package-block icon="/assets/images/photo.svg" link="/">
+              <package-block id="CE8Bq8Qy" icon="/assets/images/photo.svg">
                 <template #package-name> Level 1 Photo Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -102,7 +104,7 @@
             </h4>
 
             <div class="capability-list__wrapper fullwidth">
-              <package-block icon="/assets/images/video-2.svg" link="/">
+              <package-block id="r6oKa9z2" icon="/assets/images/video-2.svg">
                 <template #package-name> Level 2 Video Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -125,7 +127,7 @@
                 <template #package-price>$1,500</template>
               </package-block>
 
-              <package-block icon="/assets/images/video.svg" link="/">
+              <package-block id="Fu6hRzu2" icon="/assets/images/video.svg">
                 <template #package-name> Level 1 Video Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -158,7 +160,7 @@
           </div>
         </div>
 
-        <c-button btn-text="Book a Discovery call!" centered link="/" />
+        <c-button btn-text="Book a Discovery call!" centered typeform />
       </div>
 
       <div class="l-section">

@@ -161,10 +161,7 @@
             </div>
           </div>
 
-          <c-button
-            btn-text="Apply to join network"
-            centered
-            link="/portfolio"/>
+          <c-button btn-text="Apply to join network" centered link="/careers" />
         </div>
       </div>
 

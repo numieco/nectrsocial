@@ -63,7 +63,11 @@
           <h5 class="pricing" data-paragraph>Pricing: Hourly Charge</h5>
         </div>
 
-        <c-button btn-text="Book a Discovery call" centered link="/" />
+        <c-button
+          id="S2ssxJ2z"
+          btn-text="Book a Discovery call"
+          centered
+          typeform/>
       </div>
 
       <Footer />

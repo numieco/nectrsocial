@@ -1,5 +1,15 @@
 <template>
-  <nuxt-link class="cta-btn" :class="btnClass" :to="link">
+  <div
+    v-if="typeform"
+    class="cta-btn"
+    :class="btnClass"
+    @click="toggleTypeform(id)">
+    <div class="cta-btn__block" :class="btnClass">
+      <div>{{ btnText }}</div>
+    </div>
+    <div class="cta-btn__double"></div>
+  </div>
+  <nuxt-link v-else class="cta-btn" :class="btnClass" :to="link">
     <div class="cta-btn__block" :class="btnClass">
       <div>{{ btnText }}</div>
     </div>
@@ -16,7 +26,15 @@ export default {
     },
     link: {
       type: String,
-      required: true
+      default: '/'
+    },
+    typeform: {
+      type: Boolean,
+      default: false
+    },
+    id: {
+      type: String,
+      default: 'loCI4B0l'
     },
     centered: Boolean,
     hideOnMobile: Boolean,
@@ -36,6 +54,14 @@ export default {
         this.small ? 'small' : '',
         this.hideOnMobile ? 'mobile-hide' : ''
       ]
+    }
+  },
+
+  methods: {
+    toggleTypeform(_id) {
+      this.$createPopup(_id, {
+        open: 'load'
+      })
     }
   }
 }

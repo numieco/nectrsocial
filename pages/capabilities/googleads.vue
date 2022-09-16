@@ -103,7 +103,11 @@
           </div>
         </div>
 
-        <c-button btn-text="Book a Discovery call" centered link="/" />
+        <c-button
+          id="I6123tbl"
+          btn-text="Book a Discovery call"
+          centered
+          typeform/>
       </div>
 
       <div class="l-section">
@@ -192,7 +196,7 @@ export default {
       return ''
     },
     title() {
-      return 'Ad Management | NectrSocial'
+      return 'Google Ads | NectrSocial'
     }
   },
   mounted() {

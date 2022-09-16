@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <c-button btn-text="Book a Discovery call" centered link="/" white />
+    <c-button btn-text="Book a Discovery call" centered typeform white />
 
     <div class="c-footer-links">
       <div class="c-footer-link__wrapper">

@@ -30,7 +30,7 @@
           <div class="c-services__wrapper">
             <service-block
               icon="/assets/images/goggle-ads.svg"
-              link="/capabilities/google-ads">
+              link="/capabilities/googleads">
               <template #service> Google Ads </template>
               <template #service-details>
                 Show up where people are searching.
@@ -127,7 +127,7 @@
           </template>
         </casestudy-metrics> -->
 
-        <c-button btn-text="Book a Discovery call!" centered link="/" />
+        <c-button btn-text="Book a Discovery call!" centered typeform />
       </div>
 
       <div class="l-section">

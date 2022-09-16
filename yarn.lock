@@ -1473,6 +1473,11 @@
     "@splidejs/splide-extension-video" "^0.4.6"
     vue "^2.6.12"
 
+"@typeform/embed@^1.37.1":
+  version "1.37.1"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-1.37.1.tgz#f1d2dfe7199ca6d22d862a59107c953583fc069f"
+  integrity sha512-CE/4HxyCGqaoi+P8XvZA6Uzy+Ob6SBsSTseFkpZDLkOp+sy5Nbr17yqAJbn4fPi1BXeYK7jkg8+PGBEbxdeUCw==
+
 "@types/eslint@^7.29.0":
   version "7.29.0"
   resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.29.0.tgz#e56ddc8e542815272720bb0b4ccc2aff9c3e1c78"

@@ -76,7 +76,7 @@
           </service-list>
         </div>
 
-        <c-button btn-text="Book a Discovery call" centered link="/" />
+        <c-button btn-text="Book a Discovery call" centered typeform />
       </div>
 
       <div class="l-section">
@@ -85,7 +85,7 @@
             <h1 class="alt-h1" data-paragraph>Package/pricing breakdown.</h1>
 
             <div class="capability-list__wrapper fullwidth">
-              <package-block link="/">
+              <package-block id="nkO0JI7W">
                 <template #package-name> Heavy Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -113,7 +113,7 @@
                 <template #package-price>$3,000</template>
               </package-block>
 
-              <package-block link="/">
+              <package-block id="VumRw6fA">
                 <template #package-name> Medium Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -141,7 +141,7 @@
                 <template #package-price>$2,700</template>
               </package-block>
 
-              <package-block link="/">
+              <package-block id="vNeMBXAY">
                 <template #package-name> Lite Package </template>
                 <template #list-block>
                   <package-list-item>

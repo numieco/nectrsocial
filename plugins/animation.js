@@ -79,7 +79,7 @@ Vue.prototype.$scrollingLogos = () => {
       tl.from(
         '.c-showcase-grid__item.invert',
         {
-          y: -wrapperHeight + 20,
+          y: -wrapperHeight - 140,
           duration: 45,
           repeat: -1,
           ease: 'none'
@@ -87,6 +87,7 @@ Vue.prototype.$scrollingLogos = () => {
         '<'
       )
     } else {
+      const grids = document.querySelectorAll('.c-showcase__wrapper')
       const wrapper = document.querySelector('.c-showcase-grid__item')
       const wrapperHeight = wrapper.scrollHeight
       const tl = gsap.timeline()
@@ -99,13 +100,21 @@ Vue.prototype.$scrollingLogos = () => {
       tl.from(
         '.c-showcase-grid__item.invert',
         {
-          y: -wrapperHeight - 130,
+          y: -wrapperHeight - 270,
           duration: 45,
           repeat: -1,
           ease: 'none'
         },
         '<'
       )
+      grids.forEach((grid) => {
+        grid.addEventListener('mouseover', function () {
+          tl.pause()
+        })
+        grid.addEventListener('mouseleave', function () {
+          tl.play()
+        })
+      })
     }
   }
   mql.addListener(mqlLogos)

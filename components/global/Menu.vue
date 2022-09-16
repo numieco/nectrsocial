@@ -85,7 +85,7 @@
       <img
         class="c-menu__img five"
         loading="lazy"
-        src="/assets/images/menu-img-2.jpg"/>
+        src="/assets/images/team-img.jpg"/>
     </div>
   </div>
 </template>

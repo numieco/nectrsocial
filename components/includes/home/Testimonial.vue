@@ -41,3 +41,12 @@ export default {
   }
 }
 </script>
+
+<style>
+.c-testimonial__logo {
+  filter: grayscale(100%);
+}
+.c-testimonial__details {
+  margin-top: 30px;
+}
+</style>

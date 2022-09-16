@@ -21,10 +21,14 @@
           <span class="per-month">/month</span>
         </h3>
       </div>
-      <a class="c-service__link w-inline-block" :href="link">
+      <!-- <a class="c-service__link w-inline-block" :href="link">
         <h6 class="medium-text">I want this package</h6>
         <div class="right-arrow service-arrow"></div>
-      </a>
+      </a> -->
+      <div class="c-service__link w-inline-block" @click="toggleTypeform(id)">
+        <h6 class="medium-text">I want this package</h6>
+        <div class="right-arrow service-arrow"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -32,13 +36,32 @@
 <script>
 export default {
   props: {
-    link: {
-      type: String,
-      required: true
-    },
+    // link: {
+    //   type: String,
+    //   required: true
+    // },
     icon: {
-      type: String
+      type: String,
+      default: '/'
+    },
+    id: {
+      type: String,
+      default: 'loCI4B0l'
+    }
+  },
+
+  methods: {
+    toggleTypeform(_id) {
+      this.$createPopup(_id, {
+        open: 'load'
+      })
     }
   }
 }
 </script>
+
+<style>
+.c-service__link {
+  cursor: pointer;
+}
+</style>

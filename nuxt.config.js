@@ -40,7 +40,7 @@ export default {
   plugins: [
     '@/plugins/mixins',
     { src: '@/plugins/animation', ssr: false },
-    { src: '@/plugins/splide', ssr: false }
+    { src: '@/plugins/typeform', ssr: false }
   ],
 
   components: [

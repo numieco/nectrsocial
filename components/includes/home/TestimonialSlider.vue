@@ -66,7 +66,7 @@
         <template #company>Sugar Blossom Lashes</template>
       </testimonial>
 
-      <testimonial>
+      <testimonial logo="/assets/images/donponcho.png">
         <template #content>
           Nectr is great to work with. They were a perfect fit for us as we
           built out our marketing strategy and social media presence. They help
@@ -78,7 +78,7 @@
         <template #company>Don Poncho</template>
       </testimonial>
 
-      <testimonial black>
+      <testimonial black logo="/assets/images/salish.png">
         <template #content>
           They’re incredibly easy to work with, have excellent communication
           skills and are very receptive to any feedback or changes requested. We
@@ -91,7 +91,7 @@
         <template #company>Salish Lodge & Spa</template>
       </testimonial>
 
-      <testimonial>
+      <testimonial logo="/assets/images/downtown.png">
         <template #content>
           Nectr is great to work with. They were a perfect fit for us as we
           built out our marketing strategy and social media presence. They help
@@ -103,7 +103,7 @@
         <template #company>Downtown Spirits</template>
       </testimonial>
 
-      <testimonial black>
+      <testimonial black logo="/assets/images/ably-logo.png">
         <template #content>
           The team at Nectr has been an incredible partner in strategy and
           campaign management for myself and my clients. They are thoughtful and
@@ -114,7 +114,7 @@
         <template #company>Marika Beroukas</template>
       </testimonial>
 
-      <testimonial>
+      <testimonial logo="/assets/images/ably-logo.png">
         <template #content>
           We&#x27;ve been working with Nectr Social and its principals for 3
           years now, and we could not be more pleased. Nectr is clearly the #1
@@ -125,7 +125,7 @@
         <template #company>Ably Apparel</template>
       </testimonial>
 
-      <testimonial black>
+      <testimonial black logo="/assets/images/testimonial-img-2.png">
         <template #content>
           Working with Nectr Social meant less stress for our team! They were
           responsive and reliable, and flexed to fit our ever-changing needs.
@@ -135,7 +135,7 @@
         <template #company>Green Rubino</template>
       </testimonial>
 
-      <testimonial>
+      <testimonial logo="/assets/images/testimonial-img-1.png">
         <template #content>
           In 3 months, our overall return on ad spend has doubled. Since then
           we&#x27;ve continued to scale our ad spend at profit. Communication is

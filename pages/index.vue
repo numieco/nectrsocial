@@ -1,7 +1,6 @@
 <template>
   <div>
     <Header blue-bg />
-
     <div class="scroller">
       <div class="l-section hero-section">
         <div class="l-container">
@@ -42,7 +41,8 @@
 
                 <div class="hero-block__cta">
                   <div class="down-arrow mobile-hide"></div>
-                  <c-button btn-text="Book a Discovery call!" large link="/" />
+
+                  <c-button btn-text="Book a Discovery call!" large typeform />
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@
                 </template>
               </service-accordion>
 
-              <service-accordion link="/capabilities/facebook-instagram-ads">
+              <service-accordion link="/capabilities/fb-ads">
                 <template #title> Facebook &amp; Instagram Ads </template>
                 <template #content>
                   Ad creation/distribution, copywriting, creative testing, and
@@ -101,7 +101,7 @@
                 </template>
               </service-accordion>
 
-              <service-accordion link="/capabilities/google-ads">
+              <service-accordion link="/capabilities/googleads">
                 <template #title> Google Ads </template>
                 <template #content>
                   Show up where people are searching.
@@ -126,7 +126,7 @@
             <c-button
               btn-text="Book a Discovery call!"
               centered
-              link="/"
+              typeform
               white/>
           </div>
         </div>
