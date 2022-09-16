@@ -161,7 +161,11 @@
             </div>
           </div>
 
-          <c-button btn-text="Apply to join network" centered link="/careers" />
+          <c-button
+            id="aWsErXvM"
+            btn-text="Apply to join network"
+            centered
+            typeform/>
         </div>
       </div>
 
