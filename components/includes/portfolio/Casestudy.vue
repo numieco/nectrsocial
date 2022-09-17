@@ -2,7 +2,8 @@
   <nuxt-link
     class="c-casestudy w-inline-block"
     :class="featured ? 'featured' : ''"
-    :to="link"><img alt="" class="cover-image" loading="lazy" :src="imgSrc" />
+    :to="link">
+    <img alt="" class="cover-image" loading="lazy" :src="imgSrc" />
     <div class="slide-details__wrapper" :class="featured ? 'featured' : ''">
       <div class="c-block__double"></div>
       <div class="slide-details__block">
@@ -56,6 +57,17 @@ export default {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 12px;
+}
+
+.c-casestudy {
+  overflow: hidden;
+}
+.c-casestudy > .cover-image {
+  transition: transform 400ms ease;
+}
+
+.c-casestudy:hover > .cover-image {
+  transform: scale(1.1);
 }
 
 .c-casestudy {
