@@ -263,6 +263,12 @@
                 loading="lazy"
                 src="/assets/images/samara.png"/>
             </div>
+            <div class="c-showcase__block">
+              <img
+                class="c-showcase-logo"
+                loading="lazy"
+                src="/assets/images/seabrook.jpeg"/>
+            </div>
           </div>
 
           <div class="c-showcase-grid__item invert">
@@ -355,6 +361,12 @@
                 class="c-showcase-logo invert"
                 loading="lazy"
                 src="/assets/images/samara.png"/>
+            </div>
+            <div class="c-showcase__block">
+              <img
+                class="c-showcase-logo"
+                loading="lazy"
+                src="/assets/images/seabrook.jpeg"/>
             </div>
           </div>
         </div>

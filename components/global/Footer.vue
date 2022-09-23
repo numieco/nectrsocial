@@ -87,7 +87,12 @@
       </div>
     </div>
 
-    <div class="copyright-text w-embed w-script">{{ currentYear }} © Nectr</div>
+    <div class="footer-bottom">
+      <div>1938 Fairview Ave E #220, Seattle, WA 98102</div>
+      <div class="copyright-text w-embed w-script">
+        {{ currentYear }} © Nectr
+      </div>
+    </div>
   </div>
 </template>
 
@@ -112,5 +117,26 @@ export default {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: auto;
+}
+.footer-bottom {
+  padding: 0px 80px 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .c-footer-link__wrapper {
+    width: 100%;
+  }
+  .footer-bottom {
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .copyright-text {
+    margin-top: 10px;
+  }
 }
 </style>

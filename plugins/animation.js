@@ -79,8 +79,8 @@ Vue.prototype.$scrollingLogos = () => {
       tl.from(
         '.c-showcase-grid__item.invert',
         {
-          y: -wrapperHeight - 140,
-          duration: 45,
+          y: -wrapperHeight - 230,
+          duration: 40,
           repeat: -1,
           ease: 'none'
         },
@@ -100,8 +100,8 @@ Vue.prototype.$scrollingLogos = () => {
       tl.from(
         '.c-showcase-grid__item.invert',
         {
-          y: -wrapperHeight - 270,
-          duration: 45,
+          y: -wrapperHeight - 390,
+          duration: 40,
           repeat: -1,
           ease: 'none'
         },

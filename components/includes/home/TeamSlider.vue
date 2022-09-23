@@ -6,9 +6,9 @@
           <div class="header-text">
             <h2 data-paragraph>Meet the Charm</h2>
             <h4 class="neutral-text" data-paragraph>
-              When hummingbirds move together, they are dubbed a charm. They fly
-              together when they need to get things done, like pollinate a field
-              of wildflowers, or crush social media.
+              When hummingbirds fly together, they're called a charm. They fly
+              together when they need to get things done - like pollinate a
+              field of wildflowers, or crush social media.
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">

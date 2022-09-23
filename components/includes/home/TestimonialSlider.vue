@@ -6,8 +6,7 @@
           <div>
             <h2 data-paragraph>Words of Validation</h2>
             <h4 class="neutral-text" data-paragraph>
-              Here’s what some of the amazing clients we’ve worked with have to
-              say!
+              Here’s what the clients we’ve worked with have to say!
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
@@ -34,7 +33,7 @@
       ref="tesSlider"
       class="c-slider testimonial-slider dragscroll"
       @scroll="checkScroll">
-      <testimonial black>
+      <testimonial black logo="/assets/images/ventrk-logo.webp">
         <template #content>
           If you are looking to drive results for your business or brand and
           work with an incredible team, Nectr is the move!
@@ -44,7 +43,7 @@
         <template #company>Ventrk</template>
       </testimonial>
 
-      <testimonial>
+      <testimonial logo="/assets/images/cindy-talks.jpeg">
         <template #content>
           Nectr social has helped me launch two businesses successfully. They
           are professional and informed about getting the desired results you
@@ -56,7 +55,7 @@
         <template #company>Elite Events & CindyTalks</template>
       </testimonial>
 
-      <testimonial black>
+      <testimonial black logo="/assets/images/sbl-logo.png">
         <template #content>
           Nectr fixed my google ads account it was performing horrible until he
           worked his magic. Thanks for your help . Recommend 10/10
