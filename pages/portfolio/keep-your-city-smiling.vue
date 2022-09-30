@@ -5,7 +5,7 @@
     <div class="scroller">
       <casestudy-header
         hero-img="/assets/images/casestudy-img-5.jpg"
-        logo="/assets/images/frost.png">
+        logo="/assets/images/k.png">
         <template #title> Keep Your City Smiling </template>
         <template #caption> The Big Pivot</template>
         <template #catchphrase> Helping People, Help People. </template>
