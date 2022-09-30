@@ -86,3 +86,13 @@ a {
     display: none;
   }
 }
+
+.c-writeup {
+  max-width: none;
+}
+
+@media screen and (min-width: 992px) {
+  .c-writeup__inner {
+    grid-column-gap: 100px;
+  }
+}

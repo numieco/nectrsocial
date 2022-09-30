@@ -155,15 +155,11 @@
             <div class="c-casestudy__wrapper">
               <casestudy
                 featured
-                img-src="/assets/images/casestudy-img-5.jpg"
-                link="/portfolio/keep-your-city-smiling">
-                <template #casestudy-name> Keep Your City Smiling </template>
-                <template #featured-summary>
-                  Read all about how lorem ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry&#x27;s standard dummy text ever since the 1500s,
-                </template>
-                <template #casestudy-details> The Big Pivot </template>
+                img-src="/assets/images/frost-thumb.jpg"
+                link="/portfolio/frost">
+                <template #casestudy-name> Frost </template>
+                <template #featured-summary> Driving Foot Traffic </template>
+                <template #casestudy-details> Driving Foot Traffic </template>
               </casestudy>
             </div>
           </div>

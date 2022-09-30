@@ -4,22 +4,30 @@
 
     <div class="scroller">
       <casestudy-header
-        hero-img="/assets/images/qnightclub.jpg"
-        logo="/assets/images/salish.png">
-        <template #title> Salish Lodge & Spa </template>
-        <template #caption> Destination Hotel in Snoqualmie, WA </template>
-        <template #catchphrase> Rebuilding Post-Pandemic </template>
+        hero-img="/assets/images/casestudy-img-3.jpg"
+        logo="/assets/images/ombraz.png">
+        <template #title> Ombraz </template>
+        <template #caption> 3.5x Return on Ad Spend </template>
+        <template #catchphrase>
+          Modern Shades Generate A Cool Return.
+        </template>
         <template #description>
-          2020 was a devastating year for the hotel industry. Covid brought
-          travel to a screeching halt, and jobs and revenue were lost. As the
-          year came to an end, there were glimpses of hope that the world as we
-          once knew it would return.
+          In March 2018, Nectr teamed up with Ombraz Sunglasses to put their
+          unbreakable, undroppable sunglasses on the map with a 30-day
+          Facebook-fueled crowdfunding campaign. With our help, Ombraz secured
+          their funding eight hours after launch, surpassing their initial goal
+          of $20,000 with $163,000 in final pledges.
           <br />
           <br />
-          Our team developed an organic + paid social media strategy that would
-          help Salish rebound to pre-pandemic numbers in 2021, skyrocketing
-          occupancy rates and average stay duration to the highest it had been
-          in years.
+          For this campaign, Nectr was tasked with managing a reserved social
+          media ad budget. Through creative testing and measured audience
+          building, we were able to deploy a comprehensive revenue-generating
+          funnel and provide an exponential return on investment.
+          <br />
+          <br />
+          Since joining forces with Ombraz, our team has been able to profitably
+          scale their monthly social advertising spend by 16x. To see the full
+          outline of our process and results, swoop down below.
         </template>
       </casestudy-header>
 
@@ -52,28 +60,36 @@
                 in.
               </template>
             </service-block>
+
+            <service-block
+              icon="/assets/images/fb-ad.svg"
+              link="/capabilities/fb-ads">
+              <template #service> Facebook &amp; Instagram Ads </template>
+              <template #service-details>
+                Ad creation/distribution, copywriting, creative testing, and
+                insightful reporting.
+              </template>
+            </service-block>
           </div>
         </div>
 
         <casestudy-metrics>
-          <template #header>Social Media Created</template>
+          <template #header>12-Month Results (2020) </template>
 
           <template #metrics>
             <metric-item>
-              <template #figure>1,917</template>
-              <template #description>
-                unique stays at Salish Lodge & Spa
-              </template>
+              <template #figure>370%</template>
+              <template #description> return on ad spend </template>
             </metric-item>
 
             <metric-item>
-              <template #figure>1M</template>
-              <template #description>in booking revenue</template>
+              <template #figure>2,910</template>
+              <template #description> shades sold </template>
             </metric-item>
 
             <metric-item>
-              <template #figure>2,150%</template>
-              <template #description>return on advertising spend</template>
+              <template #figure>$371,300</template>
+              <template #description> returned in revenue </template>
             </metric-item>
           </template>
         </casestudy-metrics>
@@ -82,27 +98,24 @@
           <div class="l-container">
             <div class="c-writeup__inner">
               <div>
-                <h2 class="alt-h2 no-margin" data-paragraph>The Work</h2>
+                <h2 class="alt-h2 no-margin" data-paragraph>The Product</h2>
                 <div class="c-writeup">
                   <h5 class="neutral-text" data-paragraph>
-                    The Nectr team implemented a seamless prospecting and
-                    retargeting advertising strategy that uses Google, Facebook,
-                    and Instagram ad placements. Our two-pronged method
-                    initially captured users searching relevant keywords on
-                    Google and then followed up with targeted social media ads
-                    based on their interaction with the website, converting
-                    interest to revenue.
+                    Ombraz (ohm-bruz) shades are a fresh take on a classic
+                    accessory. Defined by a durable, comfortable, and ultimately
+                    more practical sunglasses design, they do away with side
+                    arms, screws, and hinges, replacing it all with a simple,
+                    adjustable cord. The end result is an easy-shipping,
+                    near-indestructible package that just so happens to look
+                    good, too.
                     <br />
                     <br />
-                    Our team was also focused on building Salish Lodge & Spa’s
-                    organic social media communities. We steered the visual
-                    narrative by developing all social content, captioning and
-                    posting 3-4 times per week, introducing Instagram Reels, and
-                    managing the social communities.
+                    When we tried Ombraz, it was love at first sight. We knew
+                    right then we had to be a part of their movement.
                   </h5>
                 </div>
               </div>
-              <!--   <div class="c-writeup-img__block">
+              <!-- <div class="c-writeup-img__block">
                 <img
                   alt=""
                   class="c-writeup__img"
@@ -116,18 +129,18 @@
         <casestudy-metrics>
           <template #metrics>
             <metric-item small>
-              <template #figure>10,111</template>
-              <template #description>new followers (~30 per day)</template>
+              <template #figure>113,740</template>
+              <template #description>website views</template>
             </metric-item>
 
             <metric-item small>
-              <template #figure>1.1M+</template>
-              <template #description>users reached organically</template>
+              <template #figure>3.9M</template>
+              <template #description>ad reach</template>
             </metric-item>
 
             <metric-item small>
-              <template #figure>100%</template>
-              <template #description>increase in engagement</template>
+              <template #figure>16.3M</template>
+              <template #description>ad impressions</template>
             </metric-item>
           </template>
         </casestudy-metrics>
@@ -153,11 +166,15 @@
             <div class="c-casestudy__wrapper">
               <casestudy
                 featured
-                img-src="/assets/images/casestudy-img-5.jpg"
-                link="/portfolio/keep-your-city-smiling">
-                <template #casestudy-name> Keep Your City Smiling </template>
-                <template #featured-summary> The Big Pivot </template>
-                <template #casestudy-details> The Big Pivot </template>
+                img-src="/assets/images/casestudy-img-6.jpg"
+                link="/portfolio/ably">
+                <template #casestudy-name> Ably </template>
+                <template #featured-summary>
+                  From 0 to 40k Instagram Followers
+                </template>
+                <template #casestudy-details>
+                  From 0 to 40k Instagram Followers
+                </template>
               </casestudy>
             </div>
           </div>
@@ -194,7 +211,7 @@ export default {
     },
 
     title() {
-      return 'Salish Logde & Spa | NectrSocial'
+      return 'Ombraz Sunglasses | NectrSocial'
     }
   },
 
@@ -204,3 +221,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.c-work__logo {
+  max-height: none;
+}
+</style>

@@ -97,13 +97,13 @@
                   </h5>
                 </div>
               </div>
-              <div class="c-writeup-img__block">
+              <!--    <div class="c-writeup-img__block">
                 <img
                   alt=""
                   class="c-writeup__img"
                   loading="lazy"
                   src="/assets/images/work-img.jpg"/>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -148,15 +148,13 @@
             <div class="c-casestudy__wrapper">
               <casestudy
                 featured
-                img-src="/assets/images/casestudy-img-5.jpg"
-                link="/portfolio/keep-your-city-smiling">
-                <template #casestudy-name> Keep Your City Smiling </template>
-                <template #featured-summary>
-                  Read all about how lorem ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry&#x27;s standard dummy text ever since the 1500s,
+                img-src="/assets/images/Salish-Bath.jpg"
+                link="/portfolio/salish-lodge">
+                <template #casestudy-name> Salish Lodge </template>
+                <template #featured-summary> Rebuilding Post-Pandemic</template>
+                <template #casestudy-details>
+                  Rebuilding Post-Pandemic
                 </template>
-                <template #casestudy-details> The Big Pivot </template>
               </casestudy>
             </div>
           </div>

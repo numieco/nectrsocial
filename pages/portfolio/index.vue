@@ -25,11 +25,7 @@
                 img-src="/assets/images/casestudy-img-5.jpg"
                 link="/portfolio/keep-your-city-smiling">
                 <template #casestudy-name> Keep Your City Smiling </template>
-                <template #featured-summary>
-                  Read all about how lorem ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum has been the
-                  industry&#x27;s standard dummy text ever since the 1500s,
-                </template>
+                <template #featured-summary> The Big Pivot </template>
                 <template #casestudy-details> The Big Pivot </template>
               </casestudy>
 

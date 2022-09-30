@@ -102,7 +102,7 @@
         <template #company>Downtown Spirits</template>
       </testimonial>
 
-      <testimonial black logo="/assets/images/ably-logo.png">
+      <testimonial black logo="/assets/images/marika.png">
         <template #content>
           The team at Nectr has been an incredible partner in strategy and
           campaign management for myself and my clients. They are thoughtful and
