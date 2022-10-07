@@ -164,7 +164,7 @@
                 featured
                 img-src="/assets/images/Due.jpg"
                 link="/portfolio/duecucina">
-                <template #casestudy-name> Duécucina </template>
+                <template #casestudy-name> Due' Cucina </template>
                 <template #featured-summary> Authentically Italian </template>
                 <template #casestudy-details> Authentically Italian </template>
               </casestudy>

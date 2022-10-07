@@ -6,6 +6,7 @@
           class="c-menu__link w-inline-block"
           data-menu="one"
           to="/"
+          @click.native="closeMenu"
           @mouseout.native="menuHoverOut($event)"
           @mouseover.native="menuHoverIn($event)">
           <div class="fill-text">Home</div>
@@ -15,6 +16,7 @@
           class="c-menu__link w-inline-block"
           data-menu="two"
           to="/about"
+          @click.native="closeMenu"
           @mouseout.native="menuHoverOut($event)"
           @mouseover.native="menuHoverIn($event)">
           <div class="fill-text">About</div>
@@ -24,6 +26,7 @@
           class="c-menu__link w-inline-block"
           data-menu="three"
           to="/portfolio"
+          @click.native="closeMenu"
           @mouseout.native="menuHoverOut($event)"
           @mouseover.native="menuHoverIn($event)">
           <div class="fill-text">Portfolio</div>
@@ -33,6 +36,7 @@
           class="c-menu__link w-inline-block"
           data-menu="four"
           to="/capabilities"
+          @click.native="closeMenu"
           @mouseout.native="menuHoverOut($event)"
           @mouseover.native="menuHoverIn($event)">
           <div class="fill-text">Capabilities</div>
@@ -42,13 +46,17 @@
           class="c-menu__link w-inline-block"
           data-menu="five"
           to="/careers"
+          @click.native="closeMenu"
           @mouseout.native="menuHoverOut($event)"
           @mouseover.native="menuHoverIn($event)">
           <div class="fill-text">Careers</div>
           <div class="outline-text white">Careers</div>
         </nuxt-link>
       </div>
-      <nuxt-link class="c-menu__sub-link w-inline-block" to="/network">
+      <nuxt-link
+        class="c-menu__sub-link w-inline-block"
+        to="/network"
+        @click.native="closeMenu">
         <div>Nectr Network</div>
         <div class="menu-line"></div>
       </nuxt-link>
@@ -73,7 +81,7 @@
       <img
         class="c-menu__img two"
         loading="lazy"
-        src="/assets/images/team-img.jpg"/>
+        src="/assets/images/nectr-team.png"/>
       <img
         class="c-menu__img three"
         loading="lazy"
@@ -94,12 +102,15 @@
 export default {
   computed: {
     menuOpen() {
-      // return this.$store.state.menuOpen
       return this.$store.getters.menuState
     }
   },
 
   methods: {
+    closeMenu() {
+      document.querySelector('.c-nav__btn').click()
+    },
+
     menuHoverIn(event) {
       const imgId = event.currentTarget.dataset.menu
       const targetEl = document.querySelector(`.c-menu__img.${imgId}`)
@@ -120,6 +131,9 @@ export default {
 </script>
 
 <style scoped>
+.c-menu__img.two {
+  object-position: 50% 10%;
+}
 .c-menu__link {
   position: relative;
 }

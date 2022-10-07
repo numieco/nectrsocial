@@ -29,6 +29,18 @@
       </div>
     </div>
     <div ref="csSlider" class="c-slider portfolio-slider" @scroll="checkScroll">
+      <casestudy img-src="/assets/images/Due.jpg" link="/portfolio/duecucina">
+        <template #casestudy-name> Due' Cucina </template>
+        <template #casestudy-details> Authentically Italian </template>
+      </casestudy>
+
+      <casestudy
+        img-src="/assets/images/Salish-Bath.jpg"
+        link="/portfolio/salish-lodge">
+        <template #casestudy-name> Salish Lodge </template>
+        <template #casestudy-details> Rebuilding Post-Pandemic </template>
+      </casestudy>
+
       <casestudy
         img-src="/assets/images/qnight-thumb.jpg"
         link="/portfolio/qnightclub">
@@ -64,18 +76,6 @@
         <template #casestudy-details>
           From 0 to 40k Instagram Followers
         </template>
-      </casestudy>
-
-      <casestudy img-src="/assets/images/Due.jpg" link="/portfolio/duecucina">
-        <template #casestudy-name> Duécucina </template>
-        <template #casestudy-details> Authentically Italian </template>
-      </casestudy>
-
-      <casestudy
-        img-src="/assets/images/Salish-Bath.jpg"
-        link="/portfolio/salish-lodge">
-        <template #casestudy-name> Salish Lodge </template>
-        <template #casestudy-details> Rebuilding Post-Pandemic </template>
       </casestudy>
     </div>
     <c-button btn-text="View all case studies" centered link="/portfolio" />

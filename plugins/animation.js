@@ -20,20 +20,20 @@ Vue.prototype.$banner = (_scroller) => {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5
+          scrub: 2.5,
         },
         xPercent: -35,
-        ease: 'none'
+        ease: 'none',
       })
       tl.from('.c-scrolling-tape__inner.two', {
         scrollTrigger: {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5
+          scrub: 2.5,
         },
         xPercent: -35,
-        ease: 'none'
+        ease: 'none',
       })
     } else {
       const tl = gsap.timeline()
@@ -42,20 +42,20 @@ Vue.prototype.$banner = (_scroller) => {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5
+          scrub: 2.5,
         },
         xPercent: -50,
-        ease: 'none'
+        ease: 'none',
       })
       tl.from('.c-scrolling-tape__inner.two', {
         scrollTrigger: {
           scroller: _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
-          scrub: 2.5
+          scrub: 2.5,
         },
         xPercent: -50,
-        ease: 'none'
+        ease: 'none',
       })
     }
   }
@@ -74,7 +74,7 @@ Vue.prototype.$scrollingLogos = () => {
         y: -wrapperHeight - 24,
         duration: 45,
         repeat: -1,
-        ease: 'none'
+        ease: 'none',
       })
       tl.from(
         '.c-showcase-grid__item.invert',
@@ -82,7 +82,7 @@ Vue.prototype.$scrollingLogos = () => {
           y: -wrapperHeight - 230,
           duration: 40,
           repeat: -1,
-          ease: 'none'
+          ease: 'none',
         },
         '<'
       )
@@ -95,7 +95,7 @@ Vue.prototype.$scrollingLogos = () => {
         y: -wrapperHeight - 44,
         duration: 45,
         repeat: -1,
-        ease: 'none'
+        ease: 'none',
       })
       tl.from(
         '.c-showcase-grid__item.invert',
@@ -103,7 +103,7 @@ Vue.prototype.$scrollingLogos = () => {
           y: -wrapperHeight - 390,
           duration: 40,
           repeat: -1,
-          ease: 'none'
+          ease: 'none',
         },
         '<'
       )
@@ -125,9 +125,9 @@ Vue.prototype.$slideRight = (el, width) => {
   gsap.to(el, {
     duration: 0.75,
     scrollTo: {
-      x: el.scrollLeft + width
+      x: el.scrollLeft + width,
     },
-    ease: 'power2.inOut'
+    ease: 'power2.inOut',
   })
 }
 
@@ -135,9 +135,9 @@ Vue.prototype.$slideLeft = (el, width) => {
   gsap.to(el, {
     duration: 0.75,
     scrollTo: {
-      x: el.scrollLeft - width
+      x: el.scrollLeft - width,
     },
-    ease: 'power2.inOut'
+    ease: 'power2.inOut',
   })
 }
 
@@ -149,18 +149,52 @@ Vue.prototype.$autoScroll = (el) => {
       tl.to(el, {
         duration: 20,
         scrollTo: {
-          x: 'max'
+          x: 'max',
         },
-        ease: 'none'
+        ease: 'none',
       })
       tl.to(
         el,
         {
           duration: 20,
           scrollTo: {
-            x: 0
+            x: 0,
           },
-          ease: 'none'
+          ease: 'none',
+        },
+        '>'
+      )
+      tl.play()
+      tl.repeat(-1)
+    } else {
+      tl.seek(0)
+      tl.pause()
+    }
+  }
+  mql.addListener(mqlScroll)
+  mqlScroll(mql)
+}
+
+Vue.prototype.$autoScrollSlow = (el) => {
+  const mql = window.matchMedia('(max-width: 767px)')
+  const tl = gsap.timeline()
+  function mqlScroll(e) {
+    if (e.matches) {
+      tl.to(el, {
+        duration: 60,
+        scrollTo: {
+          x: 'max',
+        },
+        ease: 'none',
+      })
+      tl.to(
+        el,
+        {
+          duration: 60,
+          scrollTo: {
+            x: 0,
+          },
+          ease: 'none',
         },
         '>'
       )

@@ -14,7 +14,7 @@
         </template>
       </service-header>
 
-      <div class="l-section">
+      <div class="l-section no-padding">
         <div class="c-capabilities__wrapper">
           <div class="logo-icon yellow large"></div>
 
@@ -95,13 +95,17 @@
             </div>
           </div>
 
-          <div class="c-package video">
-            <h1 class="alt-h1" data-paragraph>Video Packages</h1>
+          <PhotoSlider />
 
-            <h4 class="neutral-text" data-paragraph>
-              All videos are shot vertically, reel-style, and are ~15-30s in
-              length.
-            </h4>
+          <div class="c-package video">
+            <div class="mobile-padding">
+              <h1 class="alt-h1" data-paragraph>Video Packages</h1>
+
+              <h4 class="neutral-text" data-paragraph>
+                All videos are shot vertically, reel-style, and are ~15-30s in
+                length.
+              </h4>
+            </div>
 
             <div class="capability-list__wrapper fullwidth">
               <package-block id="r6oKa9z2" icon="/assets/images/video-2.svg">
@@ -242,3 +246,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+@media screen and (max-width: 767px) {
+  .capability-list__wrapper.fullwidth {
+    padding-left: 20px;
+    padding-right: 32px;
+  }
+
+  .mobile-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+</style>

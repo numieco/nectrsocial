@@ -6,7 +6,7 @@
           <div>
             <h2 data-paragraph>Words of Validation</h2>
             <h4 class="neutral-text" data-paragraph>
-              Here’s what the clients we’ve worked with have to say!
+              Here's what our clients have to say!
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
@@ -102,7 +102,7 @@
         <template #company>Downtown Spirits</template>
       </testimonial>
 
-      <testimonial black logo="/assets/images/marika.png">
+      <testimonial black logo="/assets/images/marika-smiley.png">
         <template #content>
           The team at Nectr has been an incredible partner in strategy and
           campaign management for myself and my clients. They are thoughtful and

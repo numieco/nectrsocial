@@ -34,7 +34,7 @@
                   The digital marketing agency you didn’t know you needed.
                 </h1>
                 <h3 class="hero-subtext" data-paragraph>
-                  We are Nectr - a fast, next- generation, social media-first
+                  We're Nectr - a fast, next-generation, social media-first
                   digital marketing agency built to
                   <span class="medium-text">hit the sweet spot.</span>
                 </h3>

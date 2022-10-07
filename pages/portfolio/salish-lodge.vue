@@ -4,7 +4,7 @@
 
     <div class="scroller">
       <casestudy-header
-        hero-img="/assets/images/qnightclub.jpg"
+        hero-img="/assets/images/SalishLogoBlack.png"
         logo="/assets/images/salish.png">
         <template #title> Salish Lodge & Spa </template>
         <template #caption> Destination Hotel in Snoqualmie, WA </template>
@@ -204,3 +204,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.c-work__logo {
+  max-height: none;
+}
+</style>

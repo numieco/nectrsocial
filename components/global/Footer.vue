@@ -59,9 +59,18 @@
             </div>
           </div>
           <div>
-            <a class="c-menu__social-link w-inline-block" href="#"><img loading="lazy" src="/assets/images/facebook-icon.svg"/></a>
-            <a class="c-menu__social-link w-inline-block" href="#"><img loading="lazy" src="/assets/images/linkedin-icon.svg"/></a>
-            <a class="c-menu__social-link w-inline-block" href="#"><img loading="lazy" src="/assets/images/instagram-icon.svg"/></a>
+            <a
+              class="c-menu__social-link w-inline-block"
+              href="https://www.facebook.com/nectrsocial/"
+              target="_blank"><img loading="lazy" src="/assets/images/facebook-icon.svg"/></a>
+            <a
+              class="c-menu__social-link w-inline-block"
+              href="https://www.linkedin.com/company/nectr-social/"
+              target="_blank"><img loading="lazy" src="/assets/images/linkedin-icon.svg"/></a>
+            <a
+              class="c-menu__social-link w-inline-block"
+              href="https://www.instagram.com/nectrsocial/?hl=en"
+              target="_blank"><img loading="lazy" src="/assets/images/instagram-icon.svg"/></a>
           </div>
         </div>
         <div class="c-footer-link__block middle">
@@ -83,7 +92,7 @@
         <img
           class="c-footer-img"
           loading="lazy"
-          src="/assets/images/sprout-lockup.svg"/>
+          src="/assets/images/sprout-lockup.png"/>
       </div>
     </div>
 
@@ -107,6 +116,9 @@ export default {
 </script>
 
 <style scoped>
+.c-footer-img {
+  object-fit: cover;
+}
 .tape {
   display: flex;
   align-items: center;
@@ -125,6 +137,10 @@ export default {
   justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
+  .c-footer-img {
+    width: 160px;
+    height: 60px;
+  }
   .c-footer-link__wrapper {
     width: 100%;
   }

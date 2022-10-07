@@ -4,8 +4,9 @@
 
     <div class="scroller">
       <casestudy-header
-        hero-img="/assets/images/qnightclub.jpg"
-        logo="/assets/images/duécucina.png">
+        hero-img="/assets/images/Due.jpg"
+        invert
+        logo="/assets/images/duecucina-logo.png">
         <template #title> Due' Cucina Italiana </template>
         <template #caption> Italian Resturaunt Group </template>
         <template #catchphrase> Authentically Italian </template>
@@ -201,9 +202,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.c-work__logo {
-  max-height: none;
-}
-</style>
