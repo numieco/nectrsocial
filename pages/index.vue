@@ -9,7 +9,13 @@
             <div class="hero-block">
               <div class="hero-img__wrapper">
                 <div class="hero-img__block">
-                  <video controls loop src=""></video>
+                  <video
+                    autoplay="true"
+                    class="hero-video"
+                    controls="false"
+                    loop
+                    muted
+                    src="/assets/videos/Landing.mp4"></video>
                   <!-- <img
                     class="hero-img"
                     loading="lazy"
@@ -31,7 +37,8 @@
               </div>
               <div class="hero-text__wrapper">
                 <h1 class="hero-text" data-paragraph>
-                  The digital marketing agency you didn’t know you needed.
+                  <!-- The digital marketing agency you didn’t know you needed. -->
+                  Howdy
                 </h1>
                 <h3 class="hero-subtext" data-paragraph>
                   We're Nectr - a fast, next-generation, social media-first
@@ -205,22 +212,36 @@ export default {
 </script>
 
 <style>
+.hero-img__wrapper {
+  height: auto;
+}
+@media screen and (min-width: 992px) {
+  .hero-block {
+    align-items: center;
+  }
+}
+.hero-video {
+  pointer-events: none;
+}
 .down-arrow {
   transform: scale(0.7);
 }
 .hero-img__block > video {
   width: 100%;
+  height: 100%;
 }
 .hero-img__block {
   height: 100%;
+  min-height: 0px;
 }
 @media screen and (max-width: 767px) {
   .hero-img__wrapper {
     width: 100%;
   }
   .hero-img__block {
-    width: 100%;
-    height: 50vw;
+    width: auto;
+    height: 80vw;
+    max-height: 500px;
   }
 }
 .c-slider {

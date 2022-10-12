@@ -29,16 +29,16 @@
       </div>
     </div>
     <div ref="csSlider" class="c-slider portfolio-slider" @scroll="checkScroll">
-      <casestudy img-src="/assets/images/Due.jpg" link="/portfolio/duecucina">
-        <template #casestudy-name> Due' Cucina </template>
-        <template #casestudy-details> Authentically Italian </template>
-      </casestudy>
-
       <casestudy
         img-src="/assets/images/Salish-Bath.jpg"
         link="/portfolio/salish-lodge">
         <template #casestudy-name> Salish Lodge </template>
         <template #casestudy-details> Rebuilding Post-Pandemic </template>
+      </casestudy>
+
+      <casestudy img-src="/assets/images/Due.jpg" link="/portfolio/duecucina">
+        <template #casestudy-name> Due' Cucina </template>
+        <template #casestudy-details> Authentically Italian </template>
       </casestudy>
 
       <casestudy
@@ -51,7 +51,7 @@
       <casestudy
         img-src="/assets/images/casestudy-img-2.jpg"
         link="/portfolio/keep-your-city-smiling">
-        <template #casestudy-name> Keep Your City Smiling </template>
+        <template #casestudy-name> KYCS </template>
         <template #casestudy-details> The Big Pivot </template>
       </casestudy>
 

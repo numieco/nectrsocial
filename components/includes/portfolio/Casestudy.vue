@@ -44,6 +44,18 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (max-width: 991px) {
+  .right-arrow {
+    display: none;
+  }
+  .slide-details__inner > .neutral-text {
+    font-size: 16px;
+  }
+  .slide-details__inner > .alt-h4 {
+    font-size: 20px;
+  }
+}
+
 .slide-details__block {
   transition: top 0.4s ease, right 0.4s ease;
 }

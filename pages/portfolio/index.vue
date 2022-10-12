@@ -10,8 +10,7 @@
               <div>
                 <h2 class="section-header__text" data-paragraph>Our Work</h2>
                 <h4 class="section-header__subtext" data-paragraph>
-                  Here are some selected case studies from our favorite
-                  projects.
+                  Here are some select case studies from proud moments.
                 </h4>
               </div>
             </div>
@@ -22,10 +21,21 @@
             <div class="c-casestudy__wrapper">
               <casestudy
                 featured
-                img-src="/assets/images/casestudy-img-5.jpg"
+                img-src="/assets/images/Salish-Bath.jpg"
+                link="/portfolio/salish-lodge">
+                <template #casestudy-name> Salish Lodge </template>
+                <template #featured-summary>
+                  Rebuilding Post-Pandemic
+                </template>
+                <template #casestudy-details>
+                  Rebuilding Post-Pandemic
+                </template>
+              </casestudy>
+
+              <casestudy
+                img-src="/assets/images/casestudy-img-2.jpg"
                 link="/portfolio/keep-your-city-smiling">
                 <template #casestudy-name> Keep Your City Smiling </template>
-                <template #featured-summary> The Big Pivot </template>
                 <template #casestudy-details> The Big Pivot </template>
               </casestudy>
 
@@ -66,15 +76,6 @@
                 link="/portfolio/duecucina">
                 <template #casestudy-name> Due' Cucina </template>
                 <template #casestudy-details> Authentically Italian </template>
-              </casestudy>
-
-              <casestudy
-                img-src="/assets/images/Salish-Bath.jpg"
-                link="/portfolio/salish-lodge">
-                <template #casestudy-name> Salish Lodge </template>
-                <template #casestudy-details>
-                  Rebuilding Post-Pandemic
-                </template>
               </casestudy>
             </div>
           </div>
