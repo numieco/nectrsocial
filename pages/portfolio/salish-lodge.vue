@@ -155,7 +155,7 @@
                 featured
                 img-src="/assets/images/casestudy-img-5.jpg"
                 link="/portfolio/keep-your-city-smiling">
-                <template #casestudy-name> Keep Your City Smiling </template>
+                <template #casestudy-name> KYCS </template>
                 <template #featured-summary> The Big Pivot </template>
                 <template #casestudy-details> The Big Pivot </template>
               </casestudy>

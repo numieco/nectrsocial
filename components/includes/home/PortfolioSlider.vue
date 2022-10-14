@@ -74,7 +74,7 @@
         link="/portfolio/ably">
         <template #casestudy-name> Ably </template>
         <template #casestudy-details>
-          From 0 to 40k Instagram Followers
+          0 to 40k Instagram Followers
         </template>
       </casestudy>
     </div>

@@ -160,7 +160,7 @@
                 link="/portfolio/ombraz-sunglasses">
                 <template #casestudy-name> Ombraz Sunglasses </template>
                 <template #featured-summary>
-                  From 0 to 40k Instagram Followers
+                  0 to 40k Instagram Followers
                 </template>
                 <template #casestudy-details>
                   3.5x Return on Ad Spend

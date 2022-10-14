@@ -20,7 +20,7 @@
                   interested in building a career in the organic social media
                   space. This role will be client-facing and require independent
                   travel to and from local businesses to capture content for use
-                  on client social channels. We are currently open to candidates
+                  on client social channels. We're currently open to candidates
                   in both Seattle, WA and Portland, OR.
                 </template>
               </career-header>

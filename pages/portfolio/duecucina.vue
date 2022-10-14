@@ -11,7 +11,7 @@
         <template #caption> Italian Resturaunt Group </template>
         <template #catchphrase> Authentically Italian </template>
         <template #description>
-          Due Cucina didn’t want to simply throw pretty food pictures on
+          Due' Cucina didn’t want to simply throw pretty food pictures on
           Instagram and call it a day, they have a uniquely playful personality
           and wanted it to shine through in the most authentic way possible.
           After all, in today's day authenticity on social media is paramount.
@@ -82,7 +82,7 @@
                 <div class="c-writeup">
                   <h5 class="neutral-text" data-paragraph>
                     We knew that in order to build an authentic presence for
-                    Due, we had to be more than just an outside services
+                    Due', we had to be more than just an outside services
                     provider. We had to physically immerse our team in their
                     restaurants, spend time with the owners, taste the product,
                     learn a smidge of Italian, listen to their customers, taste
@@ -93,7 +93,7 @@
                     Cucina’s social presence is just that. Every couple of weeks
                     you’ll find a member of our team shooting videos and photos
                     in one of their restaurants. Our team creates and posts all
-                    social media content for Due Cucina, publishing new content
+                    social media content for Due' Cucina, publishing new content
                     5 times per week.
                   </h5>
                 </div>

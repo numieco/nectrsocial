@@ -35,7 +35,7 @@
               <casestudy
                 img-src="/assets/images/casestudy-img-2.jpg"
                 link="/portfolio/keep-your-city-smiling">
-                <template #casestudy-name> Keep Your City Smiling </template>
+                <template #casestudy-name> KYCS </template>
                 <template #casestudy-details> The Big Pivot </template>
               </casestudy>
 
@@ -53,7 +53,7 @@
                 link="/portfolio/ably">
                 <template #casestudy-name> Ably </template>
                 <template #casestudy-details>
-                  From 0 to 40k Instagram Followers
+                  0 to 40k Instagram Followers
                 </template>
               </casestudy>
 
