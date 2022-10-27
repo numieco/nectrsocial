@@ -9,11 +9,6 @@
           This is for the DIYers, the ones that want to learn and apply the
           skills themselves. Great for small, one-human outfits, that haven’t
           quite graduated to our done-for-you packages just yet.
-          <br />
-          <br />
-          Consulting sessions via Google Meet.
-          <br />
-          Sessions are 1 hour long.
         </template>
       </service-header>
 
@@ -60,7 +55,15 @@
             </template>
           </service-list>
 
-          <h5 class="pricing" data-paragraph>Pricing: Hourly Charge</h5>
+          <h5 class="pricing" data-paragraph>
+            Consulting sessions via Google Meet.
+            <br />
+            Sessions are 1 hour long.
+          </h5>
+
+          <div class="c-package__prompt">
+            <div data-paragraph>Pricing: Hourly Charge</div>
+          </div>
         </div>
 
         <c-button
@@ -114,5 +117,6 @@ export default {
 .pricing {
   color: #344c63;
   margin-top: 80px;
+  text-align: center;
 }
 </style>

@@ -4,9 +4,9 @@
 
     <div class="scroller">
       <casestudy-header
-        hero-img="/assets/images/Due.jpg"
+        hero-img="/assets/images/due-header.jpg"
         invert
-        logo="/assets/images/duecucina-logo.png">
+        logo="/assets/images/due-logo.png">
         <template #title> Due' Cucina Italiana </template>
         <template #caption> Italian Resturaunt Group </template>
         <template #catchphrase> Authentically Italian </template>
@@ -30,15 +30,6 @@
 
           <div class="c-services__wrapper">
             <service-block
-              icon="/assets/images/goggle-ads.svg"
-              link="/capabilities/googleads">
-              <template #service> Google Ads </template>
-              <template #service-details>
-                Show up where people are searching.
-              </template>
-            </service-block>
-
-            <service-block
               icon="/assets/images/social-media.svg"
               link="/capabilities/social-media-management">
               <template #service> Social Media Management (Organic) </template>
@@ -56,19 +47,19 @@
 
           <template #metrics>
             <metric-item>
-              <template #figure>26,000</template>
+              <template #figure>56,000</template>
               <template #description>
                 new social media followers (~150 per day)
               </template>
             </metric-item>
 
             <metric-item>
-              <template #figure>500,000+</template>
+              <template #figure>1M+</template>
               <template #description>TikTok and Reel views</template>
             </metric-item>
 
             <metric-item>
-              <template #figure>10</template>
+              <template #figure>14</template>
               <template #description>collabs with local influencers </template>
             </metric-item>
           </template>

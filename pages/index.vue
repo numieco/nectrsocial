@@ -15,6 +15,7 @@
                     controls="false"
                     loop
                     muted
+                    playsinline
                     src="/assets/videos/Landing.mp4"></video>
                   <!-- <img
                     class="hero-img"

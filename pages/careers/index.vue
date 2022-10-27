@@ -22,6 +22,30 @@
         <div class="c-careers">
           <div class="l-container">
             <div class="c-careers__wrapper">
+              <career-block link="JKGjqVay">
+                <template #role> Social Media Manager </template>
+                <template #role-details>
+                  We’re looking to add a new member to the Nectr Social team
+                  interested in building a career in the organic social media
+                  space. This role will be client-facing and require independent
+                  travel to and from local businesses to capture content for use
+                  on client social channels.
+                </template>
+                <template #role-type> Full Time </template>
+                <template #role-location> Seattle, WA / Portland, OR </template>
+              </career-block>
+
+              <career-block link="JKGjqVay">
+                <template #role> Videographer / Editor </template>
+                <template #role-details>
+                  Is video your thing? We're looking to fill a part-time need
+                  for reel-style video production and editing. If this is you,
+                  let us know!
+                </template>
+                <template #role-type> Part Time </template>
+                <template #role-location> Seattle, WA </template>
+              </career-block>
+              <!-- 
               <career-block link="/careers/field-social">
                 <template #role> Field Social Media Manager </template>
                 <template #role-details>
@@ -47,7 +71,7 @@
                 <template #role-type> Part Time </template>
                 <template #role-location> Seattle, WA </template>
               </career-block>
-
+              
               <career-block link="/careers/google-ads-specialist">
                 <template #role> Google Ads Specialist </template>
                 <template #role-details>
@@ -72,7 +96,7 @@
                 </template>
                 <template #role-type> Part Time </template>
                 <template #role-location> Seattle, WA </template>
-              </career-block>
+              </career-block> -->
             </div>
           </div>
         </div>

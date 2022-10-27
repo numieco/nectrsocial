@@ -4,7 +4,7 @@
 
     <div class="scroller">
       <casestudy-header
-        hero-img="/assets/images/casestudy-img-5.jpg"
+        hero-img="/assets/images/kycs-header.jpg"
         logo="/assets/images/k.png">
         <template #title> Keep Your City Smiling </template>
         <template #caption> The Big Pivot</template>
@@ -22,10 +22,10 @@
           critical time.
           <br />
           <br />
-          We came across the Eitzen's story on LinkedIn in early April 2020. We
-          knew we had to do our part. That's why Nectr offered to set up an
-          e-commerce campaign on Facebook and Instagram, free of charge. The
-          campaign exceeded everyone's wildest expectations.
+          We came across the Eitzen's story on LinkedIn. We knew we had to do
+          our part. So we offered to set up an e-commerce campaign on Facebook
+          and Instagram, free of charge. The campaign exceeded everyone's
+          wildest expectations.
         </template>
       </casestudy-header>
 
@@ -163,7 +163,7 @@
                   0 to 40k Instagram Followers
                 </template>
                 <template #casestudy-details>
-                  3.5x Return on Ad Spend
+                  3.7x Return on Ad Spend
                 </template>
               </casestudy>
             </div>

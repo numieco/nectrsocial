@@ -15,7 +15,7 @@
       </div>
       <div class="c-testimonial__details">
         <div v-if="logo" class="c-testimonial__logo">
-          <img loading="lazy" :src="logo" />
+          <img :class="small ? 'small' : ''" loading="lazy" :src="logo" />
         </div>
         <h4 class="alt-h4" data-paragraph>
           <slot name="name" />
@@ -35,6 +35,7 @@
 export default {
   props: {
     black: Boolean,
+    small: Boolean,
     logo: {
       type: String
     }
@@ -45,6 +46,9 @@ export default {
 <style>
 .c-testimonial__logo {
   filter: grayscale(100%);
+}
+.c-testimonial__logo > .small {
+  max-width: 80%;
 }
 .c-testimonial__details {
   margin-top: 30px;

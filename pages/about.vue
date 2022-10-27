@@ -93,12 +93,12 @@
               <template #role> Creative Director </template>
             </team-member>
 
-            <team-member
+            <!--    <team-member
               img-src-one="/assets/images/Jon-01.jpg"
               img-src-two="/assets/images/Jon-hover.jpg">
               <template #name> Jonathan Ochoa </template>
               <template #role> Social Media Manager </template>
-            </team-member>
+            </team-member> -->
 
             <team-member
               img-src-one="/assets/images/Gianna 01.jpg"

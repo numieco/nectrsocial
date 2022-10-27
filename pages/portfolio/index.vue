@@ -10,7 +10,7 @@
               <div>
                 <h2 class="section-header__text" data-paragraph>Our Work</h2>
                 <h4 class="section-header__subtext" data-paragraph>
-                  Here are some select case studies from proud moments.
+                  Browse selected case studies from successful projects.
                 </h4>
               </div>
             </div>
@@ -33,23 +33,23 @@
               </casestudy>
 
               <casestudy
-                img-src="/assets/images/casestudy-img-2.jpg"
+                img-src="/assets/images/kycs-thumb.jpeg"
                 link="/portfolio/keep-your-city-smiling">
                 <template #casestudy-name> KYCS </template>
                 <template #casestudy-details> The Big Pivot </template>
               </casestudy>
 
               <casestudy
-                img-src="/assets/images/casestudy-img-3.jpg"
+                img-src="/assets/images/ombraz-thumb.jpg"
                 link="/portfolio/ombraz-sunglasses">
                 <template #casestudy-name> Ombraz Sunglasses </template>
                 <template #casestudy-details>
-                  3.5x Return on Ad Spend
+                  3.7x Return on Ad Spend
                 </template>
               </casestudy>
 
               <casestudy
-                img-src="/assets/images/casestudy-img-6.jpg"
+                img-src="/assets/images/ably-thumb.jpg"
                 link="/portfolio/ably">
                 <template #casestudy-name> Ably </template>
                 <template #casestudy-details>
@@ -72,7 +72,7 @@
               </casestudy>
 
               <casestudy
-                img-src="/assets/images/Due.jpg"
+                img-src="/assets/images/due-thumb.jpg"
                 link="/portfolio/duecucina">
                 <template #casestudy-name> Due' Cucina </template>
                 <template #casestudy-details> Authentically Italian </template>

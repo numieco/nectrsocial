@@ -17,7 +17,7 @@
           <div class="logo-icon yellow large"></div>
 
           <service-list>
-            <template #list-header>What you get [baked into each package]:
+            <template #list-header>What you get, baked into each package:
             </template>
             <template #list-block>
               <service-list-item>
@@ -25,7 +25,7 @@
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Monthly content shoots — in our studio or on-site
+                  Monthly content shoots, in our studio or on-site
                 </template>
               </service-list-item>
               <service-list-item>
@@ -69,7 +69,7 @@
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  LIVE reporting — auto-updated every 30-minutes
+                  LIVE reporting, auto-updated every 30-minutes
                 </template>
               </service-list-item>
             </template>
@@ -82,7 +82,7 @@
       <div class="l-section">
         <div class="c-capabilities__wrapper no-margin">
           <div class="c-package">
-            <h1 class="alt-h1" data-paragraph>Package/pricing breakdown.</h1>
+            <h1 class="alt-h1" data-paragraph>Package breakdown.</h1>
 
             <div class="capability-list__wrapper fullwidth">
               <package-block id="nkO0JI7W">

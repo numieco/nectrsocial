@@ -4,8 +4,8 @@
 
     <div class="scroller">
       <casestudy-header
-        hero-img="/assets/images/SalishLogoBlack.png"
-        logo="/assets/images/salish.png">
+        hero-img="/assets/images/salish-header.jpg"
+        logo="/assets/images/SalishLogoBlack.png">
         <template #title> Salish Lodge & Spa </template>
         <template #caption> Destination Hotel in Snoqualmie, WA </template>
         <template #catchphrase> Rebuilding Post-Pandemic </template>
@@ -17,9 +17,8 @@
           <br />
           <br />
           Our team developed an organic + paid social media strategy that would
-          help Salish rebound to pre-pandemic numbers in 2021, skyrocketing
-          occupancy rates and average stay duration to the highest it had been
-          in years.
+          help Salish rebound to pre-pandemic numbers, skyrocketing occupancy
+          rates and average stay duration to the highest it's been in years.
         </template>
       </casestudy-header>
 
@@ -56,7 +55,7 @@
         </div>
 
         <casestudy-metrics>
-          <template #header>Social Media Created</template>
+          <template #header>Social Media Created:</template>
 
           <template #metrics>
             <metric-item>
@@ -67,7 +66,7 @@
             </metric-item>
 
             <metric-item>
-              <template #figure>1M</template>
+              <template #figure>$1M</template>
               <template #description>in booking revenue</template>
             </metric-item>
 
@@ -88,16 +87,16 @@
                     The Nectr team implemented a seamless prospecting and
                     retargeting advertising strategy that uses Google, Facebook,
                     and Instagram ad placements. Our two-pronged method
-                    initially captured users searching relevant keywords on
-                    Google and then followed up with targeted social media ads
-                    based on their interaction with the website, converting
-                    interest to revenue.
+                    initially captures users searching relevant keywords on
+                    Google and then follows with targeted social media ads based
+                    on their interaction with the website, converting interest
+                    to revenue.
                     <br />
                     <br />
-                    Our team was also focused on building Salish Lodge & Spa’s
-                    organic social media communities. We steered the visual
+                    Our team was also tasked with building Salish Lodge & Spa’s
+                    organic social media communities. We steer the visual
                     narrative by developing all social content, captioning and
-                    posting 3-4 times per week, introducing Instagram Reels, and
+                    posting 3-4 times per week, creating Instagram Reels, and
                     managing the social communities.
                   </h5>
                 </div>

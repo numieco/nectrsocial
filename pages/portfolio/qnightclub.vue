@@ -4,7 +4,7 @@
 
     <div class="scroller">
       <casestudy-header
-        hero-img="/assets/images/qnightclub.jpg"
+        hero-img="/assets/images/qnightclub-header.jpg"
         logo="/assets/images/qnightclub-logo.png">
         <template #title> QNightClub </template>
         <template #caption> Sold Out Shows </template>
@@ -17,12 +17,10 @@
           regularly hosts touring artists/DJs Wednesday through Saturday nights.
           <br />
           <br />
-          Over the course of 2019, our team had the opportunity to build up a
-          paid social media presence for Q Nightclub. Tasked with the
-          responsibility of building awareness for upcoming shows with an end
-          goal of driving ticket sales to these events, we were able to sell
-          over 1.1k tickets on the Q Nightclub website while collecting a 13.59
-          ROAS (return on ad spend) in Q4 of 2019, totalling over $50k in
+          Tasked with the responsibility of building awareness for upcoming
+          shows with an end goal of driving ticket sales to these events, we
+          were able to sell over 1.1k tickets on the Q Nightclub website while
+          collecting a 13.59 ROAS (return on ad spend) totalling over $50k in
           revenue.
           <br />
           <br />
@@ -51,20 +49,19 @@
             </service-block>
 
             <service-block
-              icon="/assets/images/social-media.svg"
-              link="/capabilities/social-media-management">
-              <template #service> Social Media Management (Organic) </template>
+              icon="/assets/images/fb-ad.svg"
+              link="/capabilities/fb-ads">
+              <template #service> Facebook &amp; Instagram Ads </template>
               <template #service-details>
-                Hand us the keys to your social channels. Complete, done-for-you
-                social media management solutions with growth strategies baked
-                in.
+                Ad creation/distribution, copywriting, creative testing, and
+                insightful reporting.
               </template>
             </service-block>
           </div>
         </div>
 
         <casestudy-metrics>
-          <template #header> Q4 2019 Results </template>
+          <template #header> Results </template>
 
           <template #metrics>
             <metric-item>
@@ -98,9 +95,7 @@
                     audiences across the Pacific Northwest.<br /><br />Using
                     test-and-learn and retargeting strategies, we were able to
                     create an adaptable, revenue-driving, ticket-selling machine
-                    on social that has consistently driven above average ROAS
-                    while maintaining a level of awareness within the local
-                    Seattle market.
+                    on social that has consistently driven above average ROAS.
                   </h5>
                 </div>
               </div>

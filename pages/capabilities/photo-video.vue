@@ -34,7 +34,8 @@
                   </package-list-item>
                   <package-list-item>
                     <template #list-text>
-                      Sized for social media placements
+                      Sized for social media, e-commerce, marketplace (i.e.
+                      Amazon), or custom usage.
                     </template>
                   </package-list-item>
                   <package-list-item>
@@ -42,6 +43,12 @@
                   </package-list-item>
                   <package-list-item>
                     <template #list-text> Unlimited usage rights </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Themes and photo-styling </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Pre-planning call </template>
                   </package-list-item>
                 </template>
                 <template #package-price>$2,000</template>
@@ -57,7 +64,8 @@
                   </package-list-item>
                   <package-list-item>
                     <template #list-text>
-                      Sized for social media placements
+                      Sized for social media, e-commerce, marketplace (i.e.
+                      Amazon), or custom usage.
                     </template>
                   </package-list-item>
                   <package-list-item>
@@ -65,6 +73,12 @@
                   </package-list-item>
                   <package-list-item>
                     <template #list-text> Unlimited usage rights </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Themes and photo-styling </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Pre-planning call </template>
                   </package-list-item>
                 </template>
                 <template #package-price>$1,600</template>
@@ -80,7 +94,8 @@
                   </package-list-item>
                   <package-list-item>
                     <template #list-text>
-                      Sized for social media placements
+                      Sized for social media, e-commerce, marketplace (i.e.
+                      Amazon), or custom usage.
                     </template>
                   </package-list-item>
                   <package-list-item>
@@ -88,6 +103,12 @@
                   </package-list-item>
                   <package-list-item>
                     <template #list-text> Unlimited usage rights </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Themes and photo-styling</template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Pre-planning call </template>
                   </package-list-item>
                 </template>
                 <template #package-price>$1,200</template>
@@ -127,6 +148,9 @@
                   <package-list-item>
                     <template #list-text>Unlimited usage rights </template>
                   </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Pre-planning call </template>
+                  </package-list-item>
                 </template>
                 <template #package-price>$1,500</template>
               </package-block>
@@ -149,6 +173,9 @@
                   </package-list-item>
                   <package-list-item>
                     <template #list-text>Unlimited usage rights </template>
+                  </package-list-item>
+                  <package-list-item>
+                    <template #list-text> Pre-planning call </template>
                   </package-list-item>
                 </template>
                 <template #package-price>$850</template>
@@ -176,12 +203,12 @@
             <div class="c-faq__list">
               <faq-accordion>
                 <template #title>
-                  I know the content your team creates is intended for social
-                  media but can I use it somewhere else?
+                  What purposes can Nectr create content for?
                 </template>
                 <template #content>
-                  We’ll send you the high res files, feel free to use it for
-                  purposes outside of social media.
+                  We create photos for your website, your socials, your online
+                  marketplace (i.e Etsy or Amazon), product listings, or
+                  whatever else!
                 </template>
               </faq-accordion>
 
@@ -200,6 +227,25 @@
                   product, our team can help you showcase your service or
                   physical business location, let’s chat.
                 </template>
+              </faq-accordion>
+
+              <faq-accordion>
+                <template #title>
+                  What happens after I choose a package?
+                </template>
+                <template #content>
+                  After you click the package you want, you will be asked a few
+                  questions about your goals. From there we'll set up an intro
+                  call with our team. We'll discuss your vision and timelines,
+                  then off we go!
+                </template>
+              </faq-accordion>
+
+              <faq-accordion>
+                <template #title>
+                  Can I ship products to Nectr to shoot?
+                </template>
+                <template #content> Yes you can! </template>
               </faq-accordion>
             </div>
           </div>

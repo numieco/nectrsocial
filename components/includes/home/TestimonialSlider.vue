@@ -33,7 +33,7 @@
       ref="tesSlider"
       class="c-slider testimonial-slider dragscroll"
       @scroll="checkScroll">
-      <testimonial black logo="/assets/images/ventrk-logo.webp">
+      <testimonial black logo="/assets/images/ventrk-logo-fill.jpg">
         <template #content>
           If you are looking to drive results for your business or brand and
           work with an incredible team, Nectr is the move!
@@ -65,7 +65,7 @@
         <template #company>Sugar Blossom Lashes</template>
       </testimonial>
 
-      <testimonial logo="/assets/images/donponcho.png">
+      <testimonial logo="/assets/images/donponcho.png" small>
         <template #content>
           Nectr is great to work with. They were a perfect fit for us as we
           built out our marketing strategy and social media presence. They help
@@ -77,7 +77,7 @@
         <template #company>Don Poncho</template>
       </testimonial>
 
-      <testimonial black logo="/assets/images/salish.png">
+      <testimonial black logo="/assets/images/salish.png" small>
         <template #content>
           They’re incredibly easy to work with, have excellent communication
           skills and are very receptive to any feedback or changes requested. We
@@ -236,6 +236,11 @@ export default {
   max-width: 1550px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 767px) {
+  .testimonial-slider {
+    pointer-events: all;
+  }
 }
 .c-testimonial {
   pointer-events: auto;

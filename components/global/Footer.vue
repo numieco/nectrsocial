@@ -54,9 +54,9 @@
             <div>
               <a class="contact-link" href="mailto:hello@nectrsocial.com">hello@nectrsocial.com</a>
             </div>
-            <div>
+            <!-- <div>
               <a class="contact-link" href="tel:(206)848-5944">(206) 848-5944</a>
-            </div>
+            </div> -->
           </div>
           <div>
             <a
@@ -116,6 +116,9 @@ export default {
 </script>
 
 <style scoped>
+.c-footer-link__block.middle {
+  min-height: 144px;
+}
 .c-footer-img {
   object-fit: cover;
 }
@@ -137,6 +140,9 @@ export default {
   justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
+  .c-footer-link__block.middle {
+    min-height: 128px;
+  }
   .c-footer-img {
     width: 160px;
     height: 60px;

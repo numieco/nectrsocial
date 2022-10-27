@@ -28,7 +28,12 @@
         </div>
       </div>
 
-      <c-button btn-text="Reach out for more" centered :link="link" small />
+      <c-button
+        :id="link"
+        btn-text="Reach out for more"
+        centered
+        small
+        typeform/>
     </div>
   </div>
 </template>
@@ -43,3 +48,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.c-role__description {
+  max-height: fit-content;
+}
+</style>

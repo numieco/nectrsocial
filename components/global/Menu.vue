@@ -89,7 +89,7 @@
       <img
         class="c-menu__img four"
         loading="lazy"
-        src="/assets/images/menu-img-4.jpg"/>
+        src="/assets/images/salish-header.jpg"/>
       <img
         class="c-menu__img five"
         loading="lazy"

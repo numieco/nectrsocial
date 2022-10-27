@@ -58,13 +58,13 @@
         <template #role> Creative Director </template>
       </team-member>
 
-      <team-member
+      <!--       <team-member
         img-src-one="/assets/images/Jon-01.jpg"
         img-src-two="/assets/images/Jon-hover.jpg"
         small>
         <template #name> Jonathan Ochoa </template>
         <template #role> Social Media Manager </template>
-      </team-member>
+      </team-member> -->
 
       <team-member
         img-src-one="/assets/images/Gianna 01.jpg"
@@ -112,7 +112,7 @@ export default {
   },
 
   mounted() {
-    this.$autoScroll(this.$refs.teamSlider)
+    // this.$autoScroll(this.$refs.teamSlider)
   },
 
   methods: {
@@ -155,6 +155,11 @@ export default {
   max-width: 1550px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 767px) {
+  .team-slider {
+    pointer-events: all;
+  }
 }
 .c-team {
   pointer-events: auto;

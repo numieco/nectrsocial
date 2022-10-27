@@ -4,8 +4,8 @@
 
     <div class="scroller">
       <service-header>
-        <template #title> Google Ad Management </template>
-        <template #description> Show up where people are searching. </template>
+        <template #title> TikTok Ads </template>
+        <template #description> The greenest ad space on the block. </template>
       </service-header>
 
       <div class="l-section">
@@ -23,21 +23,19 @@
             <template #list-header>Setup </template>
             <template #list-block>
               <service-list-item>
-                <template #list-text> Ad Account configuration </template>
-              </service-list-item>
-              <service-list-item>
                 <template #list-text>
-                  Google conversion tracking setup
+                  Ad Account & Business Manager configuration
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Attribution & Privacy compliance
+                  TikTok Pixel conversion tracking setup
                 </template>
               </service-list-item>
-              <!--        <service-list-item>
-                <template #list-text> Tracking & attribution </template>
-              </service-list-item> -->
+              <service-list-item>
+                <template #list-text>
+                  Attribution & privacy compliance</template>
+              </service-list-item>
             </template>
           </service-list>
 
@@ -100,11 +98,11 @@
           </div>
         </div>
 
-        <c-button
-          id="I6123tbl"
+        <!-- <c-button
+          id="KpAvYPwg"
           btn-text="Book a Discovery call"
           centered
-          typeform/>
+          typeform/> -->
       </div>
 
       <div class="l-section">
@@ -151,17 +149,10 @@
       <RelatedSlider>
         <template #casestudies>
           <casestudy
-            img-src="/assets/images/casestudy-img-3.jpg"
-            link="/portfolio/ombraz-sunglasses">
-            <template #casestudy-name> Ombraz Sunglasses </template>
-            <template #casestudy-details> 3.7x Return on Ad Spend </template>
-          </casestudy>
-
-          <casestudy
-            img-src="/assets/images/casestudy-img-1.jpg"
-            link="/portfolio/qnightclub">
-            <template #casestudy-name> QNightClub </template>
-            <template #casestudy-details> Sold Out Shows </template>
+            img-src="/assets/images/Due.jpg"
+            link="/portfolio/duecucina">
+            <template #casestudy-name> Due' Cucina </template>
+            <template #casestudy-details> Authentically Italian </template>
           </casestudy>
         </template>
       </RelatedSlider>
@@ -193,7 +184,7 @@ export default {
       return ''
     },
     title() {
-      return 'Google Ads | NectrSocial'
+      return 'TikTok Ads | NectrSocial'
     }
   },
   mounted() {

@@ -85,6 +85,16 @@
                   call check-ins, and ongoing consulting services.
                 </template>
               </service-block>
+
+              <service-block
+                icon="/assets/images/fb-ad.svg"
+                link="/capabilities/tiktok-ads">
+                <template #service> TikTok Ads </template>
+                <template #service-details>
+                  Ad creation/distribution, copywriting, creative testing, and
+                  insightful reporting.
+                </template>
+              </service-block>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@
         hero-img="/assets/images/casestudy-img-6.jpg"
         logo="/assets/images/ably-logo.png">
         <template #title> Ably </template>
-        <template #caption> From 0 to 40k Instagram Followers </template>
+        <template #caption> From 0-40k+ Instagram Followers </template>
         <template #catchphrase>
           #WhateverProof Clothing Finds Its Following.
         </template>
@@ -62,7 +62,7 @@
 
           <template #metrics>
             <metric-item>
-              <template #figure>40,400</template>
+              <template #figure>40,000+</template>
               <template #description> total followers </template>
             </metric-item>
 
@@ -87,24 +87,16 @@
                   <h5 class="neutral-text" data-paragraph>
                     Nectr is lucky enough to know some pretty cool humans. We
                     tapped into our influencer network of impactful individuals
-                    to help spread the good word about Ably. With the help of
-                    the personalities below—and many others—we were able to
-                    connect with each of their individual communities and shout
-                    our client’s name from the digital mountaintops.
+                    to help spread the good word about Ably.
                     <br />
                     <br />
-                    When we tried Ombraz, it was love at first sight. We knew
-                    right then we had to be a part of their movement.
+                    With the help of the personalities below—and many others—we
+                    were able to connect with each of their individual
+                    communities and shout our client’s name from the digital
+                    mountaintops.
                   </h5>
                 </div>
               </div>
-              <!--   <div class="c-writeup-img__block">
-                <img
-                  alt=""
-                  class="c-writeup__img"
-                  loading="lazy"
-                  src="/assets/images/work-img.jpg"/>
-              </div> -->
             </div>
           </div>
         </div>

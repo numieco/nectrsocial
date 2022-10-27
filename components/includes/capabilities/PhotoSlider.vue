@@ -3,7 +3,9 @@
     <div class="l-section__header">
       <div class="l-container">
         <div class="c-section-header">
-          <div class="header-text"></div>
+          <div class="header-text">
+            <h4 class="neutral-text" data-paragraph>Photo work by Nectr:</h4>
+          </div>
           <div class="c-slider-controls mobile-hide">
             <div
               class="c-slider-control__btn slider-prev"

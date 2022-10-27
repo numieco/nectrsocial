@@ -4,7 +4,7 @@
 
     <div class="scroller">
       <service-header>
-        <template #title> Ad Management </template>
+        <template #title> Facebook & Instagram Ads </template>
         <template #description>
           Ensure that your Facebook & Instagram advertising campaigns are built
           for juicy returns in 2022.
@@ -17,7 +17,7 @@
 
           <h4 class="capability-hero__subtext" data-paragraph>
             We’ve gained plenty of insight through the years, managing an
-            advertising portfolio of over $5M on behalf of our clients. The
+            advertising portfolio of over $5M on behalf of our clients. Our
             biggest takeaway: the digital advertising landscape is in constant
             flux. The algorithms seem to favor something new every day.
           </h4>
@@ -32,7 +32,7 @@
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Meta Pixel, TikTok Pixel, Google conversion tracking setup
+                  Meta Pixel conversion tracking setup
                 </template>
               </service-list-item>
               <service-list-item>
@@ -157,7 +157,7 @@
             img-src="/assets/images/casestudy-img-3.jpg"
             link="/portfolio/ombraz-sunglasses">
             <template #casestudy-name> Ombraz Sunglasses </template>
-            <template #casestudy-details> 3.5x Return on Ad Spend </template>
+            <template #casestudy-details> 3.7x Return on Ad Spend </template>
           </casestudy>
 
           <casestudy

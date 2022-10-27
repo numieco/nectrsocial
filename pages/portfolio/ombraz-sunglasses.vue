@@ -4,25 +4,25 @@
 
     <div class="scroller">
       <casestudy-header
-        hero-img="/assets/images/casestudy-img-3.jpg"
+        hero-img="/assets/images/ombraz-header.webp"
         logo="/assets/images/ombraz.png">
         <template #title> Ombraz </template>
-        <template #caption> 3.5x Return on Ad Spend </template>
+        <template #caption> 3.7x Return on Ad Spend </template>
         <template #catchphrase>
           Modern Shades Generate A Cool Return.
         </template>
         <template #description>
-          In March 2018, Nectr teamed up with Ombraz Sunglasses to put their
-          unbreakable, undroppable sunglasses on the map with a 30-day
-          Facebook-fueled crowdfunding campaign. With our help, Ombraz secured
-          their funding eight hours after launch, surpassing their initial goal
-          of $20,000 with $163,000 in final pledges.
+          Nectr teamed up with Ombraz Sunglasses to put their unbreakable,
+          undroppable sunglasses on the map with a 30-day Facebook-fueled
+          crowdfunding campaign. With our help, Ombraz secured their funding
+          eight hours after launch, surpassing their initial goal of $20,000
+          with $163,000 in final pledges.
           <br />
           <br />
-          For this campaign, Nectr was tasked with managing a reserved social
-          media ad budget. Through creative testing and measured audience
-          building, we were able to deploy a comprehensive revenue-generating
-          funnel and provide an exponential return on investment.
+          Nectr was tasked with managing a reserved social media ad budget.
+          Through creative testing and measured audience building, we were able
+          to deploy a comprehensive revenue-generating funnel and provide an
+          exponential return on investment.
           <br />
           <br />
           Since joining forces with Ombraz, our team has been able to profitably
@@ -51,17 +51,6 @@
             </service-block>
 
             <service-block
-              icon="/assets/images/social-media.svg"
-              link="/capabilities/social-media-management">
-              <template #service> Social Media Management (Organic) </template>
-              <template #service-details>
-                Hand us the keys to your social channels. Complete, done-for-you
-                social media management solutions with growth strategies baked
-                in.
-              </template>
-            </service-block>
-
-            <service-block
               icon="/assets/images/fb-ad.svg"
               link="/capabilities/fb-ads">
               <template #service> Facebook &amp; Instagram Ads </template>
@@ -74,7 +63,7 @@
         </div>
 
         <casestudy-metrics>
-          <template #header>12-Month Results (2020) </template>
+          <template #header>Results</template>
 
           <template #metrics>
             <metric-item>

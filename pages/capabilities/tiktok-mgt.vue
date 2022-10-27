@@ -33,16 +33,16 @@
               <service-list-item>
                 <template #list-text>
                   Addition of TikTok content to our mutually shared content hub.
-                  The client has a free license to use this content elsewhere if
+                  You will have free license to use this content elsewhere if
                   desired.
                 </template>
               </service-list-item>
-              <service-list-item>
+              <!-- <service-list-item>
                 <template #list-text>
                   Work with clients to plan organic content for specific dates
                   and events.
                 </template>
-              </service-list-item>
+              </service-list-item> -->
             </template>
           </service-list>
 
@@ -50,27 +50,24 @@
             <template #list-header>Scheduling / Publishing Cadence </template>
             <template #list-block>
               <service-list-item>
-                <template #list-text>
-                  Agency will be responsible for posting 2-3 times per week on
-                  TikTok.
-                </template>
+                <template #list-text> 2-3 posts per week on TikTok. </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Agency will manage scheduling and publishing of all TikTok
-                  content. Management and publishing of content handled through
+                  Nectr manages the scheduling and publishing of all TikTok
+                  content. Management and publishing of content handled via
                   Sprout Social.
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Execute relevant TikTok hashtag strategy on all content.
+                  Nectr will deploy a TikTok hashtag strategy on all content.
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Ongoing conversations between agency and client to uncover
-                  upcoming “TikTok-worthy” opportunities and updates.
+                  Ongoing conversations with our team to uncover upcoming
+                  “TikTok-worthy” opportunities and updates.
                 </template>
               </service-list-item>
             </template>
@@ -86,21 +83,20 @@
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Agency will respond to all post thread comments across
-                  platforms.
+                  Nectr will respond to all post-thread comments.
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Agency will respond to all direct messages across platforms.
+                  Nectr will respond to all direct messages
                 </template>
               </service-list-item>
-              <service-list-item>
+              <!-- <service-list-item>
                 <template #list-text>
                   Forward pertinent information &amp; customer questions to the
                   internal team when necessary.
                 </template>
-              </service-list-item>
+              </service-list-item> -->
             </template>
           </service-list>
 
@@ -109,20 +105,19 @@
             <template #list-block>
               <service-list-item>
                 <template #list-text>
-                  Live Dashboard: Addition of TikTok metric coverage to our live
-                  reporting dashboard. Anytime access to live reporting
-                  dashboard, updated automatically every 30 minutes.
+                  Live Dashboard: Anytime access to live reporting dashboard,
+                  updated automatically every 30 minutes.
                 </template>
               </service-list-item>
               <service-list-item>
-                <template #list-text>
-                  Potentially: Monthly calls with agency (probably not)
-                </template>
+                <template #list-text> Monthly calls with Nectr team. </template>
               </service-list-item>
             </template>
           </service-list>
 
-          <h5 class="pricing" data-paragraph>Pricing: Hourly Charge</h5>
+          <div class="c-package__prompt">
+            <div data-paragraph>Pricing: Hourly Charge</div>
+          </div>
         </div>
 
         <c-button

@@ -10,13 +10,12 @@
         <template #caption> Driving Foot Traffic </template>
         <template #catchphrase> Foot Traffic Couldn't Be Sweeter. </template>
         <template #description>
-          In January 2020, Nectr linked up with FROST to amplify their online
-          presence on Facebook/Instagram and drive foot traffic to their
-          physical store location. For this campaign, Nectr was responsible for
-          managing an ongoing social media ad budget. Taking initative through
-          audience testing and creative optimizations, we were able to deliver
-          high-level messaging to users within a radius around the FROST
-          location while serving coupons only redeemable in-store.
+          Nectr linked up with FROST to drive foot traffic to their physical
+          stores using Facebook & Instagram lead form ads. Nectr managed an
+          ongoing social media ad budget, testing various audiences and creative
+          combinations. We delivered pinpointed messaging to users within a
+          radius around FROST locations, sending coupons only redeemable
+          in-store
         </template>
       </casestudy-header>
 
@@ -30,15 +29,6 @@
           </div>
 
           <div class="c-services__wrapper">
-            <service-block
-              icon="/assets/images/goggle-ads.svg"
-              link="/capabilities/googleads">
-              <template #service> Google Ads </template>
-              <template #service-details>
-                Show up where people are searching.
-              </template>
-            </service-block>
-
             <service-block
               icon="/assets/images/fb-ad.svg"
               link="/capabilities/fb-ads">
@@ -76,38 +66,34 @@
               <div>
                 <!-- <h2 class="alt-h2 no-margin" data-paragraph>The Product</h2> -->
                 <div class="c-writeup">
+                  <h3 class="alt-h3" data-paragraph>Step 1</h3>
                   <h5 class="neutral-text" data-paragraph>
-                    1
-                    <br />
                     Social media advertisement featuring coupon details and some
                     tasty creative is served to Facebook & Instagram users
                     within 20-mile radius around Frost's Everett location.
-                    <br />
-                    <br />
-                    2.
-                    <br />
+                  </h5>
+                  <br />
+                  <h3 class="alt-h3" data-paragraph>Step 2</h3>
+                  <h5 class="neutral-text" data-paragraph>
                     After the 'Get Offer' button is clicked, a lead form
                     appears. This screen prompts the beginning of the lead form
                     experience.
-                    <br />
-                    <br />
-                    3.
-                    <br />
-                    We asked interested users to provide us with their first
-                    name and email address in exchange for their coupon. Adding
-                    a mild data capture allows us to get more precise and cost
-                    effective with future advertising.
-                    <br />
-                    <br />
-                    4.
-                    <br />
+                  </h5>
+                  <br />
+                  <h3 class="alt-h3" data-paragraph>Step 3</h3>
+                  <h5 class="neutral-text" data-paragraph>
+                    Form asks user for their first name and email address in
+                    exchange for their coupon. Adding a mild data capture allows
+                    us to get more precise and cost effective with future
+                    advertising.
+                  </h5>
+                  <br />
+                  <h3 class="alt-h3" data-paragraph>Step 4</h3>
+                  <h5 class="neutral-text" data-paragraph>
                     After a user submits their information, the requested coupon
                     is automatically sent to their email inbox within seconds.
                     In-store redemption was tracked using Frost's POS (Point of
-                    Sale) system. 3. We asked interested users to provide us
-                    with their first name and email address in exchange for
-                    their coupon. Adding a mild data capture allows us to get
-                    more precise and cost effective with future advertising.
+                    Sale) system.
                   </h5>
                 </div>
               </div>
