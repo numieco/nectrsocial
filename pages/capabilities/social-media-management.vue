@@ -180,23 +180,23 @@
             <template #list-block>
               <service-list-item>
                 <template #list-text>
-                  Ideal for brands that sell a product.
+                  Ideal for brands that sell a product
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Including models/hands that fit the brand's look and feel.
+                  Including models/hands that fit the brand's look and feel
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
                   Adds a human element to connect your audience with the product
-                  directly.
+                  directly
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Shows how the product is used and how people respond to it.
+                  Shows how the product is used and how people respond to it
                 </template>
               </service-list-item>
               <service-list-item>
@@ -215,7 +215,7 @@
                   Supporting materials to make studio shots of your product more
                   impactful. These could be ingredients are found in your
                   product, florals, items to put your product in, or items in
-                  the backgrounds of images that visually elevate your photos.
+                  the backgrounds of images that visually elevate your photos
                 </template>
               </service-list-item>
               <service-list-item>
@@ -223,12 +223,12 @@
                   Studio rentals also fall under this section - renting
                   alternative studios can be helpful to give your product
                   additional context and a consistently new and fresh
-                  surrounding.
+                  surrounding
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  - Prop Budget: **$500/per shoot**
+                  Prop Budget: **$500/per shoot**
                 </template>
               </service-list-item>
             </template>

@@ -35,7 +35,7 @@
                   <package-list-item>
                     <template #list-text>
                       Sized for social media, e-commerce, marketplace (i.e.
-                      Amazon), or custom usage.
+                      Amazon), or custom usage
                     </template>
                   </package-list-item>
                   <package-list-item>
@@ -65,7 +65,7 @@
                   <package-list-item>
                     <template #list-text>
                       Sized for social media, e-commerce, marketplace (i.e.
-                      Amazon), or custom usage.
+                      Amazon), or custom usage
                     </template>
                   </package-list-item>
                   <package-list-item>

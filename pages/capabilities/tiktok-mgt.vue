@@ -21,20 +21,20 @@
               <service-list-item>
                 <template #list-text>
                   Original UGC style content created that features your brand -
-                  this content follows the script of what works best on TikTok.
+                  this content follows the script of what works best on TikTok
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
                   Trend routing and TikTok platform filter usage where
-                  appropriate.
+                  appropriate
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
                   Addition of TikTok content to our mutually shared content hub.
                   You will have free license to use this content elsewhere if
-                  desired.
+                  desired
                 </template>
               </service-list-item>
               <!-- <service-list-item>
@@ -50,24 +50,24 @@
             <template #list-header>Scheduling / Publishing Cadence </template>
             <template #list-block>
               <service-list-item>
-                <template #list-text> 2-3 posts per week on TikTok. </template>
+                <template #list-text> 2-3 posts per week on TikTok </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
                   Nectr manages the scheduling and publishing of all TikTok
                   content. Management and publishing of content handled via
-                  Sprout Social.
+                  Sprout Social
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Nectr will deploy a TikTok hashtag strategy on all content.
+                  Nectr will deploy a TikTok hashtag strategy on all content
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
                   Ongoing conversations with our team to uncover upcoming
-                  “TikTok-worthy” opportunities and updates.
+                  “TikTok-worthy” opportunities and updates
                 </template>
               </service-list-item>
             </template>
@@ -78,17 +78,17 @@
             <template #list-block>
               <service-list-item>
                 <template #list-text>
-                  Community Management on all TikTok posts.
+                  Community Management on all TikTok posts
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Nectr will respond to all post-thread comments.
+                  Nectr will respond to all post-thread comments
                 </template>
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Nectr will respond to all direct messages.
+                  Nectr will respond to all direct messages
                 </template>
               </service-list-item>
               <!-- <service-list-item>
@@ -106,11 +106,11 @@
               <service-list-item>
                 <template #list-text>
                   Live Dashboard: Anytime access to live reporting dashboard,
-                  updated automatically every 30 minutes.
+                  updated automatically every 30 minutes
                 </template>
               </service-list-item>
               <service-list-item>
-                <template #list-text> Monthly calls with Nectr team. </template>
+                <template #list-text> Monthly calls with Nectr team </template>
               </service-list-item>
             </template>
           </service-list>
