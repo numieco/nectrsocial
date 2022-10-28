@@ -88,7 +88,7 @@
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Nectr will respond to all direct messages
+                  Nectr will respond to all direct messages.
                 </template>
               </service-list-item>
               <!-- <service-list-item>
