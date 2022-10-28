@@ -24,7 +24,7 @@
             <template #list-block>
               <service-list-item>
                 <template #list-text>
-                  Ad Account & Business Manager configuration
+                  Ad Account & Business Center configuration
                 </template>
               </service-list-item>
               <service-list-item>
