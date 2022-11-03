@@ -4,7 +4,7 @@
 
     <div class="scroller">
       <service-header photovideo>
-        <template #title>Photos & Video - For Your Social Feed </template>
+        <template #title>Photos & Video</template>
         <template #description>
           Put our team to work creating photos and videos for your social feeds.
           <br />
