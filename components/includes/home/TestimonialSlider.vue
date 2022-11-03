@@ -74,7 +74,7 @@
         </template>
         <template #name>Linda Reidman</template>
         <template #role>Client Representative</template>
-        <template #company>Don Poncho</template>
+        <template #company>Don Pancho</template>
       </testimonial>
 
       <testimonial black logo="/assets/images/salish.png" small>

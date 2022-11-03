@@ -5,8 +5,7 @@
     <div class="scroller">
       <casestudy-header
         hero-img="/assets/images/due-header.jpg"
-        invert
-        logo="/assets/images/due-logo.png">
+        logo="/assets/images/dueRed5.png">
         <template #title> Due' Cucina Italiana </template>
         <template #caption> Italian Resturaunt Group </template>
         <template #catchphrase> Authentically Italian </template>

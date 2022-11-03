@@ -116,7 +116,7 @@
           </service-list>
 
           <div class="c-package__prompt">
-            <div data-paragraph>Pricing: Hourly Charge</div>
+            <div data-paragraph>Monthly Flat Fee (call for a quote).</div>
           </div>
         </div>
 

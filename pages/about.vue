@@ -124,8 +124,8 @@
             <team-member
               img-src-one="/assets/images/Appa 02.jpg"
               img-src-two="/assets/images/Appa-hover.jpg">
-              <template #name> Apa </template>
-              <template #role> Dylan's Dog </template>
+              <template #name> Appa </template>
+              <template #role> Cheif Barketing Officer </template>
             </team-member>
           </div>
         </div>

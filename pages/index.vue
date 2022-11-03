@@ -16,7 +16,8 @@
                     loop
                     muted
                     playsinline
-                    src="/assets/videos/Landing.mp4"></video>
+                    src="/assets/videos/Landing.mp4"
+                    style="pointer-events: none;"></video>
                   <!-- <img
                     class="hero-img"
                     loading="lazy"
@@ -223,6 +224,10 @@ export default {
 }
 .hero-video {
   pointer-events: none;
+}
+.hero-video::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;
 }
 .down-arrow {
   transform: scale(0.7);

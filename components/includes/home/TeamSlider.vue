@@ -94,8 +94,8 @@
         img-src-one="/assets/images/Appa 02.jpg"
         img-src-two="/assets/images/Appa-hover.jpg"
         small>
-        <template #name> Apa </template>
-        <template #role> Dylan's Dog </template>
+        <template #name> Appa </template>
+        <template #role> Cheif Barketing Officer </template>
       </team-member>
     </div>
     <c-button btn-text="Learn More" centered hide-on-mobile link="/about" />

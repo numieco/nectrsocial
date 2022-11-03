@@ -156,11 +156,11 @@
             <div class="c-casestudy__wrapper">
               <casestudy
                 featured
-                img-src="/assets/images/casestudy-img-3.jpg"
+                img-src="/assets/images/ombraz-thumb.jpg"
                 link="/portfolio/ombraz-sunglasses">
                 <template #casestudy-name> Ombraz Sunglasses </template>
                 <template #featured-summary>
-                  0 to 40k Instagram Followers
+                  3.7x Return on Ad Spend
                 </template>
                 <template #casestudy-details>
                   3.7x Return on Ad Spend

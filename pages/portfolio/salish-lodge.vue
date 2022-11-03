@@ -152,7 +152,7 @@
             <div class="c-casestudy__wrapper">
               <casestudy
                 featured
-                img-src="/assets/images/casestudy-img-5.jpg"
+                img-src="/assets/images/kycs-thumb.jpeg"
                 link="/portfolio/keep-your-city-smiling">
                 <template #casestudy-name> KYCS </template>
                 <template #featured-summary> The Big Pivot </template>

@@ -90,7 +90,7 @@
                     to help spread the good word about Ably.
                     <br />
                     <br />
-                    With the help of the personalities below—and many others—we
+                    With the help of several online personalities, we
                     were able to connect with each of their individual
                     communities and shout our client’s name from the digital
                     mountaintops.

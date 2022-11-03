@@ -155,7 +155,7 @@
             <div class="c-casestudy__wrapper">
               <casestudy
                 featured
-                img-src="/assets/images/casestudy-img-6.jpg"
+                img-src="/assets/images/ably-thumb.jpg"
                 link="/portfolio/ably">
                 <template #casestudy-name> Ably </template>
                 <template #featured-summary>

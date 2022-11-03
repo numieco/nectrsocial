@@ -2597,6 +2597,10 @@ p {
   text-align: center;
 }
 
+.c-package__prompt a {
+  color: #344c63 !important;
+}
+
 .c-faq {
   display: -webkit-box;
   display: -webkit-flex;

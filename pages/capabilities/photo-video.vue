@@ -185,8 +185,10 @@
 
           <div class="c-package__prompt">
             <div data-paragraph>
-              Don’t see a package that works?<br />Contact us for something more
-              custom!
+              <a href="mailto:hello@nectrsocial.com">
+                Don’t see a package that works?<br />Contact us for something more
+                custom!
+              </a>
             </div>
           </div>
         </div>

@@ -148,7 +148,7 @@
             <div class="c-casestudy__wrapper">
               <casestudy
                 featured
-                img-src="/assets/images/Due.jpg"
+                img-src="/assets/images/due-thumb.jpg"
                 link="/portfolio/duecucina">
                 <template #casestudy-name> Due' Cucina </template>
                 <template #featured-summary> Authentically Italian </template>

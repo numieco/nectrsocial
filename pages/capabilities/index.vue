@@ -12,8 +12,7 @@
                   Our Capabilities
                 </h2>
                 <h4 class="section-header__subtext" data-paragraph>
-                  This is a short description about Nectr's capabilities &amp;
-                  services. Could be a line or two.
+                  We’re a veritable one-stop shop for all your social needs.
                 </h4>
               </div>
             </div>

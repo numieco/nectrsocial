@@ -90,7 +90,7 @@
             </template>
           </service-list>
 
-          <h5 class="pricing" data-paragraph>Pricing: Hourly Charge</h5>
+          <h5 class="pricing" data-paragraph>Book call below for a quote.</h5>
           <div class="c-package__prompt">
             <div data-paragraph>
               Tell us about the campaign you’re looking to run!
@@ -98,11 +98,11 @@
           </div>
         </div>
 
-        <!-- <c-button
-          id="KpAvYPwg"
+        <c-button
+          id="yMIoHeGx"
           btn-text="Book a Discovery call"
           centered
-          typeform/> -->
+          typeform/>
       </div>
 
       <div class="l-section">
