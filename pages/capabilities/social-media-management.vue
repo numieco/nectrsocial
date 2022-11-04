@@ -85,7 +85,9 @@
             <h1 class="alt-h1" data-paragraph>Package breakdown.</h1>
 
             <div class="capability-list__wrapper fullwidth">
-              <package-block id="nkO0JI7W" icon="/assets/images/social-media-3.svg">
+              <package-block
+                id="nkO0JI7W"
+                icon="/assets/images/social-media-3.svg">
                 <template #package-name> Heavy Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -113,7 +115,9 @@
                 <template #package-price>$3,000</template>
               </package-block>
 
-              <package-block id="VumRw6fA" icon="/assets/images/social-media-2.svg">
+              <package-block
+                id="VumRw6fA"
+                icon="/assets/images/social-media-2.svg">
                 <template #package-name> Medium Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -141,7 +145,9 @@
                 <template #package-price>$2,700</template>
               </package-block>
 
-              <package-block id="vNeMBXAY" icon="/assets/images/social-media-1.svg">
+              <package-block
+                id="vNeMBXAY"
+                icon="/assets/images/social-media-1.svg">
                 <template #package-name> Lite Package </template>
                 <template #list-block>
                   <package-list-item>
@@ -201,7 +207,8 @@
               </service-list-item>
               <service-list-item>
                 <template #list-text>
-                  Model Budget: up to <b>$500/per model</b> (includes model fees)
+                  Model Budget: up to <b>$500/per model</b> (includes model
+                  fees)
                 </template>
               </service-list-item>
             </template>

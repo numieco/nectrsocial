@@ -17,7 +17,7 @@
                     muted
                     playsinline
                     src="/assets/videos/Landing.mp4"
-                    style="pointer-events: none;"></video>
+                    style="pointer-events: none"></video>
                   <!-- <img
                     class="hero-img"
                     loading="lazy"
@@ -84,7 +84,7 @@
                 </template>
               </service-accordion>
 
-              <service-accordion link="/capabilities/social-media-mgt">
+              <service-accordion link="/capabilities/social-media-management">
                 <template #title> Social Media Management (Organic) </template>
                 <template #content>
                   Hand us the keys to your social channels. Complete,
