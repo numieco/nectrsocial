@@ -12,8 +12,8 @@ export default class extends Component {
       element,
       elements: {
         paragraphs: '[data-paragraph]',
-        scrollTo: '[data-go-to]'
-      }
+        scrollTo: '[data-go-to]',
+      },
     })
 
     this.initScroll()
@@ -29,11 +29,11 @@ export default class extends Component {
       lerp: 0.09,
       smooth: true,
       tablet: {
-        smooth: false
+        smooth: false,
       },
       mobile: {
-        smooth: false
-      }
+        smooth: false,
+      },
     })
 
     const that = this
@@ -49,9 +49,9 @@ export default class extends Component {
           top: 0,
           left: 0,
           width: window.innerWidth,
-          height: window.innerHeight
+          height: window.innerHeight,
         }
-      }
+      },
     })
 
     this.locoScroll.on('scroll', function () {
@@ -59,6 +59,7 @@ export default class extends Component {
     })
     window.addEventListener('resize', ScrollTrigger.update())
     ScrollTrigger.refresh()
+    this.locoScroll.update()
   }
 
   createAnimations() {
@@ -76,7 +77,7 @@ export default class extends Component {
       x: -tapeWidth,
       duration: 30,
       repeat: -1,
-      ease: 'none'
+      ease: 'none',
     })
   }
 }
