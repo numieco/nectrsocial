@@ -4,7 +4,7 @@
 
     <div class="scroller">
       <casestudy-header
-        hero-img="/assets/images/salish-header.jpg"
+        hero-img="/assets/images/salish-header.jpeg"
         logo="/assets/images/SalishLogoBlack.png">
         <template #title> Salish Lodge & Spa </template>
         <template #caption> Destination Hotel in Snoqualmie, WA </template>
