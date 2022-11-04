@@ -2,11 +2,9 @@ import Vue from 'vue'
 import { gsap } from 'gsap'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
 import dragscroll from 'dragscroll'
-import Animations from '../js'
 
 gsap.registerPlugin(ScrollToPlugin)
 
-Vue.prototype.$pageAnimation = Animations
 Vue.prototype.$gsap = gsap
 Vue.prototype.$dragscroll = dragscroll
 
