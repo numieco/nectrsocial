@@ -8,6 +8,18 @@ import 'splitting/dist/splitting-cells.css'
 gsap.registerPlugin(ScrollTrigger)
 Vue.prototype.$splittext = Splitting
 
+let isMobile = false
+function checkDevice() {
+  if (window.innerWidth < 767) {
+    isMobile = true
+  } else {
+    isMobile = false
+  }
+}
+
+checkDevice()
+window.addEventListener('resize', checkDevice)
+
 Vue.prototype.$paragraph = () => {
   const texts = document.querySelectorAll('[data-paragraph]')
   const paragraphs = Splitting({ target: texts, by: 'lines' })
@@ -23,7 +35,7 @@ Vue.prototype.$paragraph = () => {
           {
             scrollTrigger: {
               trigger: paragraph.el,
-              scroller: '.scroller',
+              scroller: isMobile ? '' : '.scroller',
             },
             autoAlpha: 0,
             y: 20,
@@ -35,7 +47,7 @@ Vue.prototype.$paragraph = () => {
         gsap.utils.toArray('.list-point').forEach((bullet) => {
           gsap.to(bullet, {
             scrollTrigger: {
-              scroller: '.scroller',
+              scroller: isMobile ? '' : '.scroller',
               trigger: bullet,
             },
             opacity: 1,

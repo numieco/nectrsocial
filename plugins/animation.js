@@ -8,6 +8,18 @@ gsap.registerPlugin(ScrollToPlugin)
 Vue.prototype.$gsap = gsap
 Vue.prototype.$dragscroll = dragscroll
 
+let isMobile = false
+function checkDevice() {
+  if (window.innerWidth < 767) {
+    isMobile = true
+  } else {
+    isMobile = false
+  }
+}
+
+checkDevice()
+window.addEventListener('resize', checkDevice)
+
 Vue.prototype.$banner = (_scroller) => {
   const mql = window.matchMedia('(max-width: 767px)')
   function mqlBanner(e) {
@@ -15,7 +27,7 @@ Vue.prototype.$banner = (_scroller) => {
       const tl = gsap.timeline()
       tl.to('.c-scrolling-tape__inner.one', {
         scrollTrigger: {
-          scroller: _scroller,
+          scroller: isMobile ? '' : _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
           scrub: 2.5,
@@ -25,7 +37,7 @@ Vue.prototype.$banner = (_scroller) => {
       })
       tl.from('.c-scrolling-tape__inner.two', {
         scrollTrigger: {
-          scroller: _scroller,
+          scroller: isMobile ? '' : _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
           scrub: 2.5,
@@ -37,7 +49,7 @@ Vue.prototype.$banner = (_scroller) => {
       const tl = gsap.timeline()
       tl.to('.c-scrolling-tape__inner.one', {
         scrollTrigger: {
-          scroller: _scroller,
+          scroller: isMobile ? '' : _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
           scrub: 2.5,
@@ -47,7 +59,7 @@ Vue.prototype.$banner = (_scroller) => {
       })
       tl.from('.c-scrolling-tape__inner.two', {
         scrollTrigger: {
-          scroller: _scroller,
+          scroller: isMobile ? '' : _scroller,
           start: 'top 90%',
           trigger: '.banner-section',
           scrub: 2.5,

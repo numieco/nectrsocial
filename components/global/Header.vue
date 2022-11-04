@@ -69,6 +69,7 @@ export default {
 
 <style scoped>
 .c-nav {
+  position: fixed;
   z-index: 100;
 }
 .c-nav__bg {
