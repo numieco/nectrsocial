@@ -134,8 +134,8 @@ export default {
   },
 
   mounted() {
-    // eslint-disable-next-line no-new
-    new this.$pageAnimation('.scroller')
+    this.$initScroll('.scroller')
+    this.$paragraph()
   }
 }
 </script>

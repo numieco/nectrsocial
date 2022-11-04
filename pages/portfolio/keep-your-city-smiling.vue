@@ -159,9 +159,7 @@
                 img-src="/assets/images/ombraz-thumb.jpg"
                 link="/portfolio/ombraz-sunglasses">
                 <template #casestudy-name> Ombraz Sunglasses </template>
-                <template #featured-summary>
-                  3.7x Return on Ad Spend
-                </template>
+                <template #featured-summary> 3.7x Return on Ad Spend </template>
                 <template #casestudy-details>
                   3.7x Return on Ad Spend
                 </template>
@@ -206,8 +204,8 @@ export default {
   },
 
   mounted() {
-    // eslint-disable-next-line no-new
-    new this.$pageAnimation('.scroller')
+    this.$initScroll('.scroller')
+    this.$paragraph()
   }
 }
 </script>

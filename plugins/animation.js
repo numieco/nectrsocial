@@ -63,6 +63,18 @@ Vue.prototype.$banner = (_scroller) => {
   mqlBanner(mql)
 }
 
+Vue.prototype.$footer = () => {
+  const tape = document.querySelector('.footer-tape')
+  const tapeWidth = tape.scrollWidth
+  const tl = gsap.timeline()
+  tl.to('.footer-tape', {
+    x: -tapeWidth,
+    duration: 30,
+    repeat: -1,
+    ease: 'none',
+  })
+}
+
 Vue.prototype.$scrollingLogos = () => {
   const mql = window.matchMedia('(max-width: 767px)')
   function mqlLogos(e) {

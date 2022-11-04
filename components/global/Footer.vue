@@ -111,6 +111,10 @@ export default {
     return {
       currentYear: new Date().getFullYear()
     }
+  },
+
+  mounted() {
+    this.$footer()
   }
 }
 </script>

@@ -186,8 +186,8 @@
           <div class="c-package__prompt">
             <div data-paragraph>
               <a href="mailto:hello@nectrsocial.com">
-                Don’t see a package that works?<br />Contact us for something more
-                custom!
+                Don’t see a package that works?<br />Contact us for something
+                more custom!
               </a>
             </div>
           </div>
@@ -289,8 +289,8 @@ export default {
   },
 
   mounted() {
-    // eslint-disable-next-line no-new
-    new this.$pageAnimation('.scroller')
+    this.$initScroll('.scroller')
+    this.$paragraph()
   }
 }
 </script>

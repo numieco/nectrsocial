@@ -90,10 +90,9 @@
                     to help spread the good word about Ably.
                     <br />
                     <br />
-                    With the help of several online personalities, we
-                    were able to connect with each of their individual
-                    communities and shout our client’s name from the digital
-                    mountaintops.
+                    With the help of several online personalities, we were able
+                    to connect with each of their individual communities and
+                    shout our client’s name from the digital mountaintops.
                   </h5>
                 </div>
               </div>
@@ -168,8 +167,8 @@ export default {
   },
 
   mounted() {
-    // eslint-disable-next-line no-new
-    new this.$pageAnimation('.scroller')
+    this.$initScroll('.scroller')
+    this.$paragraph()
   }
 }
 </script>
