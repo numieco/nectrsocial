@@ -56,7 +56,29 @@ export default {
 
   buildModules: ['@nuxtjs/eslint-module'],
 
-  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa',
+    '@nuxtjs/google-gtag',
+    'nuxt-facebook-pixel-module',
+  ],
+
+  'google-gtag': {
+    id: 'G-DF0WYXFGME',
+    config: {
+      anonymize_ip: true,
+      send_page_view: false,
+    },
+    debug: true,
+    disableAutoPageTrack: false,
+  },
+
+  facebook: {
+    track: 'PageView',
+    pixelId: '2048043725257295',
+    autoPageView: true,
+    debug: true,
+  },
 
   axios: {
     baseURL: '/',
