@@ -35,7 +35,7 @@
                 <template #role-location> Seattle, WA / Portland, OR </template>
               </career-block>
 
-              <career-block link="JKGjqVay">
+              <!-- <career-block link="JKGjqVay">
                 <template #role> Videographer / Editor </template>
                 <template #role-details>
                   Is video your thing? We're looking to fill a part-time need
@@ -44,7 +44,7 @@
                 </template>
                 <template #role-type> Part Time </template>
                 <template #role-location> Seattle, WA </template>
-              </career-block>
+              </career-block> -->
               <!-- 
               <career-block link="/careers/field-social">
                 <template #role> Field Social Media Manager </template>

@@ -62,13 +62,13 @@
       </nuxt-link>
     </div>
     <div>
-      <a class="c-menu__social-link w-inline-block" href="#">
+      <a class="c-menu__social-link w-inline-block" href="https://www.facebook.com/nectrsocial" target="_blank">
         <img loading="lazy" src="/assets/images/facebook-icon.svg" />
       </a>
-      <a class="c-menu__social-link w-inline-block" href="#">
+      <a class="c-menu__social-link w-inline-block" href="https://www.linkedin.com/company/nectr-social/" target="_blank">
         <img loading="lazy" src="/assets/images/linkedin-icon.svg" />
       </a>
-      <a class="c-menu__social-link w-inline-block" href="#">
+      <a class="c-menu__social-link w-inline-block" href="https://www.instagram.com/nectrsocial/" target="_blank">
         <img loading="lazy" src="/assets/images/instagram-icon.svg" />
       </a>
     </div>
