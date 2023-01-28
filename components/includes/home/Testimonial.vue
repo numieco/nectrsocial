@@ -21,7 +21,7 @@
           <slot name="name" />
         </h4>
         <p class="neutral-text" data-paragraph>
-          <slot name="role" />,
+          <slot name="role" />
           <span class="medium-text">
             <slot name="company" />
           </span>

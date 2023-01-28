@@ -11,6 +11,19 @@
         <div class="c-showcase__wrapper">
           <div class="c-showcase-grid__item normal">
             <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/AF.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/Good_Well.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/LabourTemple.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/porter.png" />
+            </div>
+        
+            <div class="c-showcase__block">
               <img
                 class="c-showcase-logo"
                 loading="lazy"

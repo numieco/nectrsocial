@@ -33,13 +33,24 @@
       ref="tesSlider"
       class="c-slider testimonial-slider dragscroll"
       @scroll="checkScroll">
+      <testimonial black logo="/assets/images/PSH.png">
+        <template #content>
+          I have had the pleasure of working with the Nectr team on a non-profit social media account and I am grateful to have
+          gotten to work with such a professional, thoughtful team. They produced impressive numbers and results based on our
+          internal goals and gave guidance in a professional, yet genuine manner. I was impressed with their knowledge and their
+          talent. Nectr is a fantastic team of great people and I'd confidently recommend them to any business or organization.
+        </template>
+        <template #name>Tabitha Mars</template>
+        <template #role>Pasados Safe Haven</template>
+        <template #company></template>
+      </testimonial>
       <testimonial black logo="/assets/images/ventrk-logo-fill.jpg">
         <template #content>
           If you are looking to drive results for your business or brand and
           work with an incredible team, Nectr is the move!
         </template>
         <template #name>Jarid Adams</template>
-        <template #role>CBO</template>
+        <template #role>CBO,</template>
         <template #company>Ventrk</template>
       </testimonial>
 
@@ -51,7 +62,7 @@
           highly recommend!
         </template>
         <template #name>Cindy Benezra</template>
-        <template #role>Owner</template>
+        <template #role>Owner,</template>
         <template #company>Elite Events & CindyTalks</template>
       </testimonial>
 
@@ -61,7 +72,7 @@
           worked his magic. Thanks for your help . Recommend 10/10
         </template>
         <template #name>Rose Meza</template>
-        <template #role>Owner</template>
+        <template #role>Owner,</template>
         <template #company>Sugar Blossom Lashes</template>
       </testimonial>
 
@@ -73,7 +84,7 @@
           with, and highly recommended.
         </template>
         <template #name>Linda Reidman</template>
-        <template #role>Client Representative</template>
+        <template #role>Client Representative,</template>
         <template #company>Don Pancho</template>
       </testimonial>
 
@@ -86,7 +97,7 @@
           side. Zak and the team are truly wonderful.
         </template>
         <template #name>Rebecca Mackay</template>
-        <template #role>Marketing Manager (former)</template>
+        <template #role>Marketing Manager (former),</template>
         <template #company>Salish Lodge & Spa</template>
       </testimonial>
 
@@ -98,7 +109,7 @@
           with, and highly recommended.
         </template>
         <template #name>Marques Warren</template>
-        <template #role>CEO</template>
+        <template #role>CEO,</template>
         <template #company>Downtown Spirits</template>
       </testimonial>
 
@@ -109,7 +120,7 @@
           results-driven, and I would highly recommend their services!
         </template>
         <template #name>Marika Beroukas</template>
-        <template #role>Founder</template>
+        <template #role>Founder,</template>
         <template #company>Marika Beroukas</template>
       </testimonial>
 
@@ -120,7 +131,7 @@
           social agency in Seattle, and quite possibly well beyond.
         </template>
         <template #name>Bobby Frank</template>
-        <template #role>COO</template>
+        <template #role>COO,</template>
         <template #company>Ably Apparel</template>
       </testimonial>
 
@@ -130,7 +141,7 @@
           responsive and reliable, and flexed to fit our ever-changing needs.
         </template>
         <template #name>Liza Sankar-Gorton</template>
-        <template #role>Social Media Strategist</template>
+        <template #role>Social Media Strategist,</template>
         <template #company>Green Rubino</template>
       </testimonial>
 
@@ -141,7 +152,7 @@
           always great and the results speak for themselves.
         </template>
         <template #name>Jensen Brehm</template>
-        <template #role>Co-founder</template>
+        <template #role>Co-founder,</template>
         <template #company>Ombraz Sunglasses</template>
       </testimonial>
 
