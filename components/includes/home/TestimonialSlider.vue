@@ -35,10 +35,9 @@
       @scroll="checkScroll">
       <testimonial black logo="/assets/images/PSH.png">
         <template #content>
-          I have had the pleasure of working with the Nectr team on a non-profit social media account and I am grateful to have
-          gotten to work with such a professional, thoughtful team. They produced impressive numbers and results based on our
-          internal goals and gave guidance in a professional, yet genuine manner. I was impressed with their knowledge and their
-          talent. Nectr is a fantastic team of great people and I'd confidently recommend them to any business or organization.
+          I am grateful to have gotten to work with such a professional, thoughtful team. They produced impressive numbers and
+          results based on our internal goals and gave guidance in a professional, yet genuine manner. Nectr is a fantastic team
+          of great people and I'd confidently recommend them to any business or organization.
         </template>
         <template #name>Tabitha Mars</template>
         <template #role>Pasados Safe Haven</template>
