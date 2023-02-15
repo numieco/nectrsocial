@@ -97,7 +97,6 @@
     </div>
 
     <div class="footer-bottom">
-      <div>1938 Fairview Ave E #220, Seattle, WA 98102</div>
       <div class="copyright-text w-embed w-script">
         {{ currentYear }} © Nectr
       </div>
