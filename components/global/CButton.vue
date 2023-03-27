@@ -3,6 +3,7 @@
     v-if="typeform"
     class="cta-btn"
     :class="btnClass"
+    onclick="return gtag_report_conversion()"
     @click="toggleTypeform(id)">
     <div class="cta-btn__block" :class="btnClass">
       <div>{{ btnText }}</div>

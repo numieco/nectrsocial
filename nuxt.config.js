@@ -8,11 +8,11 @@ export default {
   ssr: true,
 
   env: {
-    siteURL: process.env.SITE_URL, // Add site url in .env folder
+    siteURL: process.env.SITE_URL // Add site url in .env folder
   },
 
   generate: {
-    fallback: true,
+    fallback: true
   },
 
   head: {
@@ -20,21 +20,26 @@ export default {
     link: [...linkUtils()],
     script: [
       {
+        src: '/js/google-conversion.js',
+        type: 'text/javascript'
+        // body: false
+      },
+      {
         src: '/js/jquery-3.5.1.min.js',
         type: 'text/javascript',
-        body: true,
+        body: true
       },
       {
         src: '/js/override-alert.js',
         type: 'text/javascript',
-        body: true,
+        body: true
       },
       {
         src: '/js/webflow.js',
         type: 'text/javascript',
-        body: true,
-      },
-    ],
+        body: true
+      }
+    ]
   },
 
   plugins: [
@@ -42,7 +47,7 @@ export default {
     { src: '@/plugins/animation', ssr: false },
     { src: '@/plugins/locomotive', ssr: false },
     { src: '@/plugins/splitting', ssr: false },
-    { src: '@/plugins/typeform', ssr: false },
+    { src: '@/plugins/typeform', ssr: false }
   ],
 
   components: [
@@ -51,7 +56,7 @@ export default {
     '@/components/includes/about',
     '@/components/includes/portfolio',
     '@/components/includes/capabilities',
-    '@/components/includes/careers',
+    '@/components/includes/careers'
   ],
 
   buildModules: ['@nuxtjs/eslint-module'],
@@ -60,33 +65,34 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/google-gtag',
-    'nuxt-facebook-pixel-module',
+    'nuxt-facebook-pixel-module'
   ],
 
   'google-gtag': {
-    id: 'G-DF0WYXFGME',
+    // id: 'G-DF0WYXFGME',
+    id: 'AW-11027838829',
     config: {
       anonymize_ip: true,
-      send_page_view: false,
+      send_page_view: false
     },
     debug: true,
-    disableAutoPageTrack: false,
+    disableAutoPageTrack: true
   },
 
   facebook: {
     track: 'PageView',
     pixelId: '2048043725257295',
     autoPageView: true,
-    debug: true,
+    debug: true
   },
 
   axios: {
-    baseURL: '/',
+    baseURL: '/'
   },
 
   pwa: { manifest: pwaUtils.getManifest() },
 
   pageTransition: 'transition-page',
 
-  build: {},
+  build: {}
 }
