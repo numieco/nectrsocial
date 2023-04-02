@@ -12,16 +12,15 @@
           <div class="c-role">
             <div class="c-role__wrapper">
               <career-header>
-                <template #role> Field Social Media Manager </template>
-                <template #type> Full Time</template>
-                <template #loation> Seattle, WA / Portland, OR </template>
+                <template #role> Account Coordinator</template>
+                <template #type> Full Time, Salaried</template>
+                <template #location> Seattle, WA</template>
                 <template #summary>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels. We're currently open to candidates
-                  in both Seattle, WA and Portland, OR.
+                  Nectr Social, a social media agency based in Seattle, WA, is
+                  looking for an entry-level Account Coordinator to join our
+                  team. This position reports to the Director of Client Services
+                  and will be responsible for managing the day-to-day social
+                  media activities of a variety of clients.
                 </template>
               </career-header>
 
@@ -30,68 +29,68 @@
                 <template #list-block>
                   <career-list-item>
                     <template #list-text>
-                      Schedule and manage photo/video shoots with up to six
-                      clients concurrently.
+                      Post captioning/copywriting for a variety of clients
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Maintain steady internal and external communication across
-                      multiple communication channels.
+                      Managing and updating editorial calendars
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Work with clients to plan organic content for specific
-                      dates and events.
+                      Managing social media calendars and publishing
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Work closely with the internal team to strategize around
-                      client-specific organic social posting strategies
-                      (primarily Facebook, Instagram, Twitter, LinkedIn).
+                      Assisting with client meetings and client communications
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Communicate with clients to understand upcoming
-                      “social-worthy” opportunities.
+                      Working collaboratively with our creative team to identify
+                      opportunities to create content based on what's working,
+                      upcoming content needs on the editorial calendar, and
+                      other opportunities
+                    </template>
+                  </career-list-item>
+                </template>
+              </career-list>
+
+              <career-list>
+                <template #list-header>Requirements</template>
+                <template #list-block>
+                  <career-list-item>
+                    <template #list-text>Strong attention to detail and ability to work in a
+                      fast-paced environment with multiple competing priorities
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Write channel-specific organic social copy in the brand
-                      voice of various clients.
+                      Efficient and proactive communicator
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Monitor social trends to implement into organic
-                      strategies.
+                      Fluent in social media language and understanding how to
+                      write for a variety of brands
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Edit, organize and manage a social media content hub
-                      unique to each client.
+                      Enjoy being organized and detail-oriented
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Execute daily posting of content to social channels using
-                      Nectr’s scheduling platform.
+                      Ability to work collaboratively in a team environment
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Coordinate client approvals on social media content prior
-                      to posting.
-                    </template>
-                  </career-list-item>
-                  <career-list-item>
-                    <template #list-text>
-                      Community management across client social platforms.
+                      Ability to manage multiple tasks and prioritize
+                      effectively
                     </template>
                   </career-list-item>
                 </template>
@@ -101,102 +100,52 @@
                 <template #list-header>Qualifications</template>
                 <template #list-block>
                   <career-list-item>
-                    <template #list-text> 4-year college degree. </template>
-                  </career-list-item>
-                  <career-list-item>
                     <template #list-text>
-                      DSLR with appropriate lenses for product-focused
-                      photography. iPhone 11 pro or newer.
+                      Bachelor's degree in Communications, Marketing, or related
+                      field preferred
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Experience and strong comfortability with Adobe Lightroom
-                      and Adobe Premiere, or similar editing software.
+                      Experience with social media platforms and management
+                      tools
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Experience in short-form social media copywriting.
+                      Excellent written and verbal communication skills
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Experience managing public social media accounts for
-                      businesses and organizations.
+                      Strong organizational skills
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Experience with timely, professional online communication.
+                      Basic design skills preferred
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      Confidence with working with and supporting a team in a
-                      professional environment.
-                    </template>
-                  </career-list-item>
-                  <career-list-item>
-                    <template #list-text>
-                      Understanding of organic social media best practices.
-                    </template>
-                  </career-list-item>
-                  <career-list-item>
-                    <template #list-text>
-                      Knowledge of social media placements and how they are used
-                      within each platform.
-                    </template>
-                  </career-list-item>
-                  <career-list-item>
-                    <template #list-text>
-                      Confident, self-starter able to work independently
-                      alongside clients and manage time efficiently.
+                      Previous experience in a similar role or in a marketing
+                      agency is highly desirable
                     </template>
                   </career-list-item>
                 </template>
               </career-list>
 
               <career-list>
-                <template #list-header>Bonus, if you have </template>
+                <template #list-header>Benefits </template>
                 <template #list-block>
                   <career-list-item>
-                    <template #list-text>Previous experience managing social media on behalf of
-                      brands/businesses.
+                    <template #list-text>
+                      Healthcare stipend available
                     </template>
                   </career-list-item>
                   <career-list-item>
                     <template #list-text>
-                      A robust social media presence of your own.
-                    </template>
-                  </career-list-item>
-                  <career-list-item>
-                    <template #list-text>
-                      Experience using Sprout Social.
-                    </template>
-                  </career-list-item>
-                </template>
-              </career-list>
-
-              <career-list>
-                <template #list-header>Other </template>
-                <template #list-block>
-                  <career-list-item>
-                    <template #list-text>Previous experience managing social media on behalf of
-                      brands/businesses.
-                    </template>
-                  </career-list-item>
-                  <career-list-item>
-                    <template #list-text>
-                      This role requires an appetite for learning and growing in
-                      the social space, allowing for a flexible work schedule
-                      and the ability to enhance our client’s social identities
-                      with your creative eye.
-                    </template>
-                  </career-list-item>
-                  <career-list-item>
-                    <template #list-text>
-                      Hourly position: $20-25/hour.
+                      Opportunity for growth and advancement within the company
                     </template>
                   </career-list-item>
                 </template>
@@ -215,7 +164,7 @@
                   </h6>
                 </div>
 
-                <div class="c-apply__form w-form">
+                <!-- <div class="c-apply__form w-form">
                   <form
                     id="email-form"
                     class="apply-form__inner"
@@ -289,13 +238,14 @@
                         @input="showLabel($event)"></textarea>
                     </div>
                   </form>
-                </div>
+                </div> -->
 
                 <c-button
+                  id="/"
                   btn-text="Apply for this role"
                   centered
-                  link="/"
-                  submit/>
+                  submit
+                  typeform/>
               </div>
             </div>
           </div>
@@ -344,7 +294,7 @@ export default {
     },
 
     title() {
-      return 'Field Social Media Manager | NectrSocial'
+      return 'Account Coordinator | NectrSocial'
     }
   },
 
@@ -364,6 +314,10 @@ export default {
 </script>
 
 <style scoped>
+.c-apply__wrapper {
+  height: auto;
+}
+
 @media screen and (min-width: 991px) {
   .form-column {
     display: flex;

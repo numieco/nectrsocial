@@ -28,12 +28,7 @@
         </div>
       </div>
 
-      <c-button
-        :id="link"
-        btn-text="Reach out for more"
-        centered
-        small
-        typeform/>
+      <c-button btn-text="Apply for this role" centered :link="link" small />
     </div>
   </div>
 </template>

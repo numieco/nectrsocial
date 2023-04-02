@@ -22,81 +22,33 @@
         <div class="c-careers">
           <div class="l-container">
             <div class="c-careers__wrapper">
-              <career-block link="JKGjqVay">
-                <template #role> Social Media Manager </template>
+              <career-block link="/careers/account-coordinator">
+                <template #role> Account Coordinator</template>
                 <template #role-details>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels.
+                  Nectr Social, a social media agency based in Seattle, WA, is
+                  looking for an entry-level Account Coordinator to join our
+                  team. This position reports to the Director of Client Services
+                  and will be responsible for managing the day-to-day social
+                  media activities of a variety of clients.
                 </template>
-                <template #role-type> Full Time </template>
-                <template #role-location> Seattle, WA / Portland, OR </template>
-              </career-block>
-
-              <!-- <career-block link="JKGjqVay">
-                <template #role> Videographer / Editor </template>
-                <template #role-details>
-                  Is video your thing? We're looking to fill a part-time need
-                  for reel-style video production and editing. If this is you,
-                  let us know!
-                </template>
-                <template #role-type> Part Time </template>
-                <template #role-location> Seattle, WA </template>
-              </career-block> -->
-              <!-- 
-              <career-block link="/careers/field-social">
-                <template #role> Field Social Media Manager </template>
-                <template #role-details>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels.
-                </template>
-                <template #role-type> Full Time </template>
-                <template #role-location> Seattle, WA / Portland, OR </template>
-              </career-block>
-
-              <career-block link="/careers/account-cordinator">
-                <template #role> Account Coordinator </template>
-                <template #role-details>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels.
-                </template>
-                <template #role-type> Part Time </template>
+                <template #role-type> Full Time, Salaried </template>
                 <template #role-location> Seattle, WA </template>
               </career-block>
-              
-              <career-block link="/careers/google-ads-specialist">
-                <template #role> Google Ads Specialist </template>
-                <template #role-details>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels.
-                </template>
-                <template #role-type> Full Time </template>
-                <template #role-location> Portland, OR</template>
-              </career-block>
 
-              <career-block link="/careers/paid-advertising-specialist">
-                <template #role> Paid Advertising Specialist </template>
+              <career-block link="/careers/content-specialist">
+                <template #role>Creative Specialist</template>
                 <template #role-details>
-                  We’re looking to add a new member to the Nectr Social team
-                  interested in building a career in the organic social media
-                  space. This role will be client-facing and require independent
-                  travel to and from local businesses to capture content for use
-                  on client social channels.
+                  We are seeking a highly motivated and creative individual to
+                  join our team as a Creative Specialist. This position will
+                  report to our Creative Director and will be responsible for
+                  pre-shoot planning, content creation, and post-production
+                  editing. The ideal candidate will have experience in content
+                  creation and be able to work with multiple clients and their
+                  specific styles.
                 </template>
-                <template #role-type> Part Time </template>
+                <template #role-type> Full Time or Contract </template>
                 <template #role-location> Seattle, WA </template>
-              </career-block> -->
+              </career-block>
             </div>
           </div>
         </div>
