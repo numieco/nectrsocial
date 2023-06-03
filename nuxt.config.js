@@ -73,7 +73,10 @@ export default {
     id: 'UA-189029235-1',
     config: {
       anonymize_ip: true,
-      send_page_view: false
+      send_page_view: false,
+      linker: {
+        domains: ['baseUrl']
+      }
     },
     debug: true,
     disableAutoPageTrack: true
