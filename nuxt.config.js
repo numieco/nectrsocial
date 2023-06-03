@@ -70,7 +70,7 @@ export default {
 
   'google-gtag': {
     // id: 'G-DF0WYXFGME',
-    id: 'AW-11027838829',
+    id: 'UA-189029235-1',
     config: {
       anonymize_ip: true,
       send_page_view: false
