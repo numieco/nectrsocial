@@ -69,8 +69,8 @@ export default {
   ],
 
   'google-gtag': {
-    // id: 'G-DF0WYXFGME',
-    id: 'AW-11027838829',
+    id: 'G-DF0WYXFGME',
+    // id: 'AW-11027838829',
     config: {
       anonymize_ip: true,
       send_page_view: false
