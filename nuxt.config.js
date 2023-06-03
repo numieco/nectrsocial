@@ -21,8 +21,8 @@ export default {
     script: [
       {
         src: '/js/google-conversion.js',
-        type: 'text/javascript'
-        // body: false
+        type: 'text/javascript',
+        body: false
       },
       {
         src: '/js/jquery-3.5.1.min.js',
@@ -70,13 +70,10 @@ export default {
 
   'google-gtag': {
     // id: 'G-DF0WYXFGME',
-    id: 'UA-189029235-1',
+    id: 'AW-11027838829',
     config: {
       anonymize_ip: true,
-      send_page_view: false,
-      linker: {
-        domains: ['baseUrl']
-      }
+      send_page_view: false
     },
     debug: true,
     disableAutoPageTrack: true
