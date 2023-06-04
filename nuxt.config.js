@@ -66,27 +66,32 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/google-gtag',
     'nuxt-facebook-pixel-module',
+    '@nuxtjs/google-analytics',
   ],
 
-  'google-gtag': {
+  googleAnalytics: {
     id: 'UA-189029235-1',
-    config: {
-      anonymize_ip: true,
-      send_page_view: false,
-    },
-    debug: true,
-    disableAutoPageTrack: false,
-    additionalAccounts: [
-      {
-        id: 'AW-11027838829',
-        config: {
-          send_page_view: false,
-        },
-        debug: true,
-        disableAutoPageTrack: true,
-      },
-    ],
   },
+
+  // 'google-gtag': {
+  //   id: 'UA-189029235-1',
+  //   config: {
+  //     anonymize_ip: true,
+  //     send_page_view: false,
+  //   },
+  //   debug: true,
+  //   disableAutoPageTrack: false,
+  //   additionalAccounts: [
+  //     {
+  //       id: 'AW-11027838829',
+  //       config: {
+  //         send_page_view: false,
+  //       },
+  //       debug: true,
+  //       disableAutoPageTrack: true,
+  //     },
+  //   ],
+  // },
 
   facebook: {
     track: 'PageView',

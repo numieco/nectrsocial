@@ -3,7 +3,6 @@
     v-if="typeform"
     class="cta-btn"
     :class="btnClass"
-    onclick="return gtag_report_conversion()"
     @click="toggleTypeform(id)">
     <div class="cta-btn__block" :class="btnClass">
       <div>{{ btnText }}</div>
@@ -23,26 +22,26 @@ export default {
   props: {
     btnText: {
       type: String,
-      required: true
+      required: true,
     },
     link: {
       type: String,
-      default: '/'
+      default: '/',
     },
     typeform: {
       type: Boolean,
-      default: false
+      default: false,
     },
     id: {
       type: String,
-      default: 'loCI4B0l'
+      default: 'loCI4B0l',
     },
     centered: Boolean,
     hideOnMobile: Boolean,
     white: Boolean,
     large: Boolean,
     small: Boolean,
-    submit: Boolean
+    submit: Boolean,
   },
 
   computed: {
@@ -53,18 +52,18 @@ export default {
         this.centered ? 'centralized' : '',
         this.large ? 'large' : '',
         this.small ? 'small' : '',
-        this.hideOnMobile ? 'mobile-hide' : ''
+        this.hideOnMobile ? 'mobile-hide' : '',
       ]
-    }
+    },
   },
 
   methods: {
     toggleTypeform(_id) {
       this.$createPopup(_id, {
-        open: 'load'
+        open: 'load',
       })
-    }
-  }
+    },
+  },
 }
 </script>
 
