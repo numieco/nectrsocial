@@ -15,7 +15,7 @@ function gtag_report_conversion(url) {
   // eslint-disable-next-line no-undef
   gtag('event', 'conversion', {
     send_to: 'AW-11027838829/i_BiCPKrkYoYEO3uvYop',
-    event_callback: callback
+    event_callback: callback,
   })
   return false
 }
