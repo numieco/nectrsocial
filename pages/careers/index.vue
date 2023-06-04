@@ -49,6 +49,20 @@
                 <template #role-type> Full Time or Contract </template>
                 <template #role-location> Seattle, WA </template>
               </career-block>
+
+              <career-block link="/careers/creative-director">
+                <template #role>Creative Director</template>
+                <template #role-details>
+                  Nectr Social is a small but dynamic social media marketing
+                  agency based in the vibrant city of Seattle. We specialize in
+                  creating innovative and impactful digital marketing solutions
+                  for a diverse range of clients. We are currently seeking a
+                  talented and experienced Creative Director to join our team
+                  and lead our creative efforts.
+                </template>
+                <template #role-type> Full Time, Salaried </template>
+                <template #role-location> Seattle, WA </template>
+              </career-block>
             </div>
           </div>
         </div>
@@ -64,10 +78,10 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
 
@@ -75,7 +89,7 @@ export default {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
 
@@ -85,12 +99,12 @@ export default {
 
     title() {
       return 'Careers | NectrSocial'
-    }
+    },
   },
 
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
-  }
+  },
 }
 </script>
