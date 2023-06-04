@@ -72,29 +72,19 @@ export default {
   googleAnalytics: {
     id: 'UA-189029235-1',
     debug: {
-      enabled: true,
+      enabled: false,
       sendHitTask: true,
     },
   },
 
   'google-gtag': {
-    id: 'UA-189029235-1',
+    id: 'AW-11027838829',
     config: {
       anonymize_ip: true,
       send_page_view: false,
     },
     debug: true,
     disableAutoPageTrack: false,
-    additionalAccounts: [
-      {
-        id: 'AW-11027838829',
-        config: {
-          send_page_view: false,
-        },
-        debug: true,
-        disableAutoPageTrack: true,
-      },
-    ],
   },
 
   facebook: {
