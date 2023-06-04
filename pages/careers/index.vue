@@ -22,19 +22,6 @@
         <div class="c-careers">
           <div class="l-container">
             <div class="c-careers__wrapper">
-              <career-block link="/careers/account-coordinator">
-                <template #role> Account Coordinator</template>
-                <template #role-details>
-                  Nectr Social, a social media agency based in Seattle, WA, is
-                  looking for an entry-level Account Coordinator to join our
-                  team. This position reports to the Director of Client Services
-                  and will be responsible for managing the day-to-day social
-                  media activities of a variety of clients.
-                </template>
-                <template #role-type> Full Time, Salaried </template>
-                <template #role-location> Seattle, WA </template>
-              </career-block>
-
               <career-block link="/careers/content-specialist">
                 <template #role>Creative Specialist</template>
                 <template #role-details>
