@@ -50,13 +50,13 @@
         <template #role> Director Of Client Services </template>
       </team-member>
 
-      <team-member
+      <!-- <team-member
         img-src-one="/assets/images/Kortney1.jpg"
         img-src-two="/assets/images/Kortney2-hover.jpg"
         small>
         <template #name> Kortney Gloska </template>
         <template #role> Creative Director </template>
-      </team-member>
+      </team-member> -->
 
       <!--       <team-member
         img-src-one="/assets/images/Jon-01.jpg"
@@ -66,13 +66,13 @@
         <template #role> Social Media Manager </template>
       </team-member> -->
 
-      <team-member
+      <!-- <team-member
         img-src-one="/assets/images/Gianna 01.jpg"
         img-src-two="/assets/images/Gianna-hover.jpg"
         small>
         <template #name> Gianna Chen </template>
         <template #role> Social Media Manager </template>
-      </team-member>
+      </team-member> -->
 
       <team-member
         img-src-one="/assets/images/Tiare1.jpg"
