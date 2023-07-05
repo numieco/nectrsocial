@@ -112,7 +112,7 @@
                     <template #list-text> LIVE reporting </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$3,000</template>
+                <template #package-price>$4,000</template>
               </package-block>
 
               <package-block
@@ -142,7 +142,7 @@
                     <template #list-text> LIVE reporting </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$2,700</template>
+                <template #package-price>$3,500</template>
               </package-block>
 
               <package-block
@@ -172,7 +172,7 @@
                     <template #list-text> LIVE reporting </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$2,200</template>
+                <template #package-price>$3,000</template>
               </package-block>
             </div>
           </div>
