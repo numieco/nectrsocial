@@ -70,7 +70,7 @@ export default {
   ],
 
   googleAnalytics: {
-    id: 'UA-189029235-1',
+    id: 'G-DF0WYXFGME',
     debug: {
       enabled: false,
       sendHitTask: true,
