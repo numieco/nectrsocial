@@ -44,6 +44,7 @@ export default {
 
   plugins: [
     '@/plugins/mixins',
+    '@/plugins/gtag',
     { src: '@/plugins/animation', ssr: false },
     { src: '@/plugins/locomotive', ssr: false },
     { src: '@/plugins/splitting', ssr: false },
@@ -69,23 +70,23 @@ export default {
     '@nuxtjs/google-analytics',
   ],
 
-  googleAnalytics: {
-    id: 'G-DF0WYXFGME',
-    debug: {
-      enabled: false,
-      sendHitTask: true,
-    },
-  },
+  // googleAnalytics: {
+  //   id: 'G-DF0WYXFGME',
+  //   debug: {
+  //     enabled: false,
+  //     sendHitTask: true,
+  //   },
+  // },
 
-  'google-gtag': {
-    id: 'AW-11027838829',
-    config: {
-      anonymize_ip: true,
-      send_page_view: false,
-    },
-    debug: true,
-    disableAutoPageTrack: false,
-  },
+  // 'google-gtag': {
+  //   id: 'AW-11027838829',
+  //   config: {
+  //     anonymize_ip: true,
+  //     send_page_view: false,
+  //   },
+  //   debug: true,
+  //   disableAutoPageTrack: false,
+  // },
 
   facebook: {
     track: 'PageView',
