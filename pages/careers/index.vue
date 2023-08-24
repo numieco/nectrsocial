@@ -38,16 +38,11 @@
               </career-block>
 
               <career-block link="/careers/creative-director">
-                <template #role>Creative Director</template>
+                <template #role>Account Coordinator</template>
                 <template #role-details>
-                  Nectr Social is a small but dynamic social media marketing
-                  agency based in the vibrant city of Seattle. We specialize in
-                  creating innovative and impactful digital marketing solutions
-                  for a diverse range of clients. We are currently seeking a
-                  talented and experienced Creative Director to join our team
-                  and lead our creative efforts.
+                 Nectr Social, a social media agency based in Seattle, WA, is looking for an entry-level, part-time Account Coordinator to join our team. This position reports to the Director of Client Services and will be responsible for managing the day-to-day social media activities of a variety of clients.
                 </template>
-                <template #role-type> Full Time, Salaried </template>
+                <template #role-type> Part Time, Hourly Rate </template>
                 <template #role-location> Seattle, WA </template>
               </career-block>
             </div>
