@@ -22,7 +22,7 @@
         <div class="c-careers">
           <div class="l-container">
             <div class="c-careers__wrapper">
-              <career-block link="/careers/content-specialist">
+              <career-block link="/careers/creative-specialist">
                 <template #role>Creative Specialist</template>
                 <template #role-details>
                   We are seeking a highly motivated and creative individual to
