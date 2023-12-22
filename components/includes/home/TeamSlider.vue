@@ -35,68 +35,95 @@
       class="c-slider team-slider dragscroll"
       @scroll="checkScroll">
       <team-member
-        img-src-one="/assets/images/Zak-img.jpg"
-        img-src-two="/assets/images/Zak-img.jpg"
-        small>
-        <template #name> Zak Kosher </template>
-        <template #role> Founder </template>
-      </team-member>
+                img-src-one="/assets/images/Zak-img.jpg"
+                img-src-two="/assets/images/Zak-img.jpg">
+                <template #name> Zak Kosher </template>
+                <template #role> Founder </template>
+              </team-member>
 
-      <team-member
-        img-src-one="/assets/images/Dylan-img.jpg"
-        img-src-two="/assets/images/Dylan-img.jpg"
-        small>
-        <template #name> Dylan Rabinowitz </template>
-        <template #role> Director Of Client Services </template>
-      </team-member>
+              <team-member
+                img-src-one="/assets/images/Dylan-img.jpg"
+                img-src-two="/assets/images/Dylan-img.jpg">
+                <template #name> Dylan Rabinowitz </template>
+                <template #role> Director Of Client Services </template>
+              </team-member>
 
-      <!-- <team-member
-        img-src-one="/assets/images/Kortney1.jpg"
-        img-src-two="/assets/images/Kortney2-hover.jpg"
-        small>
-        <template #name> Kortney Gloska </template>
-        <template #role> Creative Director </template>
-      </team-member> -->
+              <!-- <team-member
+              img-src-one="/assets/images/Kortney1.jpg"
+              img-src-two="/assets/images/Kortney2-hover.jpg">
+              <template #name> Kortney Gloska </template>
+              <template #role> Creative Director </template>
+            </team-member> -->
 
-      <!--       <team-member
-        img-src-one="/assets/images/Jon-01.jpg"
-        img-src-two="/assets/images/Jon-hover.jpg"
-        small>
-        <template #name> Jonathan Ochoa </template>
-        <template #role> Social Media Manager </template>
-      </team-member> -->
+              <!--    <team-member
+              img-src-one="/assets/images/Jon-01.jpg"
+              img-src-two="/assets/images/Jon-hover.jpg">
+              <template #name> Jonathan Ochoa </template>
+              <template #role> Social Media Manager </template>
+            </team-member> -->
 
-      <!-- <team-member
-        img-src-one="/assets/images/Gianna 01.jpg"
-        img-src-two="/assets/images/Gianna-hover.jpg"
-        small>
-        <template #name> Gianna Chen </template>
-        <template #role> Social Media Manager </template>
-      </team-member> -->
+              <!-- <team-member
+              img-src-one="/assets/images/Gianna 01.jpg"
+              img-src-two="/assets/images/Gianna-hover.jpg">
+              <template #name> Gianna Chen </template>
+              <template #role> Social Media Manager </template>
+            </team-member> -->
 
-      <team-member
-        img-src-one="/assets/images/Tiare-img.jpg"
-        img-src-two="/assets/images/Tiare-img.jpg"
-        small>
-        <template #name> Tiare Bowman </template>
-        <template #role> Social Media Manager </template>
-      </team-member>
+              <team-member
+                  img-src-one="/assets/images/Ashley-img.jpg"
+                  img-src-two="/assets/images/Ashley-img.jpg">
+                  <template #name> Ashley Forst </template>
+                  <template #role> Creative Lead </template>
+                </team-member>
 
-      <team-member
-        img-src-one="/assets/images/Ashley-img.jpg"
-        img-src-two="/assets/images/Ashley-img.jpg"
-        small>
-        <template #name> Ashley Forst </template>
-        <template #role> Social Media Manager </template>
-      </team-member>
+              <team-member
+                img-src-one="/assets/images/Tiare-img.jpg"
+                img-src-two="/assets/images/Tiare-img.jpg">
+                <template #name> Tiare Bowman </template>
+                <template #role> Creative Specialist  </template>
+              </team-member>
 
-      <team-member
-        img-src-one="/assets/images/Appa 02.jpg"
-        img-src-two="/assets/images/Appa-hover.jpg"
-        small>
-        <template #name> Appa </template>
-        <template #role> Cheif Barketing Officer </template>
-      </team-member>
+              <team-member
+                  img-src-one="/assets/images/Hannah-img.jpg"
+                  img-src-two="/assets/images/Hannah-img.jpg">
+                  <template #name> Hannah Currier </template>
+                  <template #role> Account Manager </template>
+                </team-member>
+
+                 <team-member
+                    img-src-one="/assets/images/Kyle-img.jpg"
+                    img-src-two="/assets/images/Kyle-img.jpg">
+                    <template #name> Kyle </template>
+                    <template #role> Lead Videographer </template>
+                  </team-member>
+
+                   <team-member
+                    img-src-one="/assets/images/C-img.jpg"
+                    img-src-two="/assets/images/C-img.jpg">
+                    <template #name> C Livingston </template>
+                    <template #role> Creative Specialist  </template>
+                  </team-member>
+
+                   <team-member
+                    img-src-one="/assets/images/Will-img.jpg"
+                    img-src-two="/assets/images/Will-img.jpg">
+                    <template #name> Will Charley </template>
+                    <template #role> Creative Specialist </template>
+                  </team-member>
+
+                   <team-member
+                    img-src-one="/assets/images/Kristina-img.jpg"
+                    img-src-two="/assets/images/Kristina-img.jpg">
+                    <template #name> Kristina Mingoy </template>
+                    <template #role> Community Manager </template>
+                  </team-member>
+
+              <team-member
+                img-src-one="/assets/images/Appa 02.jpg"
+                img-src-two="/assets/images/Appa-hover.jpg">
+                <template #name> Appa </template>
+                <template #role> Cheif Barketing Officer </template>
+              </team-member>
     </div>
     <c-button btn-text="Learn More" centered hide-on-mobile link="/about" />
   </div>
