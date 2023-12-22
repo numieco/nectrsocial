@@ -13,7 +13,7 @@
             <div class="c-role__wrapper">
               <career-header>
                 <template #role> Account Coordinator </template>
-                <template #type> Part Time, Hourly Rate</template>
+                <template #type> Full time or Contract </template>
                 <template #location> Seattle, WA</template>
                 <template #summary>
                   Nectr Social, a social media agency based in Seattle, WA, is

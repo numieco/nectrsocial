@@ -36,15 +36,15 @@
       @scroll="checkScroll">
       <team-member
         img-src-one="/assets/images/Zak-img.jpg"
-        img-src-two="/assets/images/Zak-hover.jpg"
+        img-src-two="/assets/images/Zak-img.jpg"
         small>
         <template #name> Zak Kosher </template>
         <template #role> Founder </template>
       </team-member>
 
       <team-member
-        img-src-one="/assets/images/Dylan.jpg"
-        img-src-two="/assets/images/dylan-hover.jpg"
+        img-src-one="/assets/images/Dylan-img.jpg"
+        img-src-two="/assets/images/Dylan-img.jpg"
         small>
         <template #name> Dylan Rabinowitz </template>
         <template #role> Director Of Client Services </template>
@@ -75,16 +75,16 @@
       </team-member> -->
 
       <team-member
-        img-src-one="/assets/images/Tiare1.jpg"
-        img-src-two="/assets/images/Tiare-hover.jpg"
+        img-src-one="/assets/images/Tiare-img.jpg"
+        img-src-two="/assets/images/Tiare-img.jpg"
         small>
         <template #name> Tiare Bowman </template>
         <template #role> Social Media Manager </template>
       </team-member>
 
       <team-member
-        img-src-one="/assets/images/Ashley 01.jpg"
-        img-src-two="/assets/images/Ashley-hover.jpg"
+        img-src-one="/assets/images/Ashley-img.jpg"
+        img-src-two="/assets/images/Ashley-img.jpg"
         small>
         <template #name> Ashley Forst </template>
         <template #role> Social Media Manager </template>

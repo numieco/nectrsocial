@@ -186,7 +186,7 @@
           <casestudy
             img-src="/assets/images/casestudy-img-1.jpg"
             link="/portfolio/qnightclub">
-            <template #casestudy-name> QNightClub </template>
+            <template #casestudy-name> Q Nightclub </template>
             <template #casestudy-details> Sold Out Shows </template>
           </casestudy>
         </template>

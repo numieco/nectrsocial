@@ -6,7 +6,7 @@
       <casestudy-header
         hero-img="/assets/images/qnightclub-header.jpg"
         logo="/assets/images/qnightclub-logo.png">
-        <template #title> QNightClub </template>
+        <template #title> Q Nightclub </template>
         <template #caption> Sold Out Shows </template>
         <template #catchphrase> Let’s Go Dancin’ </template>
         <template #description>
@@ -191,7 +191,7 @@ export default {
     },
 
     title() {
-      return 'QNightClub | NectrSocial'
+      return 'Q Nightclub | NectrSocial'
     }
   },
 

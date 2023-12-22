@@ -11,6 +11,12 @@
         <div class="c-showcase__wrapper">
           <div class="c-showcase-grid__item normal">
             <div class="c-showcase__block">
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/Carrello.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/kirkland-urban.png" />
+            </div>
+            <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/AF.png" />
             </div>
             <div class="c-showcase__block">
@@ -104,6 +110,9 @@
           </div>
 
           <div class="c-showcase-grid__item normal">
+             <div class="c-showcase__block">
+                    <img class="c-showcase-logo" loading="lazy" src="/assets/images/GreatRiverOrganicMilling.png" />
+                  </div>
             <div class="c-showcase__block">
               <img
                 class="c-showcase-logo"
@@ -187,6 +196,7 @@
 
         <div class="c-showcase__wrapper">
           <div class="c-showcase-grid__item invert">
+             
             <div class="c-showcase__block">
               <img
                 class="c-showcase-logo"
@@ -285,6 +295,9 @@
           </div>
 
           <div class="c-showcase-grid__item invert">
+             <div class="c-showcase__block">
+                    <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/thorntail-hard-agave.png" />
+                  </div>
             <div class="c-showcase__block">
               <img
                 class="c-showcase-logo"
@@ -331,13 +344,7 @@
               <img
                 class="c-showcase-logo invert"
                 loading="lazy"
-                src="/assets/images/genisys.png"/>
-            </div>
-            <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/gramercy.png"/>
+                src="/assets/images/gramercy.jpg"/>
             </div>
             <div class="c-showcase__block">
               <img
@@ -387,6 +394,9 @@
         <div class="c-showcase__wrapper">
           <div class="c-showcase-grid__item normal">
             <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/WADNR.png" />
+            </div>
+            <div class="c-showcase__block">
               <img
                 class="c-showcase-logo"
                 loading="lazy"
@@ -410,6 +420,9 @@
                 loading="lazy"
                 src="/assets/images/shroomy.png"/>
             </div>
+             <div class="c-showcase__block">
+                <img class="c-showcase-logo" loading="lazy" src="/assets/images/WADNR.png" />
+              </div>
             <div class="c-showcase__block">
               <img
                 class="c-showcase-logo"
@@ -545,6 +558,7 @@
                 loading="lazy"
                 src="/assets/images/shroomy.png"/>
             </div>
+            
           </div>
         </div>
         <div class="gradient-overlay"></div>

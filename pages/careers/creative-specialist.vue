@@ -13,7 +13,7 @@
             <div class="c-role__wrapper">
               <career-header>
                 <template #role> Creative Specialist </template>
-                <template #type> Full Time or Contract</template>
+                <template #type> Part Time, Hourly Rate</template>
                 <template #location> Seattle, WA</template>
                 <template #summary>
                   We are seeking a highly motivated and creative individual to
