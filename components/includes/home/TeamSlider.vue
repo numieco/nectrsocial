@@ -93,7 +93,7 @@
                  <team-member
                     img-src-one="/assets/images/Kyle-img.jpg"
                     img-src-two="/assets/images/Kyle-img.jpg">
-                    <template #name> Kyle </template>
+                    <template #name> Kyle Green</template>
                     <template #role> Lead Videographer </template>
                   </team-member>
 
