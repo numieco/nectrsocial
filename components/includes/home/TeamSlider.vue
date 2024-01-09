@@ -90,6 +90,13 @@
                   <template #role> Account Manager </template>
                 </team-member>
 
+                <team-member
+                img-src-one="/assets/images/Erin-img.jpg"
+                img-src-two="/assets/images/Erin-img.jpg">
+                <template #name> Erin Webb </template>
+                <template #role> Account Coordinator </template>
+              </team-member>
+
                  <team-member
                     img-src-one="/assets/images/Kyle-img.jpg"
                     img-src-two="/assets/images/Kyle-img.jpg">

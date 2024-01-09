@@ -122,39 +122,46 @@
             </team-member>
 
             <team-member
-                img-src-one="/assets/images/Hannah-img.jpg"
-                img-src-two="/assets/images/Hannah-img.jpg">
-                <template #name> Hannah Currier </template>
-                <template #role> Account Manager </template>
-              </team-member>
+              img-src-one="/assets/images/Hannah-img.jpg"
+              img-src-two="/assets/images/Hannah-img.jpg">
+              <template #name> Hannah Currier </template>
+              <template #role> Account Manager </template>
+            </team-member>
 
-               <team-member
-                  img-src-one="/assets/images/Kyle-img.jpg"
-                  img-src-two="/assets/images/Kyle-img.jpg">
-                  <template #name> Kyle Green</template>
-                  <template #role> Lead Videographer </template>
-                </team-member>
+            <team-member
+              img-src-one="/assets/images/Erin-img.jpg"
+              img-src-two="/assets/images/Erin-img.jpg">
+              <template #name> Erin Webb </template>
+              <template #role> Account Coordinator </template>
+            </team-member>
 
-                 <team-member
-                  img-src-one="/assets/images/C-img.jpg"
-                  img-src-two="/assets/images/C-img.jpg">
-                  <template #name> C Livingston </template>
-                  <template #role> Creative Specialist  </template>
-                </team-member>
+            <team-member
+              img-src-one="/assets/images/Kyle-img.jpg"
+              img-src-two="/assets/images/Kyle-img.jpg">
+              <template #name> Kyle Green</template>
+              <template #role> Lead Videographer </template>
+            </team-member>
 
-                 <team-member
-                  img-src-one="/assets/images/Will-img.jpg"
-                  img-src-two="/assets/images/Will-img.jpg">
-                  <template #name> Will Charley </template>
-                  <template #role> Creative Specialist </template>
-                </team-member>
+              <team-member
+              img-src-one="/assets/images/C-img.jpg"
+              img-src-two="/assets/images/C-img.jpg">
+              <template #name> C Livingston </template>
+              <template #role> Creative Specialist  </template>
+            </team-member>
 
-                 <team-member
-                  img-src-one="/assets/images/Kristina-img.jpg"
-                  img-src-two="/assets/images/Kristina-img.jpg">
-                  <template #name> Kristina Mingoy </template>
-                  <template #role> Community Manager </template>
-                </team-member>
+              <team-member
+              img-src-one="/assets/images/Will-img.jpg"
+              img-src-two="/assets/images/Will-img.jpg">
+              <template #name> Will Charley </template>
+              <template #role> Creative Specialist </template>
+            </team-member>
+
+              <team-member
+              img-src-one="/assets/images/Kristina-img.jpg"
+              img-src-two="/assets/images/Kristina-img.jpg">
+              <template #name> Kristina Mingoy </template>
+              <template #role> Community Manager </template>
+            </team-member>
 
             <team-member
               img-src-one="/assets/images/Appa 02.jpg"
