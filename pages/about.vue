@@ -149,18 +149,18 @@
               <template #role> Creative Specialist  </template>
             </team-member>
 
+            <team-member
+              img-src-one="/assets/images/Jena-img.jpg"
+              img-src-two="/assets/images/Jena-img.jpg">
+              <template #name> Jena McJunkin</template>
+              <template #role> Creative Specialist  </template>
+            </team-member>
+
               <team-member
               img-src-one="/assets/images/Will-img.jpg"
               img-src-two="/assets/images/Will-img.jpg">
               <template #name> Will Charley </template>
               <template #role> Creative Specialist </template>
-            </team-member>
-
-              <team-member
-              img-src-one="/assets/images/Kristina-img.jpg"
-              img-src-two="/assets/images/Kristina-img.jpg">
-              <template #name> Kristina Mingoy </template>
-              <template #role> Community Manager </template>
             </team-member>
 
             <team-member

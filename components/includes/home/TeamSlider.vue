@@ -111,6 +111,13 @@
                     <template #role> Creative Specialist  </template>
                   </team-member>
 
+                  <team-member
+                      img-src-one="/assets/images/Jena-img.jpg"
+                      img-src-two="/assets/images/Jena-img.jpg">
+                      <template #name> Jena McJunkin</template>
+                      <template #role> Creative Specialist  </template>
+                    </team-member>
+
                    <team-member
                     img-src-one="/assets/images/Will-img.jpg"
                     img-src-two="/assets/images/Will-img.jpg">
