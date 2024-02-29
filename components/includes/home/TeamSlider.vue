@@ -125,19 +125,12 @@
                     <template #role> Creative Specialist </template>
                   </team-member>
 
-                   <team-member
-                    img-src-one="/assets/images/Kristina-img.jpg"
-                    img-src-two="/assets/images/Kristina-img.jpg">
-                    <template #name> Kristina Mingoy </template>
-                    <template #role> Community Manager </template>
+                  <team-member
+                    img-src-one="/assets/images/Appa 02.jpg"
+                    img-src-two="/assets/images/Appa-hover.jpg">
+                    <template #name> Appa </template>
+                    <template #role> Cheif Barketing Officer </template>
                   </team-member>
-
-              <team-member
-                img-src-one="/assets/images/Appa 02.jpg"
-                img-src-two="/assets/images/Appa-hover.jpg">
-                <template #name> Appa </template>
-                <template #role> Cheif Barketing Officer </template>
-              </team-member>
     </div>
     <c-button btn-text="Learn More" centered hide-on-mobile link="/about" />
   </div>
