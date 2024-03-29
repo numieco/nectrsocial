@@ -135,7 +135,7 @@
               <template #role> Creative Specialist </template>
             </team-member>
 
-            <team-member img-src-one="/assets/images//assets/images/Gianna-Chen.jpeg" img-src-two="/assets/images//assets/images/Gianna-Chen.jpeg">
+            <team-member img-src-one="/assets/images/Gianna-Chen.jpeg" img-src-two="/assets/images/Gianna-Chen.jpeg">
               <template #name> Gianna Chen </template>
               <template #role> Community Manager and Account Coordinator </template>
             </team-member>
