@@ -12,16 +12,12 @@
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
-            <div
-              class="c-slider-control__btn slider-prev"
-              :class="hasScrolled ? '' : 'is-disabled'"
+            <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
               @click="scrollLeft">
               <div class="btn-dot"></div>
               <div>Previous</div>
             </div>
-            <div
-              class="c-slider-control__btn slider-next"
-              :class="doneScrolling ? 'is-disabled' : ''"
+            <div class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
               @click="scrollRight">
               <div>Next</div>
               <div class="btn-dot next"></div>
@@ -30,107 +26,82 @@
         </div>
       </div>
     </div>
-    <div
-      ref="teamSlider"
-      class="c-slider team-slider dragscroll"
-      @scroll="checkScroll">
-      <team-member
-                img-src-one="/assets/images/Zak-img.jpg"
-                img-src-two="/assets/images/Zak-img.jpg">
-                <template #name> Zak Kosher </template>
-                <template #role> Founder </template>
-              </team-member>
+    <div ref="teamSlider" class="c-slider team-slider dragscroll" @scroll="checkScroll">
+      <team-member img-src-one="/assets/images/Zak-img.jpg" img-src-two="/assets/images/Zak-img.jpg">
+        <template #name> Zak Kosher </template>
+        <template #role> Founder </template>
+      </team-member>
 
-              <team-member
-                img-src-one="/assets/images/Dylan-img.jpg"
-                img-src-two="/assets/images/Dylan-img.jpg">
-                <template #name> Dylan Rabinowitz </template>
-                <template #role> Director Of Client Services </template>
-              </team-member>
+      <team-member img-src-one="/assets/images/Dylan-img.jpg" img-src-two="/assets/images/Dylan-img.jpg">
+        <template #name> Dylan Rabinowitz </template>
+        <template #role> Director Of Client Services </template>
+      </team-member>
 
-              <!-- <team-member
+      <!-- <team-member
               img-src-one="/assets/images/Kortney1.jpg"
               img-src-two="/assets/images/Kortney2-hover.jpg">
               <template #name> Kortney Gloska </template>
               <template #role> Creative Director </template>
             </team-member> -->
 
-              <!--    <team-member
+      <!--    <team-member
               img-src-one="/assets/images/Jon-01.jpg"
               img-src-two="/assets/images/Jon-hover.jpg">
               <template #name> Jonathan Ochoa </template>
               <template #role> Social Media Manager </template>
             </team-member> -->
 
-              <!-- <team-member
+      <!-- <team-member
               img-src-one="/assets/images/Gianna 01.jpg"
               img-src-two="/assets/images/Gianna-hover.jpg">
               <template #name> Gianna Chen </template>
               <template #role> Social Media Manager </template>
             </team-member> -->
 
-              <team-member
-                  img-src-one="/assets/images/Ashley-img.jpg"
-                  img-src-two="/assets/images/Ashley-img.jpg">
-                  <template #name> Ashley Forst </template>
-                  <template #role> Creative Lead </template>
-                </team-member>
+      <team-member img-src-one="/assets/images/Ashley-img.jpg" img-src-two="/assets/images/Ashley-img.jpg">
+        <template #name> Ashley Forst </template>
+        <template #role> Creative Lead </template>
+      </team-member>
 
-              <team-member
-                img-src-one="/assets/images/Tiare-img.jpg"
-                img-src-two="/assets/images/Tiare-img.jpg">
-                <template #name> Tiare Bowman </template>
-                <template #role> Creative Specialist  </template>
-              </team-member>
+      <team-member img-src-one="/assets/images/Tiare-img.jpg" img-src-two="/assets/images/Tiare-img.jpg">
+        <template #name> Tiare Bowman </template>
+        <template #role> Creative Specialist </template>
+      </team-member>
 
-              <team-member
-                  img-src-one="/assets/images/Hannah-img.jpg"
-                  img-src-two="/assets/images/Hannah-img.jpg">
-                  <template #name> Hannah Currier </template>
-                  <template #role> Account Manager </template>
-                </team-member>
+      <team-member img-src-one="/assets/images/Hannah-img.jpg" img-src-two="/assets/images/Hannah-img.jpg">
+        <template #name> Hannah Currier </template>
+        <template #role> Account Manager </template>
+      </team-member>
 
-                <team-member
-                img-src-one="/assets/images/Erin-img.jpg"
-                img-src-two="/assets/images/Erin-img.jpg">
-                <template #name> Erin Webb </template>
-                <template #role> Account Coordinator </template>
-              </team-member>
+      <team-member img-src-one="/assets/images/Erin-img.jpg" img-src-two="/assets/images/Erin-img.jpg">
+        <template #name> Erin Webb </template>
+        <template #role> Account Coordinator </template>
+      </team-member>
 
-                 <team-member
-                    img-src-one="/assets/images/Kyle-img.jpg"
-                    img-src-two="/assets/images/Kyle-img.jpg">
-                    <template #name> Kyle Green</template>
-                    <template #role> Lead Videographer </template>
-                  </team-member>
+      <team-member img-src-one="/assets/images/Kyle-img.jpg" img-src-two="/assets/images/Kyle-img.jpg">
+        <template #name> Kyle Green</template>
+        <template #role> Lead Videographer </template>
+      </team-member>
 
-                   <team-member
-                    img-src-one="/assets/images/C-img.jpg"
-                    img-src-two="/assets/images/C-img.jpg">
-                    <template #name> C Livingston </template>
-                    <template #role> Creative Specialist  </template>
-                  </team-member>
+      <team-member img-src-one="/assets/images/C-img.jpg" img-src-two="/assets/images/C-img.jpg">
+        <template #name> C Livingston </template>
+        <template #role> Creative Specialist </template>
+      </team-member>
 
-                  <team-member
-                      img-src-one="/assets/images/Jena-img.jpg"
-                      img-src-two="/assets/images/Jena-img.jpg">
-                      <template #name> Jena McJunkin</template>
-                      <template #role> Creative Specialist  </template>
-                    </team-member>
+      <team-member img-src-one="/assets/images/Jena-img.jpg" img-src-two="/assets/images/Jena-img.jpg">
+        <template #name> Jena McJunkin</template>
+        <template #role> Creative Specialist </template>
+      </team-member>
 
-                   <team-member
-                    img-src-one="/assets/images/Will-img.jpg"
-                    img-src-two="/assets/images/Will-img.jpg">
-                    <template #name> Will Charley </template>
-                    <template #role> Creative Specialist </template>
-                  </team-member>
+      <team-member img-src-one="/assets/images/Gianna-Chen.jpeg" img-src-two="/assets/images/Gianna-Chen.jpeg">
+        <template #name> Gianna Chen </template>
+        <template #role> Community Manager and Account Coordinator </template>
+      </team-member>
 
-                  <team-member
-                    img-src-one="/assets/images/Appa 02.jpg"
-                    img-src-two="/assets/images/Appa-hover.jpg">
-                    <template #name> Appa </template>
-                    <template #role> Cheif Barketing Officer </template>
-                  </team-member>
+      <team-member img-src-one="/assets/images/Appa 02.jpg" img-src-two="/assets/images/Appa-hover.jpg">
+        <template #name> Appa </template>
+        <template #role> Cheif Barketing Officer </template>
+      </team-member>
     </div>
     <c-button btn-text="Learn More" centered hide-on-mobile link="/about" />
   </div>
