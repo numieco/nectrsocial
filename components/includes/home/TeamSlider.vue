@@ -98,6 +98,11 @@
         <template #role> Community Manager and Account Coordinator </template>
       </team-member>
 
+      <team-member img-src-one="/assets/images/Delilah-Lovejoy.jpeg" img-src-two="/assets/images/Delilah-Lovejoy.jpeg">
+        <template #name> Delilah Lovejoy </template>
+        <template #role> Creative Specialist </template>
+      </team-member>
+
       <team-member img-src-one="/assets/images/Appa 02.jpg" img-src-two="/assets/images/Appa-hover.jpg">
         <template #name> Appa </template>
         <template #role> Cheif Barketing Officer </template>
