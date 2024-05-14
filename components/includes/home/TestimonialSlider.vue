@@ -10,16 +10,12 @@
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
-            <div
-              class="c-slider-control__btn slider-prev"
-              :class="hasScrolled ? '' : 'is-disabled'"
+            <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
               @click="scrollLeft">
               <div class="btn-dot"></div>
               <div>Previous</div>
             </div>
-            <div
-              class="c-slider-control__btn slider-next"
-              :class="doneScrolling ? 'is-disabled' : ''"
+            <div class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
               @click="scrollRight">
               <div>Next</div>
               <div class="btn-dot next"></div>
@@ -29,14 +25,35 @@
       </div>
     </div>
 
-    <div
-      ref="tesSlider"
-      class="c-slider testimonial-slider dragscroll"
-      @scroll="checkScroll">
-      <testimonial black logo="/assets/images/PSH.png">
+    <div ref="tesSlider" class="c-slider testimonial-slider dragscroll" @scroll="checkScroll">
+      <testimonial logo="/assets/images/kirkland-urban.png">
         <template #content>
-          I am grateful to have gotten to work with such a professional, thoughtful team. They produced impressive numbers and
-          results based on our internal goals and gave guidance in a professional, yet genuine manner. Nectr is a fantastic team
+          The Nectr team has completely transformed our social media presence for the better. The Nectr team is always
+          bringing new and innovative approaches to achieve our goals, and because of them we have an engaged and
+          growing following. Can't recommend them enough.
+        </template>
+        <template #name>Tabitha Mars</template>
+        <template #role>Kirkland Urban</template>
+        <template #company></template>
+      </testimonial>
+      <testimonial black logo="/assets/images/gramercy.jpg">
+        <template #content>
+          Nectr is incredible! If you are looking for help growing your social media following and creating content with
+          your voice, they are the team to help with your vision! We have worked with Nectr for years and are so happy
+          with the growth of our platforms. The team is kind, hard-working, fun, and engaging, and I actually really
+          looked forward to our meetings! I’m so glad we were pointed in their direction and am here to continue that
+          kindness. I couldn’t recommend them more highly.
+        </template>
+        <template #name>Nichole Bigley</template>
+        <template #role>Gramercy Cellars</template>
+        <template #company></template>
+      </testimonial>
+      <testimonial logo="/assets/images/PSH.png">
+        <template #content>
+          I am grateful to have gotten to work with such a professional, thoughtful team. They produced impressive
+          numbers and
+          results based on our internal goals and gave guidance in a professional, yet genuine manner. Nectr is a
+          fantastic team
           of great people and I'd confidently recommend them to any business or organization.
         </template>
         <template #name>Tabitha Mars</template>
@@ -159,17 +176,11 @@
     </div>
 
     <div class="c-slider-controls desktop-hide">
-      <div
-        class="c-slider-control__btn slider-prev"
-        :class="hasScrolled ? '' : 'is-disabled'"
-        @click="scrollLeft">
+      <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'" @click="scrollLeft">
         <div class="btn-dot"></div>
         <div>Previous</div>
       </div>
-      <div
-        class="c-slider-control__btn slider-next"
-        :class="doneScrolling ? 'is-disabled' : ''"
-        @click="scrollRight">
+      <div class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''" @click="scrollRight">
         <div>Next</div>
         <div class="btn-dot next"></div>
       </div>
