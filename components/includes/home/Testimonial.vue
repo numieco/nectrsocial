@@ -3,7 +3,7 @@
     <div class="c-block__double orange"></div>
     <div class="c-testimonial__block">
       <div>
-        <div class="c-testimonial__header">
+        <div class="c-testimonial__header" :class="badge ? 'badge' : ''">
           <div class="quote-icon" :class="black ? 'black' : ''"></div>
           <div class="logo-icon small black"></div>
         </div>
@@ -34,6 +34,7 @@
 <script>
 export default {
   props: {
+    badge: Boolean,
     black: Boolean,
     small: Boolean,
     logo: {

@@ -1,14 +1,13 @@
 <template>
-  <nuxt-link
-    class="c-casestudy w-inline-block"
-    :class="featured ? 'featured' : ''"
-    :to="link">
+  <nuxt-link class="c-casestudy w-inline-block" :class="featured ? 'featured' : ''" :to="link">
     <img alt="" class="cover-image" loading="lazy" :src="imgSrc" />
-    <div class="slide-details__wrapper" :class="featured ? 'featured' : ''">
+    <div class="slide-details__wrapper" :class="[featured ? 'featured' : '', badge ? 'badge' : '']">
       <div class="c-block__double"></div>
       <div class="slide-details__block">
         <div class="slide-details__inner" :class="featured ? 'featured' : ''">
-          <h4 class="alt-h4"><slot name="casestudy-name" /></h4>
+          <h4 class="alt-h4">
+            <slot name="casestudy-name" />
+          </h4>
           <div v-if="featured">
             <h6 class="neutral-text mobile-hide">
               <slot name="featured-summary" />
@@ -31,6 +30,7 @@
 export default {
   props: {
     featured: Boolean,
+    badge: Boolean,
     imgSrc: {
       type: String,
       required: true

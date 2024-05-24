@@ -10,6 +10,7 @@
       <div class="c-showcase-grid">
         <div class="c-showcase__wrapper">
           <div class="c-showcase-grid__item normal">
+
             <div class="c-showcase__block">
               <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/Carrello.png" />
             </div>
@@ -28,365 +29,201 @@
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/porter.png" />
             </div>
-        
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/ably-logo.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/flatstick.png" />
+            </div>
+
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/ably-logo.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/ssrta.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/ssrta.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/skin-perfect.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/skin-perfect.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/birch-road.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/birch-road.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/aestheticimmersion.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/aestheticimmersion.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/alki.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/alki.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/ampersand.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/ampersand.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/astrahotel.jpg"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/astrahotel.jpg" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/atiziano.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/atiziano.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/bellscookie.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/bellscookie.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/bitterhousewife.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/bitterhousewife.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/dacels.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/dacels.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/donponcho.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/donponcho.png" />
             </div>
           </div>
 
           <div class="c-showcase-grid__item normal">
-             <div class="c-showcase__block">
-                    <img class="c-showcase-logo" loading="lazy" src="/assets/images/GreatRiverOrganicMilling.png" />
-                  </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/ably-logo.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/westin.jpg" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/ssrta.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/GreatRiverOrganicMilling.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/skin-perfect.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/ably-logo.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/birch-road.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/ssrta.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/aestheticimmersion.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/skin-perfect.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/alki.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/birch-road.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/ampersand.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/aestheticimmersion.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/astrahotel.jpg"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/alki.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/atiziano.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/ampersand.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/bellscookie.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/astrahotel.jpg" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/bitterhousewife.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/atiziano.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/dacels.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/bellscookie.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/donponcho.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/bitterhousewife.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/dacels.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/donponcho.png" />
             </div>
           </div>
         </div>
 
         <div class="c-showcase__wrapper">
           <div class="c-showcase-grid__item invert">
-             
+
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/frost.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/frost.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/sdc.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/sdc.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/bricksneed.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/bricksneed.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/downtown.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/downtown.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                src="/assets/images/duecucina-logo.png"/>
+              <img class="c-showcase-logo" src="/assets/images/duecucina-logo.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/fromthegroundup.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/fromthegroundup.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/genisys.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/genisys.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/gramercy.jpg"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/gramercy.jpg" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/heritage.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/heritage.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/intriguechocolate.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/intriguechocolate.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/kombuchatown.jpg"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/kombuchatown.jpg" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/oakpointe.jpg"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/oakpointe.jpg" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/pasado-safe.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/pasado-safe.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/publicschool.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/publicschool.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/samara.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/samara.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/seabrook.jpeg"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/seabrook.jpeg" />
             </div>
           </div>
 
           <div class="c-showcase-grid__item invert">
-             <div class="c-showcase__block">
-                    <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/thorntail-hard-agave.png" />
-                  </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/frost.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/thorntail-hard-agave.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/sdc.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/frost.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/bricksneed.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/sdc.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/downtown.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/bricksneed.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/duecucina-logo.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/downtown.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/fromthegroundup.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/duecucina-logo.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/genisys.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/fromthegroundup.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/gramercy.jpg"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/genisys.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/heritage.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/gramercy.jpg" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/intriguechocolate.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/heritage.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/kombuchatown.jpg"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/intriguechocolate.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/oakpointe.jpg"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/kombuchatown.jpg" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/pasado-safe.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/oakpointe.jpg" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/samara.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/pasado-safe.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/seabrook.jpeg"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/samara.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/seabrook.jpeg" />
             </div>
           </div>
         </div>
@@ -397,168 +234,90 @@
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/WADNR.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/salish.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/salish.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/ombraz.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/ombraz.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/lens.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/lens.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/shroomy.png"/>
-            </div>
-             <div class="c-showcase__block">
-                <img class="c-showcase-logo" loading="lazy" src="/assets/images/WADNR.png" />
-              </div>
-            <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/rw.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/shroomy.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/seattleinternational.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/WADNR.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/seattlesundries.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/rw.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/shredibles.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/seattleinternational.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/streetbean.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/seattlesundries.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/thelodge.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/shredibles.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/traincentric.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/streetbean.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/whitefang.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/thelodge.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/shroomy.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/traincentric.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/whitefang.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/shroomy.png" />
             </div>
           </div>
 
           <div class="c-showcase-grid__item normal">
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/salish.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/salish.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/ombraz.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/ombraz.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/lens.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/lens.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/shroomy.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/shroomy.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/rw.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/rw.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo invert"
-                loading="lazy"
-                src="/assets/images/seattleinternational.png"/>
+              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/seattleinternational.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/seattlesundries.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/seattlesundries.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/shredibles.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/shredibles.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/streetbean.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/streetbean.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/thelodge.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/thelodge.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/traincentric.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/traincentric.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/whitefang.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/whitefang.png" />
             </div>
             <div class="c-showcase__block">
-              <img
-                class="c-showcase-logo"
-                loading="lazy"
-                src="/assets/images/shroomy.png"/>
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/shroomy.png" />
             </div>
-            
+
           </div>
         </div>
         <div class="gradient-overlay"></div>

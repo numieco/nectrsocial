@@ -33,7 +33,7 @@
               </casestudy>
 
               <casestudy
-                img-src="/assets/images/kycs-thumb.jpeg"
+                img-src="/assets/images/kyc-intro.jpeg"
                 link="/portfolio/keep-your-city-smiling">
                 <template #casestudy-name> KYCS </template>
                 <template #casestudy-details> The Big Pivot </template>

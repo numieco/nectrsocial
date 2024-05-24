@@ -55,7 +55,7 @@
         </div>
 
         <casestudy-metrics>
-          <template #header>Social Media Created:</template>
+          <template #header>Last year, social media created:</template>
 
           <template #metrics>
             <metric-item>

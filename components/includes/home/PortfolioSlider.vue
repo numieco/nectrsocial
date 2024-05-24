@@ -10,16 +10,14 @@
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
-            <div
-              class="c-slider-control__btn slider-prev"
-              :class="hasScrolled ? '' : 'is-disabled'"
+            <div 
+            class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
               @click="scrollLeft">
               <div class="btn-dot"></div>
               <div>Previous</div>
             </div>
-            <div
-              class="c-slider-control__btn slider-next"
-              :class="doneScrolling ? 'is-disabled' : ''"
+            <div 
+            class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
               @click="scrollRight">
               <div>Next</div>
               <div class="btn-dot next"></div>
@@ -29,44 +27,36 @@
       </div>
     </div>
     <div ref="csSlider" class="c-slider portfolio-slider" @scroll="checkScroll">
-      <casestudy
-        img-src="/assets/images/Salish-Bath.jpg"
-        link="/portfolio/salish-lodge">
+      <casestudy badge img-src="/assets/images/gw-intro.jpg" link="/portfolio/good-and-well">
+        <template #casestudy-name> Good & Well Supply Co. </template>
+        <template #casestudy-details> Improved Brand Voice & 4x Return </template>
+      </casestudy>
+      <casestudy img-src="/assets/images/Salish-Bath.jpg" link="/portfolio/salish-lodge">
         <template #casestudy-name> Salish Lodge </template>
         <template #casestudy-details> Rebuilding Post-Pandemic </template>
       </casestudy>
 
-      <casestudy
-        img-src="/assets/images/due-thumb.jpg"
-        link="/portfolio/duecucina">
+      <casestudy img-src="/assets/images/due-thumb.jpg" link="/portfolio/duecucina">
         <template #casestudy-name> Due' Cucina </template>
         <template #casestudy-details> Authentically Italian </template>
       </casestudy>
 
-      <casestudy
-        img-src="/assets/images/qnight-thumb.jpg"
-        link="/portfolio/qnightclub">
+      <casestudy img-src="/assets/images/qnight-thumb.jpg" link="/portfolio/qnightclub">
         <template #casestudy-name> Q Nightclub </template>
         <template #casestudy-details> Sold Out Shows </template>
       </casestudy>
 
-      <casestudy
-        img-src="/assets/images/kycs-thumb.jpeg"
-        link="/portfolio/keep-your-city-smiling">
+      <casestudy img-src="/assets/images/kycs-thumb.jpeg" link="/portfolio/keep-your-city-smiling">
         <template #casestudy-name> KYCS </template>
         <template #casestudy-details> The Big Pivot </template>
       </casestudy>
 
-      <casestudy
-        img-src="/assets/images/ombraz-thumb.jpg"
-        link="/portfolio/ombraz-sunglasses">
+      <casestudy img-src="/assets/images/ombraz-thumb.jpg" link="/portfolio/ombraz-sunglasses">
         <template #casestudy-name> Ombraz Sunglasses </template>
         <template #casestudy-details> 3.7x Return on Ad Spend </template>
       </casestudy>
 
-      <casestudy
-        img-src="/assets/images/frost-thumb.jpg"
-        link="/portfolio/frost">
+      <casestudy img-src="/assets/images/frost-thumb.jpg" link="/portfolio/frost">
         <template #casestudy-name> Frost </template>
         <template #casestudy-details> Driving Foot Traffic </template>
       </casestudy>

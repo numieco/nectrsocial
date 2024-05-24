@@ -42,7 +42,7 @@
         </div>
 
         <casestudy-metrics>
-          <template #header>So far in 2022</template>
+          <template #header>So far in 2024</template>
 
           <template #metrics>
             <metric-item>
