@@ -15,6 +15,9 @@
               <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/Carrello.png" />
             </div>
             <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/gw-logo.svg" />
+            </div>
+            <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/kirkland-urban.png" />
             </div>
             <div class="c-showcase__block">
