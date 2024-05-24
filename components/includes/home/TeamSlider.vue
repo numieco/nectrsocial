@@ -109,6 +109,24 @@
       </team-member>
     </div>
     <c-button btn-text="Learn More" centered hide-on-mobile link="/about" />
+
+        <div class="c-slider-controls desktop-hide">
+      <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'" @click="scrollLeft">
+        <div class="btn-dot"></div>
+        <div>Previous</div>
+      </div>
+      <div class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''" @click="scrollRight">
+        <div>Next</div>
+        <div class="btn-dot next"></div>
+      </div>
+    </div>
+
+    <div class="c-slider-progress">
+      <div class="c-slider-progress_bar">
+        <div ref="progress" class="c-slider-progress__inner"></div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -122,6 +140,7 @@ export default {
   },
 
   mounted() {
+    this.progressBar()
     // this.$autoScroll(this.$refs.teamSlider)
   },
 
@@ -137,18 +156,30 @@ export default {
       ) {
         this.doneScrolling = true
       } else this.doneScrolling = false
+         this.progressBar()
     },
 
     scrollRight() {
-      const team = document.querySelector('.c-team.small')
+      const team = document.querySelector('.c-team')
       const teamWidth = team.clientWidth
       this.$slideRight(this.$refs.teamSlider, teamWidth)
     },
 
     scrollLeft() {
-      const team = document.querySelector('.c-team.small')
+      const team = document.querySelector('.c-team')
       const teamWidth = team.clientWidth
       this.$slideLeft(this.$refs.teamSlider, teamWidth)
+    },
+
+   progressBar() {
+      // eslint-disable-next-line prefer-const
+      let percent =
+        ((this.$refs.teamSlider.offsetWidth + this.$refs.teamSlider.scrollLeft) /
+          this.$refs.teamSlider.scrollWidth) *
+          100 +
+        '%'
+
+      this.$refs.progress.style.width = percent
     }
   }
 }
