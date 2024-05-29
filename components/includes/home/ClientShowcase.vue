@@ -18,7 +18,7 @@
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/gw-logo.svg" />
             </div>
             <div class="c-showcase__block">
-              <img class="c-showcase-logo" loading="lazy" src="/assets/images/kirkland-urban.png" />
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/kirkland-urban-full.png" />
             </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/AF.png" />
@@ -33,9 +33,11 @@
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/porter.png" />
             </div>
             <div class="c-showcase__block">
-              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/flatstick.png" />
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/flatstick.png" />
             </div>
-
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/westin.png" />
+            </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/ably-logo.png" />
             </div>
@@ -78,9 +80,6 @@
           </div>
 
           <div class="c-showcase-grid__item normal">
-            <div class="c-showcase__block">
-              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/westin.jpg" />
-            </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/GreatRiverOrganicMilling.png" />
             </div>
@@ -148,10 +147,7 @@
               <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/fromthegroundup.png" />
             </div>
             <div class="c-showcase__block">
-              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/genisys.png" />
-            </div>
-            <div class="c-showcase__block">
-              <img class="c-showcase-logo" loading="lazy" src="/assets/images/gramercy.jpg" />
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/gramercy-full.jpg" />
             </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/heritage.png" />
@@ -203,9 +199,6 @@
             </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/genisys.png" />
-            </div>
-            <div class="c-showcase__block">
-              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/gramercy.jpg" />
             </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/heritage.png" />

@@ -63,8 +63,8 @@
         <template #role> Creative Lead </template>
       </team-member>
 
-      <team-member img-src-one="/assets/images/Tiare-img.jpg" img-src-two="/assets/images/Tiare-img.jpg">
-        <template #name> Tiare Bowman </template>
+      <team-member img-src-one="/assets/images/Ashley-Garrels.jpeg" img-src-two="/assets/images/Ashley-Garrels.jpeg">
+        <template #name> Ashley Garrels </template>
         <template #role> Creative Specialist </template>
       </team-member>
 

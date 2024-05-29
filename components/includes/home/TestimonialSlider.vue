@@ -10,14 +10,12 @@
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
-            <div 
-            class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
+            <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
               @click="scrollLeft">
               <div class="btn-dot"></div>
               <div>Previous</div>
             </div>
-            <div 
-            class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
+            <div class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
               @click="scrollRight">
               <div>Next</div>
               <div class="btn-dot next"></div>
@@ -34,7 +32,7 @@
           bringing new and innovative approaches to achieve our goals, and because of them we have an engaged and
           growing following. Can't recommend them enough.
         </template>
-        <template #name>Tabitha Mars</template>
+        <template #name>Helen Bernhard</template>
         <template #role>Kirkland Urban</template>
         <template #company></template>
       </testimonial>

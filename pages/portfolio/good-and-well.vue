@@ -9,18 +9,14 @@
                 <template #catchphrase> Fine Tuned Brand Voice <br />& 4x Return </template>
                 <template #description>
                     Local candle company Good & Well Supply Co reached out to Nectr to manage their social media
-                    accounts, create strong digital content and deploy conversion ads to help sell G&W’s products
+                    accounts, create strong digital content and deploy conversion ads to help sell Good & Well Supply Co.’s products
                     online.
                     <br />
                     <br />
                     We decided that our Medium Social Media Management package would be the best place to start. Posting
-                    original content to G&W’s Instagram, Facebook and TikTok channels five times per week. With this
-                    strategy we re-engaged a previously stagnant audience, supplementing G&W’s following with new growth
+                    original content to Good & Well Supply Co.’s Instagram, Facebook and TikTok channels five times per week. With this
+                    strategy we re-engaged a previously stagnant audience, supplementing Good & Well Supply Co.’s following with new growth
                     as well.
-
-                    Our team developed an organic + paid social media strategy that would
-                    help Salish rebound to pre-pandemic numbers, skyrocketing occupancy
-                    rates and average stay duration to the highest it's been in years.
                 </template>
             </casestudy-header>
 
@@ -81,7 +77,7 @@
                                 <h2 class="alt-h2 no-margin" data-paragraph>The Work</h2>
                                 <div class="c-writeup">
                                     <h5 class="neutral-text" data-paragraph>
-                                        After rebuilding a strong foundation on G&W’s organic social media channels, we
+                                        After rebuilding a strong foundation on Good & Well Supply Co.’s organic social media channels, we
                                         introduced a Meta ads strategy to drive conversions on social media. This was an
                                         immediate success, as our organic social media posting strategy brought new
                                         prospective interest in the Good & Well brand and our meta ads strategy
@@ -110,9 +106,7 @@
 
                         <metric-item small>
                             <template #figure>416%</template>
-                            <template #description>return on advertising <p style="font-size: 13px;">($38,053.60 in
-                                    revenue on $8,098.74 spend)</p>
-                            </template>
+                            <template #description>return on advertising</template>
                         </metric-item>
 
                         <metric-item small>
