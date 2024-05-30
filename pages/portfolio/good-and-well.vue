@@ -139,9 +139,9 @@
                             <casestudy 
                             featured img-src="/assets/images/kycs-thumb.jpeg"
                                 link="/portfolio/keep-your-city-smiling">
-                                <template #casestudy-name> KYCS </template>
-                                <template #featured-summary> The Big Pivot </template>
-                                <template #casestudy-details> The Big Pivot </template>
+                                <template #casestudy-name> Salish Lodge </template>
+                                <template #featured-summary> Rebuilding Post-Pandemic </template>
+                                <template #casestudy-details> Rebuilding Post-Pandemic </template>
                             </casestudy>
                         </div>
                     </div>

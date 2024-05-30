@@ -12,12 +12,14 @@
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
-            <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
+            <div 
+            class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
               @click="scrollLeft">
               <div class="btn-dot"></div>
               <div>Previous</div>
             </div>
-            <div class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
+            <div 
+            class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
               @click="scrollRight">
               <div>Next</div>
               <div class="btn-dot next"></div>
@@ -63,11 +65,6 @@
         <template #role> Creative Lead </template>
       </team-member>
 
-      <team-member img-src-one="/assets/images/Ashley-Garrels.jpeg" img-src-two="/assets/images/Ashley-Garrels.jpeg">
-        <template #name> Ashley Garrels </template>
-        <template #role> Creative Specialist </template>
-      </team-member>
-
       <team-member img-src-one="/assets/images/Hannah-img.jpg" img-src-two="/assets/images/Hannah-img.jpg">
         <template #name> Hannah Currier </template>
         <template #role> Account Manager </template>
@@ -103,6 +100,11 @@
         <template #role> Creative Specialist </template>
       </team-member>
 
+      <team-member img-src-one="/assets/images/Ashley-Garrels.jpeg" img-src-two="/assets/images/Ashley-Garrels.jpeg">
+        <template #name> Ashley Garrels </template>
+        <template #role> Creative Specialist </template>
+      </team-member>
+
       <team-member img-src-one="/assets/images/Appa 02.jpg" img-src-two="/assets/images/Appa-hover.jpg">
         <template #name> Appa </template>
         <template #role> Cheif Barketing Officer </template>
@@ -110,7 +112,7 @@
     </div>
     <c-button btn-text="Learn More" centered hide-on-mobile link="/about" />
 
-        <div class="c-slider-controls desktop-hide">
+    <div class="c-slider-controls desktop-hide">
       <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'" @click="scrollLeft">
         <div class="btn-dot"></div>
         <div>Previous</div>

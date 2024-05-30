@@ -198,9 +198,6 @@
               <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/fromthegroundup.png" />
             </div>
             <div class="c-showcase__block">
-              <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/genisys.png" />
-            </div>
-            <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/heritage.png" />
             </div>
             <div class="c-showcase__block">
