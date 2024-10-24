@@ -39,6 +39,16 @@ export default {
         type: 'text/javascript',
         body: true,
       },
+      {
+        src: '/js/gtag-new.js',
+        type: 'text/javascript',
+        body: false,
+      },
+      {
+        src: '/js/snitch.js',
+        type: 'text/javascript',
+        body: false,
+      },
     ],
   },
 
