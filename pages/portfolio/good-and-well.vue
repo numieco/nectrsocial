@@ -138,7 +138,7 @@
                         class="c-casestudy__wrapper">
                             <casestudy 
                             featured img-src="/assets/images/salish-header.jpeg"
-                                link="/portfolio/keep-your-city-smiling">
+                                link="/portfolio/salish-lodge">
                                 <template #casestudy-name> Salish Lodge </template>
                                 <template #featured-summary> Rebuilding Post-Pandemic </template>
                                 <template #casestudy-details> Rebuilding Post-Pandemic </template>

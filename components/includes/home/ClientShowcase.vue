@@ -127,7 +127,15 @@
 
         <div class="c-showcase__wrapper">
           <div class="c-showcase-grid__item invert">
-
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/apotheka_salon.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/essential_baking.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/henrys.png" />
+            </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/frost.png" />
             </div>
@@ -180,9 +188,6 @@
               <img class="c-showcase-logo invert" loading="lazy" src="/assets/images/thorntail-hard-agave.png" />
             </div>
             <div class="c-showcase__block">
-              <img class="c-showcase-logo" loading="lazy" src="/assets/images/frost.png" />
-            </div>
-            <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/sdc.png" />
             </div>
             <div class="c-showcase__block">
@@ -223,6 +228,15 @@
 
         <div class="c-showcase__wrapper">
           <div class="c-showcase-grid__item normal">
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/made_in_washington.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/newport_beach.jpg" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/rainier_outdoor.png" />
+            </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/WADNR.png" />
             </div>
@@ -271,6 +285,18 @@
           </div>
 
           <div class="c-showcase-grid__item normal">
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/renaissance_hotel.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/spud.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/standard_goods.png" />
+            </div>
+            <div class="c-showcase__block">
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/true_bella.png" />
+            </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/salish.png" />
             </div>

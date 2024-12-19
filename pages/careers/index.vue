@@ -7,19 +7,24 @@
         <div class="l-section__header no-padding">
           <div class="l-container">
             <div class="c-section-header">
-              <div>
-                <h2 class="section-header__text" data-paragraph>
+              <div style='max-width: 800px;'>
+                <h2 class="section-header__text">
                   Join the flock!
                 </h2>
-                <h4 class="section-header__subtext" data-paragraph>
-                  We&#x27;re always looking for good people ready to do sweet
-                  work.
+                <h4 class="section-header__subtext" style="margin-bottom: 24px;">
+                  <!-- We&#x27;re always looking for good people ready to do sweet
+                  work. -->
+                  We’re not actively hiring right now, but we’re always excited to connect with talented individuals and
+                  build relationships for future opportunities—if you think you’d be a great fit, we’d love to hear from
+                  you!
                 </h4>
+                <a href="mailto:hello@nectrsocial.com"
+                  style='font-size: 32px; border-bottom: 2px solid #0A151F;'>Reach out to us</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="c-careers">
+        <!-- <div class="c-careers">
           <div class="l-container">
             <div class="c-careers__wrapper">
               <career-block link="/careers/creative-specialist">
@@ -51,7 +56,7 @@
               </career-block>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <Footer />

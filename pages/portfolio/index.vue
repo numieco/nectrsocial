@@ -19,11 +19,18 @@
         <div class="c-casestudies">
           <div class="l-container">
             <div class="c-casestudy__wrapper">
-              <casestudy featured img-src="/assets/images/gw-intro.jpeg" link="/portfolio/good-and-well">
-                <template #casestudy-name> Good & Well Supply Co. </template>
+              <casestudy featured img-src="/assets/images/astra_hotel.jpg" link="/portfolio/astra-hotel-seattle">
+                <template #casestudy-name> Astra Hotel Seattle </template>
                 <template #featured-summary>
-                  Improved Brand Voice & 4x Return
+                  Building an Award Winning Social Presence
                 </template>
+                <template #casestudy-details>
+                  Building an Award Winning Social Presence
+                </template>
+              </casestudy>
+
+              <casestudy img-src="/assets/images/gw-intro.jpeg" link="/portfolio/good-and-well">
+                <template #casestudy-name> Good & Well Supply Co. </template>>
                 <template #casestudy-details>
                   Improved Brand Voice & 4x Return
                 </template>

@@ -26,7 +26,33 @@
     </div>
 
     <div ref="tesSlider" class="c-slider testimonial-slider dragscroll" @scroll="checkScroll">
-      <testimonial badge logo="/assets/images/kirkland-urban.png">
+      <testimonial badge logo="/assets/images/jll.png">
+        <template #content>
+          Nectr was a dream to deal with managing our social media for our shopping center. They totally understood our
+          brand from day one and came up with engaging, thoughtful and interesting content. Their account mangers were
+          professional and flexible with our reporting requests. I would recommend Nectr to anyone needing a strategic
+          team that will do the thinking and the doing for you!
+        </template>
+        <template #name>Jacqueline Socha</template>
+        <template #role>General Manager</template>
+        <template #company>JLL</template>
+      </testimonial>
+      <testimonial badge black logo="/assets/images/essential_baking.png">
+        <template #content>
+          We hired Nectr Social to reinvigorate our Instagram channel for a local brand that had been losing its
+          relevancy among younger demographics over time. Our KPIs were declining and the content was growing stale.
+          Their new client onboarding process was efficient and productive in creating a collaborative partnership.
+          Within the first three months, our engagement rates and reach had grown significantly. Not to mention our
+          number of followers were growing at a healthy rate in a short period of time. I attribute this to the team's
+          creative acumen in producing unique and relevant content, on top of their strong digital expertise. Nectr
+          Social has an incredible team of talented individuals that understands authentic and great story telling,
+          which is key for making your brand shine! We love working with them and know you will too.
+        </template>
+        <template #name>Amanda Hughart</template>
+        <template #role>Marketing Director</template>
+        <template #company>Essential Baking Co.</template>
+      </testimonial>
+      <testimonial logo="/assets/images/kirkland-urban.png">
         <template #content>
           The Nectr team has completely transformed our social media presence for the better. The Nectr team is always
           bringing new and innovative approaches to achieve our goals, and because of them we have an engaged and
@@ -36,7 +62,7 @@
         <template #role>Kirkland Urban</template>
         <template #company></template>
       </testimonial>
-      <testimonial badge black logo="/assets/images/gramercy.jpg">
+      <testimonial black logo="/assets/images/gramercy.jpg">
         <template #content>
           Nectr is incredible! If you are looking for help growing your social media following and creating content with
           your voice, they are the team to help with your vision! We have worked with Nectr for years and are so happy
