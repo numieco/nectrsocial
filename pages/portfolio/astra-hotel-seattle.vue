@@ -41,21 +41,13 @@
                         </service-block>
 
 
-                        <service-block icon="/assets/images/pv.svg" link="/capabilities/photo-video">
-                            <template #service> Content Creation </template>
+                        <service-block icon="/assets/images/fb-ad.svg" link="capabilities/fb-ads">
+                            <template #service> Facebook &amp; Instagram Ads </template>
                             <template #service-details>
-                                From concept to execution, we craft engaging and tailored content that resonates with
-                                your audience, boosting brand visibility and driving meaningful interaction.
+                                Ad creation/distribution, copywriting, creative testing, and insightful reporting.
                             </template>
                         </service-block>
-
-                        <service-block icon="/assets/images/consulting.svg" link="/network">
-                            <template #service> Influencer Partnerships </template>
-                            <template #service-details>
-                                Leverage the power of trusted influencers to amplify your message, engage new audiences,
-                                and drive authentic brand growth through strategic collaborations.
-                            </template>
-                        </service-block>
+                      
                     </div>
                 </div>
 
@@ -97,10 +89,12 @@
                                         local community and elevated the brand’s appeal to diverse audiences.
                                         <br />
                                         <br />
-                                        This strategic approach led Astra to win Marriott’s **‘Biggest Marketing Splash’
-                                        award** in both **2023 and 2024**, cementing their position as a leader in
+                                        This strategic approach led Astra to win Marriott’s 'Biggest Marketing Splash’
+                                        award in both 2023 and 2024, cementing their position as a leader in
                                         hospitality marketing.
                                     </h5>
+                                  <video src='https://file.notion.so/f/f/19570c8c-afe6-433b-8362-c5fc3e68b37a/41abc9bc-ff4d-4664-9d28-247a2fbf16b6/astrahotelseattle_1697217229_3212812742134532524_47873829932.mp4?table=block&id=15a31ec2-0a81-8062-a201-df82837a6ab7&spaceId=19570c8c-afe6-433b-8362-c5fc3e68b37a&expirationTimestamp=1734804000000&signature=e8IoZz-MgMJnDsIBQbtBeFmnQ3dvtFqsj-wpO0miE-I&downloadName=astrahotelseattle_1697217229_3212812742134532524_47873829932.mp4' autoplay loop muted style='width: 100%; height: auto; margin: 32px 0'></video>
+                                  <img 
                                 </div>
                             </div>
                             <!--   <div class="c-writeup-img__block">
