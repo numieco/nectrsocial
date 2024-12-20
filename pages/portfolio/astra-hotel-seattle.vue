@@ -94,7 +94,7 @@
                                         hospitality marketing.
                                     </h5>
                                   <img src='/assets/images/astra_award.jpg' style='width: 100%; height: auto; margin-top: 32px;' />
-                                  <video src='/assets/videos/astra_hotel.mp4' autoplay loop muted style='width: 100%; max-height: 500px; height: auto; object-fit: cover; margin: 32px 0'></video>
+                                  <video src='/assets/videos/astra_hotel.mp4' autoplay loop muted style='width: 50%; height: auto; margin: 32px 0'></video>
                                   <img 
                                 </div>
                             </div>
