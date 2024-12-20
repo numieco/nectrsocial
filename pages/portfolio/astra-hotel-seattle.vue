@@ -93,7 +93,7 @@
                                         award in both 2023 and 2024, cementing their position as a leader in
                                         hospitality marketing.
                                     </h5>
-                                  <div style="display: flex; flex-wrap: wrap; gap: 20px; height: 600px; width: 100%; margin: 0 auto;">
+                                  <div style="display: flex; gap: 20px; height: 600px; width: 100%; margin: 0 auto;">
                                     <img src="/assets/images/astra_award.jpg" alt="Astra hotel award" style="height: 100%; width: 75%; object-fit: cover;">
                                     <video src="/assets/videos/astra_hotel.mp4" autoplay loop muted style="height: 100%; width: 25%; object-fit: cover;"></video>
                                   </div>
