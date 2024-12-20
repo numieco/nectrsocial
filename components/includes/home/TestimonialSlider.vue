@@ -39,14 +39,10 @@
       </testimonial>
       <testimonial badge black logo="/assets/images/essential_baking.png">
         <template #content>
-          We hired Nectr Social to reinvigorate our Instagram channel for a local brand that had been losing its
-          relevancy among younger demographics over time. Our KPIs were declining and the content was growing stale.
-          Their new client onboarding process was efficient and productive in creating a collaborative partnership.
-          Within the first three months, our engagement rates and reach had grown significantly. Not to mention our
-          number of followers were growing at a healthy rate in a short period of time. I attribute this to the team's
-          creative acumen in producing unique and relevant content, on top of their strong digital expertise. Nectr
-          Social has an incredible team of talented individuals that understands authentic and great story telling,
-          which is key for making your brand shine! We love working with them and know you will too.
+          Within the first three months, our engagement rates and reach had grown significantly. Our number of followers were growing at
+          a healthy rate in a short period of time. I attribute this to the team's creative acumen in producing unique and relevant content,
+          on top of their strong digital expertise. Nectr Social has an incredible team of talented individuals that understands authentic and great
+          storytelling, which is key for making your brand shine! We love working with them and know you will too.
         </template>
         <template #name>Amanda Hughart</template>
         <template #role>Marketing Director</template>
