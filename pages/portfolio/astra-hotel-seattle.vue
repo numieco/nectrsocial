@@ -93,7 +93,8 @@
                                         award in both 2023 and 2024, cementing their position as a leader in
                                         hospitality marketing.
                                     </h5>
-                                  <video src='https://file.notion.so/f/f/19570c8c-afe6-433b-8362-c5fc3e68b37a/41abc9bc-ff4d-4664-9d28-247a2fbf16b6/astrahotelseattle_1697217229_3212812742134532524_47873829932.mp4?table=block&id=15a31ec2-0a81-8062-a201-df82837a6ab7&spaceId=19570c8c-afe6-433b-8362-c5fc3e68b37a&expirationTimestamp=1734804000000&signature=e8IoZz-MgMJnDsIBQbtBeFmnQ3dvtFqsj-wpO0miE-I&downloadName=astrahotelseattle_1697217229_3212812742134532524_47873829932.mp4' autoplay loop muted style='width: 100%; height: auto; margin: 32px 0'></video>
+                                  <img src='/assets/images/astra_award.jpg' style='width: 100%; height: auto; margin-top: 32px;' />
+                                  <video src='/assets/videos/astra_hotel.mp4' autoplay loop muted style='width: 100%; max-height: 500px; height: auto; object-fit: cover; margin: 32px 0'></video>
                                   <img 
                                 </div>
                             </div>
