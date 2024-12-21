@@ -15,15 +15,15 @@ a {
 @media screen and (max-width: 991px) {
   .astra {
     flex-direction: column !important;
-    margin: 32px; auto;
-    height: auto;
+    margin: 32px auto !important;
+    height: auto !important;
   }
   .astra img {
-    width: 100%;
+    width: 100% !important;
     height: auto !important;
   }
   .astra video {
-    width: 100%;
+    width: 100% !important;
     height: auto !important;
   }
 }
