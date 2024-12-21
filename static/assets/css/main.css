@@ -20,9 +20,11 @@ a {
   }
   .astra img {
     width: 100%;
+    height: auto;
   }
   .astra video {
     width: 100%;
+    height: auto;
   }
 }
 
