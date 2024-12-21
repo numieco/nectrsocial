@@ -25,6 +25,7 @@ a {
   .astra video {
     width: 100% !important;
     height: auto !important;
+    max-height: 500px !important;
   }
 }
 
