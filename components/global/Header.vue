@@ -4,36 +4,48 @@
       class="c-nav__bg"
       :class="[
         mutableInvert && !blueBg ? 'inverted' : '',
-        menuOpen ? 'hide' : ''
+        menuOpen || isHomePage ? 'hide' : '',
       ]"></div>
     <nuxt-link aria-current="page" class="c-nav__link" to="/">
       <img
         class="c-nav__logo absolute"
-        src="/assets/images/Logo---New---Black.svg"/>
+        src="/assets/images/Logo---New---Black.svg" />
       <img
-        v-if="mutableInvert && !blueBg"
+        v-if="(mutableInvert && !blueBg) || (isHomePage && !menuOpen)"
         class="c-nav__logo normal"
-        src="/assets/images/Logo---New---Black.svg"/>
+        src="/assets/images/Logo---New---Black.svg" />
       <img
         v-else
         class="c-nav__logo normal"
-        src="/assets/images/Logo---New.svg"/>
+        src="/assets/images/Logo---New.svg" />
     </nuxt-link>
     <div
       class="c-nav__btn"
-      :class="mutableInvert && !blueBg ? 'inverted' : ''"
+      :class="[
+        mutableInvert && !blueBg ? 'inverted' : '',
+        isHomePage && !menuOpen ? 'inverted' : '',
+      ]"
       @click="toggleMenu()">
       <h6>{{ menuOpen ? 'Close' : 'Menu' }}</h6>
       <div class="c-nav__hamburger" :class="menuOpen ? 'open' : ''">
         <div
           class="hamburger-line top-line"
-          :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
+          :class="[
+            mutableInvert && !blueBg ? 'inverted' : '',
+            isHomePage && !menuOpen ? 'inverted' : '',
+          ]"></div>
         <div
           class="hamburger-line mid-line"
-          :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
+          :class="[
+            mutableInvert && !blueBg ? 'inverted' : '',
+            isHomePage && !menuOpen ? 'inverted' : '',
+          ]"></div>
         <div
           class="hamburger-line bottom-line"
-          :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
+          :class="[
+            mutableInvert && !blueBg ? 'inverted' : '',
+            isHomePage && !menuOpen ? 'inverted' : '',
+          ]"></div>
       </div>
     </div>
   </div>
@@ -43,27 +55,31 @@
 export default {
   props: {
     isInverted: Boolean,
-    blueBg: Boolean
+    blueBg: Boolean,
   },
 
   data() {
     return {
-      mutableInvert: this.isInverted
+      mutableInvert: this.isInverted,
     }
   },
 
   computed: {
     menuOpen() {
       return this.$store.getters.menuState
-    }
+    },
+
+    isHomePage() {
+      return this.$route.name === 'index'
+    },
   },
 
   methods: {
     toggleMenu() {
       this.mutableInvert = !this.mutableInvert
       this.$store.commit('toggleMenu', !this.menuOpen)
-    }
-  }
+    },
+  },
 }
 </script>
 

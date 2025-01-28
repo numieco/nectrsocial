@@ -3,9 +3,9 @@
     <Header blue-bg />
     <div class="scroller">
       <div class="l-section hero-section">
-        <div class="l-container">
+        <div class="l-container cc-hero">
           <div class="hero-block__wrapper">
-            <div class="hero-block__double"></div>
+            <!--            <div class="hero-block__double"></div>-->
             <div class="hero-block">
               <div class="hero-img__wrapper">
                 <div class="hero-img__block">
@@ -49,7 +49,7 @@
                 </h3>
 
                 <div class="hero-block__cta">
-                  <div class="down-arrow mobile-hide"></div>
+                  <div class="down-arrow"></div>
 
                   <c-button btn-text="Book a Discovery call!" large typeform />
                 </div>
@@ -136,7 +136,7 @@
               btn-text="Book a Discovery call!"
               centered
               typeform
-              white/>
+              white />
           </div>
         </div>
       </div>
@@ -175,17 +175,17 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
   computed: {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
     description() {
@@ -193,7 +193,7 @@ export default {
     },
     title() {
       return 'NectrSocial'
-    }
+    },
   },
   mounted() {
     this.$initScroll('.scroller')
@@ -208,59 +208,144 @@ export default {
       bounce
         .to('.down-arrow', 1, { y: '-=15', ease: 'Sine.easeInOut' })
         .to('.down-arrow', 1, { y: '+=15', ease: 'Sine.easeInOut' })
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style>
+.l-section.hero-section {
+  background: white;
+  max-height: 885px;
+  padding: 0px;
+}
+
+.l-container.cc-hero {
+  max-width: 1700px;
+}
+
 .hero-img__wrapper {
   height: auto;
 }
+
+.hero-block {
+  position: relative;
+  left: unset;
+  top: unset;
+  border: none;
+  padding: 0px;
+}
+
+.hero-img__wrapper {
+  width: 50%;
+  height: 100%;
+  margin: 0px;
+}
+
+.hero-img__block {
+  width: 100%;
+  max-width: none;
+}
+
+.hero-text__wrapper {
+  width: 50%;
+  max-width: none;
+  padding: 0px 50px;
+}
+
 @media screen and (min-width: 992px) {
   .hero-block {
     align-items: center;
   }
 }
+
 .hero-video {
   pointer-events: none;
 }
+
 .hero-video::-webkit-media-controls-panel {
   display: none !important;
   opacity: 1 !important;
 }
+
 .down-arrow {
   transform: scale(0.7);
 }
+
 .hero-img__block > video {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
+
 .hero-img__block {
   height: 100%;
   min-height: 0px;
 }
+
 @media screen and (max-width: 767px) {
+  .l-section.hero-section,
+  .l-container.cc-hero,
+  .hero-block__wrapper,
+  .hero-block {
+    height: 100vh;
+    min-height: 750px;
+  }
+
+  .hero-block {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-text__wrapper,
+  .hero-subtext {
+    color: white;
+  }
+
+  .hero-text__wrapper {
+    margin-top: 80px;
+    padding: 0px;
+    max-width: none;
+    width: 60%;
+  }
+
   .hero-img__wrapper {
     width: 100%;
+    height: 100%;
+    background: #0a151f;
+    position: absolute;
+    top: 0;
+    bottom: 0;
   }
+
   .hero-img__block {
-    width: auto;
-    height: 80vw;
-    max-height: 500px;
+    opacity: 0.7;
+  }
+
+  .hero-block__cta .cta-btn > .cta-btn__block {
+    background-color: #ffffff !important;
+    color: #13293d !important;
+  }
+
+  .down-arrow {
+    filter: grayscale(1) invert(1);
   }
 }
+
 .c-slider {
   /* pointer-events: none; */
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .c-slider::-webkit-scrollbar {
   display: none;
 }
+
 .c-slider > * {
   pointer-events: auto;
 }
+
 .c-cta {
   padding-top: 170px;
   padding-bottom: 170px;
