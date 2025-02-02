@@ -67,6 +67,7 @@ export default {
   data() {
     return {
       mutableInvert: this.isInverted,
+      isMobile: false,
     }
   },
 
@@ -78,16 +79,25 @@ export default {
     isHomePage() {
       return this.$route.name === 'index'
     },
+  },
 
-    isMobile() {
-      return true
-    },
+  mounted() {
+    this.checkMobile()
+    window.addEventListener('resize', this.checkMobile)
+  },
+
+  beforeDestroy() {
+    window.removeEventListener('resize', this.checkMobile)
   },
 
   methods: {
     toggleMenu() {
       this.mutableInvert = !this.mutableInvert
       this.$store.commit('toggleMenu', !this.menuOpen)
+    },
+
+    checkMobile() {
+      this.isMobile = window.innerWidth <= 768
     },
   },
 }

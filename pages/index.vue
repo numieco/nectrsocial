@@ -222,7 +222,7 @@ export default {
 }
 
 .l-container.cc-hero {
-  max-width: 1700px;
+  max-width: none !important;
 }
 
 .hero-img__wrapper {
