@@ -217,6 +217,7 @@ export default {
 .l-section.hero-section {
   background: white;
   max-height: 885px;
+  height: 100vh;
   padding: 0px;
 }
 
@@ -283,13 +284,24 @@ export default {
   min-height: 0px;
 }
 
+.hero-block__cta {
+  padding-top: 30px;
+  flex-direction: column-reverse;
+}
+
+.hero-block__cta .cta-btn {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 767px) {
-  .l-section.hero-section,
+  .l-section.hero-section {
+    height: 100vh;
+  }
+
   .l-container.cc-hero,
   .hero-block__wrapper,
   .hero-block {
-    height: 100vh;
-    min-height: 750px;
+    height: 100%;
   }
 
   .hero-block {
@@ -312,14 +324,14 @@ export default {
   .hero-img__wrapper {
     width: 100%;
     height: 100%;
-    background: #0a151f;
+    background: rgba(10, 21, 31, 0.89);
     position: absolute;
     top: 0;
     bottom: 0;
   }
 
   .hero-img__block {
-    opacity: 0.7;
+    opacity: 0.9;
   }
 
   .hero-block__cta .cta-btn > .cta-btn__block {

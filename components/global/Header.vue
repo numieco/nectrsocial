@@ -11,9 +11,15 @@
         class="c-nav__logo absolute"
         src="/assets/images/Logo---New---Black.svg" />
       <img
-        v-if="(mutableInvert && !blueBg) || (isHomePage && !menuOpen)"
+        v-if="
+          (mutableInvert && !blueBg) || (isHomePage && !menuOpen && !isMobile)
+        "
         class="c-nav__logo normal"
         src="/assets/images/Logo---New---Black.svg" />
+      <img
+        v-else-if="isHomePage && !menuOpen && isMobile"
+        class="c-nav__logo normal"
+        src="/assets/images/Logo---New.svg" />
       <img
         v-else
         class="c-nav__logo normal"
@@ -23,7 +29,7 @@
       class="c-nav__btn"
       :class="[
         mutableInvert && !blueBg ? 'inverted' : '',
-        isHomePage && !menuOpen ? 'inverted' : '',
+        isHomePage && !menuOpen && !isMobile ? 'inverted' : '',
       ]"
       @click="toggleMenu()">
       <h6>{{ menuOpen ? 'Close' : 'Menu' }}</h6>
@@ -32,19 +38,19 @@
           class="hamburger-line top-line"
           :class="[
             mutableInvert && !blueBg ? 'inverted' : '',
-            isHomePage && !menuOpen ? 'inverted' : '',
+            isHomePage && !menuOpen && !isMobile ? 'inverted' : '',
           ]"></div>
         <div
           class="hamburger-line mid-line"
           :class="[
             mutableInvert && !blueBg ? 'inverted' : '',
-            isHomePage && !menuOpen ? 'inverted' : '',
+            isHomePage && !menuOpen && !isMobile ? 'inverted' : '',
           ]"></div>
         <div
           class="hamburger-line bottom-line"
           :class="[
             mutableInvert && !blueBg ? 'inverted' : '',
-            isHomePage && !menuOpen ? 'inverted' : '',
+            isHomePage && !menuOpen && !isMobile ? 'inverted' : '',
           ]"></div>
       </div>
     </div>
@@ -71,6 +77,10 @@ export default {
 
     isHomePage() {
       return this.$route.name === 'index'
+    },
+
+    isMobile() {
+      return true
     },
   },
 
