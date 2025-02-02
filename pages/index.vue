@@ -1,47 +1,34 @@
 <template>
   <div>
-    <Header blue-bg />
+    <div :class="['ui-elements', uiVisible ? 'visible' : '']">
+      <Header blue-bg />
+    </div>
     <div class="scroller">
       <div class="l-section hero-section">
         <div class="l-container cc-hero">
           <div class="hero-block__wrapper">
-            <!--            <div class="hero-block__double"></div>-->
             <div class="hero-block">
               <div class="hero-img__wrapper">
                 <div class="hero-img__block">
                   <video
                     autoplay="true"
-                    class="hero-video"
+                    :class="['hero-video', videoLoaded ? 'fade-in' : '']"
                     controls="false"
                     loop
                     muted
                     playsinline
                     src="/assets/videos/Landing.mp4"
-                    style="pointer-events: none"></video>
-                  <!-- <img
-                    class="hero-img"
-                    loading="lazy"
-                    src="/assets/images/hero-img-1.jpg"/>
-                  <img
-                    class="hero-img"
-                    loading="lazy"
-                    src="/assets/images/hero-img-2.jpg"/>
-                  <img
-                    class="hero-img"
-                    loading="lazy"
-                    src="/assets/images/hero-img-3.jpg"/>
-                  <img
-                    class="hero-img"
-                    loading="lazy"
-                    src="/assets/images/hero-img-4.jpg"/> -->
+                    style="pointer-events: none"
+                    @loadeddata="handleVideoLoaded"></video>
                 </div>
-                <div class="down-arrow desktop-hide"></div>
+                <div
+                  :class="[
+                    'down-arrow desktop-hide',
+                    uiVisible ? 'visible' : '',
+                  ]"></div>
               </div>
-              <div class="hero-text__wrapper">
-                <h1 class="hero-text" data-paragraph>
-                  <!-- The digital marketing agency you didn’t know you needed. -->
-                  Howdy
-                </h1>
+              <div :class="['hero-text__wrapper', uiVisible ? 'visible' : '']">
+                <h1 class="hero-text">Howdy</h1>
                 <h3 class="hero-subtext" data-paragraph>
                   We're Nectr - a fast, next-generation, social media-first
                   digital marketing agency built to
@@ -49,7 +36,8 @@
                 </h3>
 
                 <div class="hero-block__cta">
-                  <div class="down-arrow"></div>
+                  <div
+                    :class="['down-arrow ', uiVisible ? 'visible' : '']"></div>
 
                   <c-button btn-text="Book a Discovery call!" large typeform />
                 </div>
@@ -170,8 +158,12 @@
 <script>
 export default {
   data() {
-    return {}
+    return {
+      videoLoaded: false,
+      uiVisible: false,
+    }
   },
+
   head() {
     return {
       htmlAttrs: {
@@ -181,6 +173,7 @@ export default {
       meta: [...this.meta],
     }
   },
+
   computed: {
     meta() {
       return this.mxMetaUtils({
@@ -195,6 +188,7 @@ export default {
       return 'NectrSocial'
     },
   },
+
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
@@ -203,6 +197,14 @@ export default {
   },
 
   methods: {
+    handleVideoLoaded() {
+      this.videoLoaded = true
+      // Wait 2000ms then show UI
+      setTimeout(() => {
+        this.uiVisible = true
+      }, 1000)
+    },
+
     floatingArrow() {
       const bounce = this.$gsap.timeline({ repeat: -1 })
       bounce
@@ -214,6 +216,30 @@ export default {
 </script>
 
 <style>
+.hero-video {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-video.fade-in {
+  opacity: 1;
+}
+
+.ui-elements,
+.hero-text__wrapper,
+.down-arrow,
+.page-content {
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.ui-elements.visible,
+.hero-text__wrapper.visible,
+.down-arrow.visible,
+.page-content.visible {
+  opacity: 1 !important;
+}
+
 .l-section.hero-section {
   background: white;
   max-height: 885px;
@@ -244,6 +270,7 @@ export default {
 }
 
 .hero-img__block {
+  background: none !important;
   width: 100%;
   max-width: none;
 }
