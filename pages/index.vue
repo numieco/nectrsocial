@@ -4,7 +4,7 @@
       <Header blue-bg />
     </div>
     <div class="scroller">
-      <div class="l-section hero-section">
+      <div class="l-section hero-section home">
         <div class="l-container cc-hero">
           <div class="hero-block__wrapper">
             <div class="hero-block">
@@ -27,7 +27,7 @@
                     uiVisible ? 'visible' : '',
                   ]"></div>
               </div>
-              <div :class="['hero-text__wrapper', uiVisible ? 'visible' : '']">
+              <div :class="['hero-text__wrapper home', uiVisible ? 'visible' : '']">
                 <h1 class="hero-text">Howdy</h1>
                 <h3 class="hero-subtext" data-paragraph>
                   We're Nectr - a fast, next-generation, social media-first
@@ -247,6 +247,10 @@ export default {
   padding: 0px;
 }
 
+.l-section.hero-section.home {
+  max-height: 100%;
+}
+
 .l-container.cc-hero {
   max-width: none !important;
 }
@@ -279,6 +283,12 @@ export default {
   width: 50%;
   max-width: none;
   padding: 0px 50px;
+}
+
+.hero-text__wrapper.home {
+  width: 50%;
+  max-width: 800px;
+  margin: 0 auto; 
 }
 
 @media screen and (min-width: 992px) {
