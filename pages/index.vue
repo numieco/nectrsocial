@@ -4,7 +4,7 @@
       <Header blue-bg />
     </div>
     <div class="scroller">
-      <div class="l-section hero-section home">
+      <div class="l-section hero-section">
         <div class="l-container cc-hero">
           <div class="hero-block__wrapper">
             <div class="hero-block">
@@ -27,7 +27,7 @@
                     uiVisible ? 'visible' : '',
                   ]"></div>
               </div>
-              <div :class="['hero-text__wrapper home', uiVisible ? 'visible' : '']">
+              <div :class="['hero-text__wrapper', uiVisible ? 'visible' : '']">
                 <h1 class="hero-text">Howdy</h1>
                 <h3 class="hero-subtext" data-paragraph>
                   We're Nectr - a fast, next-generation, social media-first
@@ -215,7 +215,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.hero-text {
+  z-index: 2;
+}
+
 .hero-video {
   opacity: 0;
   transition: opacity 1s ease-in-out;
@@ -247,10 +251,6 @@ export default {
   padding: 0px;
 }
 
-.l-section.hero-section.home {
-  max-height: 100%;
-}
-
 .l-container.cc-hero {
   max-width: none !important;
 }
@@ -275,20 +275,20 @@ export default {
 
 .hero-img__block {
   background: none !important;
+  opacity: 0.5;
   width: 100%;
   max-width: none;
 }
 
 .hero-text__wrapper {
   width: 50%;
-  max-width: none;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 0px 50px;
 }
 
-.hero-text__wrapper.home {
-  width: 50%;
-  max-width: 800px;
-  margin: 0 auto; 
+.hero-img__wrapper {
+  background: rgba(10, 21, 31, 0.89);
 }
 
 @media screen and (min-width: 992px) {
@@ -365,10 +365,6 @@ export default {
     position: absolute;
     top: 0;
     bottom: 0;
-  }
-
-  .hero-img__block {
-    opacity: 0.9;
   }
 
   .hero-block__cta .cta-btn > .cta-btn__block {

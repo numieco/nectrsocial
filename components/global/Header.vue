@@ -6,32 +6,23 @@
         mutableInvert && !blueBg ? 'inverted' : '',
         menuOpen || isHomePage ? 'hide' : '',
       ]"></div>
-   <nuxt-link aria-current="page" class="c-nav__link" to="/">
-  <!-- Display Black logo if not on the homepage -->
-  <img
-    v-if="!isHomePage"
-    class="c-nav__logo absolute"
-    src="/assets/images/Logo---New---Black.svg"/>
-
-  <!-- Display New logo based on homepage, blueBg, and other existing conditions -->
-  <img
-    v-if="(mutableInvert && !blueBg) || (isHomePage && !menuOpen && !isMobile) || blueBg"
-    class="c-nav__logo normal"
-    src="/assets/images/Logo---New.svg"/>
-
-  <!-- Handle specific mobile view for homepage -->
-  <img
-    v-else-if="isHomePage && !menuOpen && isMobile"
-    class="c-nav__logo normal"
-    src="/assets/images/Logo---New.svg"/>
-
-  <!-- Default to Black logo if none of the above conditions are met -->
-  <img
-    v-else
-    class="c-nav__logo normal"
-    src="/assets/images/Logo---New---Black.svg"/>
-</nuxt-link>
-
+    <nuxt-link aria-current="page" class="c-nav__link" to="/">
+      <img
+        class="c-nav__logo absolute"
+        src="/assets/images/Logo---New---Black.svg" />
+      <img
+        v-if="mutableInvert && !blueBg"
+        class="c-nav__logo normal"
+        src="/assets/images/Logo---New---Black.svg" />
+      <img
+        v-else-if="isHomePage && !menuOpen && !isMobile"
+        class="c-nav__logo normal"
+        src="/assets/images/Logo---New.svg" />
+      <img
+        v-else
+        class="c-nav__logo normal"
+        src="/assets/images/Logo---New.svg" />
+    </nuxt-link>
     <div
       class="c-nav__btn"
       :class="[
