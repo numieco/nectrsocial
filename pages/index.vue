@@ -17,7 +17,7 @@
                     loop
                     muted
                     playsinline
-                    src="/assets/videos/Landing.mp4"
+                    src="/assets/videos/landing.mov"
                     style="pointer-events: none"
                     @loadeddata="handleVideoLoaded"></video>
                 </div>
@@ -28,6 +28,13 @@
                   ]"></div>
               </div>
               <div :class="['hero-text__wrapper', uiVisible ? 'visible' : '']">
+                <div
+                  :class="[
+                    'hero-wave ui-elements',
+                    uiVisible ? 'visible' : '',
+                  ]">
+                  <img src="/assets/images/wave.svg" />
+                </div>
                 <h1 class="hero-text">Howdy</h1>
                 <h3 class="hero-subtext" data-paragraph>
                   We're Nectr - a fast, next-generation, social media-first
@@ -39,7 +46,7 @@
                   <div
                     :class="['down-arrow ', uiVisible ? 'visible' : '']"></div>
 
-                  <c-button btn-text="Book a Discovery call!" large typeform />
+                  <c-button btn-text="Get in Touch!" large typeform />
                 </div>
               </div>
             </div>
@@ -120,11 +127,7 @@
                 </template>
               </service-accordion>
             </div>
-            <c-button
-              btn-text="Book a Discovery call!"
-              centered
-              typeform
-              white />
+            <c-button btn-text="Get in Touch!" centered typeform white />
           </div>
         </div>
       </div>
@@ -246,9 +249,15 @@ export default {
 
 .l-section.hero-section {
   background: white;
-  max-height: 885px;
+  max-height: none;
   height: 100vh;
   padding: 0px;
+}
+
+.hero-wave {
+  margin-bottom: 12px;
+  width: 100px;
+  height: 100px;
 }
 
 .l-container.cc-hero {
@@ -333,6 +342,10 @@ export default {
 @media screen and (max-width: 767px) {
   .l-section.hero-section {
     height: 100vh;
+  }
+
+  .hero-wave {
+    display: none;
   }
 
   .l-container.cc-hero,

@@ -100,11 +100,7 @@
           </div>
         </div>
 
-        <c-button
-          id="I6123tbl"
-          btn-text="Book a Discovery call"
-          centered
-          typeform/>
+        <c-button id="I6123tbl" btn-text="Get in Touch" centered typeform />
       </div>
 
       <div class="l-section">
@@ -125,7 +121,8 @@
               </faq-accordion>
 
               <faq-accordion>
-                <template #title>Will I get to review the ads before they go live?
+                <template #title
+                  >Will I get to review the ads before they go live?
                 </template>
                 <template #content>
                   Yes! Our team will seek approval of all marketing
@@ -138,7 +135,8 @@
                   I know I need to advertise online but I’m not sure what’s
                   best, can you help?
                 </template>
-                <template #content>Absolutely, tell us your goals and we’ll recommend a plan to
+                <template #content
+                  >Absolutely, tell us your goals and we’ll recommend a plan to
                   achieve them. Book that call... you can even take the plan and
                   execute it yourself if you want.
                 </template>
@@ -176,17 +174,17 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
   computed: {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
     description() {
@@ -194,12 +192,12 @@ export default {
     },
     title() {
       return 'Google Ads | NectrSocial'
-    }
+    },
   },
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
-  }
+  },
 }
 </script>
 

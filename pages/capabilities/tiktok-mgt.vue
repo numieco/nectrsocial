@@ -120,11 +120,7 @@
           </div>
         </div>
 
-        <c-button
-          id="z07Mvu50"
-          btn-text="Book a Discovery call"
-          centered
-          typeform/>
+        <c-button id="z07Mvu50" btn-text="Get in Touch" centered typeform />
       </div>
 
       <div class="l-section">
@@ -156,7 +152,8 @@
                 <template #title>
                   What if I don’t have a TikTok, does this package still work?
                 </template>
-                <template #content>Yes! We’ll walk you through how to create your account and
+                <template #content
+                  >Yes! We’ll walk you through how to create your account and
                   get rolling.
                 </template>
               </faq-accordion>
@@ -202,17 +199,17 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
   computed: {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
     description() {
@@ -220,12 +217,12 @@ export default {
     },
     title() {
       return 'TikTok Account Management | NectrSocial'
-    }
+    },
   },
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
-  }
+  },
 }
 </script>
 

@@ -17,7 +17,8 @@
           <div class="logo-icon yellow large"></div>
 
           <service-list>
-            <template #list-header>What you get, baked into each package:
+            <template #list-header
+              >What you get, baked into each package:
             </template>
             <template #list-block>
               <service-list-item>
@@ -76,7 +77,7 @@
           </service-list>
         </div>
 
-        <c-button btn-text="Book a Discovery call" centered typeform />
+        <c-button btn-text="Get in Touch" centered typeform />
       </div>
 
       <div class="l-section">
@@ -253,17 +254,17 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
   computed: {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
     description() {
@@ -271,12 +272,12 @@ export default {
     },
     title() {
       return 'Social Media Management | NectrSocial'
-    }
+    },
   },
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
-  }
+  },
 }
 </script>
 
