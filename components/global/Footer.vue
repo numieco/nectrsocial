@@ -94,9 +94,9 @@
           <nuxt-link class="c-footer-link w-inline-block" to="/careers">
             <div>Careers</div>
           </nuxt-link>
-          <nuxt-link class="c-footer-link last w-inline-block" to="/contact">
+          <!-- <nuxt-link class="c-footer-link last w-inline-block" to="/contact">
             <div>Contact</div>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
       <div class="c-footer-link__block">
