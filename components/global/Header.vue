@@ -1,6 +1,7 @@
 <template>
   <div class="c-nav">
     <div
+      ref="navBg"
       class="c-nav__bg"
       :class="[
         mutableInvert && !blueBg ? 'inverted' : '',
@@ -66,6 +67,7 @@ export default {
     return {
       mutableInvert: this.isInverted,
       isMobile: false,
+      scrollAnimation: null,
     }
   },
 
@@ -82,13 +84,57 @@ export default {
   mounted() {
     this.checkMobile()
     window.addEventListener('resize', this.checkMobile)
+
+    if (this.isHomePage) {
+      setTimeout(() => {
+        this.initScrollTrigger()
+      }, 2000)
+    }
   },
 
   beforeDestroy() {
     window.removeEventListener('resize', this.checkMobile)
+    if (this.scrollAnimation) {
+      this.scrollAnimation.kill()
+    }
   },
 
   methods: {
+    initScrollTrigger() {
+      const tl = this.$gsap.timeline({
+        scrollTrigger: {
+          scroller: this.isMobile ? '' : '.scroller',
+          trigger: '.l-section.banner-section',
+          start: 'top top',
+          end: 'top -10',
+          scrub: true,
+        },
+      })
+
+      tl.to(this.$refs.navBg, {
+        opacity: 1,
+        duration: 1,
+      })
+        .to(
+          '.hamburger-line',
+          {
+            backgroundColor: '#FFFFFF',
+            duration: 1,
+          },
+          '<'
+        )
+        .to(
+          '.c-nav__btn',
+          {
+            color: '#FFFFFF',
+            duration: 1,
+          },
+          '<'
+        )
+
+      this.scrollAnimation = tl
+    },
+
     toggleMenu() {
       this.mutableInvert = !this.mutableInvert
       this.$store.commit('toggleMenu', !this.menuOpen)
@@ -117,9 +163,11 @@ export default {
   background-color: #0a151f;
   transition: opacity 0.3s linear;
 }
+
 .c-nav__bg.hide {
   opacity: 0;
 }
+
 .c-nav__bg.inverted {
   background-color: white;
 }
