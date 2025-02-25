@@ -43,7 +43,7 @@
         <template #casestudy-details> Authentically Italian </template>
       </casestudy>
 
-      <casestudy img-src="/assets/images/qnight-thumb.jpg" link="/portfolio/qnightclub">
+      <!-- <casestudy img-src="/assets/images/qnight-thumb.jpg" link="/portfolio/qnightclub">
         <template #casestudy-name> Q Nightclub </template>
         <template #casestudy-details> Sold Out Shows </template>
       </casestudy>
@@ -66,7 +66,7 @@
       <casestudy img-src="/assets/images/ably-thumb.jpg" link="/portfolio/ably">
         <template #casestudy-name> Ably </template>
         <template #casestudy-details> 0 to 40k Instagram Followers </template>
-      </casestudy>
+      </casestudy> -->
     </div>
     <c-button btn-text="View all case studies" centered link="/portfolio" />
   </div>

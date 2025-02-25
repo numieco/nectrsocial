@@ -4,10 +4,9 @@
 
     <div class="scroller">
       <service-header>
-        <template #title> Facebook & Instagram Ads </template>
+        <template #title> Meta Ads </template>
         <template #description>
-          Ensure that your Facebook & Instagram advertising campaigns are built
-          for juicy returns in 2022.
+          Ensure that your Meta advertising campaigns are built for juicy returns.
         </template>
       </service-header>
 
@@ -124,8 +123,7 @@
               </faq-accordion>
 
               <faq-accordion>
-                <template #title
-                  >Will I get to review the ads before they go live?
+                <template #title>Will I get to review the ads before they go live?
                 </template>
                 <template #content>
                   Yes! Our team will seek approval of all marketing
@@ -138,8 +136,7 @@
                   I know I need to advertise online but I’m not sure what’s
                   best, can you help?
                 </template>
-                <template #content
-                  >Absolutely, tell us your goals and we’ll recommend a plan to
+                <template #content>Absolutely, tell us your goals and we’ll recommend a plan to
                   achieve them. Book that call... you can even take the plan and
                   execute it yourself if you want.
                 </template>
@@ -151,16 +148,12 @@
 
       <RelatedSlider>
         <template #casestudies>
-          <casestudy
-            img-src="/assets/images/casestudy-img-3.jpg"
-            link="/portfolio/ombraz-sunglasses">
+          <casestudy img-src="/assets/images/casestudy-img-3.jpg" link="/portfolio/ombraz-sunglasses">
             <template #casestudy-name> Ombraz Sunglasses </template>
             <template #casestudy-details> 3.7x Return on Ad Spend </template>
           </casestudy>
 
-          <casestudy
-            img-src="/assets/images/casestudy-img-1.jpg"
-            link="/portfolio/qnightclub">
+          <casestudy img-src="/assets/images/casestudy-img-1.jpg" link="/portfolio/qnightclub">
             <template #casestudy-name> Q Nightclub </template>
             <template #casestudy-details> Sold Out Shows </template>
           </casestudy>
@@ -194,7 +187,7 @@ export default {
       return ''
     },
     title() {
-      return 'Facebook & Instagram Ads | NectrSocial'
+      return 'Meta Ads | NectrSocial'
     },
   },
   mounted() {

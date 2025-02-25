@@ -21,9 +21,7 @@
         <div class="c-capabilities">
           <div class="l-container">
             <div class="c-services__wrapper fullwidth">
-              <service-block
-                icon="/assets/images/social-media.svg"
-                link="/capabilities/social-media-management">
+              <service-block icon="/assets/images/social-media.svg" link="/capabilities/social-media-management">
                 <template #service>
                   Social Media Management (Organic)
                 </template>
@@ -34,9 +32,7 @@
                 </template>
               </service-block>
 
-              <service-block
-                icon="/assets/images/pv.svg"
-                link="/capabilities/photo-video">
+              <service-block icon="/assets/images/pv.svg" link="/capabilities/photo-video">
                 <template #service> Photo &amp; Video </template>
                 <template #service-details>
                   Just the creative, nothing else. We'll send you photos,
@@ -45,18 +41,14 @@
                 </template>
               </service-block>
 
-              <service-block
-                icon="/assets/images/goggle-ads.svg"
-                link="/capabilities/googleads">
+              <service-block icon="/assets/images/goggle-ads.svg" link="/capabilities/googleads">
                 <template #service> Google Ads </template>
                 <template #service-details>
                   Show up where people are searching.
                 </template>
               </service-block>
 
-              <service-block
-                icon="/assets/images/tiktok.svg"
-                link="/capabilities/tiktok-mgt">
+              <service-block icon="/assets/images/tiktok.svg" link="/capabilities/tiktok-mgt">
                 <template #service> TikTok Account Management </template>
                 <template #service-details>
                   A first-of-its-kind channel management package created
@@ -65,19 +57,15 @@
                 </template>
               </service-block>
 
-              <service-block
-                icon="/assets/images/fb-ad.svg"
-                link="/capabilities/fb-ads">
-                <template #service> Facebook &amp; Instagram Ads </template>
+              <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/meta-ads">
+                <template #service> Meta Ads </template>
                 <template #service-details>
                   Ad creation/distribution, copywriting, creative testing, and
                   insightful reporting.
                 </template>
               </service-block>
 
-              <service-block
-                icon="/assets/images/consulting.svg"
-                link="/capabilities/consulting">
+              <service-block icon="/assets/images/consulting.svg" link="/capabilities/consulting">
                 <template #service> Consulting </template>
                 <template #service-details>
                   You do it, we help. Stay the course with channel audits, video
@@ -85,9 +73,7 @@
                 </template>
               </service-block>
 
-              <service-block
-                icon="/assets/images/fb-ad.svg"
-                link="/capabilities/tiktok-ads">
+              <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/tiktok-ads">
                 <template #service> TikTok Ads </template>
                 <template #service-details>
                   Ad creation/distribution, copywriting, creative testing, and

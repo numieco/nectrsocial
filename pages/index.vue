@@ -97,8 +97,8 @@
                 </template>
               </service-accordion>
 
-              <service-accordion link="/capabilities/fb-ads">
-                <template #title> Facebook &amp; Instagram Ads </template>
+              <service-accordion link="/capabilities/meta-ads">
+                <template #title> Meta Ads </template>
                 <template #content>
                   Ad creation/distribution, copywriting, creative testing, and
                   insightful reporting.
@@ -152,6 +152,7 @@
       </div>
 
       <TestimonialSlider />
+      <Results />
 
       <Footer />
     </div>

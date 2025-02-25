@@ -3,8 +3,7 @@
     <Header is-inverted />
 
     <div class="scroller">
-      <!--      <div data-tf-live="01JK6WQGSAYX9P0XTRW33ZJ4F6"></div>-->
-      <!--      <script src="//embed.typeform.com/next/embed.js"></script>-->
+           <div data-tf-live="01JK6WQGSAYX9P0XTRW33ZJ4F6"></div>
 
       <div class="l-section hero-section about-page">
         <div class="l-container">

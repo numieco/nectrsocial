@@ -3,9 +3,7 @@
     <Header is-inverted />
 
     <div class="scroller">
-      <casestudy-header
-        hero-img="/assets/images/frost-thumb.jpg"
-        logo="/assets/images/frost.png">
+      <casestudy-header hero-img="/assets/images/frost-thumb.jpg" logo="/assets/images/frost.png">
         <template #title> Frost </template>
         <template #caption> Driving Foot Traffic </template>
         <template #catchphrase> Foot Traffic Couldn't Be Sweeter. </template>
@@ -29,10 +27,8 @@
           </div>
 
           <div class="c-services__wrapper">
-            <service-block
-              icon="/assets/images/fb-ad.svg"
-              link="/capabilities/fb-ads">
-              <template #service> Facebook &amp; Instagram Ads </template>
+            <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/meta-ads">
+              <template #service> Meta Ads </template>
               <template #service-details>
                 Ad creation/distribution, copywriting, creative testing, and
                 insightful reporting.
@@ -146,10 +142,7 @@
         <div class="c-casestudies">
           <div class="l-container">
             <div class="c-casestudy__wrapper">
-              <casestudy
-                featured
-                img-src="/assets/images/due-thumb.jpg"
-                link="/portfolio/duecucina">
+              <casestudy featured img-src="/assets/images/due-thumb.jpg" link="/portfolio/duecucina">
                 <template #casestudy-name> Due' Cucina </template>
                 <template #featured-summary> Authentically Italian </template>
                 <template #casestudy-details> Authentically Italian </template>

@@ -42,7 +42,7 @@
           <div class="fill-text">Capabilities</div>
           <div class="outline-text white">Capabilities</div>
         </nuxt-link>
-        <!-- <nuxt-link
+        <nuxt-link
           class="c-menu__link w-inline-block"
           data-menu="five"
           to="/contact"
@@ -51,7 +51,7 @@
           @mouseover.native="menuHoverIn($event)">
           <div class="fill-text">Contact</div>
           <div class="outline-text white">Contact</div>
-        </nuxt-link> -->
+        </nuxt-link>
       </div>
       <div class="c-menu__flex">
         <nuxt-link

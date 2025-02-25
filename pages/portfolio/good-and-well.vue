@@ -3,9 +3,7 @@
     <Header is-inverted />
 
     <div class="scroller">
-      <casestudy-header
-        hero-img="/assets/images/gw-intro.jpeg"
-        logo="/assets/images/gw-logo.svg">
+      <casestudy-header hero-img="/assets/images/gw-intro.jpeg" logo="/assets/images/gw-logo.svg">
         <template #title> Good & Well Supply Co. </template>
         <template #caption> Candles That Celebrate The Outdoors </template>
         <template #catchphrase>
@@ -37,19 +35,15 @@
           </div>
 
           <div class="c-services__wrapper">
-            <service-block
-              icon="/assets/images/fb-ad.svg"
-              link="/capabilities/fb-ads">
-              <template #service> Facebook &amp; Instagram Ads </template>
+            <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/meta-ads">
+              <template #service> Meta Ads </template>
               <template #service-details>
                 Ad creation/distribution, copywriting, creative testing, and
                 insightful reporting.
               </template>
             </service-block>
 
-            <service-block
-              icon="/assets/images/social-media.svg"
-              link="/capabilities/social-media-management">
+            <service-block icon="/assets/images/social-media.svg" link="/capabilities/social-media-management">
               <template #service> Social Media Management (Organic) </template>
               <template #service-details>
                 Hand us the keys to your social channels. Complete, done-for-you
@@ -71,9 +65,7 @@
 
             <metric-item>
               <template #figure>200%</template>
-              <template #description
-                >Increase in average engagement per post</template
-              >
+              <template #description>Increase in average engagement per post</template>
             </metric-item>
           </template>
         </casestudy-metrics>
@@ -145,10 +137,7 @@
         <div class="c-casestudies">
           <div class="l-container">
             <div class="c-casestudy__wrapper">
-              <casestudy
-                featured
-                img-src="/assets/images/salish-header.jpeg"
-                link="/portfolio/salish-lodge">
+              <casestudy featured img-src="/assets/images/salish-header.jpeg" link="/portfolio/salish-lodge">
                 <template #casestudy-name> Salish Lodge </template>
                 <template #featured-summary>
                   Rebuilding Post-Pandemic

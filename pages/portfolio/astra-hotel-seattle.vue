@@ -3,9 +3,7 @@
     <Header is-inverted />
 
     <div class="scroller">
-      <casestudy-header
-        hero-img="/assets/images/astra_hotel.jpg"
-        logo="/assets/images/astrahotel.jpg">
+      <casestudy-header hero-img="/assets/images/astra_hotel.jpg" logo="/assets/images/astrahotel.jpg">
         <template #title> Astra Hotel Seattle </template>
         <template #caption>
           Sleek, Modern Hospitality in the Heart of Seattle
@@ -39,9 +37,7 @@
           </div>
 
           <div class="c-services__wrapper">
-            <service-block
-              icon="/assets/images/social-media.svg"
-              link="/capabilities/social-media-management">
+            <service-block icon="/assets/images/social-media.svg" link="/capabilities/social-media-management">
               <template #service> Social Media Management (Organic) </template>
               <template #service-details>
                 Hand us the keys to your social channels. Complete, done-for-you
@@ -50,10 +46,8 @@
               </template>
             </service-block>
 
-            <service-block
-              icon="/assets/images/fb-ad.svg"
-              link="capabilities/fb-ads">
-              <template #service> Facebook &amp; Instagram Ads </template>
+            <service-block icon="/assets/images/fb-ad.svg" link="capabilities/meta-ads">
+              <template #service> Meta Ads </template>
               <template #service-details>
                 Ad creation/distribution, copywriting, creative testing, and
                 insightful reporting.
@@ -76,16 +70,12 @@
             </metric-item>
             <metric-item>
               <template #figure>22K+</template>
-              <template #description
-                >total followers (starting from 0)</template
-              >
+              <template #description>total followers (starting from 0)</template>
             </metric-item>
             <metric-item>
               <template #figure>Over 20K</template>
-              <template #description
-                >combined comments, saves, and shares on Instagram
-                content</template
-              >
+              <template #description>combined comments, saves, and shares on Instagram
+                content</template>
             </metric-item>
           </template>
         </casestudy-metrics>
@@ -109,9 +99,7 @@
                     Marketing Splash’ award in both 2023 and 2024, cementing
                     their position as a leader in hospitality marketing.
                   </h5>
-                  <div
-                    class="astra"
-                    style="
+                  <div class="astra" style="
                       display: flex;
                       flex-direction: row;
                       justify-content: center;
@@ -121,17 +109,9 @@
                       width: 100%;
                       margin: 0 auto;
                     ">
-                    <img
-                      src="/assets/images/astra_award.jpg"
-                      alt="Astra hotel award"
+                    <img src="/assets/images/astra_award.jpg" alt="Astra hotel award"
                       style="height: 100%; width: 70%; object-fit: cover" />
-                    <video
-                      src="/assets/videos/astra_hotel.mp4"
-                      autoplay
-                      loop
-                      playsinline
-                      webkit-playsinline
-                      muted
+                    <video src="/assets/videos/astra_hotel.mp4" autoplay loop playsinline webkit-playsinline muted
                       style="
                         height: 100%;
                         width: 30%;
@@ -190,10 +170,7 @@
         <div class="c-casestudies">
           <div class="l-container">
             <div class="c-casestudy__wrapper">
-              <casestudy
-                featured
-                img-src="/assets/images/gw-intro.jpg"
-                link="/portfolio/good-and-well">
+              <casestudy featured img-src="/assets/images/gw-intro.jpg" link="/portfolio/good-and-well">
                 <template #casestudy-name> Good & Well Supply Co. </template>
                 <template #featured-summary>
                   Candles That Celebrate The Outdoors

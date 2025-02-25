@@ -4,7 +4,7 @@
       <div>
         <h2 data-paragraph>Client Showcase</h2>
         <h4 class="neutral-text" data-paragraph>
-          Trusted by over 50 businesses and counting.
+          Since 2018. Trusted by 100+ Businesses
         </h4>
       </div>
       <div class="c-showcase-grid">
