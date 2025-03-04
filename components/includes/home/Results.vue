@@ -6,7 +6,7 @@
           <div>
             <h2 data-paragraph>Real Results</h2>
             <h4 class="neutral-text" data-paragraph>
-              The results should speak for themselves!
+              Real Results. Let the numbers do the talking.
             </h4>
           </div>
         </div>

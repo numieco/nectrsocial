@@ -32,12 +32,11 @@
                 </template>
               </service-block>
 
-              <service-block icon="/assets/images/pv.svg" link="/capabilities/photo-video">
-                <template #service> Photo &amp; Video </template>
+              <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/meta-ads">
+                <template #service> Meta Ads </template>
                 <template #service-details>
-                  Just the creative, nothing else. We'll send you photos,
-                  videos, or both featuring your product, brand, or service in
-                  its finest moments.
+                  Ad creation/distribution, copywriting, creative testing, and
+                  insightful reporting.
                 </template>
               </service-block>
 
@@ -45,6 +44,15 @@
                 <template #service> Google Ads </template>
                 <template #service-details>
                   Show up where people are searching.
+                </template>
+              </service-block>
+
+              <service-block icon="/assets/images/pv.svg" link="/capabilities/photo-video">
+                <template #service> Photo &amp; Video </template>
+                <template #service-details>
+                  Just the creative, nothing else. We'll send you photos,
+                  videos, or both featuring your product, brand, or service in
+                  its finest moments.
                 </template>
               </service-block>
 
@@ -57,8 +65,8 @@
                 </template>
               </service-block>
 
-              <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/meta-ads">
-                <template #service> Meta Ads </template>
+              <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/tiktok-ads">
+                <template #service> TikTok Ads </template>
                 <template #service-details>
                   Ad creation/distribution, copywriting, creative testing, and
                   insightful reporting.
@@ -73,13 +81,6 @@
                 </template>
               </service-block>
 
-              <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/tiktok-ads">
-                <template #service> TikTok Ads </template>
-                <template #service-details>
-                  Ad creation/distribution, copywriting, creative testing, and
-                  insightful reporting.
-                </template>
-              </service-block>
             </div>
           </div>
         </div>

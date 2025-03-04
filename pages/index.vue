@@ -10,25 +10,19 @@
             <div class="hero-block">
               <div class="hero-img__wrapper">
                 <div class="hero-img__block">
-                  <video
-                    autoplay="true"
-                    :class="['hero-video', videoLoaded ? 'fade-in' : '']"
-                    controls="false"
-                    loop
-                    muted
-                    playsinline
-                    src="/assets/videos/landing.mov"
-                    style="pointer-events: none"
+                  <video 
+                    autoplay="true" :class="['hero-video', videoLoaded ? 'fade-in' : '']" controls="false" loop
+                    muted playsinline src="/assets/videos/landing.mov" style="pointer-events: none"
                     @loadeddata="handleVideoLoaded"></video>
                 </div>
-                <div
+                <div 
                   :class="[
                     'down-arrow desktop-hide',
                     uiVisible ? 'visible' : '',
                   ]"></div>
               </div>
               <div :class="['hero-text__wrapper', uiVisible ? 'visible' : '']">
-                <div
+                <div 
                   :class="[
                     'hero-wave ui-elements',
                     uiVisible ? 'visible' : '',
@@ -43,8 +37,7 @@
                 </h3>
 
                 <div class="hero-block__cta">
-                  <div
-                    :class="['down-arrow ', uiVisible ? 'visible' : '']"></div>
+                  <div :class="['down-arrow ', uiVisible ? 'visible' : '']"></div>
 
                   <c-button btn-text="Get in Touch!" large typeform />
                 </div>
@@ -70,30 +63,12 @@
               </div>
             </div>
             <div class="c-services__list">
-              <service-accordion link="/capabilities/photo-video">
-                <template #title> Photo &amp; Video </template>
-                <template #content>
-                  Just the creative, nothing else. We’ll send you photos,
-                  videos, or both featuring your product, brand, or service in
-                  its finest moments.
-                </template>
-              </service-accordion>
-
               <service-accordion link="/capabilities/social-media-management">
                 <template #title> Social Media Management (Organic) </template>
                 <template #content>
                   Hand us the keys to your social channels. Complete,
                   done-for-you social media management solutions with growth
                   strategies baked in.
-                </template>
-              </service-accordion>
-
-              <service-accordion link="/capabilities/tiktok-mgt">
-                <template #title> TikTok Account Management </template>
-                <template #content>
-                  A first-of-its-kind channel management package created
-                  exclusively for TikTok. We do everything, you watch your
-                  business account grow.
                 </template>
               </service-accordion>
 
@@ -109,6 +84,24 @@
                 <template #title> Google Ads </template>
                 <template #content>
                   Show up where people are searching.
+                </template>
+              </service-accordion>
+
+              <service-accordion link="/capabilities/photo-video">
+                <template #title> Photo &amp; Video </template>
+                <template #content>
+                  Just the creative, nothing else. We’ll send you photos,
+                  videos, or both featuring your product, brand, or service in
+                  its finest moments.
+                </template>
+              </service-accordion>
+
+              <service-accordion link="/capabilities/tiktok-mgt">
+                <template #title> TikTok Account Management </template>
+                <template #content>
+                  A first-of-its-kind channel management package created
+                  exclusively for TikTok. We do everything, you watch your
+                  business account grow.
                 </template>
               </service-accordion>
 

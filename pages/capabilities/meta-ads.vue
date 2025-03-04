@@ -94,6 +94,17 @@
             </template>
           </service-list>
 
+          <div class="l-section__header">
+            <div class="l-container">
+              <div class="c-section-header">
+                <div class="image-grid">
+                  <img alt="Screenshot 1" src="/assets/images/s-1.png">
+                  <img alt="Screenshot 2" src="/assets/images/s-2.png">
+                </div>
+              </div>
+            </div>
+          </div>
+
           <h5 class="pricing" data-paragraph>Book call below for a quote.</h5>
           <div class="c-package__prompt">
             <div data-paragraph>
@@ -217,4 +228,28 @@ export default {
   margin-top: 0px;
   margin-bottom: 40px;
 }
+ .image-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+   gap: 10px;
+   /* padding: 20px;
+          background: #0A151F; */
+   border-radius: 10px;
+   width: 100%;
+   margin-top: 32px;
+ }
+
+ @media screen and (max-width: 767px) {
+   .image-grid {
+     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+   }
+ }
+
+ .image-grid img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   border-radius: 8px;
+   border: 1px solid #DEDEDE;
+ }
 </style>
