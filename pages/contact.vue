@@ -2,7 +2,7 @@
   <div>
     <Header is-inverted />
 
-    <div class="scroller">
+    <!-- <div class="scroller"> -->
       <div data-tf-live="G3pjrEUB"></div>
 
 
@@ -13,7 +13,7 @@
       </div>
 
       <Footer />
-    </div>
+    <!-- </div> -->
   </div>
 </template>
 
@@ -49,7 +49,7 @@ export default {
   },
 
   mounted() {
-    this.$initScroll('.scroller')
+    // this.$initScroll('.scroller')
     this.$paragraph()
 
     createWidget('G3pjrEUB?utm_source=nectrsocial&utm_medium=embed-sdk&typeform-medium-version=next&utm_campaign=website', {
@@ -65,7 +65,28 @@ export default {
 <style scoped>
 .embed-form {
   width: 100%;
-  height: 800px;
+  height: 2100px;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  height: 100%;
+  margin-top: -120px;
+
+  @media screen and (max-width: 640px) {
+    margin-top: -180px;
+  }
+}
+
+.l-section.hero-section{
+  max-height: unset !important;
+}
+
+.l-container {
+  height: 2100px;
+}
+
+iframe .TrKk{
+  min-height: unset;
 }
 </style>
 
@@ -75,4 +96,5 @@ export default {
   width: 100% !important;
   height: 100% !important;
 }
+
 </style>

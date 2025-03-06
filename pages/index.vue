@@ -213,6 +213,7 @@ export default {
 </script>
 
 <style scoped>
+
 .hero-text {
   z-index: 2;
 }
@@ -295,6 +296,8 @@ export default {
 }
 
 @media screen and (min-width: 992px) {
+
+
   .hero-block {
     align-items: center;
   }

@@ -123,7 +123,7 @@
               img-src-one="/assets/images/Erin-img.jpg"
               img-src-two="/assets/images/Erin-img.jpg">
               <template #name> Erin Webb </template>
-              <template #role> Account Coordinator </template>
+              <template #role> Account Manager </template>
             </team-member>
 
             <team-member
