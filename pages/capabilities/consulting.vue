@@ -66,11 +66,7 @@
           </div>
         </div>
 
-        <c-button
-          id="S2ssxJ2z"
-          btn-text="Book a Discovery call"
-          centered
-          typeform/>
+        <c-button id="S2ssxJ2z" btn-text="Get in Touch" centered typeform />
       </div>
 
       <Footer />
@@ -83,17 +79,17 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
   computed: {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
     description() {
@@ -101,12 +97,12 @@ export default {
     },
     title() {
       return 'Consulting | NectrSocial'
-    }
+    },
   },
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
-  }
+  },
 }
 </script>
 

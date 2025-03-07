@@ -100,7 +100,7 @@
           </div>
         </div>
 
-        <c-button btn-text="Book a Discovery call!" centered typeform />
+        <c-button btn-text="Get in Touch!" centered typeform />
       </div>
 
       <div class="l-section">
@@ -142,10 +142,10 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
 
@@ -153,7 +153,7 @@ export default {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
 
@@ -163,13 +163,13 @@ export default {
 
     title() {
       return 'Ably Apparel | NectrSocial'
-    }
+    },
   },
 
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
-  }
+  },
 }
 </script>
 

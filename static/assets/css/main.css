@@ -113,3 +113,15 @@ a {
     grid-column-gap: 100px;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .tf-v1-popup .tf-v1-iframe-wrapper {
+    display: flex !important;
+    justify-content: flex-end !important;
+    width: calc(100% - 30px) !important;
+  } 
+  .tf-v1-popup .tf-v1-iframe-wrapper iframe {
+    width: 49% !important;
+  }
+}
+

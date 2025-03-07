@@ -92,83 +92,86 @@
             </template>
           </service-list>
 
-          <h5 class="pricing" data-paragraph>Book call below for a quote.</h5>
-          <div class="c-package__prompt">
-            <div data-paragraph>
-              Tell us about the campaign you’re looking to run!
+            <div class="l-section__header">
+              <div class="l-container">
+                <div class="c-section-header">
+                  <div class="image-grid">
+                    <img alt="Screenshot 1" src="/assets/images/s-4.png">
+                    <img alt="Screenshot 2" src="/assets/images/s-5.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h5 class="pricing" data-paragraph>Book call below for a quote.</h5>
+            <div class="c-package__prompt">
+              <div data-paragraph>
+                Tell us about the campaign you’re looking to run!
+              </div>
+            </div>
+          </div>
+
+          <c-button id="I6123tbl" btn-text="Get in Touch" centered typeform />
+        </div>
+
+        <div class="l-section">
+          <div class="l-container">
+            <div class="c-faq">
+              <div class="c-faq__header">
+                <h2 data-paragraph>Frequently Asked Questions</h2>
+              </div>
+              <div class="c-faq__list">
+                <faq-accordion>
+                  <template #title>
+                    Is there a limit to the number of ads you’ll create?
+                  </template>
+                  <template #content>
+                    Rarely! There are typically no limits/quotas to the number of
+                    advertisements created and tested.
+                  </template>
+                </faq-accordion>
+
+                <faq-accordion>
+                  <template #title>Will I get to review the ads before they go live?
+                  </template>
+                  <template #content>
+                    Yes! Our team will seek approval of all marketing
+                    material/verbiage prior to publication.
+                  </template>
+                </faq-accordion>
+
+                <faq-accordion>
+                  <template #title>
+                    I know I need to advertise online but I’m not sure what’s
+                    best, can you help?
+                  </template>
+                  <template #content>Absolutely, tell us your goals and we’ll recommend a plan to
+                    achieve them. Book that call... you can even take the plan and
+                    execute it yourself if you want.
+                  </template>
+                </faq-accordion>
+              </div>
             </div>
           </div>
         </div>
 
-        <c-button
-          id="I6123tbl"
-          btn-text="Book a Discovery call"
-          centered
-          typeform/>
+        <RelatedSlider>
+          <template #casestudies>
+            <casestudy img-src="/assets/images/casestudy-img-3.jpg" link="/portfolio/ombraz-sunglasses">
+              <template #casestudy-name> Ombraz Sunglasses </template>
+              <template #casestudy-details> 3.7x Return on Ad Spend </template>
+            </casestudy>
+
+            <casestudy img-src="/assets/images/casestudy-img-1.jpg" link="/portfolio/qnightclub">
+              <template #casestudy-name> Q Nightclub </template>
+              <template #casestudy-details> Sold Out Shows </template>
+            </casestudy>
+          </template>
+        </RelatedSlider>
+
+        <Footer />
       </div>
-
-      <div class="l-section">
-        <div class="l-container">
-          <div class="c-faq">
-            <div class="c-faq__header">
-              <h2 data-paragraph>Frequently Asked Questions</h2>
-            </div>
-            <div class="c-faq__list">
-              <faq-accordion>
-                <template #title>
-                  Is there a limit to the number of ads you’ll create?
-                </template>
-                <template #content>
-                  Rarely! There are typically no limits/quotas to the number of
-                  advertisements created and tested.
-                </template>
-              </faq-accordion>
-
-              <faq-accordion>
-                <template #title>Will I get to review the ads before they go live?
-                </template>
-                <template #content>
-                  Yes! Our team will seek approval of all marketing
-                  material/verbiage prior to publication.
-                </template>
-              </faq-accordion>
-
-              <faq-accordion>
-                <template #title>
-                  I know I need to advertise online but I’m not sure what’s
-                  best, can you help?
-                </template>
-                <template #content>Absolutely, tell us your goals and we’ll recommend a plan to
-                  achieve them. Book that call... you can even take the plan and
-                  execute it yourself if you want.
-                </template>
-              </faq-accordion>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <RelatedSlider>
-        <template #casestudies>
-          <casestudy
-            img-src="/assets/images/casestudy-img-3.jpg"
-            link="/portfolio/ombraz-sunglasses">
-            <template #casestudy-name> Ombraz Sunglasses </template>
-            <template #casestudy-details> 3.7x Return on Ad Spend </template>
-          </casestudy>
-
-          <casestudy
-            img-src="/assets/images/casestudy-img-1.jpg"
-            link="/portfolio/qnightclub">
-            <template #casestudy-name> Q Nightclub </template>
-            <template #casestudy-details> Sold Out Shows </template>
-          </casestudy>
-        </template>
-      </RelatedSlider>
-
-      <Footer />
     </div>
-  </div>
 </template>
 
 <script>
@@ -176,17 +179,17 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
   computed: {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
     description() {
@@ -194,12 +197,12 @@ export default {
     },
     title() {
       return 'Google Ads | NectrSocial'
-    }
+    },
   },
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
-  }
+  },
 }
 </script>
 
@@ -222,5 +225,30 @@ export default {
 .pricing + .c-package__prompt {
   margin-top: 0px;
   margin-bottom: 40px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+  gap: 10px;
+  /* padding: 20px;
+      background: #0A151F; */
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
+}
+
+.image-grid img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #DEDEDE;
 }
 </style>

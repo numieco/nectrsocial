@@ -45,30 +45,49 @@
         <nuxt-link
           class="c-menu__link w-inline-block"
           data-menu="five"
-          to="/careers"
+          to="/contact"
           @click.native="closeMenu"
           @mouseout.native="menuHoverOut($event)"
           @mouseover.native="menuHoverIn($event)">
-          <div class="fill-text">Careers</div>
-          <div class="outline-text white">Careers</div>
+          <div class="fill-text">Contact</div>
+          <div class="outline-text white">Contact</div>
         </nuxt-link>
       </div>
-      <nuxt-link
-        class="c-menu__sub-link w-inline-block"
-        to="/network"
-        @click.native="closeMenu">
-        <div>Nectr Network</div>
-        <div class="menu-line"></div>
-      </nuxt-link>
+      <div class="c-menu__flex">
+        <nuxt-link
+          class="c-menu__sub-link w-inline-block"
+          to="/network"
+          @click.native="closeMenu">
+          <div>Nectr Network</div>
+          <div class="menu-line"></div>
+        </nuxt-link>
+        <div class="c-menu__sub-link">|</div>
+        <nuxt-link
+          class="c-menu__sub-link w-inline-block"
+          to="/careers"
+          @click.native="closeMenu">
+          <div>Careers</div>
+          <div class="menu-line"></div>
+        </nuxt-link>
+      </div>
     </div>
     <div>
-      <a class="c-menu__social-link w-inline-block" href="https://www.facebook.com/nectrsocial" target="_blank">
+      <a
+        class="c-menu__social-link w-inline-block"
+        href="https://www.facebook.com/nectrsocial"
+        target="_blank">
         <img loading="lazy" src="/assets/images/facebook-icon.svg" />
       </a>
-      <a class="c-menu__social-link w-inline-block" href="https://www.linkedin.com/company/nectr-social/" target="_blank">
+      <a
+        class="c-menu__social-link w-inline-block"
+        href="https://www.linkedin.com/company/nectr-social/"
+        target="_blank">
         <img loading="lazy" src="/assets/images/linkedin-icon.svg" />
       </a>
-      <a class="c-menu__social-link w-inline-block" href="https://www.instagram.com/nectrsocial/" target="_blank">
+      <a
+        class="c-menu__social-link w-inline-block"
+        href="https://www.instagram.com/nectrsocial/"
+        target="_blank">
         <img loading="lazy" src="/assets/images/instagram-icon.svg" />
       </a>
     </div>
@@ -77,23 +96,23 @@
       <img
         class="c-menu__img one"
         loading="lazy"
-        src="/assets/images/menu-img-1.jpg"/>
+        src="/assets/images/menu-img-1.jpg" />
       <img
         class="c-menu__img two"
         loading="lazy"
-        src="/assets/images/nectr-team.png"/>
+        src="/assets/images/nectr-team.png" />
       <img
         class="c-menu__img three"
         loading="lazy"
-        src="/assets/images/portfolio-hover.jpg"/>
+        src="/assets/images/portfolio-hover.jpg" />
       <img
         class="c-menu__img four"
         loading="lazy"
-        src="/assets/images/salish-header.jpeg"/>
+        src="/assets/images/salish-header.jpeg" />
       <img
         class="c-menu__img five"
         loading="lazy"
-        src="/assets/images/team-img.jpg"/>
+        src="/assets/images/team-img.jpg" />
     </div>
   </div>
 </template>
@@ -103,7 +122,7 @@ export default {
   computed: {
     menuOpen() {
       return this.$store.getters.menuState
-    }
+    },
   },
 
   methods: {
@@ -115,7 +134,7 @@ export default {
       const imgId = event.currentTarget.dataset.menu
       const targetEl = document.querySelector(`.c-menu__img.${imgId}`)
       this.$gsap.to(targetEl, {
-        opacity: 1
+        opacity: 1,
       })
     },
 
@@ -123,14 +142,20 @@ export default {
       const imgId = event.currentTarget.dataset.menu
       const targetEl = document.querySelector(`.c-menu__img.${imgId}`)
       this.$gsap.to(targetEl, {
-        opacity: 0
+        opacity: 0,
       })
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style scoped>
+.c-menu__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
 .c-menu__img.two {
   object-position: 50% 10%;
 }

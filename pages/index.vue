@@ -1,47 +1,35 @@
 <template>
   <div>
-    <Header blue-bg />
+    <div :class="['ui-elements', uiVisible ? 'visible' : '']">
+      <Header blue-bg />
+    </div>
     <div class="scroller">
       <div class="l-section hero-section">
-        <div class="l-container">
+        <div class="l-container cc-hero">
           <div class="hero-block__wrapper">
-            <div class="hero-block__double"></div>
             <div class="hero-block">
               <div class="hero-img__wrapper">
                 <div class="hero-img__block">
-                  <video
-                    autoplay="true"
-                    class="hero-video"
-                    controls="false"
-                    loop
-                    muted
-                    playsinline
-                    src="/assets/videos/Landing.mp4"
-                    style="pointer-events: none"></video>
-                  <!-- <img
-                    class="hero-img"
-                    loading="lazy"
-                    src="/assets/images/hero-img-1.jpg"/>
-                  <img
-                    class="hero-img"
-                    loading="lazy"
-                    src="/assets/images/hero-img-2.jpg"/>
-                  <img
-                    class="hero-img"
-                    loading="lazy"
-                    src="/assets/images/hero-img-3.jpg"/>
-                  <img
-                    class="hero-img"
-                    loading="lazy"
-                    src="/assets/images/hero-img-4.jpg"/> -->
+                  <video 
+                    autoplay="true" :class="['hero-video', videoLoaded ? 'fade-in' : '']" controls="false" loop
+                    muted playsinline src="/assets/videos/landing.mov" style="pointer-events: none"
+                    @loadeddata="handleVideoLoaded"></video>
                 </div>
-                <div class="down-arrow desktop-hide"></div>
+                <div 
+                  :class="[
+                    'down-arrow desktop-hide',
+                    uiVisible ? 'visible' : '',
+                  ]"></div>
               </div>
-              <div class="hero-text__wrapper">
-                <h1 class="hero-text" data-paragraph>
-                  <!-- The digital marketing agency you didn’t know you needed. -->
-                  Howdy
-                </h1>
+              <div :class="['hero-text__wrapper', uiVisible ? 'visible' : '']">
+                <div 
+                  :class="[
+                    'hero-wave ui-elements',
+                    uiVisible ? 'visible' : '',
+                  ]">
+                  <img src="/assets/images/wave.svg" />
+                </div>
+                <h1 class="hero-text">Howdy</h1>
                 <h3 class="hero-subtext" data-paragraph>
                   We're Nectr - a fast, next-generation, social media-first
                   digital marketing agency built to
@@ -49,9 +37,9 @@
                 </h3>
 
                 <div class="hero-block__cta">
-                  <div class="down-arrow mobile-hide"></div>
+                  <div :class="['down-arrow ', uiVisible ? 'visible' : '']"></div>
 
-                  <c-button btn-text="Book a Discovery call!" large typeform />
+                  <c-button btn-text="Get in Touch!" large typeform />
                 </div>
               </div>
             </div>
@@ -75,15 +63,6 @@
               </div>
             </div>
             <div class="c-services__list">
-              <service-accordion link="/capabilities/photo-video">
-                <template #title> Photo &amp; Video </template>
-                <template #content>
-                  Just the creative, nothing else. We’ll send you photos,
-                  videos, or both featuring your product, brand, or service in
-                  its finest moments.
-                </template>
-              </service-accordion>
-
               <service-accordion link="/capabilities/social-media-management">
                 <template #title> Social Media Management (Organic) </template>
                 <template #content>
@@ -93,17 +72,8 @@
                 </template>
               </service-accordion>
 
-              <service-accordion link="/capabilities/tiktok-mgt">
-                <template #title> TikTok Account Management </template>
-                <template #content>
-                  A first-of-its-kind channel management package created
-                  exclusively for TikTok. We do everything, you watch your
-                  business account grow.
-                </template>
-              </service-accordion>
-
-              <service-accordion link="/capabilities/fb-ads">
-                <template #title> Facebook &amp; Instagram Ads </template>
+              <service-accordion link="/capabilities/meta-ads">
+                <template #title> Meta Ads </template>
                 <template #content>
                   Ad creation/distribution, copywriting, creative testing, and
                   insightful reporting.
@@ -114,6 +84,24 @@
                 <template #title> Google Ads </template>
                 <template #content>
                   Show up where people are searching.
+                </template>
+              </service-accordion>
+
+              <service-accordion link="/capabilities/photo-video">
+                <template #title> Photo &amp; Video </template>
+                <template #content>
+                  Just the creative, nothing else. We’ll send you photos,
+                  videos, or both featuring your product, brand, or service in
+                  its finest moments.
+                </template>
+              </service-accordion>
+
+              <service-accordion link="/capabilities/tiktok-mgt">
+                <template #title> TikTok Account Management </template>
+                <template #content>
+                  A first-of-its-kind channel management package created
+                  exclusively for TikTok. We do everything, you watch your
+                  business account grow.
                 </template>
               </service-accordion>
 
@@ -132,11 +120,7 @@
                 </template>
               </service-accordion>
             </div>
-            <c-button
-              btn-text="Book a Discovery call!"
-              centered
-              typeform
-              white/>
+            <c-button btn-text="Get in Touch!" centered typeform white />
           </div>
         </div>
       </div>
@@ -161,6 +145,7 @@
       </div>
 
       <TestimonialSlider />
+      <Results />
 
       <Footer />
     </div>
@@ -170,22 +155,27 @@
 <script>
 export default {
   data() {
-    return {}
+    return {
+      videoLoaded: false,
+      uiVisible: false,
+    }
   },
+
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
+
   computed: {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
     description() {
@@ -193,8 +183,9 @@ export default {
     },
     title() {
       return 'NectrSocial'
-    }
+    },
   },
+
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
@@ -203,64 +194,213 @@ export default {
   },
 
   methods: {
+    handleVideoLoaded() {
+      this.videoLoaded = true
+      // Wait 2000ms then show UI
+      setTimeout(() => {
+        this.uiVisible = true
+      }, 1000)
+    },
+
     floatingArrow() {
       const bounce = this.$gsap.timeline({ repeat: -1 })
       bounce
         .to('.down-arrow', 1, { y: '-=15', ease: 'Sine.easeInOut' })
         .to('.down-arrow', 1, { y: '+=15', ease: 'Sine.easeInOut' })
-    }
-  }
+    },
+  },
 }
 </script>
 
-<style>
+<style scoped>
+
+.hero-text {
+  z-index: 2;
+}
+
+.hero-video {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-video.fade-in {
+  opacity: 1;
+}
+
+.ui-elements,
+.hero-text__wrapper,
+.down-arrow,
+.page-content {
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.ui-elements.visible,
+.hero-text__wrapper.visible,
+.down-arrow.visible,
+.page-content.visible {
+  opacity: 1 !important;
+}
+
+.l-section.hero-section {
+  background: white;
+  max-height: none;
+  height: 100vh;
+  padding: 0px;
+}
+
+.hero-wave {
+  margin-bottom: 12px;
+  width: 100px;
+  height: 100px;
+}
+
+.l-container.cc-hero {
+  max-width: none !important;
+}
+
 .hero-img__wrapper {
   height: auto;
 }
+
+.hero-block {
+  position: relative;
+  left: unset;
+  top: unset;
+  border: none;
+  padding: 0px;
+}
+
+.hero-img__wrapper {
+  width: 50%;
+  height: 100%;
+  margin: 0px;
+}
+
+.hero-img__block {
+  background: none !important;
+  opacity: 0.5;
+  width: 100%;
+  max-width: none;
+}
+
+.hero-text__wrapper {
+  width: 50%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px 50px;
+}
+
+.hero-img__wrapper {
+  background: rgba(10, 21, 31, 0.89);
+}
+
 @media screen and (min-width: 992px) {
+
+
   .hero-block {
     align-items: center;
   }
 }
+
 .hero-video {
   pointer-events: none;
 }
+
 .hero-video::-webkit-media-controls-panel {
   display: none !important;
   opacity: 1 !important;
 }
+
 .down-arrow {
   transform: scale(0.7);
 }
+
 .hero-img__block > video {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
+
 .hero-img__block {
   height: 100%;
   min-height: 0px;
 }
+
+.hero-block__cta {
+  padding-top: 30px;
+  flex-direction: column-reverse;
+}
+
+.hero-block__cta .cta-btn {
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 767px) {
+  .l-section.hero-section {
+    height: 100vh;
+  }
+
+  .hero-wave {
+    display: none;
+  }
+
+  .l-container.cc-hero,
+  .hero-block__wrapper,
+  .hero-block {
+    height: 100%;
+  }
+
+  .hero-block {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-text__wrapper,
+  .hero-subtext {
+    color: white;
+  }
+
+  .hero-text__wrapper {
+    margin-top: 80px;
+    padding: 0px;
+    max-width: none;
+    width: 60%;
+  }
+
   .hero-img__wrapper {
     width: 100%;
+    height: 100%;
+    background: rgba(10, 21, 31, 0.89);
+    position: absolute;
+    top: 0;
+    bottom: 0;
   }
-  .hero-img__block {
-    width: auto;
-    height: 80vw;
-    max-height: 500px;
+
+  .hero-block__cta .cta-btn > .cta-btn__block {
+    background-color: #ffffff !important;
+    color: #13293d !important;
+  }
+
+  .down-arrow {
+    filter: grayscale(1) invert(1);
   }
 }
+
 .c-slider {
   /* pointer-events: none; */
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .c-slider::-webkit-scrollbar {
   display: none;
 }
+
 .c-slider > * {
   pointer-events: auto;
 }
+
 .c-cta {
   padding-top: 170px;
   padding-bottom: 170px;

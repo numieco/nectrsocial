@@ -1,39 +1,56 @@
 <template>
   <div class="c-nav">
     <div
+      ref="navBg"
       class="c-nav__bg"
       :class="[
         mutableInvert && !blueBg ? 'inverted' : '',
-        menuOpen ? 'hide' : ''
+        menuOpen || isHomePage ? 'hide' : '',
       ]"></div>
     <nuxt-link aria-current="page" class="c-nav__link" to="/">
       <img
         class="c-nav__logo absolute"
-        src="/assets/images/Logo---New---Black.svg"/>
+        src="/assets/images/Logo---New---Black.svg" />
       <img
         v-if="mutableInvert && !blueBg"
         class="c-nav__logo normal"
-        src="/assets/images/Logo---New---Black.svg"/>
+        src="/assets/images/Logo---New---Black.svg" />
+      <img
+        v-else-if="isHomePage && !menuOpen && !isMobile"
+        class="c-nav__logo normal"
+        src="/assets/images/Logo---New.svg" />
       <img
         v-else
         class="c-nav__logo normal"
-        src="/assets/images/Logo---New.svg"/>
+        src="/assets/images/Logo---New.svg" />
     </nuxt-link>
     <div
       class="c-nav__btn"
-      :class="mutableInvert && !blueBg ? 'inverted' : ''"
+      :class="[
+        mutableInvert && !blueBg ? 'inverted' : '',
+        isHomePage && !menuOpen && !isMobile ? 'inverted' : '',
+      ]"
       @click="toggleMenu()">
       <h6>{{ menuOpen ? 'Close' : 'Menu' }}</h6>
       <div class="c-nav__hamburger" :class="menuOpen ? 'open' : ''">
         <div
           class="hamburger-line top-line"
-          :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
+          :class="[
+            mutableInvert && !blueBg ? 'inverted' : '',
+            isHomePage && !menuOpen && !isMobile ? 'inverted' : '',
+          ]"></div>
         <div
           class="hamburger-line mid-line"
-          :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
+          :class="[
+            mutableInvert && !blueBg ? 'inverted' : '',
+            isHomePage && !menuOpen && !isMobile ? 'inverted' : '',
+          ]"></div>
         <div
           class="hamburger-line bottom-line"
-          :class="mutableInvert && !blueBg ? 'inverted' : ''"></div>
+          :class="[
+            mutableInvert && !blueBg ? 'inverted' : '',
+            isHomePage && !menuOpen && !isMobile ? 'inverted' : '',
+          ]"></div>
       </div>
     </div>
   </div>
@@ -43,27 +60,90 @@
 export default {
   props: {
     isInverted: Boolean,
-    blueBg: Boolean
+    blueBg: Boolean,
   },
 
   data() {
     return {
-      mutableInvert: this.isInverted
+      mutableInvert: this.isInverted,
+      isMobile: false,
+      scrollAnimation: null,
     }
   },
 
   computed: {
     menuOpen() {
       return this.$store.getters.menuState
+    },
+
+    isHomePage() {
+      return this.$route.name === 'index'
+    },
+  },
+
+  mounted() {
+    this.checkMobile()
+    window.addEventListener('resize', this.checkMobile)
+
+    if (this.isHomePage) {
+      setTimeout(() => {
+        this.initScrollTrigger()
+      }, 2000)
+    }
+  },
+
+  beforeDestroy() {
+    window.removeEventListener('resize', this.checkMobile)
+    if (this.scrollAnimation) {
+      this.scrollAnimation.kill()
     }
   },
 
   methods: {
+    initScrollTrigger() {
+      const tl = this.$gsap.timeline({
+        scrollTrigger: {
+          scroller: this.isMobile ? '' : '.scroller',
+          trigger: '.l-section.banner-section',
+          start: 'top top',
+          end: 'top -10',
+          scrub: true,
+        },
+      })
+
+      tl.to(this.$refs.navBg, {
+        opacity: 1,
+        duration: 1,
+      })
+        .to(
+          '.hamburger-line',
+          {
+            backgroundColor: '#FFFFFF',
+            duration: 1,
+          },
+          '<'
+        )
+        .to(
+          '.c-nav__btn',
+          {
+            color: '#FFFFFF',
+            duration: 1,
+          },
+          '<'
+        )
+
+      this.scrollAnimation = tl
+    },
+
     toggleMenu() {
       this.mutableInvert = !this.mutableInvert
       this.$store.commit('toggleMenu', !this.menuOpen)
-    }
-  }
+    },
+
+    checkMobile() {
+      this.isMobile = window.innerWidth <= 768
+    },
+  },
 }
 </script>
 
@@ -83,9 +163,11 @@ export default {
   background-color: #0a151f;
   transition: opacity 0.3s linear;
 }
+
 .c-nav__bg.hide {
   opacity: 0;
 }
+
 .c-nav__bg.inverted {
   background-color: white;
 }

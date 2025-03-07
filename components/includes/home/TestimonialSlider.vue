@@ -10,12 +10,16 @@
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
-            <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
+            <div
+              class="c-slider-control__btn slider-prev"
+              :class="hasScrolled ? '' : 'is-disabled'"
               @click="scrollLeft">
               <div class="btn-dot"></div>
               <div>Previous</div>
             </div>
-            <div class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
+            <div
+              class="c-slider-control__btn slider-next"
+              :class="doneScrolling ? 'is-disabled' : ''"
               @click="scrollRight">
               <div>Next</div>
               <div class="btn-dot next"></div>
@@ -25,13 +29,31 @@
       </div>
     </div>
 
-    <div ref="tesSlider" class="c-slider testimonial-slider dragscroll" @scroll="checkScroll">
+    <div
+      ref="tesSlider"
+      class="c-slider testimonial-slider dragscroll"
+      @scroll="checkScroll">
+      <testimonial badge logo="/assets/images/wa-logo.png">
+        <template #content>
+          Nectr was incredibly effective in their social media ad management.
+          Our ad campaigns far exceeded expectations. They even fulfilled
+          incredibly detailed reporting requests beyond the typical needs of
+          other clients. But what makes them unique is their honesty and
+          integrity. Nectr knows where they excel yet contribute in every way
+          they can to reach your marketing goals. I hope to work with them again
+          in the future.
+        </template>
+        <template #name>Garrett Plescow Moore</template>
+        <template #company>WA State Department of Natural Resources</template>
+      </testimonial>
       <testimonial badge logo="/assets/images/jll.png">
         <template #content>
-          Nectr was a dream to deal with managing our social media for our shopping center. They totally understood our
-          brand from day one and came up with engaging, thoughtful and interesting content. Their account mangers were
-          professional and flexible with our reporting requests. I would recommend Nectr to anyone needing a strategic
-          team that will do the thinking and the doing for you!
+          Nectr was a dream to deal with managing our social media for our
+          shopping center. They totally understood our brand from day one and
+          came up with engaging, thoughtful and interesting content. Their
+          account mangers were professional and flexible with our reporting
+          requests. I would recommend Nectr to anyone needing a strategic team
+          that will do the thinking and the doing for you!
         </template>
         <template #name>Jacqueline Socha</template>
         <template #role>General Manager</template>
@@ -39,10 +61,14 @@
       </testimonial>
       <testimonial badge black logo="/assets/images/essential_baking.png">
         <template #content>
-          Within the first three months, our engagement rates and reach had grown significantly. Our number of followers were growing at
-          a healthy rate in a short period of time. I attribute this to the team's creative acumen in producing unique and relevant content,
-          on top of their strong digital expertise. Nectr Social has an incredible team of talented individuals that understands authentic and great
-          storytelling, which is key for making your brand shine! We love working with them and know you will too.
+          Within the first three months, our engagement rates and reach had
+          grown significantly. Our number of followers were growing at a healthy
+          rate in a short period of time. I attribute this to the team's
+          creative acumen in producing unique and relevant content, on top of
+          their strong digital expertise. Nectr Social has an incredible team of
+          talented individuals that understands authentic and great
+          storytelling, which is key for making your brand shine! We love
+          working with them and know you will too.
         </template>
         <template #name>Amanda Hughart</template>
         <template #role>Marketing Director</template>
@@ -50,9 +76,10 @@
       </testimonial>
       <testimonial logo="/assets/images/kirkland-urban.png">
         <template #content>
-          The Nectr team has completely transformed our social media presence for the better. The Nectr team is always
-          bringing new and innovative approaches to achieve our goals, and because of them we have an engaged and
-          growing following. Can't recommend them enough.
+          The Nectr team has completely transformed our social media presence
+          for the better. The Nectr team is always bringing new and innovative
+          approaches to achieve our goals, and because of them we have an
+          engaged and growing following. Can't recommend them enough.
         </template>
         <template #name>Helen Bernhard</template>
         <template #role>Kirkland Urban</template>
@@ -60,11 +87,13 @@
       </testimonial>
       <testimonial black logo="/assets/images/gramercy.jpg">
         <template #content>
-          Nectr is incredible! If you are looking for help growing your social media following and creating content with
-          your voice, they are the team to help with your vision! We have worked with Nectr for years and are so happy
-          with the growth of our platforms. The team is kind, hard-working, fun, and engaging, and I actually really
-          looked forward to our meetings! I’m so glad we were pointed in their direction and am here to continue that
-          kindness. I couldn’t recommend them more highly.
+          Nectr is incredible! If you are looking for help growing your social
+          media following and creating content with your voice, they are the
+          team to help with your vision! We have worked with Nectr for years and
+          are so happy with the growth of our platforms. The team is kind,
+          hard-working, fun, and engaging, and I actually really looked forward
+          to our meetings! I’m so glad we were pointed in their direction and am
+          here to continue that kindness. I couldn’t recommend them more highly.
         </template>
         <template #name>Nichole Bigley</template>
         <template #role>Gramercy Cellars</template>
@@ -72,11 +101,11 @@
       </testimonial>
       <testimonial logo="/assets/images/PSH.png">
         <template #content>
-          I am grateful to have gotten to work with such a professional, thoughtful team. They produced impressive
-          numbers and
-          results based on our internal goals and gave guidance in a professional, yet genuine manner. Nectr is a
-          fantastic team
-          of great people and I'd confidently recommend them to any business or organization.
+          I am grateful to have gotten to work with such a professional,
+          thoughtful team. They produced impressive numbers and results based on
+          our internal goals and gave guidance in a professional, yet genuine
+          manner. Nectr is a fantastic team of great people and I'd confidently
+          recommend them to any business or organization.
         </template>
         <template #name>Tabitha Mars</template>
         <template #role>Pasados Safe Haven</template>
@@ -198,11 +227,17 @@
     </div>
 
     <div class="c-slider-controls desktop-hide">
-      <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'" @click="scrollLeft">
+      <div
+        class="c-slider-control__btn slider-prev"
+        :class="hasScrolled ? '' : 'is-disabled'"
+        @click="scrollLeft">
         <div class="btn-dot"></div>
         <div>Previous</div>
       </div>
-      <div class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''" @click="scrollRight">
+      <div
+        class="c-slider-control__btn slider-next"
+        :class="doneScrolling ? 'is-disabled' : ''"
+        @click="scrollRight">
         <div>Next</div>
         <div class="btn-dot next"></div>
       </div>
@@ -221,7 +256,7 @@ export default {
   data() {
     return {
       hasScrolled: false,
-      doneScrolling: false
+      doneScrolling: false,
     }
   },
 
@@ -266,8 +301,8 @@ export default {
         '%'
 
       this.$refs.progress.style.width = percent
-    }
-  }
+    },
+  },
 }
 </script>
 

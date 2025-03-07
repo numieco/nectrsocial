@@ -3,9 +3,7 @@
     <Header is-inverted />
 
     <div class="scroller">
-      <casestudy-header
-        hero-img="/assets/images/ombraz-header.webp"
-        logo="/assets/images/ombraz.png">
+      <casestudy-header hero-img="/assets/images/ombraz-header.webp" logo="/assets/images/ombraz.png">
         <template #title> Ombraz </template>
         <template #caption> 3.7x Return on Ad Spend </template>
         <template #catchphrase>
@@ -41,19 +39,15 @@
           </div>
 
           <div class="c-services__wrapper">
-            <service-block
-              icon="/assets/images/goggle-ads.svg"
-              link="/capabilities/googleads">
+            <service-block icon="/assets/images/goggle-ads.svg" link="/capabilities/googleads">
               <template #service> Google Ads </template>
               <template #service-details>
                 Show up where people are searching.
               </template>
             </service-block>
 
-            <service-block
-              icon="/assets/images/fb-ad.svg"
-              link="/capabilities/fb-ads">
-              <template #service> Facebook &amp; Instagram Ads </template>
+            <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/meta-ads">
+              <template #service> Meta Ads </template>
               <template #service-details>
                 Ad creation/distribution, copywriting, creative testing, and
                 insightful reporting.
@@ -134,7 +128,7 @@
           </template>
         </casestudy-metrics>
 
-        <c-button btn-text="Book a Discovery call!" centered typeform />
+        <c-button btn-text="Get in Touch!" centered typeform />
       </div>
 
       <div class="l-section">
@@ -153,10 +147,7 @@
         <div class="c-casestudies">
           <div class="l-container">
             <div class="c-casestudy__wrapper">
-              <casestudy
-                featured
-                img-src="/assets/images/ably-thumb.jpg"
-                link="/portfolio/ably">
+              <casestudy featured img-src="/assets/images/ably-thumb.jpg" link="/portfolio/ably">
                 <template #casestudy-name> Ably </template>
                 <template #featured-summary>
                   0 to 40k Instagram Followers
@@ -180,10 +171,10 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en'
+        lang: 'en',
       },
       title: this.title,
-      meta: [...this.meta]
+      meta: [...this.meta],
     }
   },
 
@@ -191,7 +182,7 @@ export default {
     meta() {
       return this.mxMetaUtils({
         title: this.title,
-        description: this.description
+        description: this.description,
       })
     },
 
@@ -201,13 +192,13 @@ export default {
 
     title() {
       return 'Ombraz Sunglasses | NectrSocial'
-    }
+    },
   },
 
   mounted() {
     this.$initScroll('.scroller')
     this.$paragraph()
-  }
+  },
 }
 </script>
 
