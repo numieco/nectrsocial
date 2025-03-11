@@ -66,7 +66,7 @@
           </div>
         </div>
 
-        <c-button id="S2ssxJ2z" btn-text="Get in Touch" centered typeform />
+        <c-button btn-text="Get in Touch" centered typeform />
       </div>
 
       <Footer />
