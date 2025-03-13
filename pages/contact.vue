@@ -65,7 +65,7 @@ export default {
   border-radius: 24px;
 
   @media screen and (max-width: 640px) {
-    max-height: 600px;
+    max-height: 500px;
   }
 }
 
