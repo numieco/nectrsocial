@@ -1,19 +1,15 @@
 <template>
   <div>
     <Header is-inverted />
-
-    <!-- <div class="scroller"> -->
-      <div data-tf-live="G3pjrEUB"></div>
-
-
-      <div class="l-section hero-section about-page">
-        <div class="l-container">
-          <div id="form" class="embed-form"></div>
-        </div>
+    <div data-tf-live="G3pjrEUB"></div>
+    <!-- Typeform Embedded Form -->
+    <div class="l-section hero-section about-page">
+      <div class="l-container">
+        <div id="form" class="embed-form"></div>
       </div>
+    </div>
 
-      <Footer />
-    <!-- </div> -->
+    <Footer />
   </div>
 </template>
 
@@ -49,10 +45,9 @@ export default {
   },
 
   mounted() {
-    // this.$initScroll('.scroller')
+    // Initialize Typeform widget with the new form ID
     this.$paragraph()
-
-    createWidget('G3pjrEUB?utm_source=nectrsocial&utm_medium=embed-sdk&typeform-medium-version=next&utm_campaign=website', {
+    createWidget('G3pjrEUB', { // Updated Form ID
       container: document.querySelector('#form'),
       hideHeaders: true,
       hideFooter: true,
@@ -65,27 +60,24 @@ export default {
 <style scoped>
 .embed-form {
   width: 100%;
-  height: 2100px;
-  /* position: absolute;
-  top: 0;
-  left: 0; */
-  height: 100%;
-  margin-top: -120px;
+  height: 800px;
+  border: 8px solid #eaeaea;
+  border-radius: 24px;
 
   @media screen and (max-width: 640px) {
-    margin-top: -180px;
+    max-height: 500px;
   }
 }
 
-.l-section.hero-section{
+.l-section.hero-section {
   max-height: unset !important;
 }
 
 .l-container {
-  height: 2100px;
+  max-width: 850px;
 }
 
-iframe .TrKk{
+iframe .TrKk {
   min-height: unset;
 }
 </style>
@@ -96,5 +88,4 @@ iframe .TrKk{
   width: 100% !important;
   height: 100% !important;
 }
-
 </style>

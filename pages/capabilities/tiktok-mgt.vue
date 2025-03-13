@@ -120,7 +120,7 @@
           </div>
         </div>
 
-        <c-button id="z07Mvu50" btn-text="Get in Touch" centered typeform />
+        <c-button btn-text="Get in Touch" centered typeform />
       </div>
 
       <div class="l-section">

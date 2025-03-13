@@ -111,7 +111,7 @@
             </div>
           </div>
 
-          <c-button id="I6123tbl" btn-text="Get in Touch" centered typeform />
+          <c-button btn-text="Get in Touch" centered typeform />
         </div>
 
         <div class="l-section">
