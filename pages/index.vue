@@ -12,7 +12,7 @@
                 <div class="hero-img__block">
                   <video 
                     autoplay="true" :class="['hero-video', videoLoaded ? 'fade-in' : '']" loop
-                    muted playsinline src="/assets/videos/landing.mov" style="pointer-events: none"
+                    muted playsinline src="/assets/videos/landing.mp4" style="pointer-events: none"
                     @loadeddata="handleVideoLoaded"></video>
                 </div>
                 <div 

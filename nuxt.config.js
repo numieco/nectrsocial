@@ -49,6 +49,24 @@ export default {
         type: 'text/javascript',
         body: false,
       },
+      {
+        src: 'https://seo-fixer.writesonic.com/site-audit/fixer-script/index.js',
+        id: 'wsAiSeoMb',
+        type: 'text/javascript',
+        body: false,
+      },
+      {
+        hid: 'wsAiSeoInitScript',
+        innerHTML: `
+        wsSEOfixer.configure({
+          hostURL: 'https://seo-fixer.writesonic.com',
+          siteID: '67db96f0a945667d05a1eb57'
+        });
+      `,
+        type: 'text/javascript',
+        charset: 'utf-8',
+        body: false
+      }
     ],
   },
 
