@@ -191,6 +191,26 @@ export default {
     this.$paragraph()
     this.$banner('.scroller')
     this.floatingArrow()
+    const script = document.createElement('script');
+    script.src = 'https://seo-fixer.writesonic.com/site-audit/fixer-script/index.js';
+    script.id = 'wsAiSeoMb';
+    script.type = 'text/javascript';
+    script.async = true;
+
+    // On script load, run config
+    script.onload = () => {
+      const inlineScript = document.createElement('script');
+      inlineScript.type = 'text/javascript';
+      inlineScript.innerHTML = `
+        wsSEOfixer.configure({
+          hostURL: 'https://seo-fixer.writesonic.com',
+          siteID: '6808526b03610003f67ef843'
+        });
+      `;
+      document.head.appendChild(inlineScript);
+    };
+
+    document.head.appendChild(script);
   },
 
   methods: {
