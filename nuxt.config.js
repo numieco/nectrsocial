@@ -60,7 +60,7 @@ export default {
         innerHTML: `
         wsSEOfixer.configure({
           hostURL: 'https://seo-fixer.writesonic.com',
-          siteID: '67db96f0a945667d05a1eb57'
+          siteID: '6808526b03610003f67ef843'
         });
       `,
         type: 'text/javascript',
