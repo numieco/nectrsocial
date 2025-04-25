@@ -191,26 +191,28 @@ export default {
     this.$paragraph()
     this.$banner('.scroller')
     this.floatingArrow()
-    const script = document.createElement('script');
-    script.src = 'https://seo-fixer.writesonic.com/site-audit/fixer-script/index.js';
-    script.id = 'wsAiSeoMb';
-    script.type = 'text/javascript';
-    script.async = true;
+    const externalScript = document.createElement('script');
+    externalScript.src = 'https://seo-fixer.writesonic.com/site-audit/fixer-script/index.js';
+    externalScript.id = 'wsAiSeoMb';
+    externalScript.type = 'text/javascript';
+    externalScript.async = true;
 
-    // On script load, run config
-    script.onload = () => {
-      const inlineScript = document.createElement('script');
-      inlineScript.type = 'text/javascript';
-      inlineScript.innerHTML = `
+    externalScript.onload = () => {
+      // Inline configuration script
+      const configScript = document.createElement('script');
+      configScript.type = 'text/javascript';
+
+      // Directly use textContent (prevents encoding issues)
+      configScript.textContent = `
         wsSEOfixer.configure({
           hostURL: 'https://seo-fixer.writesonic.com',
           siteID: '6808526b03610003f67ef843'
         });
       `;
-      document.head.appendChild(inlineScript);
+      document.head.appendChild(configScript);
     };
 
-    document.head.appendChild(script);
+    document.head.appendChild(externalScript);
   },
 
   methods: {
