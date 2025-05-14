@@ -201,6 +201,7 @@ export default {
       // Inline configuration script
       const configScript = document.createElement('script');
       configScript.type = 'text/javascript';
+      configScript.id = 'wsAiSeoInitScript';
 
       // Directly use textContent (prevents encoding issues)
       configScript.textContent = `
