@@ -113,7 +113,7 @@
                     <template #list-text> LIVE reporting </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$4,000</template>
+                <!-- <template #package-price>$4,000</template> -->
               </package-block>
 
               <package-block
@@ -143,7 +143,7 @@
                     <template #list-text> LIVE reporting </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$3,500</template>
+                <!-- <template #package-price>$3,500</template> -->
               </package-block>
 
               <package-block
@@ -173,7 +173,7 @@
                     <template #list-text> LIVE reporting </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$3,000</template>
+                <!-- <template #package-price>$3,000</template> -->
               </package-block>
             </div>
           </div>
@@ -206,12 +206,12 @@
                   Shows how the product is used and how people respond to it
                 </template>
               </service-list-item>
-              <service-list-item>
+              <!-- <service-list-item>
                 <template #list-text>
                   Model Budget: up to <b>$500/per model</b> (includes model
                   fees)
                 </template>
-              </service-list-item>
+              </service-list-item> -->
             </template>
           </service-list>
 
@@ -234,11 +234,11 @@
                   surrounding
                 </template>
               </service-list-item>
-              <service-list-item>
+              <!-- <service-list-item>
                 <template #list-text>
                   Prop Budget: <b>$500/per shoot</b>
                 </template>
-              </service-list-item>
+              </service-list-item> -->
             </template>
           </service-list>
         </div>

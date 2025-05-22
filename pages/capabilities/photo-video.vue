@@ -51,7 +51,7 @@
                     <template #list-text> Pre-planning call </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$2,000</template>
+                <!-- <template #package-price>$2,000</template> -->
               </package-block>
 
               <package-block id="KQFbPnyk" icon="/assets/images/camera.svg">
@@ -81,7 +81,7 @@
                     <template #list-text> Pre-planning call </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$1,600</template>
+                <!-- <template #package-price>$1,600</template> -->
               </package-block>
 
               <package-block id="CE8Bq8Qy" icon="/assets/images/photo.svg">
@@ -111,7 +111,7 @@
                     <template #list-text> Pre-planning call </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$1,200</template>
+                <!-- <template #package-price>$1,200</template> -->
               </package-block>
             </div>
           </div>
@@ -153,7 +153,7 @@
                     <template #list-text> Pre-planning call </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$1,500</template>
+                <!-- <template #package-price>$1,500</template> -->
               </package-block>
 
               <package-block id="Fu6hRzu2" icon="/assets/images/video.svg">
@@ -180,7 +180,7 @@
                     <template #list-text> Pre-planning call </template>
                   </package-list-item>
                 </template>
-                <template #package-price>$850</template>
+                <!-- <template #package-price>$850</template> -->
               </package-block>
             </div>
           </div>
