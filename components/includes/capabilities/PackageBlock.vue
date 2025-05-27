@@ -14,13 +14,13 @@
           <slot name="list-block" />
         </div>
       </div>
-      <div class="c-service__price">
+      <!-- <div class="c-service__price">
         <div class="price" data-paragraph>Price</div>
         <h3 class="alt-h3 no-margin" data-paragraph>
           <slot name="package-price" />
           <span class="per-month">/month</span>
         </h3>
-      </div>
+      </div> -->
       <!-- <a class="c-service__link w-inline-block" :href="link">
         <h6 class="medium-text">I want this package</h6>
         <div class="right-arrow service-arrow"></div>
@@ -46,7 +46,7 @@ export default {
     },
     id: {
       type: String,
-      default: 'loCI4B0l'
+      default: 'jbf4AHy4'
     }
   },
 

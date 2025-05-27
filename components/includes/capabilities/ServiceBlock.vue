@@ -40,6 +40,7 @@ export default {
 <style>
 .c-service__link {
   width: 100%;
+  margin-top: 32px;
 }
 
 .c-service__link > h6 {

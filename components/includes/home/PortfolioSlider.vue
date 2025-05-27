@@ -10,14 +10,12 @@
             </h4>
           </div>
           <div class="c-slider-controls mobile-hide">
-            <div 
-              class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
+            <div class="c-slider-control__btn slider-prev" :class="hasScrolled ? '' : 'is-disabled'"
               @click="scrollLeft">
               <div class="btn-dot"></div>
               <div>Previous</div>
             </div>
-            <div 
-              class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
+            <div class="c-slider-control__btn slider-next" :class="doneScrolling ? 'is-disabled' : ''"
               @click="scrollRight">
               <div>Next</div>
               <div class="btn-dot next"></div>
@@ -27,7 +25,11 @@
       </div>
     </div>
     <div ref="csSlider" class="c-slider portfolio-slider" @scroll="checkScroll">
-      <casestudy badge img-src="/assets/images/astra_hotel.jpg" link="/portfolio/astra-hotel-seattle">
+      <casestudy badge img-src="/assets/images/miw_cover.jpg" link="/portfolio/made-in-washington">
+        <template #casestudy-name> Made In Washington </template>
+        <template #casestudy-details> Curating the Best Goods of Washington State </template>
+      </casestudy>
+      <casestudy img-src="/assets/images/astra_hotel.jpg" link="/portfolio/astra-hotel-seattle">
         <template #casestudy-name> Astra Hotel Seattle </template>
         <template #casestudy-details> An Award-Winning Social Presence </template>
       </casestudy>

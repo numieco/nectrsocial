@@ -19,7 +19,18 @@
         <div class="c-casestudies">
           <div class="l-container">
             <div class="c-casestudy__wrapper">
-              <casestudy featured img-src="/assets/images/astra_hotel.jpg" link="/portfolio/astra-hotel-seattle">
+
+              <casestudy featured img-src="/assets/images/miw_cover.jpg" link="/portfolio/made-in-washington">
+                <template #casestudy-name> Made in Washington </template>
+                <template #featured-summary>
+                  Curating the Best Goods of Washington State
+                </template>
+                <template #casestudy-details>
+                  Curating the Best Goods of Washington State
+                </template>
+              </casestudy>
+
+              <casestudy img-src="/assets/images/astra_hotel.jpg" link="/portfolio/astra-hotel-seattle">
                 <template #casestudy-name> Astra Hotel Seattle </template>
                 <template #featured-summary>
                   Building an Award Winning Social Presence
