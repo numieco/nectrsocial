@@ -26,7 +26,7 @@
                 <img
                   class="team-img"
                   loading="lazy"
-                  src="/assets/images/nectr-team.png" />
+                  src="/assets/images/teamv2.jpg" />
               </div>
             </div>
             <div class="team-bio__wrapper">
