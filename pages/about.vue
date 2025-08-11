@@ -86,7 +86,7 @@
             </team-member>
 
             <team-member img-src-one="/assets/images/sam-siple.png" img-src-two="/assets/images/sam-siple.png">
-              <template #name> Same Siple </template>
+              <template #name> Sam Siple </template>
               <template #role> Account Manager </template>
             </team-member>
 
