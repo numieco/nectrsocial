@@ -120,6 +120,12 @@
               <template #role> Creative Specialist </template>
             </team-member>
 
+              <team-member img-src-one="/assets/images/brenda-hernandez.png"
+              img-src-two="/assets/images/brenda-hernandez.png">
+              <template #name> Brenda Hernandez </template>
+              <template #role> Creative Specialist </template>
+            </team-member>
+
             <team-member img-src-one="/assets/images/Ace_Catalan.png"
               img-src-two="/assets/images/Ace_Catalan.png">
               <template #name> Ace Catalan </template>
