@@ -100,7 +100,7 @@
       <img
         class="c-menu__img two"
         loading="lazy"
-        src="/assets/images/nectr-team.png" />
+        src="/assets/images/team.jpg" />
       <img
         class="c-menu__img three"
         loading="lazy"
@@ -112,7 +112,7 @@
       <img
         class="c-menu__img five"
         loading="lazy"
-        src="/assets/images/team-img.jpg" />
+        src="/assets/images/team.jpg" />
     </div>
   </div>
 </template>

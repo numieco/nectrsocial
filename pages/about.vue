@@ -90,6 +90,12 @@
               <template #role> Account Manager </template>
             </team-member>
 
+            <team-member img-src-one="/assets/images/Natalie_Surber.png"
+              img-src-two="/assets/images/Natalie_Surber.png">
+              <template #name> Natalie Surber </template>
+              <template #role> Account Manager </template>
+            </team-member>
+
             <team-member img-src-one="/assets/images/Kyle-img.jpg" img-src-two="/assets/images/Kyle-img.jpg">
               <template #name> Kyle Green</template>
               <template #role> Lead Videographer </template>
@@ -114,15 +120,9 @@
               <template #role> Creative Specialist </template>
             </team-member>
 
-            <team-member img-src-one="/assets/images/brenda-hernandez.png"
-              img-src-two="/assets/images/brenda-hernandez.png">
-              <template #name> Brenda Hernandez </template>
-              <template #role> Creative Specialist </template>
-            </team-member>
-
-            <team-member img-src-one="/assets/images/isabelle-niles.png"
-              img-src-two="/assets/images/isabelle-niles.png">
-              <template #name> Isabelle Niles </template>
+            <team-member img-src-one="/assets/images/Ace_Catalan.png"
+              img-src-two="/assets/images/Ace_Catalan.png">
+              <template #name> Ace Catalan </template>
               <template #role> Creative Specialist </template>
             </team-member>
 
