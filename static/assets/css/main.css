@@ -106,9 +106,6 @@ a {
 
 .c-writeup {
   max-width: none;
-  h2 {
-    text-align: left;
-  }
 }
 
 @media screen and (min-width: 992px) {
