@@ -20,7 +20,39 @@
           <div class="l-container">
             <div class="c-casestudy__wrapper">
 
-              <casestudy featured img-src="/assets/images/miw_cover.jpg" link="/portfolio/made-in-washington">
+              
+
+              <casestudy featured img-src="/assets/images/picklewood_cover.jpg" link="/portfolio/picklewood">
+                <template #casestudy-name> Picklewood </template>
+                <template #featured-summary>
+                  Launching Seattle's Pickleball Destination
+                </template>
+                <template #casestudy-details>
+                  Launching Seattle's Pickleball Destination
+                </template>
+              </casestudy>
+
+              <casestudy img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
+                <template #casestudy-name> The Westin Seattle </template>
+                <template #featured-summary>
+                  Consistent, Authentic On-Property Content
+                </template>
+                <template #casestudy-details>
+                  Consistent, Authentic On-Property Content
+                </template>
+              </casestudy>
+
+              <casestudy img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
+                <template #casestudy-name> Rainier Outdoor </template>
+                <template #featured-summary>
+                  Building Visual Storytelling
+                </template>
+                <template #casestudy-details>
+                  Building Visual Storytelling
+                </template>
+              </casestudy>
+
+              <casestudy img-src="/assets/images/miw_cover.jpg" link="/portfolio/made-in-washington">
                 <template #casestudy-name> Made in Washington </template>
                 <template #featured-summary>
                   Curating the Best Goods of Washington State

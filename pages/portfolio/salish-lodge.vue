@@ -193,7 +193,7 @@ export default {
     },
 
     title() {
-      return 'Salish Logde & Spa | NectrSocial'
+      return 'Salish Lodge & Spa | NectrSocial'
     },
   },
 

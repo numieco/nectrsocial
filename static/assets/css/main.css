@@ -106,11 +106,17 @@ a {
 
 .c-writeup {
   max-width: none;
+  h2 {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .c-writeup__inner {
     grid-column-gap: 100px;
+    max-width: 810px;
+    display: flex; 
+    justify-self: center;
   }
 }
 

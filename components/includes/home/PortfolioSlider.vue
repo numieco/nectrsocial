@@ -25,9 +25,17 @@
       </div>
     </div>
     <div ref="csSlider" class="c-slider portfolio-slider" @scroll="checkScroll">
-      <casestudy badge img-src="/assets/images/miw_cover.jpg" link="/portfolio/made-in-washington">
-        <template #casestudy-name> Made In Washington </template>
-        <template #casestudy-details> Curating the Best Goods of Washington State </template>
+      <casestudy badge img-src="/assets/images/picklewood_cover_2.jpg" link="/portfolio/picklewood">
+        <template #casestudy-name> Picklewood </template>
+        <template #casestudy-details> Launching Seattle's Pickleball Destination </template>
+      </casestudy>
+      <casestudy badge img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
+        <template #casestudy-name> The Westin Seattle </template>
+        <template #casestudy-details> Consistent, Authentic On-Property Content </template>
+      </casestudy>
+      <casestudy badge img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
+        <template #casestudy-name> Rainier Outdoor </template>
+        <template #casestudy-details> Building Visual Storytelling </template>
       </casestudy>
       <casestudy img-src="/assets/images/astra_hotel.jpg" link="/portfolio/astra-hotel-seattle">
         <template #casestudy-name> Astra Hotel Seattle </template>
