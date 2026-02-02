@@ -6,7 +6,7 @@
       <casestudy-header hero-img="/assets/images/rainier_outdoor_cover.jpg" logo="/assets/images/rainier_outdoor.png">
         <template #title> Rainier Outdoor </template>
         <template #caption>
-          Premium Canvas Structures & Outdoor Shelter Systems
+          Chasing Down The Competition
         </template>
         <template #catchphrase>
           Building Visual Storytelling for a Premium Outdoor Brand
@@ -30,7 +30,7 @@
             </metric-item>
             <metric-item>
               <template #figure>1.1M</template>
-              <template #description> total views across platforms </template>
+              <template #description> total views</template>
             </metric-item>
             <metric-item>
               <template #figure>23.7K</template>

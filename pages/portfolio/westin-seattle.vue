@@ -6,10 +6,10 @@
       <casestudy-header hero-img="/assets/images/the_westin_cover.jpg" logo="/assets/images/westin.jpg">
         <template #title> The Westin Seattle </template>
         <template #caption>
-          2.1M Organic Social Views
+          Iconic Downtown Hospitality
         </template>
         <template #catchphrase>
-          Consistent, Authentic, On-Property Content Wins for The Westin Seattle
+          Authentic, On-Property Content Wins for Westin
         </template>
         <template #description>
           The Westin Seattle is a landmark hotel in the heart of downtown, welcoming travelers for business, leisure, and events year-round. As part of the Marriott portfolio, it's important for the brand to maintain a social presence that aligns with global standards, while connecting authentically at a local level.
@@ -25,7 +25,7 @@
           <template #metrics>
             <metric-item small>
               <template #figure>2.1M</template>
-              <template #description> total views across all content </template>
+              <template #description> content views </template>
             </metric-item>
             <metric-item small>
               <template #figure>40K</template>

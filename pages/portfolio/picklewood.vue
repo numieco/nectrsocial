@@ -4,7 +4,7 @@
 
     <div class="scroller">
       <casestudy-header hero-img="/assets/images/picklewood_cover.jpg" logo="/assets/images/picklewood.png">
-        <template #title> Launching Seattle's Picklewood Destination </template>
+        <template #title> Picklewood </template>
         <template #caption>
           Pickleball and Social Destination
         </template>
@@ -26,33 +26,59 @@
           <template #metrics>
             <metric-item small>
               <template #figure>1.2M</template>
-              <template #description> total social media views </template>
+              <template #description>views </template>
             </metric-item>
             <metric-item small>
               <template #figure>9K</template>
-              <template #description>followers built into active online community</template>
+              <template #description>followers</template>
             </metric-item>
             <metric-item small>
               <template #figure>41.5K</template>
               <template #description>profile visits</template>
             </metric-item>
-            <metric-item small>
-              <template #figure>199K</template>
-              <template #description>launch video views (Instagram)</template>
-            </metric-item>
-
-            <metric-item small>
-              <template #figure>2.4K+</template>
-              <template #description>launch video saves & shares</template>
-            </metric-item>
-
-            <metric-item small>
-              <template #figure>4.2K+</template>
-              <template #description>interactions on launch content</template>
-            </metric-item>
           </template>
         </casestudy-metrics>
 
+         <div class="c-writeup__inner" style="text-align: center; margin-bottom: 56px;">
+              <div>
+                <h2 class="alt-h2 no-margin" data-paragraph>Launch Video</h2>
+                <div class="c-writeup">
+                  <div
+                    class="astra"
+                    style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 20px; height: 100%; width: 100%; margin: 0 auto;"
+                  >
+                    <video
+                      autoplay
+                      loop
+                      muted
+                      playsinline
+                      src="/assets/videos/picklewood_launch_video.mp4"
+                      style="height: 90vh; object-fit: cover; max-height: 80% !important;"
+                      webkit-playsinline
+                    ></video>
+                  </div>
+                </div>
+              </div>
+              </div>
+            
+ <casestudy-metrics>
+          
+
+          <template #metrics>
+            <metric-item small>
+              <template #figure>+200k </template>
+              <template #description>launch video views </template>
+            </metric-item>
+            <metric-item small>
+              <template #figure>+2.4k</template>
+              <template #description>saves/shares</template>
+            </metric-item>
+            <metric-item small>
+              <template #figure>+4.2k</template>
+              <template #description>interactions</template>
+            </metric-item>
+          </template>
+        </casestudy-metrics>
 
 <div class="l-container">
            <div style="margin:20px 0 40px 0; display:grid;grid-template-columns:repeat(2,1fr);gap:10px;">

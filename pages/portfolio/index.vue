@@ -22,7 +22,7 @@
 
               
 
-              <casestudy featured img-src="/assets/images/picklewood_cover.jpg" link="/portfolio/picklewood">
+              <casestudy badge featured img-src="/assets/images/picklewood_cover.jpg" link="/portfolio/picklewood">
                 <template #casestudy-name> Picklewood </template>
                 <template #featured-summary>
                   Launching Seattle's Pickleball Destination
@@ -32,23 +32,23 @@
                 </template>
               </casestudy>
 
-              <casestudy img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
+              <casestudy badge img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
                 <template #casestudy-name> The Westin Seattle </template>
                 <template #featured-summary>
-                  Consistent, Authentic On-Property Content
+                  Iconic Downtown Hospitality
                 </template>
                 <template #casestudy-details>
-                  Consistent, Authentic On-Property Content
+                 Iconic Downtown Hospitality
                 </template>
               </casestudy>
 
-              <casestudy img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
+              <casestudy badge img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
                 <template #casestudy-name> Rainier Outdoor </template>
                 <template #featured-summary>
-                  Building Visual Storytelling
+                  Chasing Down The Competition
                 </template>
                 <template #casestudy-details>
-                  Building Visual Storytelling
+                  Chasing Down The Competition
                 </template>
               </casestudy>
 

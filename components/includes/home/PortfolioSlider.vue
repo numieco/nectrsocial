@@ -31,11 +31,11 @@
       </casestudy>
       <casestudy badge img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
         <template #casestudy-name> The Westin Seattle </template>
-        <template #casestudy-details> Consistent, Authentic On-Property Content </template>
+        <template #casestudy-details> Iconic Downtown Hospitality </template>
       </casestudy>
       <casestudy badge img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
         <template #casestudy-name> Rainier Outdoor </template>
-        <template #casestudy-details> Building Visual Storytelling </template>
+        <template #casestudy-details> Chasing Down The Competition </template>
       </casestudy>
       <casestudy img-src="/assets/images/astra_hotel.jpg" link="/portfolio/astra-hotel-seattle">
         <template #casestudy-name> Astra Hotel Seattle </template>
