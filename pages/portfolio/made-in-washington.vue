@@ -193,7 +193,7 @@ export default {
     },
 
     title() {
-      return 'Astra Hotel Seattle | NectrSocial'
+      return 'Made in Washington | NectrSocial'
     },
   },
 

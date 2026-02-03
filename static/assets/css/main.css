@@ -111,6 +111,9 @@ a {
 @media screen and (min-width: 992px) {
   .c-writeup__inner {
     grid-column-gap: 100px;
+    max-width: 810px;
+    display: flex; 
+    justify-self: center;
   }
 }
 
