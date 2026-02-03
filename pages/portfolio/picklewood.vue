@@ -39,13 +39,12 @@
           </template>
         </casestudy-metrics>
 
-         <div class="c-writeup__inner" style="text-align: center; margin-bottom: 56px;">
+         <div class="c-writeup__inner" style="margin-bottom: 88px; justify-content: center;">
               <div>
-                <h2 class="alt-h2 no-margin" data-paragraph>Launch Video</h2>
+                <h2 class="alt-h2 no-margin" data-paragraph style="text-align: center;">Launch Video</h2>
                 <div class="c-writeup">
                   <div
-                    class="astra"
-                    style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 20px; height: 100%; width: 100%; margin: 0 auto;"
+                    style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: 40px; width: 100%; margin: 0 auto; flex-wrap: wrap;"
                   >
                     <video
                       autoplay
@@ -53,32 +52,33 @@
                       muted
                       playsinline
                       src="/assets/videos/picklewood_launch_video.mp4"
-                      style="height: 90vh; object-fit: cover; max-height: 80% !important;"
+                      style="width: 340px; height: 680px; object-fit: cover; margin-bottom: 20px; flex-shrink: 0;"
                       webkit-playsinline
                     ></video>
+                    <div style="flex: 1; min-width: 250px; display: flex; flex-direction: column; justify-content: center; gap: 24px;">
+                      <div>
+                        <metric-item small>
+                          <template #figure><span style="color: #132A3E;">+200k </span></template>
+                          <template #description>launch video views </template>
+                        </metric-item>
+                      </div>
+                      <div>
+                        <metric-item small>
+                          <template #figure><span style="color: #132A3E;">+2.4k</span></template>
+                          <template #description>saves/shares</template>
+                        </metric-item>
+                      </div>
+                      <div>
+                        <metric-item small>
+                          <template #figure><span style="color: #132A3E;">+4.2k</span></template>
+                          <template #description>interactions</template>
+                        </metric-item>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               </div>
-            
- <casestudy-metrics>
-          
-
-          <template #metrics>
-            <metric-item small>
-              <template #figure>+200k </template>
-              <template #description>launch video views </template>
-            </metric-item>
-            <metric-item small>
-              <template #figure>+2.4k</template>
-              <template #description>saves/shares</template>
-            </metric-item>
-            <metric-item small>
-              <template #figure>+4.2k</template>
-              <template #description>interactions</template>
-            </metric-item>
-          </template>
-        </casestudy-metrics>
 
 <div class="l-container">
            <div style="margin:20px 0 40px 0; display:grid;grid-template-columns:repeat(2,1fr);gap:10px;">
@@ -165,7 +165,7 @@
               <casestudy featured img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
                 <template #casestudy-name> The Westin Seattle </template>
                 <template #featured-summary>
-                    Consistent, Authentic On-Property Content
+                    Authentic, On-Property Content Wins for Westin
                 </template>
                 <template #casestudy-details>
                     Landmark downtown hotel builds steady social media momentum
@@ -221,5 +221,11 @@ export default {
 <style>
 .c-work__logo {
   max-height: none;
+}
+
+@media (max-width: 768px) {
+  .c-writeup > div {
+    justify-content: center !important;
+  }
 }
 </style>

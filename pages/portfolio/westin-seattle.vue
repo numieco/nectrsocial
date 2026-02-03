@@ -115,7 +115,7 @@
               <casestudy featured img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
                 <template #casestudy-name> Rainier Outdoors </template>
                 <template #featured-summary>
-                    Authentic, Story-Driven Content
+                    Chasing Down The Competition
                 </template>
                 <template #casestudy-details>
                     Outdoor shelter brand drives awareness and engagement through authentic, story-driven content.
