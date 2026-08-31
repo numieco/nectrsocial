@@ -22,6 +22,16 @@
 
               
 
+              <casestudy badge featured img-src="/assets/images/toppot_cover.jpg" link="/portfolio/top-pot-doughnuts">
+                <template #casestudy-name> Top Pot Doughnuts </template>
+                <template #featured-summary>
+                  Hand-Forged Doughnuts and Coffee
+                </template>
+                <template #casestudy-details>
+                  Hand-Forged Doughnuts and Coffee
+                </template>
+              </casestudy>
+
               <casestudy badge featured img-src="/assets/images/delille_cover.jpg" link="/portfolio/delille-cellars">
                 <template #casestudy-name> DeLille Cellars </template>
                 <template #featured-summary>
@@ -32,7 +42,7 @@
                 </template>
               </casestudy>
 
-              <casestudy badge featured img-src="/assets/images/picklewood_cover.jpg" link="/portfolio/picklewood">
+              <casestudy featured img-src="/assets/images/picklewood_cover.jpg" link="/portfolio/picklewood">
                 <template #casestudy-name> Picklewood </template>
                 <template #featured-summary>
                   Launching Seattle's Pickleball Destination
@@ -42,7 +52,7 @@
                 </template>
               </casestudy>
 
-              <casestudy badge img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
+              <casestudy img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
                 <template #casestudy-name> The Westin Seattle </template>
                 <template #featured-summary>
                   Iconic Downtown Hospitality
@@ -52,7 +62,7 @@
                 </template>
               </casestudy>
 
-              <casestudy badge img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
+              <casestudy img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
                 <template #casestudy-name> Rainier Outdoor </template>
                 <template #featured-summary>
                   Chasing Down The Competition
