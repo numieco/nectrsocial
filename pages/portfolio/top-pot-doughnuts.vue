@@ -41,7 +41,7 @@
             </metric-item>
             <metric-item small>
               <template #figure>5.5K</template>
-              <template #description>new followers, averaging roughly 20 per day</template>
+              <template #description>new followers (~20/day)</template>
             </metric-item>
           </template>
         </casestudy-metrics>
