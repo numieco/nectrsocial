@@ -44,7 +44,7 @@
               </template>
             </service-block>
 
-            <service-block icon="/assets/images/fb-ad.svg" link="capabilities/meta-ads">
+            <service-block icon="/assets/images/fb-ad.svg" link="/capabilities/meta-ads">
               <template #service> Meta Ads </template>
               <template #service-details>
                 Ad creation/distribution, copywriting, creative testing, and

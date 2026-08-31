@@ -130,7 +130,7 @@
         <div class="c-showcase__wrapper">
           <div class="c-showcase-grid__item invert">
             <div class="c-showcase__block">
-              <img class="c-showcase-logo" loading="lazy" src="/assets/images/delille.png" />
+              <img class="c-showcase-logo" loading="lazy" src="/assets/images/delille-wordmark.png" />
             </div>
             <div class="c-showcase__block">
               <img class="c-showcase-logo" loading="lazy" src="/assets/images/apotheka_salon.png" />

@@ -25,15 +25,23 @@
       </div>
     </div>
     <div ref="csSlider" class="c-slider portfolio-slider" @scroll="checkScroll">
-      <casestudy badge img-src="/assets/images/picklewood_cover_2.jpg" link="/portfolio/picklewood">
+      <casestudy badge img-src="/assets/images/toppot_cover.jpg" link="/portfolio/top-pot-doughnuts">
+        <template #casestudy-name> Top Pot Doughnuts </template>
+        <template #casestudy-details> Hand-Forged Doughnuts and Coffee </template>
+      </casestudy>
+      <casestudy badge img-src="/assets/images/delille_cover.jpg" link="/portfolio/delille-cellars">
+        <template #casestudy-name> DeLille Cellars </template>
+        <template #casestudy-details> Premier Washington Winery </template>
+      </casestudy>
+      <casestudy img-src="/assets/images/picklewood_cover_2.jpg" link="/portfolio/picklewood">
         <template #casestudy-name> Picklewood </template>
         <template #casestudy-details> Launching Seattle's Pickleball Destination </template>
       </casestudy>
-      <casestudy badge img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
+      <casestudy img-src="/assets/images/the_westin_cover.jpg" link="/portfolio/westin-seattle">
         <template #casestudy-name> The Westin Seattle </template>
         <template #casestudy-details> Iconic Downtown Hospitality </template>
       </casestudy>
-      <casestudy badge img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
+      <casestudy img-src="/assets/images/rainier_outdoor_cover.jpg" link="/portfolio/rainier-outdoor">
         <template #casestudy-name> Rainier Outdoor </template>
         <template #casestudy-details> Chasing Down The Competition </template>
       </casestudy>
