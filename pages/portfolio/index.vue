@@ -22,6 +22,16 @@
 
               
 
+              <casestudy badge featured img-src="/assets/images/delille_cover.jpg" link="/portfolio/delille-cellars">
+                <template #casestudy-name> DeLille Cellars </template>
+                <template #featured-summary>
+                  Premier Washington Winery
+                </template>
+                <template #casestudy-details>
+                  Premier Washington Winery
+                </template>
+              </casestudy>
+
               <casestudy badge featured img-src="/assets/images/picklewood_cover.jpg" link="/portfolio/picklewood">
                 <template #casestudy-name> Picklewood </template>
                 <template #featured-summary>

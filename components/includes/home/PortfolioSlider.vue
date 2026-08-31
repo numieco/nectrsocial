@@ -25,6 +25,10 @@
       </div>
     </div>
     <div ref="csSlider" class="c-slider portfolio-slider" @scroll="checkScroll">
+      <casestudy badge img-src="/assets/images/delille_cover.jpg" link="/portfolio/delille-cellars">
+        <template #casestudy-name> DeLille Cellars </template>
+        <template #casestudy-details> Premier Washington Winery </template>
+      </casestudy>
       <casestudy badge img-src="/assets/images/picklewood_cover_2.jpg" link="/portfolio/picklewood">
         <template #casestudy-name> Picklewood </template>
         <template #casestudy-details> Launching Seattle's Pickleball Destination </template>
