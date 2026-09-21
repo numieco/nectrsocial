@@ -128,3 +128,12 @@ a {
   }
 }
 
+
+/* Keep long metrics headings off the screen edge on small viewports.
+   .c-metrics__header has no horizontal padding of its own, so headings
+   like "DeLille En Ville Launch Performance (Instagram)" ran to within
+   ~9px of the edge on a 375px screen. */
+.c-metrics__header {
+  padding-right: 20px;
+  padding-left: 20px;
+}
