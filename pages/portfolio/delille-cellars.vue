@@ -20,7 +20,7 @@
       </casestudy-header>
 
         <casestudy-metrics>
-          <template #header>The Results</template>
+          <template #header>The Results: 12-Month Totals</template>
 
           <template #metrics>
             <metric-item small>

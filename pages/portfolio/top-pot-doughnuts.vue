@@ -3,7 +3,7 @@
     <Header is-inverted />
 
     <div class="scroller">
-      <casestudy-header hero-img="/assets/images/toppot_cover.jpg" logo="/assets/images/toppot.png">
+      <casestudy-header hero-img="/assets/images/toppot_hero.jpg" logo="/assets/images/toppot.png">
         <template #title> Top Pot Doughnuts </template>
         <template #caption>
           Hand-Forged Doughnuts and Coffee
@@ -20,7 +20,7 @@
       </casestudy-header>
 
         <casestudy-metrics>
-          <template #header>The Results</template>
+          <template #header>The Results: 2026 To Date</template>
 
           <template #metrics>
             <metric-item small>
@@ -46,7 +46,9 @@
           </template>
         </casestudy-metrics>
 
-         <div class="c-writeup__inner" style="margin-bottom: 88px; justify-content: center;">
+        <div class="c-work__writeup">
+          <div class="l-container">
+            <div class="c-writeup__inner" style="justify-content: center;">
               <div>
                 <h2 class="alt-h2 no-margin" data-paragraph style="text-align: center;">Mariners Opening Day Box</h2>
                 <div class="c-writeup">
@@ -106,7 +108,9 @@
                   </h5>
                 </div>
               </div>
-              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="l-container">
            <div style="margin:20px 0 40px 0; display:grid;grid-template-columns:repeat(2,1fr);gap:10px;">
