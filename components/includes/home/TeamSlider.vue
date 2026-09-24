@@ -85,9 +85,21 @@
               <template #role> Creative Specialist </template>
             </team-member>
 
-              <team-member img-src-one="/assets/images/brenda-hernandez.png"
-              img-src-two="/assets/images/brenda-hernandez.png">
-              <template #name> Brenda Hernandez </template>
+            <team-member img-src-one="/assets/images/Annie-Blumenstein.webp"
+              img-src-two="/assets/images/Annie-Blumenstein.webp">
+              <template #name> Annie Blumenstein </template>
+              <template #role> Creative Specialist </template>
+            </team-member>
+
+            <team-member img-src-one="/assets/images/Sophia-Chang.webp"
+              img-src-two="/assets/images/Sophia-Chang.webp">
+              <template #name> Sophia Chang </template>
+              <template #role> Creative Specialist </template>
+            </team-member>
+
+            <team-member img-src-one="/assets/images/Kris-Gray.webp"
+              img-src-two="/assets/images/Kris-Gray.webp">
+              <template #name> Kris Gray </template>
               <template #role> Creative Specialist </template>
             </team-member>
 

@@ -100,7 +100,7 @@
       <img
         class="c-menu__img two"
         loading="lazy"
-        src="/assets/images/team.jpg" />
+        src="/assets/images/team.webp" />
       <img
         class="c-menu__img three"
         loading="lazy"
@@ -112,7 +112,7 @@
       <img
         class="c-menu__img five"
         loading="lazy"
-        src="/assets/images/team.jpg" />
+        src="/assets/images/team.webp" />
     </div>
   </div>
 </template>
